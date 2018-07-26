@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Skedarë"</string>
+	<!---->
+	<string name="sort">"Rendit"</string>
+	<!---->
+	<string name="sort_by_name">"Emri"</string>
+	<!---->
+	<string name="sort_by_time">"Datë"</string>
+	<!---->
+	<string name="sort_by_type">"Lloji"</string>
+	<!---->
+	<string name="sort_by_size">"Përmasa"</string>
+	<!---->
+	<string name="copy">"Kopjo"</string>
+	<!---->
+	<string name="create_folder">"Krijo"</string>
+	<!---->
+	<string name="cut">"Prit"</string>
+	<!---->
+	<string name="delete">"Fshij"</string>
+	<!---->
+	<string name="deselect_all">"Çshënoji të gjitha"</string>
+	<!---->
+	<string name="select_all">"Zgjidh të gjithë"</string>
+	<!---->
+	<string name="show_file">"Shfaq skedarët e fshehur"</string>
+	<!---->
+	<string name="hide_file">"Fshih skedarët e fshehur"</string>
+	<!---->
+	<string name="paste">"Ngjit"</string>
+	<!---->
+	<string name="rename">"Riemërto"</string>
+	<!---->
+	<string name="extract">"Nxirr"</string>
+	<!---->
+	<string name="extracting">"Nxjerrja"</string>
+	<!---->
+	<string name="compress">"Ngjesh"</string>
+	<!---->
+	<string name="compressing">"Ngjeshja"</string>
+	<!---->
+	<string name="share">"Shpërndaj"</string>
+	<!---->
+	<string name="menu_select">"Zgjidh"</string>
+	<!---->
+	<string name="view_list">"Pamje listë"</string>
+	<!---->
+	<string name="view_grid">"Pamje rrjetë"</string>
+	<!---->
+	<string name="create_new_folder">"Krijo dosje"</string>
+	<!---->
+	<string name="detail">"Detaje"</string>
+	<!---->
+	<string name="shortcut_item">"Shto shkurtesë"</string>
+	<!---->
+	<string name="search">"Kërko"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Fshij artikujtë e përzgjedhur?"</string>
+	<!---->
+	<string name="hide_btn">"Fshihni"</string>
+	<!---->
+	<string name="loading">"Po ngarkon përmbajtjen"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Skedarët i zgjedhur do të fshihet."</string>
+	<!---->
+	<string name="modified_time">"Modifikuar"</string>
+	<!---->
+	<string name="msg_rename_ext">"Po ndryshoni zgjatimin e skedarit, që mund të çojë në mosnjohje të skedarit. Vazhdoni?"</string>
+	<!---->
+	<string name="wait">"Ju lutem prisni..."</string>
+	<!---->
+	<string name="done">"Përfundoi"</string>
+	<!---->
+	<string name="next">"Tjetër"</string>
+	<!---->
+	<string name="cancel">"Anullo"</string>
+	<!---->
+	<string name="show">"trego"</string>
+	<!---->
+	<string name="no">"Jo"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Konfirmo"</string>
+	<!---->
+	<string name="yes">"Po"</string>
+	<!---->
+	<string name="send_file">"Shpërndani skedar(ët) me"</string>
+	<!---->
+	<string name="default_search_text">"Kërko skedarë"</string>
+	<!---->
+	<string name="create_hidden_file">"Skedari do të fshihet nëse emri i tij fillon me \'.\'."</string>
+	<!---->
+	<string name="drm_current_count">"Llogari aktuale:"</string>
+	<!---->
+	<string name="unlimited_usage">"Përdorim i pakufizuar"</string>
+	<!---->
+	<string name="drm_current_right">"Kufizim aktual:"</string>
+	<!---->
+	<string name="right_url">"URL e lëshuesit të licencave:"</string>
+	<!---->
+	<string name="use_times">"Përdorni %s herë"</string>
+	<!---->
+	<string name="valid_after">"I vlefshëm pas"</string>
+	<!---->
+	<string name="valid_until">"I vlefshëm deri"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Skedarë të mbrojtur"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Skedari i mbrojtur nuk mund të shpërndahet."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Fik Wi-Fi pamjen"</string>
+	<!---->
+	<string name="confirm_rename">"Konfirmo emrin"</string>
+	<!---->
+	<string name="drm_protection_status">"Statusi i mbrojtjes:"</string>
+	<!---->
+	<string name="default_folder_name">"Emri i dosjes"</string>
+	<!---->
+	<string name="drm_can_forward">"Nuk mund të devijohet"</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nuk mund të devijohet."</string>
+	<!---->
+	<string name="drm_no_license">"Nuk ka licenca DRM të përdorshme."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licenca u skadua."</string>
+	<!---->
+	<string name="drm_interval">"Valide për %s pas herës së parë të përdorimit"</string>
+	<!---->
+	<string name="drm_begin">"Fillo:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nuk ka kufizime"</string>
+	<!---->
+	<string name="drm_end">"Fund:"</string>
+	<!---->
+	<string name="drm_use_left">"Të mbetur:"</string>
+	<!---->
+	<string name="readable_m">"Lexueshëm"</string>
+	<!---->
+	<string name="writable">"e shkruajtshme"</string>
+	<!---->
+	<string name="permission_m">"Lejet"</string>
+	<!---->
+	<string name="executable_m">"Aplikacion"</string>
+	<!---->
+	<string name="writable_m">"Të shkruajtshme"</string>
+	<!---->
+	<string name="detail_path_m">"Vendndodhja"</string>
+	<!---->
+	<string name="detail_name_m">"Emri"</string>
+	<!---->
+	<string name="detail_size_m">"Përmasa"</string>
+	<!---->
+	<string name="detail_time_m">"Modifikim i fundit:"</string>
+	<!---->
+	<string name="dialog_close_btn">"Mbyll"</string>
+	<!---->
+	<string name="exit_dialog_content">"Po kryhet veprimi aktual, je i sigurt që dëshiron të dalësh?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Karta SD është hequr ose është e integruar."</string>
+	<!---->
+	<string name="warning">"Shuma maksimale e skedarit"</string>
+	<!---->
+	<string name="share_warning">"Nuk mund të ndani më shumë se 100 skedarë."</string>
+	<!---->
+	<string name="unknown">"E panjohur"</string>
+	<!---->
+	<string name="no_search_result">"0 rezultat(e) për \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"Asnjë leje për të kopjuar."</string>
+	<!---->
+	<string name="cut_deny">"Asnjë leje për të prerë."</string>
+	<!---->
+	<string name="delete_deny">"Asnjë leje për të fshirë."</string>
+	<!---->
+	<string name="insufficient_memory">"Hapësirë e pamjaftueshme."</string>
+	<!---->
+	<string name="paste_same_folder">"Kopjim i pasuksesshëm: burimi dhe destinacioni janë të nëjtë."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Ju keni futur karakter invalid."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Formati i skedarit nuk është mbështetur."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nuk mund të ngjisë në nën skedar"</string>
+	<!---->
+	<string name="operation_fail">"Disa veprime skedarësh dështuan."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultate për \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s është në përdorim tashmë."</string>
+	<!---->
+	<string name="unmounted">"%1$s është i pa montuar"</string>
+	<!---->
+	<string name="file_name_too_long">"Emri hyrës është tepër i gjatë."</string>
+	<!---->
+	<string name="some_paste_fail">"Disa veprime ngjitjeje dështuan"</string>
+	<!---->
+	<string name="delete_fail">"Nuk mund të fshihet"</string>
+	<!---->
+	<string name="some_delete_fail">"Disa veprime fshirjeje dështuan"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Asnjë aplikacion për të hapur skedarin"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Mos Përcillni"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Skedari DRM nuk mund të përcillej."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Skedari nuk ka autoritet të vlefshëm DRM."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Pamja Wi-Fi është mbyllur"</string>
+	<!---->
+	<string name="no_folder">"Dosje është e zbrazët"</string>
+	<!---->
+	<string name="no_category">"Kjo kategori është bosh."</string>
+	<!---->
+	<string name="pasted">"Skedari u ngjit"</string>
+	<!---->
+	<string name="deleted">"Doja e fshirë"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nuk ekziston."</string>
+	<!---->
+	<string name="not_available">"E padisponueshme"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Skedari i kërkuar nuk ekziston"</string>
+	<!---->
+	<string name="no_search_result_m">"Asnjë rezultat nuk u gjet për \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Ka tejkaluar numrin maksimal aktual të detyrave"</string>
+	<!---->
+	<string name="add_waiting_task">"Është shtuar për ekzekutim në radhën e detyrave"</string>
+	<!---->
+	<string name="category_pictures">"Fotografitë"</string>
+	<!---->
+	<string name="category_vedios">"Videot"</string>
+	<!---->
+	<string name="category_music">"Muzika"</string>
+	<!---->
+	<string name="category_download">"Shkarkimet"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Të fundit"</string>
+	<!---->
+	<string name="main_document">"Dokumentet"</string>
+	<!---->
+	<string name="category_archives">"Arkivat"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Instaluesit"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Kujtesë e celularit"</string>
+	<!---->
+	<string name="sd_card">"Karta SD"</string>
+	<!---->
+	<string name="usbotg">"Kujtesa USB e jashtme"</string>
+	<!---->
+	<string name="choice_file">"Zgjidhni destinacion"</string>
+	<!---->
+	<string name="permission_welcome_title">"Nevojitet autorizim"</string>
+	<!---->
+	<string name="permission_setting_title">"Jepni qasje"</string>
+	<!---->
+	<string name="permission_setting_content">"Ndryshoni autorizimet te cilësimet e aplikacionit të pajisjes tuaj. Jepini Menaxherit të Skedarit qasje te kujtesa."</string>
+	<!---->
+	<string name="permission_exit_btn">"Dalje"</string>
+	<!---->
+	<string name="selected">"Zgjedhur"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefoni"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Hapësira ruajtëse e brendshme"</string>
+	<!---->
+	<string name="usbotg_m">"E jashtme"</string>
+	<!---->
+	<string name="usbotg_n">"Kujtesa e jashtme"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Cilësimet"</string>
+	<!---->
+	<string name="total_progress">"Progresi total:"</string>
+	<!---->
+	<string name="total_task">"Numri i detyrave:"</string>
+	<!---->
+	<string name="items">"artikuj"</string>
+	<!---->
+	<string name="folder_items">"%1$s artikuj"</string>
+	<!---->
+	<string name="freeof_m">"E lirë"</string>
+	<!---->
+	<string name="choose_files">"Zgjidhni skedarin(rët)"</string>
+	<!---->
+	<string name="used_of">"përdorur nga"</string>
+	<!---->
+	<string name="invalid_empty_name">"Skedari ose emri i dosjes nuk mund të jetë bosh"</string>
+	<!---->
+	<string name="just_now">"këtë çast"</string>
+	<!---->
+	<string name="minutes_ago">"minuta më parë"</string>
+	<!---->
+	<string name="hours_ago">"orë më parë"</string>
+	<!---->
+	<string name="minute_ago">"minutë më parë"</string>
+	<!---->
+	<string name="hour_ago">"orë më parë"</string>
+	<!---->
+	<string name="day_ago">"ditë më parë"</string>
+	<!---->
+	<string name="searching">"Po kërkon..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Nuk ka ende skedarë privatë"</string>
+	<!---->
+	<string name="safe_no_file_content">"Shtyp menynë në këndin lart djathtas për të shtuar skedarë"</string>
+	<!---->
+	<string name="safe_activity_title">"Skedarë privatë"</string>
+	<!---->
+	<string name="move_safe">"Vendose si private"</string>
+	<!---->
+	<string name="set_public">"Vendose si publike"</string>
+	<!---->
+	<string name="add_files">"Shto skedar"</string>
+	<!---->
+	<string name="compress_susscces">"Skedari u ngjesh"</string>
+	<!---->
+	<string name="extract_susscces">"Skedari u nxor"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Emri i ngjeshur i skedarit është tepër i gjatë"</string>
+	<!---->
+	<string name="category_safe">"Private"</string>
+	<!---->
+	<string name="remove_private_tip">"Të hiqet nga regjimi privat?"</string>
+	<!---->
+	<string name="remove_private_title">"Hiq"</string>
+	<!---->
+	<string name="remove_safe_single">"Të bëhen %1$s të dukshëm për të gjithë përdoruesit?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Të bëhen skedarët e përzgjedhur të dukshëm për të gjithë përdoruesit?"</string>
+	<!---->
+	<string name="folder_already_exists">"Dosja ekziston tashmë"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s tashmë ekziston"</string>
+	<!---->
+	<string name="keep_both">"Mbaji të dyja"</string>
+	<!---->
+	<string name="set_private_failed">"Skedari i jashtëm nuk mund të vendosë skedarin privat."</string>
+	<!---->
+	<string name="app_name_new">"Menaxher i skedarëve"</string>
+</resources>

@@ -1,0 +1,104 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>This files contains TCT FileManager</HISTORY>
+<HISTORY>2015-09-06: creation</HISTORY>
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF TCT FileManager</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_DRM_included</SDMID>
+<C_NAME>def_DRM_included</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control whether need to include DRM feature, 0x01: need to include DRM feature, 0x00: without include DRM feature</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Sort_type_name</SDMID>
+<C_NAME>def_Sort_type_name</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control whether need to change default sort type, 0x01:default Sort type Name, 0x00: default Sort type Date</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_openfile_default_uri_type</SDMID>
+<C_NAME>def_openfile_default_uri_type</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control the URI of the default type: 0x00 Open File Default URI TYPE:FileProvider URI(Except the DRM file), 0x01 Open File Default URI TYPE:Media URI. </DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_sharefile_default_uri_type</SDMID>
+<C_NAME>def_sharefile_default_uri_type</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control the URI of the default type: 0x00 Share File Default URI TYPE:FileProvider URI(Except the DRM file), 0x01 Share File Default URI TYPE:Media URI. </DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_privatemode_included</SDMID>
+<C_NAME>def_privatemode_included</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control whether need to include private mode feature, 0x01: need to include private mode feature, 0x00: without include private mode feature</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_OTG_paste_mediascanner</SDMID>
+<C_NAME>def_OTG_paste_mediascanner</C_NAME>
+<C_TYPE>Byte</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>TctFileManager</FEATURE>
+<DESC>Control whether need to call mediascanner, 0x01: need to call mediascanner, 0x00: without call mediascanner</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

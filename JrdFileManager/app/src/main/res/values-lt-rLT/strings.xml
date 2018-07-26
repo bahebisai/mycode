@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Failai"</string>
+	<!---->
+	<string name="sort">"Rikiuoti"</string>
+	<!---->
+	<string name="sort_by_name">"Pavadinimas"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipas"</string>
+	<!---->
+	<string name="sort_by_size">"Dydis"</string>
+	<!---->
+	<string name="copy">"Kopijuoti"</string>
+	<!---->
+	<string name="create_folder">"Kurti"</string>
+	<!---->
+	<string name="cut">"Iškirpti"</string>
+	<!---->
+	<string name="delete">"Trinti"</string>
+	<!---->
+	<string name="deselect_all">"Panaikinti visus pasirinkimus"</string>
+	<!---->
+	<string name="select_all">"Pasirinkti visus"</string>
+	<!---->
+	<string name="show_file">"Rodyti paslėptus failus"</string>
+	<!---->
+	<string name="hide_file">"Slėpti paslėptus failus"</string>
+	<!---->
+	<string name="paste">"Įklijuoti"</string>
+	<!---->
+	<string name="rename">"Pervardyti"</string>
+	<!---->
+	<string name="extract">"Ištrauka"</string>
+	<!---->
+	<string name="extracting">"Ištraukiama"</string>
+	<!---->
+	<string name="compress">"Suspausti"</string>
+	<!---->
+	<string name="compressing">"Glaudinama"</string>
+	<!---->
+	<string name="share">"Bendrinti"</string>
+	<!---->
+	<string name="menu_select">"Pasirinkti"</string>
+	<!---->
+	<string name="view_list">"Sąrašo rodinys"</string>
+	<!---->
+	<string name="view_grid">"Tinklelio rodinys"</string>
+	<!---->
+	<string name="create_new_folder">"Kurti aplanką"</string>
+	<!---->
+	<string name="detail">"Išsamiau"</string>
+	<!---->
+	<string name="shortcut_item">"Pridėti nuorodą"</string>
+	<!---->
+	<string name="search">"Paieška"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Ištrinti pasirinktus elementus?"</string>
+	<!---->
+	<string name="hide_btn">"Slėpti"</string>
+	<!---->
+	<string name="loading">"Įkeliamas turinys"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Pasirinktas failus bus ištrintas."</string>
+	<!---->
+	<string name="modified_time">"Pakeista"</string>
+	<!---->
+	<string name="msg_rename_ext">"Bus pakeistas failo plėtinys. Galbūt failas neatpažįstamas. Tęsti?"</string>
+	<!---->
+	<string name="wait">"Palaukite..."</string>
+	<!---->
+	<string name="done">"Atlikta"</string>
+	<!---->
+	<string name="next">"Kitas"</string>
+	<!---->
+	<string name="cancel">"Atšaukti"</string>
+	<!---->
+	<string name="show">"Rodyti"</string>
+	<!---->
+	<string name="no">"Ne"</string>
+	<!---->
+	<string name="ok">"Gerai"</string>
+	<!---->
+	<string name="confirm">"Patvirtinti"</string>
+	<!---->
+	<string name="yes">"Taip"</string>
+	<!---->
+	<string name="send_file">"Bendrinti failą (-us) per"</string>
+	<!---->
+	<string name="default_search_text">"Ieškoti failų"</string>
+	<!---->
+	<string name="create_hidden_file">"Failas bus paslėptas, jei jo vardas prasideda \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Dabartinis skaičius:"</string>
+	<!---->
+	<string name="unlimited_usage">"Neribotas naudojimas"</string>
+	<!---->
+	<string name="drm_current_right">"Dabartiniai apribojimai:"</string>
+	<!---->
+	<string name="right_url">"Licencijų išdavimo įstaigos URL:"</string>
+	<!---->
+	<string name="use_times">"Naudokite tiek kartų: %s"</string>
+	<!---->
+	<string name="valid_after">"Galioja po"</string>
+	<!---->
+	<string name="valid_until">"Galioja iki"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopijuoti draudžiami failai"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopijuoti draudžiamo failo platinti negalima."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Išjungti „Wi-Fi“ ekraną"</string>
+	<!---->
+	<string name="confirm_rename">"Patvirtinti pavadinimą"</string>
+	<!---->
+	<string name="drm_protection_status">"Apsaugos būsena:"</string>
+	<!---->
+	<string name="default_folder_name">"Aplanko pavadinimas"</string>
+	<!---->
+	<string name="drm_can_forward">"Galima persiųsti."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Persiųsti negalima."</string>
+	<!---->
+	<string name="drm_no_license">"Nėra galimos DRM licencijos."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licencija nebegalioja."</string>
+	<!---->
+	<string name="drm_interval">"Pirmą kartą panaudojus galioja %s"</string>
+	<!---->
+	<string name="drm_begin">"Pradžia:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nėra apribojimų."</string>
+	<!---->
+	<string name="drm_end">"Pabaiga:"</string>
+	<!---->
+	<string name="drm_use_left">"Liko:"</string>
+	<!---->
+	<string name="readable_m">"Skaitoma"</string>
+	<!---->
+	<string name="writable">"įrašoma"</string>
+	<!---->
+	<string name="permission_m">"Leidimai"</string>
+	<!---->
+	<string name="executable_m">"Programa"</string>
+	<!---->
+	<string name="writable_m">"įrašomi"</string>
+	<!---->
+	<string name="detail_path_m">"Vieta"</string>
+	<!---->
+	<string name="detail_name_m">"Pavadinimas"</string>
+	<!---->
+	<string name="detail_size_m">"Dydis"</string>
+	<!---->
+	<string name="detail_time_m">"Paskutinį kartą keista"</string>
+	<!---->
+	<string name="dialog_close_btn">"Uždaryti"</string>
+	<!---->
+	<string name="exit_dialog_content">"Dabar atliekama operacija, ar tikrai norite išeiti?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD kortelė pašalinta arba įdiegta."</string>
+	<!---->
+	<string name="warning">"Didžiausias failų skaičius"</string>
+	<!---->
+	<string name="share_warning">"Negalima bendrinti daugiau nei 100 failų."</string>
+	<!---->
+	<string name="unknown">"Nežinoma"</string>
+	<!---->
+	<string name="no_search_result">"Pagal \"%1$s\" rasta 0 fail."</string>
+	<!---->
+	<string name="copy_deny">"Nėra leidimo kopijuoti."</string>
+	<!---->
+	<string name="cut_deny">"Nėra leidimo iškirpti."</string>
+	<!---->
+	<string name="delete_deny">"Nėra leidimo ištrinti."</string>
+	<!---->
+	<string name="insufficient_memory">"Nepakanka vietos."</string>
+	<!---->
+	<string name="paste_same_folder">"Nukopijuoti nepavyko: sutampa šaltinio ir paskirties aplankai."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Įvedėte neleistiną simbolį."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Failo formatas nepalaikomas."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nepavyksta įklijuoti į antrinį aplanką."</string>
+	<!---->
+	<string name="operation_fail">"Kažkurio veiksmo su failu atlikti nepavyko."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultatas (-ai), skirtas \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s jau naudojama."</string>
+	<!---->
+	<string name="unmounted">"%1$s neprijungtas"</string>
+	<!---->
+	<string name="file_name_too_long">"Įvestas pavadinimas yra per ilgas."</string>
+	<!---->
+	<string name="some_paste_fail">"Nepavyko atlikti kelių įklijavimo operacijų"</string>
+	<!---->
+	<string name="delete_fail">"Nepavyko ištrinti."</string>
+	<!---->
+	<string name="some_delete_fail">"Nepavyko atlikti kelių trynimo operacijų"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nėra programėlės failui atidaryti"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nepersiųsta"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM failo persiųsti negalima."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Nėra tinkamos failo DRM įstaigos."</string>
+	<!---->
+	<string name="tv_link_close_toast">"„Wi-Fi“ ekranas uždarytas"</string>
+	<!---->
+	<string name="no_folder">"Šis aplankas tuščias"</string>
+	<!---->
+	<string name="no_category">"Ši kategorija tuščia."</string>
+	<!---->
+	<string name="pasted">"Failas įterptas"</string>
+	<!---->
+	<string name="deleted">"Failas ištrintas"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nėra"</string>
+	<!---->
+	<string name="not_available">"Nepasiekiama"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Tokio katalogo nėra"</string>
+	<!---->
+	<string name="no_search_result_m">"Nerasta jokių „\%1$s\“ rezultatų"</string>
+	<!---->
+	<string name="exceeded_max_task">"Viršytas esamas didžiausias užduočių skaičius"</string>
+	<!---->
+	<string name="add_waiting_task">"Įtraukta į užduočių vykdymo eilę"</string>
+	<!---->
+	<string name="category_pictures">"Paveikslėliai"</string>
+	<!---->
+	<string name="category_vedios">"Vaizdo įrašai"</string>
+	<!---->
+	<string name="category_music">"Muzika"</string>
+	<!---->
+	<string name="category_download">"Atsisiuntimai"</string>
+	<!---->
+	<string name="category_bluetooth">"„Bluetooth“"</string>
+	<!---->
+	<string name="main_recents">"Naujausi"</string>
+	<!---->
+	<string name="main_document">"Dokumentai"</string>
+	<!---->
+	<string name="category_archives">"Archyvai"</string>
+	<!---->
+	<string name="category_audio">"Garso įrašas"</string>
+	<!---->
+	<string name="main_installers">"Diegimo programa"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Vidinė atmint."</string>
+	<!---->
+	<string name="sd_card">"SD kortelė"</string>
+	<!---->
+	<string name="usbotg">"Išorinė USB atmintinė"</string>
+	<!---->
+	<string name="choice_file">"Pasirinkti vietą"</string>
+	<!---->
+	<string name="permission_welcome_title">"Reikalingas sutikimas"</string>
+	<!---->
+	<string name="permission_setting_title">"Sukurkite prieigą"</string>
+	<!---->
+	<string name="permission_setting_content">"Pakeiskite sutikimų parametrus įrenginio programų nustatymuose. Sukurkite failų tvarkyklės (File Manager) prieigą prie saugyklos."</string>
+	<!---->
+	<string name="permission_exit_btn">"Išeiti"</string>
+	<!---->
+	<string name="selected">"Pasirinkta"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefonas"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Vidinė atmintis"</string>
+	<!---->
+	<string name="usbotg_m">"Išorinis"</string>
+	<!---->
+	<string name="usbotg_n">"Išorinė saugykla"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Nustatymai"</string>
+	<!---->
+	<string name="total_progress">"Bendras progresas:"</string>
+	<!---->
+	<string name="total_task">"Užduočių skaičiuoklė:"</string>
+	<!---->
+	<string name="items">"elementai"</string>
+	<!---->
+	<string name="folder_items">"%1$s elementai"</string>
+	<!---->
+	<string name="freeof_m">"Nemokama"</string>
+	<!---->
+	<string name="choose_files">"Pasirinkite failą (-us)"</string>
+	<!---->
+	<string name="used_of">"naudojama iš"</string>
+	<!---->
+	<string name="invalid_empty_name">"Failo vardo arba aplanko pavadinimo laukas negali būti tuščias."</string>
+	<!---->
+	<string name="just_now">"tik dabar"</string>
+	<!---->
+	<string name="minutes_ago">"prieš  min."</string>
+	<!---->
+	<string name="hours_ago">"prieš  val."</string>
+	<!---->
+	<string name="minute_ago">"prieš  min."</string>
+	<!---->
+	<string name="hour_ago">"prieš  val."</string>
+	<!---->
+	<string name="day_ago">"prieš  d."</string>
+	<!---->
+	<string name="searching">"Ieškoma..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Dar nėra jokių privačių failų"</string>
+	<!---->
+	<string name="safe_no_file_content">"Norėdami įtraukti failų, viršutiniame dešiniajame kame nuspauskite meniu mygtuką"</string>
+	<!---->
+	<string name="safe_activity_title">"Privatūs failai"</string>
+	<!---->
+	<string name="move_safe">"Nustatyti kaip privatų"</string>
+	<!---->
+	<string name="set_public">"Nustatyti kaip viešą"</string>
+	<!---->
+	<string name="add_files">"Įtraukti failų"</string>
+	<!---->
+	<string name="compress_susscces">"Failas suglaudintas"</string>
+	<!---->
+	<string name="extract_susscces">"Failas išskleistas"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Suglaudinamo failo pavadinimas yra per ilgas"</string>
+	<!---->
+	<string name="category_safe">"Privatus"</string>
+	<!---->
+	<string name="remove_private_tip">"Pašalinti iš privataus režimo?"</string>
+	<!---->
+	<string name="remove_private_title">"Šalinti"</string>
+	<!---->
+	<string name="remove_safe_single">"Padaryti %1$s matomą visiems vartotojams?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Padaryti pasirinktus failus matomus visiems vartotojams?"</string>
+	<!---->
+	<string name="folder_already_exists">"Toks aplankas jau yra"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s jau yra"</string>
+	<!---->
+	<string name="keep_both">"Išsaugoti abu"</string>
+	<!---->
+	<string name="set_private_failed">"Išorinio failo negalima nustatyti privačiu failu."</string>
+	<!---->
+	<string name="app_name_new">"Failų tvarkyklė"</string>
+</resources>

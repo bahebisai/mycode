@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Súbory"</string>
+	<!---->
+	<string name="sort">"Zoradiť"</string>
+	<!---->
+	<string name="sort_by_name">"Názov"</string>
+	<!---->
+	<string name="sort_by_time">"Dátum"</string>
+	<!---->
+	<string name="sort_by_type">"Typ"</string>
+	<!---->
+	<string name="sort_by_size">"Veľkosť"</string>
+	<!---->
+	<string name="copy">"Kopírovať"</string>
+	<!---->
+	<string name="create_folder">"Vytvoriť"</string>
+	<!---->
+	<string name="cut">"Vystrihnúť"</string>
+	<!---->
+	<string name="delete">"Odstr."</string>
+	<!---->
+	<string name="deselect_all">"Zrušiť výber všetkých"</string>
+	<!---->
+	<string name="select_all">"Vybrať všetko"</string>
+	<!---->
+	<string name="show_file">"Zobraziť skryté súbory"</string>
+	<!---->
+	<string name="hide_file">"Skryť skryté súbory"</string>
+	<!---->
+	<string name="paste">"Prilepiť"</string>
+	<!---->
+	<string name="rename">"Premenovať"</string>
+	<!---->
+	<string name="extract">"Extrahovať"</string>
+	<!---->
+	<string name="extracting">"Extrahuje sa"</string>
+	<!---->
+	<string name="compress">"Skomprimovať"</string>
+	<!---->
+	<string name="compressing">"Komprimuje sa"</string>
+	<!---->
+	<string name="share">"Zdieľať"</string>
+	<!---->
+	<string name="menu_select">"Vybrať"</string>
+	<!---->
+	<string name="view_list">"Zobrazenie zoznamu"</string>
+	<!---->
+	<string name="view_grid">"Zobrazenie v mriežke"</string>
+	<!---->
+	<string name="create_new_folder">"Vytvoriť priečinok"</string>
+	<!---->
+	<string name="detail">"Podrobnosti"</string>
+	<!---->
+	<string name="shortcut_item">"Pridať odkaz"</string>
+	<!---->
+	<string name="search">"Hľadať"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vymazať vybrané položky?"</string>
+	<!---->
+	<string name="hide_btn">"Skryť"</string>
+	<!---->
+	<string name="loading">"Načítava sa obsah"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Vybrané súbory sa odstránia."</string>
+	<!---->
+	<string name="modified_time">"Upravené"</string>
+	<!---->
+	<string name="msg_rename_ext">"Prípona súboru sa zmení. Súbor nemusí byť možné rozoznať. Pokračovať?"</string>
+	<!---->
+	<string name="wait">"Čakajte, prosím..."</string>
+	<!---->
+	<string name="done">"Hotovo"</string>
+	<!---->
+	<string name="next">"Ďalej"</string>
+	<!---->
+	<string name="cancel">"Zrušiť"</string>
+	<!---->
+	<string name="show">"Zobraziť"</string>
+	<!---->
+	<string name="no">"Nie"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Potvrdiť"</string>
+	<!---->
+	<string name="yes">"Áno"</string>
+	<!---->
+	<string name="send_file">"Zdieľať súbor(y) cez"</string>
+	<!---->
+	<string name="default_search_text">"Vyhľadať súbory"</string>
+	<!---->
+	<string name="create_hidden_file">"Súbor bude skrytý, ak jeho názov začína s \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Momentálny počet："</string>
+	<!---->
+	<string name="unlimited_usage">"Neobmedzené používanie"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuálne obmedzenie："</string>
+	<!---->
+	<string name="right_url">"Adresa URL vydavateľa licencií:："</string>
+	<!---->
+	<string name="use_times">"Použiť %s-krát"</string>
+	<!---->
+	<string name="valid_after">"Platné po"</string>
+	<!---->
+	<string name="valid_until">"Platné do"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Súbory chránené pred kopírovaním"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Súbor chránený pred kopírovaním sa nemôže distribuovať."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Vypnúť Wi-Fi Display"</string>
+	<!---->
+	<string name="confirm_rename">"Potvrdiť meno"</string>
+	<!---->
+	<string name="drm_protection_status">"Stav ochrany:"</string>
+	<!---->
+	<string name="default_folder_name">"Názov priečinka"</string>
+	<!---->
+	<string name="drm_can_forward">"Môžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nemôžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_no_license">"Žiadna licencia DRM nie je dostupná."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Licencia DRM vypršala."</string>
+	<!---->
+	<string name="drm_interval">"Platné %s od prvého použitia"</string>
+	<!---->
+	<string name="drm_begin">"Začiatok:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Žiadne obmedzenie."</string>
+	<!---->
+	<string name="drm_end">"Koniec:"</string>
+	<!---->
+	<string name="drm_use_left">"Zostáva:"</string>
+	<!---->
+	<string name="readable_m">"Čitateľný"</string>
+	<!---->
+	<string name="writable">"zapisovateľné"</string>
+	<!---->
+	<string name="permission_m">"Povolenia"</string>
+	<!---->
+	<string name="executable_m">"Aplikácia"</string>
+	<!---->
+	<string name="writable_m">"Zapisovateľné"</string>
+	<!---->
+	<string name="detail_path_m">"Miesto"</string>
+	<!---->
+	<string name="detail_name_m">"Názov"</string>
+	<!---->
+	<string name="detail_size_m">"Veľkosť"</string>
+	<!---->
+	<string name="detail_time_m">"Posledná zmena"</string>
+	<!---->
+	<string name="dialog_close_btn">"Zatvoriť"</string>
+	<!---->
+	<string name="exit_dialog_content">"Aktuálna operácia prebieha, chcete ju opustiť?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Karta SD bola odstránená alebo je vstavaná."</string>
+	<!---->
+	<string name="warning">"Maximálny počet súborov"</string>
+	<!---->
+	<string name="share_warning">"Nemôžete zdieľať viac ako 100 súborov."</string>
+	<!---->
+	<string name="unknown">"Neznáme"</string>
+	<!---->
+	<string name="no_search_result">"0 výsledkov pre \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nemáte oprávnenie na kopírovanie."</string>
+	<!---->
+	<string name="cut_deny">"Nemáte oprávnenie na odstrihnutie."</string>
+	<!---->
+	<string name="delete_deny">"Nemáte oprávnenie na odstránenie."</string>
+	<!---->
+	<string name="insufficient_memory">"Nedostatok miesta."</string>
+	<!---->
+	<string name="paste_same_folder">"Nepodarilo sa kopírovať: zdrojový aj cieľový priečinok sú totožné."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Zadali ste neplatný znak."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Tento formát súboru nie je podporovaný."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nie je možné skopírovať súbor do podpriečinka"</string>
+	<!---->
+	<string name="operation_fail">"Práca s niektorými súbormi zlyhala."</string>
+	<!---->
+	<string name="search_result">"%2$d výsledkov pre \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sa už používa"</string>
+	<!---->
+	<string name="unmounted">"%1$s nie je namontovaný"</string>
+	<!---->
+	<string name="file_name_too_long">"Zadaný názov je príliš dlhý."</string>
+	<!---->
+	<string name="some_paste_fail">"Úkony kopírovania zlyhali"</string>
+	<!---->
+	<string name="delete_fail">"Nepodarilo sa odstrániť"</string>
+	<!---->
+	<string name="some_delete_fail">"Niektoré úkony mazania zlyhali"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Žiadna aplikácia na otvorenie súboru."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Neposielať ďalej"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Súbor DRM nie je možné preposlať."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tento súbor nemá platnú licenciu DRM."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display bol ukončený"</string>
+	<!---->
+	<string name="no_folder">"Tento priečinok je prázdny"</string>
+	<!---->
+	<string name="no_category">"Táto kategória je prázdna."</string>
+	<!---->
+	<string name="pasted">"Súbor bol prilepený"</string>
+	<!---->
+	<string name="deleted">"Súbor odstránený"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s neexistuje"</string>
+	<!---->
+	<string name="not_available">"Nedostupný údaj"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Požadovaný priečinok neexistuje"</string>
+	<!---->
+	<string name="no_search_result_m">"Pre \"%1$s\" sa nenašli žiadne výsledky"</string>
+	<!---->
+	<string name="exceeded_max_task">"Prekročilo aktuálny maximálny počet úloh"</string>
+	<!---->
+	<string name="add_waiting_task">"Bolo pridané do radu úloh na vykonanie"</string>
+	<!---->
+	<string name="category_pictures">"Obrázky"</string>
+	<!---->
+	<string name="category_vedios">"Videá"</string>
+	<!---->
+	<string name="category_music">"Hudba"</string>
+	<!---->
+	<string name="category_download">"Prevzaté súbory"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Nedávne"</string>
+	<!---->
+	<string name="main_document">"Dokumenty"</string>
+	<!---->
+	<string name="category_archives">"Archívy"</string>
+	<!---->
+	<string name="category_audio">"Zvuk"</string>
+	<!---->
+	<string name="main_installers">"Inštalátory"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Pamäť telefónu"</string>
+	<!---->
+	<string name="sd_card">"Karta SD"</string>
+	<!---->
+	<string name="usbotg">"Externá pamäť USB"</string>
+	<!---->
+	<string name="choice_file">"Zvoliť cieľ"</string>
+	<!---->
+	<string name="permission_welcome_title">"Je potrebné oprávnenie"</string>
+	<!---->
+	<string name="permission_setting_title">"Udeliť prístup"</string>
+	<!---->
+	<string name="permission_setting_content">"Oprávnenia zmeňte v nastaveniach aplikácií svojho zariadenia. Udeľte aplikácii Správca súborov prístup k úložisku."</string>
+	<!---->
+	<string name="permission_exit_btn">"Ukončiť"</string>
+	<!---->
+	<string name="selected">"Vybrané"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefón"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Interný pamäťový priestor"</string>
+	<!---->
+	<string name="usbotg_m">"Externé"</string>
+	<!---->
+	<string name="usbotg_n">"Externá Pamäť"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Nastavenia"</string>
+	<!---->
+	<string name="total_progress">"Celkový priebeh:"</string>
+	<!---->
+	<string name="total_task">"Počet úloh:"</string>
+	<!---->
+	<string name="items">"položky"</string>
+	<!---->
+	<string name="folder_items">"%1$s položky"</string>
+	<!---->
+	<string name="freeof_m">"Voľné"</string>
+	<!---->
+	<string name="choose_files">"Vyberte súbor/y"</string>
+	<!---->
+	<string name="used_of">"využitých z"</string>
+	<!---->
+	<string name="invalid_empty_name">"Názov súboru alebo priečinka nesmie byť prázdny"</string>
+	<!---->
+	<string name="just_now">"práve teraz"</string>
+	<!---->
+	<string name="minutes_ago">"minút dozadu"</string>
+	<!---->
+	<string name="hours_ago">"hodín dozadu"</string>
+	<!---->
+	<string name="minute_ago">"minútu dozadu"</string>
+	<!---->
+	<string name="hour_ago">"hodinu dozadu"</string>
+	<!---->
+	<string name="day_ago">"deň dozadu"</string>
+	<!---->
+	<string name="searching">"Prebieha vyhľadávanie..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Zatiaľ bez súkromných súborov"</string>
+	<!---->
+	<string name="safe_no_file_content">"Stlačením ponuky v pravom hornom rohu môžete pridať súbory"</string>
+	<!---->
+	<string name="safe_activity_title">"Súkromné súbory"</string>
+	<!---->
+	<string name="move_safe">"Nastaviť ako súkromné"</string>
+	<!---->
+	<string name="set_public">"Nastaviť ako verejné"</string>
+	<!---->
+	<string name="add_files">"Pridať súbory"</string>
+	<!---->
+	<string name="compress_susscces">"Súbor bol skomprimovaný"</string>
+	<!---->
+	<string name="extract_susscces">"Súbor bol rozbalený"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Názov komprimovaného súboru je príliš dlhý"</string>
+	<!---->
+	<string name="category_safe">"Súkromná"</string>
+	<!---->
+	<string name="remove_private_tip">"Odobrať zo súkromného režimu?"</string>
+	<!---->
+	<string name="remove_private_title">"Odstrániť"</string>
+	<!---->
+	<string name="remove_safe_single">"Zviditeľniť %1$s všetkým používateľom?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Zviditeľniť vybraté súbory všetkým používateľom?"</string>
+	<!---->
+	<string name="folder_already_exists">"Priečinok už existuje"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s už existuje"</string>
+	<!---->
+	<string name="keep_both">"Ponechať obe"</string>
+	<!---->
+	<string name="set_private_failed">"Externým súborom nie je možné nastaviť súkromný súbor."</string>
+	<!---->
+	<string name="app_name_new">"Správca súborov"</string>
+</resources>

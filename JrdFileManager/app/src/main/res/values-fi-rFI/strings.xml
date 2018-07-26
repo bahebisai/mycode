@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Tiedostot"</string>
+	<!---->
+	<string name="sort">"Lajittele"</string>
+	<!---->
+	<string name="sort_by_name">"Nimi"</string>
+	<!---->
+	<string name="sort_by_time">"Päivämäärä"</string>
+	<!---->
+	<string name="sort_by_type">"Tyyppi"</string>
+	<!---->
+	<string name="sort_by_size">"Koko"</string>
+	<!---->
+	<string name="copy">"Kopioi"</string>
+	<!---->
+	<string name="create_folder">"Luo"</string>
+	<!---->
+	<string name="cut">"Leikkaa"</string>
+	<!---->
+	<string name="delete">"Poista"</string>
+	<!---->
+	<string name="deselect_all">"Poista kaikki valinnat"</string>
+	<!---->
+	<string name="select_all">"Valitse kaikki"</string>
+	<!---->
+	<string name="show_file">"Näytä piilotetut tiedostot"</string>
+	<!---->
+	<string name="hide_file">"Piilota piilotetut tiedostot"</string>
+	<!---->
+	<string name="paste">"Liitä"</string>
+	<!---->
+	<string name="rename">"Nimeä uudelleen"</string>
+	<!---->
+	<string name="extract">"Pura"</string>
+	<!---->
+	<string name="extracting">"Puretaan"</string>
+	<!---->
+	<string name="compress">"Pakkaa"</string>
+	<!---->
+	<string name="compressing">"Pakataan"</string>
+	<!---->
+	<string name="share">"Jaa"</string>
+	<!---->
+	<string name="menu_select">"Valitse"</string>
+	<!---->
+	<string name="view_list">"Luettelonäkymä"</string>
+	<!---->
+	<string name="view_grid">"Taulukkonäkymä"</string>
+	<!---->
+	<string name="create_new_folder">"Luo kansio"</string>
+	<!---->
+	<string name="detail">"Tiedot"</string>
+	<!---->
+	<string name="shortcut_item">"Lisää pikakuvake"</string>
+	<!---->
+	<string name="search">"Etsi"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Poistetaanko valitut kohteet?"</string>
+	<!---->
+	<string name="hide_btn">"Piilota"</string>
+	<!---->
+	<string name="loading">"Lataa sisältöjä"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Valittu tiedosto poistetaan."</string>
+	<!---->
+	<string name="modified_time">"Muokattu"</string>
+	<!---->
+	<string name="msg_rename_ext">"Tiedostotunniste vaihdetaan. Tiedostoa ei ehkä tunnisteta. Jatketaanko?"</string>
+	<!---->
+	<string name="wait">"Odota…"</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!---->
+	<string name="next">"Seuraava"</string>
+	<!---->
+	<string name="cancel">"Peruuta"</string>
+	<!---->
+	<string name="show">"Näytä"</string>
+	<!---->
+	<string name="no">"Ei"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Vahvista"</string>
+	<!---->
+	<string name="yes">"Kyllä"</string>
+	<!---->
+	<string name="send_file">"Jaa tiedosto(ja) käyttäen"</string>
+	<!---->
+	<string name="default_search_text">"Etsi tiedostoja"</string>
+	<!---->
+	<string name="create_hidden_file">"Tiedosto piilotetaan, jos sen nimi alkaa pisteellä (".")."</string>
+	<!---->
+	<string name="drm_current_count">"Tämänhetkinen lukumäärä:"</string>
+	<!---->
+	<string name="unlimited_usage">"Rajoittamaton käyttö"</string>
+	<!---->
+	<string name="drm_current_right">"Tämänhetkinen rajoitus:"</string>
+	<!---->
+	<string name="right_url">"Lisenssin myöntäjän URL:"</string>
+	<!---->
+	<string name="use_times">"Käytä %s kertaa"</string>
+	<!---->
+	<string name="valid_after">"Voimassaolo alkaa:"</string>
+	<!---->
+	<string name="valid_until">"Voimassaolo päättyy:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopiointisuojatut tiedostot"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopiointisuojattua tiedostoa ei voi jakaa."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Poista Wi-Fi-näyttö käytöstä"</string>
+	<!---->
+	<string name="confirm_rename">"Vahvista nimi"</string>
+	<!---->
+	<string name="drm_protection_status">"Suojauksen tila:"</string>
+	<!---->
+	<string name="default_folder_name">"Kansion nimi"</string>
+	<!---->
+	<string name="drm_can_forward">"Voidaan välittää."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ei voida välittää."</string>
+	<!---->
+	<string name="drm_no_license">"Ei käytettävissä olevaa DRM-lisenssiä."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-lisenssi on vanhentunut."</string>
+	<!---->
+	<string name="drm_interval">"Voimassa %s ensimmäisestä käyttökerrasta"</string>
+	<!---->
+	<string name="drm_begin">"Aloitus:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Ei rajoitusta."</string>
+	<!---->
+	<string name="drm_end">"Loppu:"</string>
+	<!---->
+	<string name="drm_use_left">"Jäljellä:"</string>
+	<!---->
+	<string name="readable_m">"Luettavissa"</string>
+	<!---->
+	<string name="writable">"kirjoituskelpoinen"</string>
+	<!---->
+	<string name="permission_m">"Käyttöluvat"</string>
+	<!---->
+	<string name="executable_m">"Sovellus"</string>
+	<!---->
+	<string name="writable_m">"Kirjoituskelpoiset"</string>
+	<!---->
+	<string name="detail_path_m">"Sijainti"</string>
+	<!---->
+	<string name="detail_name_m">"Nimi"</string>
+	<!---->
+	<string name="detail_size_m">"Koko"</string>
+	<!---->
+	<string name="detail_time_m">"Viimeeksi muokattu"</string>
+	<!---->
+	<string name="dialog_close_btn">"Sulje"</string>
+	<!---->
+	<string name="exit_dialog_content">"Menossa oleva toimenpide on käynnissä, poistutaanko varmasti?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kortti on poistettu tai sisäänrakennettu."</string>
+	<!---->
+	<string name="warning">"Tiedostojen enimmäismäärä"</string>
+	<!---->
+	<string name="share_warning">"Voit jakaa enintään 100 tiedostoa."</string>
+	<!---->
+	<string name="unknown">"Tuntematon"</string>
+	<!---->
+	<string name="no_search_result">"0 tulosta haulla \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Ei kopiointioikeuksia"</string>
+	<!---->
+	<string name="cut_deny">"Ei leikkausoikeuksia"</string>
+	<!---->
+	<string name="delete_deny">"Ei poistamisoikeuksia"</string>
+	<!---->
+	<string name="insufficient_memory">"Muisti ei riitä"</string>
+	<!---->
+	<string name="paste_same_folder">"Ei voitu kopioida: lähde- ja kohdekansio on sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Annoit virheellisen merkin"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Tiedostomuotoa ei tueta."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tiedostokansiota ei voi liittää sen alikansioon"</string>
+	<!---->
+	<string name="operation_fail">"Tiedostotoiminto epäonnistui."</string>
+	<!---->
+	<string name="search_result">"%2$d tulosta hakusanoilla \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s on jo käytössä"</string>
+	<!---->
+	<string name="unmounted">"%1$s on poistettu käytöstä"</string>
+	<!---->
+	<string name="file_name_too_long">"Nimi on liian pitkä"</string>
+	<!---->
+	<string name="some_paste_fail">"Kaikkien tiedostojen liittäminen ei onnistunut"</string>
+	<!---->
+	<string name="delete_fail">"Ei voitu poistaa"</string>
+	<!---->
+	<string name="some_delete_fail">"Poistotoiminto epäonnistui"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Laitteessa ei ole tiedoston avaamiseen sopivaa sovellusta"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Ei eteenpäin"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-tiedostossa ei voi siirtyä eteenpäin."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tiedostolla ei ole DRM-oikeuksia!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-näyttö on suljettu"</string>
+	<!---->
+	<string name="no_folder">"Tämä kansio on tyhjä"</string>
+	<!---->
+	<string name="no_category">"Tämä kategoria on tyhjä."</string>
+	<!---->
+	<string name="pasted">"Tiedosto liimattu"</string>
+	<!---->
+	<string name="deleted">"Tiedosto poistettu"</string>
+	<!---->
+	<string name="path_not_exists">"Polkua %1$s ei ole olemassa"</string>
+	<!---->
+	<string name="not_available">"Ei käytettävissä"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Pyydettyä kansiota ei ole olemassa"</string>
+	<!---->
+	<string name="no_search_result_m">"Ei tuloksia haulle \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Tämänhetkinen tehtävien maksimimäärä on ylitetty"</string>
+	<!---->
+	<string name="add_waiting_task">"On lisätty suoritusjonoon"</string>
+	<!---->
+	<string name="category_pictures">"Kuvat"</string>
+	<!---->
+	<string name="category_vedios">"Videot"</string>
+	<!---->
+	<string name="category_music">"Musiikki"</string>
+	<!---->
+	<string name="category_download">"Lataukset"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Viimeaikaiset"</string>
+	<!---->
+	<string name="main_document">"Asiakirjat"</string>
+	<!---->
+	<string name="category_archives">"Arkistot"</string>
+	<!---->
+	<string name="category_audio">"Ääni"</string>
+	<!---->
+	<string name="main_installers">"Asentimet"</string>
+	<!---->
+	<string name="unit_B">"t"</string>
+	<!---->
+	<string name="unit_KB">"kt"</string>
+	<!---->
+	<string name="unit_MB">"Mt"</string>
+	<!---->
+	<string name="unit_GB">"Gt"</string>
+	<!---->
+	<string name="unit_TB">"Tt"</string>
+	<!---->
+	<string name="phone_storage">"Puhelimen tallennustila"</string>
+	<!---->
+	<string name="sd_card">"SD-kortti"</string>
+	<!---->
+	<string name="usbotg">"Ulkoinen USB-tallennusväline"</string>
+	<!---->
+	<string name="choice_file">"Valitse kohde"</string>
+	<!---->
+	<string name="permission_welcome_title">"Tarvitaan lupa"</string>
+	<!---->
+	<string name="permission_setting_title">"Salli pääsyoikeus"</string>
+	<!---->
+	<string name="permission_setting_content">"Muuta oikeuksia laitteesi sovellusasetuksissa. Anna Tiedostonhallinnalle oikeus tallennustilaan."</string>
+	<!---->
+	<string name="permission_exit_btn">"Lopeta"</string>
+	<!---->
+	<string name="selected">"Valittu"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Puhelin"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Sisäinen tallennustila"</string>
+	<!---->
+	<string name="usbotg_m">"Ulkoinen"</string>
+	<!---->
+	<string name="usbotg_n">"Ulkoinen tallennustila"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Asetukset"</string>
+	<!---->
+	<string name="total_progress">"Kokonaisedistyminen:"</string>
+	<!---->
+	<string name="total_task">"Tehtävien lukumäärä:"</string>
+	<!---->
+	<string name="items">"kohdetta"</string>
+	<!---->
+	<string name="folder_items">"%1$s kohdetta"</string>
+	<!---->
+	<string name="freeof_m">"Vapaana"</string>
+	<!---->
+	<string name="choose_files">"Valitse tiedosto(t)"</string>
+	<!---->
+	<string name="used_of">"käytetty"</string>
+	<!---->
+	<string name="invalid_empty_name">"Tiedoston tai kansion nimi ei voi olla tyhjä"</string>
+	<!---->
+	<string name="just_now">"juuri nyt"</string>
+	<!---->
+	<string name="minutes_ago">"minuuttia sitten"</string>
+	<!---->
+	<string name="hours_ago">"tuntia sitten"</string>
+	<!---->
+	<string name="minute_ago">"minuutti sitten"</string>
+	<!---->
+	<string name="hour_ago">"tunti sitten"</string>
+	<!---->
+	<string name="day_ago">"päivä sitten"</string>
+	<!---->
+	<string name="searching">"Etsitään..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Ei vielä yksityisiä tiedostoja"</string>
+	<!---->
+	<string name="safe_no_file_content">"Paina oikean yläkulman valikkoa lisätäksesi tiedostoja"</string>
+	<!---->
+	<string name="safe_activity_title">"Yksityiset tiedostot"</string>
+	<!---->
+	<string name="move_safe">"Aseta yksityiseksi"</string>
+	<!---->
+	<string name="set_public">"Aseta julkiseksi"</string>
+	<!---->
+	<string name="add_files">"Lisää tiedostoja"</string>
+	<!---->
+	<string name="compress_susscces">"Tiedosto pakattu"</string>
+	<!---->
+	<string name="extract_susscces">"Tiedosto purettu"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Pakattu tiedoston nimi on liian pitkä"</string>
+	<!---->
+	<string name="category_safe">"Yksityinen"</string>
+	<!---->
+	<string name="remove_private_tip">"Poista Yksityisestä tilasta?"</string>
+	<!---->
+	<string name="remove_private_title">"Poista"</string>
+	<!---->
+	<string name="remove_safe_single">"Tee %1$s näkyväksi kaikille käyttäjille?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Tee valituista tiedostoista näkyviä kaikille käyttäjille?"</string>
+	<!---->
+	<string name="folder_already_exists">"Kansio on jo olemassa"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s on jo olemassa"</string>
+	<!---->
+	<string name="keep_both">"Pidä molemmat"</string>
+	<!---->
+	<string name="set_private_failed">"Ulkoinen tiedosto, ei voi asettaa yksityiseksi tiedostoksi."</string>
+	<!---->
+	<string name="app_name_new">"Tiedostonhallinta"</string>
+</resources>

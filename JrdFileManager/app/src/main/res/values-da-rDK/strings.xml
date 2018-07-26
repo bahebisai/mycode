@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Filer"</string>
+	<!---->
+	<string name="sort">"Sortér"</string>
+	<!---->
+	<string name="sort_by_name">"Navn"</string>
+	<!---->
+	<string name="sort_by_time">"Dato"</string>
+	<!---->
+	<string name="sort_by_type">"Type"</string>
+	<!---->
+	<string name="sort_by_size">"Størrelse"</string>
+	<!---->
+	<string name="copy">"Kopier"</string>
+	<!---->
+	<string name="create_folder">"Opret"</string>
+	<!---->
+	<string name="cut">"Klip"</string>
+	<!---->
+	<string name="delete">"Slet"</string>
+	<!---->
+	<string name="deselect_all">"Fjern markering af alle"</string>
+	<!---->
+	<string name="select_all">"Vælg alt"</string>
+	<!---->
+	<string name="show_file">"Vis skjulte filer"</string>
+	<!---->
+	<string name="hide_file">"Skjul skjulte filer"</string>
+	<!---->
+	<string name="paste">"Indsæt"</string>
+	<!---->
+	<string name="rename">"Omdøb"</string>
+	<!---->
+	<string name="extract">"Udtræk"</string>
+	<!---->
+	<string name="extracting">"Udtrækker"</string>
+	<!---->
+	<string name="compress">"Komprimer"</string>
+	<!---->
+	<string name="compressing">"Komprimerer"</string>
+	<!---->
+	<string name="share">"Del"</string>
+	<!---->
+	<string name="menu_select">"Vælg"</string>
+	<!---->
+	<string name="view_list">"Listevisning"</string>
+	<!---->
+	<string name="view_grid">"Gittervisning"</string>
+	<!---->
+	<string name="create_new_folder">"Opret mappe"</string>
+	<!---->
+	<string name="detail">"Detaljer"</string>
+	<!---->
+	<string name="shortcut_item">"Tilføj genvej"</string>
+	<!---->
+	<string name="search">"Søg"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vil du slette valgte elementer?"</string>
+	<!---->
+	<string name="hide_btn">"Skjul"</string>
+	<!---->
+	<string name="loading">"Indlæser indhold"</string>
+	<!---->
+	<string name="alert_delete_multiple">"De valgte filer vil blive slettet."</string>
+	<!---->
+	<string name="modified_time">"Ændret"</string>
+	<!---->
+	<string name="msg_rename_ext">"Filnavn ændres. Filen kan muligvis ikke genkendes. Fortsæt?"</string>
+	<!---->
+	<string name="wait">"Vent ..."</string>
+	<!---->
+	<string name="done">"Afslut"</string>
+	<!---->
+	<string name="next">"Næste"</string>
+	<!---->
+	<string name="cancel">"Annuller"</string>
+	<!---->
+	<string name="show">"Vis"</string>
+	<!---->
+	<string name="no">"Nej"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Bekræft"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="send_file">"Del fil(er) via"</string>
+	<!---->
+	<string name="default_search_text">"Søg filer"</string>
+	<!---->
+	<string name="create_hidden_file">"Filen vil blive skjult, hvis navnet starter med \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Aktuel tæller:"</string>
+	<!---->
+	<string name="unlimited_usage">"Ubegrænset brug"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuel begrænsning:"</string>
+	<!---->
+	<string name="right_url">"URL til licensudsteder:"</string>
+	<!---->
+	<string name="use_times">"Brug %s gange"</string>
+	<!---->
+	<string name="valid_after">"Gyldig efter"</string>
+	<!---->
+	<string name="valid_until">"Gyldig indtil"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopibeskyttede filer"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Den kopibeskyttede fil kan ikke distribueres."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Deaktiver Wi-Di"</string>
+	<!---->
+	<string name="confirm_rename">"Bekræft navn"</string>
+	<!---->
+	<string name="drm_protection_status">"Beskyttelsesstatus:"</string>
+	<!---->
+	<string name="default_folder_name">"Mappenavn"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan videresendes."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan ikke videresendes."</string>
+	<!---->
+	<string name="drm_no_license">"Ingen tilgængelig DRM-licens."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-licensen er udløbet."</string>
+	<!---->
+	<string name="drm_interval">"Gyldig i %s efter første gangs brug"</string>
+	<!---->
+	<string name="drm_begin">"Start:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Ingen begrænsning."</string>
+	<!---->
+	<string name="drm_end">"Afslut:"</string>
+	<!---->
+	<string name="drm_use_left">"Tilbage:"</string>
+	<!---->
+	<string name="readable_m">"Læsbar"</string>
+	<!---->
+	<string name="writable">"skrivbar"</string>
+	<!---->
+	<string name="permission_m">"Tilladelser"</string>
+	<!---->
+	<string name="executable_m">"Applikation"</string>
+	<!---->
+	<string name="writable_m">"Skrivbare"</string>
+	<!---->
+	<string name="detail_path_m">"Placering"</string>
+	<!---->
+	<string name="detail_name_m">"Navn"</string>
+	<!---->
+	<string name="detail_size_m">"Størrelse"</string>
+	<!---->
+	<string name="detail_time_m">"Sidst ændret"</string>
+	<!---->
+	<string name="dialog_close_btn">"Luk"</string>
+	<!---->
+	<string name="exit_dialog_content">"Den aktuelle handling er i gang, er du sikker på du vil afslultte?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kortet er fjernet eller indbygget."</string>
+	<!---->
+	<string name="warning">"Maks. antal filer"</string>
+	<!---->
+	<string name="share_warning">"Du kan ikke dele mere end 100 filer."</string>
+	<!---->
+	<string name="unknown">"Ukendt"</string>
+	<!---->
+	<string name="no_search_result">"0 resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Ingen tilladelse til kopiering"</string>
+	<!---->
+	<string name="cut_deny">"Ingen tilladelse til at klippe"</string>
+	<!---->
+	<string name="delete_deny">"Ingen tilladelse til at slette"</string>
+	<!---->
+	<string name="insufficient_memory">"Ikke nok plads."</string>
+	<!---->
+	<string name="paste_same_folder">"Kunne ikke kopieres: kilde- og destinationsmappen er ens."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Du har indtastet et ugyldigt tegn"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Filformatet understøttes ikke."</string>
+	<!---->
+	<string name="paste_sub_folder">"Det er ikke muligt at indsætte filen i undermappen"</string>
+	<!---->
+	<string name="operation_fail">"En filhandling mislykkedes."</string>
+	<!---->
+	<string name="search_result">"%2$d resultat(er) for \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s er allerede i brug"</string>
+	<!---->
+	<string name="unmounted">"%1$s er ikke isat"</string>
+	<!---->
+	<string name="file_name_too_long">"Det indtastede navn er for langt"</string>
+	<!---->
+	<string name="some_paste_fail">"Indsættelseshandlinger mislykkedes"</string>
+	<!---->
+	<string name="delete_fail">"Kunne ikke slettes"</string>
+	<!---->
+	<string name="some_delete_fail">"Sletningshandlinger mislykkedes."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Der er ikke noget program til at åbne filen."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Videresend ikke"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-filen kan ikke videresendes."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Filen har ingen gyldig DRM-godkendelse!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Di er blevet lukket"</string>
+	<!---->
+	<string name="no_folder">"Denne mappe er tom"</string>
+	<!---->
+	<string name="no_category">"Denne kategori er tom."</string>
+	<!---->
+	<string name="pasted">"Fil indsat"</string>
+	<!---->
+	<string name="deleted">"Fil slettet"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s findes ikke"</string>
+	<!---->
+	<string name="not_available">"Ikke tilgængelig"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Den anmodede mappe findes ikke."</string>
+	<!---->
+	<string name="no_search_result_m">"Ingen resultater fundet for \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Har overskredet det aktuelle maksimale antal opgaver"</string>
+	<!---->
+	<string name="add_waiting_task">"Er tilføjet til opgavekøen"</string>
+	<!---->
+	<string name="category_pictures">"Billeder"</string>
+	<!---->
+	<string name="category_vedios">"Videoer"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_download">"Downloads"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Seneste"</string>
+	<!---->
+	<string name="main_document">"Dokumenter"</string>
+	<!---->
+	<string name="category_archives">"Arkiver"</string>
+	<!---->
+	<string name="category_audio">"Lyd"</string>
+	<!---->
+	<string name="main_installers">"Installationsprogrammer"</string>
+	<!---->
+	<string name="unit_B">"b"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"Mb"</string>
+	<!---->
+	<string name="unit_GB">"Gb"</string>
+	<!---->
+	<string name="unit_TB">"Tb"</string>
+	<!---->
+	<string name="phone_storage">"Telefonlager"</string>
+	<!---->
+	<string name="sd_card">"SD-kort"</string>
+	<!---->
+	<string name="usbotg">"Eksternt USB-lager"</string>
+	<!---->
+	<string name="choice_file">"Vælg destination"</string>
+	<!---->
+	<string name="permission_welcome_title">"Tilladelse nødvendig"</string>
+	<!---->
+	<string name="permission_setting_title">"Giv adgang"</string>
+	<!---->
+	<string name="permission_setting_content">"Skift tilladelser i din enheds app-indstillinger. Giv File Manager adgang til lagring."</string>
+	<!---->
+	<string name="permission_exit_btn">"Afslut"</string>
+	<!---->
+	<string name="selected">"Valgt"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Internt lager"</string>
+	<!---->
+	<string name="usbotg_m">"Ekstern"</string>
+	<!---->
+	<string name="usbotg_n">"Eksternt lager"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Indstillinger"</string>
+	<!---->
+	<string name="total_progress">"Samlet fremgang:"</string>
+	<!---->
+	<string name="total_task">"Opgavetælling:"</string>
+	<!---->
+	<string name="items">"elementer"</string>
+	<!---->
+	<string name="folder_items">"%1$s elementer"</string>
+	<!---->
+	<string name="freeof_m">"Ledig"</string>
+	<!---->
+	<string name="choose_files">"Vælg fil(er)"</string>
+	<!---->
+	<string name="used_of">"bruges af"</string>
+	<!---->
+	<string name="invalid_empty_name">"Fil eller mappenavn kan ikke være tomt"</string>
+	<!---->
+	<string name="just_now">"lige nu"</string>
+	<!---->
+	<string name="minutes_ago">"minutter siden"</string>
+	<!---->
+	<string name="hours_ago">"timer siden"</string>
+	<!---->
+	<string name="minute_ago">"minut siden"</string>
+	<!---->
+	<string name="hour_ago">"time siden"</string>
+	<!---->
+	<string name="day_ago">"dag siden"</string>
+	<!---->
+	<string name="searching">"Søger..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Der er ingen private filer endnu"</string>
+	<!---->
+	<string name="safe_no_file_content">"Tryk på menuen i øverste højre hjørne for at tilføje filer"</string>
+	<!---->
+	<string name="safe_activity_title">"Private filer"</string>
+	<!---->
+	<string name="move_safe">"Indstil som privat"</string>
+	<!---->
+	<string name="set_public">"Indstil som offentlig"</string>
+	<!---->
+	<string name="add_files">"Tilføj filer"</string>
+	<!---->
+	<string name="compress_susscces">"Fil pakket"</string>
+	<!---->
+	<string name="extract_susscces">"Fil udpakket"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Det komprimerede filnavn er for langt."</string>
+	<!---->
+	<string name="category_safe">"Privat"</string>
+	<!---->
+	<string name="remove_private_tip">"Fjern fra privat tilstand?"</string>
+	<!---->
+	<string name="remove_private_title">"Fjern"</string>
+	<!---->
+	<string name="remove_safe_single">"Gør %1$s synlig for alle brugere?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Gør valgte filer tilgængelige for alle brugere?"</string>
+	<!---->
+	<string name="folder_already_exists">"Mappen findes allerede"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s findes allerede"</string>
+	<!---->
+	<string name="keep_both">"Behold begge"</string>
+	<!---->
+	<string name="set_private_failed">"Ekstern fil kan ikke angives som privat."</string>
+	<!---->
+	<string name="app_name_new">"Filstyring"</string>
+</resources>

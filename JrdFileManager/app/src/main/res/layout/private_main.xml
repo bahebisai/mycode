@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="?attr/colorPrimary"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/shadow"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:clickable="false"
+            android:src="@drawable/fm_bar_shadow"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/private_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/shadow"
+            android:layout_gravity="center|left"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="@dimen/main_snacktext_margin_left"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <FrameLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/private_count_text">
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/floating_action_button"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/snackbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_snackbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/snackbar_color"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/snackbarlayout_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/main_snacktext_margin_left"
+            android:fontFamily="sans-serif"
+            android:text="TextView"
+            android:textColor="@color/search_view_color"
+            android:textSize="@dimen/main_snackbar_textsize"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+

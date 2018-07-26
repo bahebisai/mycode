@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"קבצים"</string>
+	<!---->
+	<string name="sort">"מיין"</string>
+	<!---->
+	<string name="sort_by_name">"שם"</string>
+	<!---->
+	<string name="sort_by_time">"תאריך"</string>
+	<!---->
+	<string name="sort_by_type">"סוג"</string>
+	<!---->
+	<string name="sort_by_size">"גודל"</string>
+	<!---->
+	<string name="copy">"העתק"</string>
+	<!---->
+	<string name="create_folder">"צור"</string>
+	<!---->
+	<string name="cut">"גזור"</string>
+	<!---->
+	<string name="delete">"מחק"</string>
+	<!---->
+	<string name="deselect_all">"בטל בחירה"</string>
+	<!---->
+	<string name="select_all">"בחר הכל"</string>
+	<!---->
+	<string name="show_file">"הצג קבצים מוסתרים"</string>
+	<!---->
+	<string name="hide_file">"הסתר קבצים מוסתרים"</string>
+	<!---->
+	<string name="paste">"הדבק"</string>
+	<!---->
+	<string name="rename">"שנה שם"</string>
+	<!---->
+	<string name="extract">"חלץ"</string>
+	<!---->
+	<string name="extracting">"מחלץ"</string>
+	<!---->
+	<string name="compress">"דחוס"</string>
+	<!---->
+	<string name="compressing">"דוחס"</string>
+	<!---->
+	<string name="share">"שתף"</string>
+	<!---->
+	<string name="menu_select">"בחר"</string>
+	<!---->
+	<string name="view_list">"תצוגת רשימה​"</string>
+	<!---->
+	<string name="view_grid">"תצוגת סריג"</string>
+	<!---->
+	<string name="create_new_folder">"צור תיקייה"</string>
+	<!---->
+	<string name="detail">"פרטים"</string>
+	<!---->
+	<string name="shortcut_item">"הוספת קיצור דרך"</string>
+	<!---->
+	<string name="search">"חיפוש"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"האם למחוק את הפריטים שנבחרו?"</string>
+	<!---->
+	<string name="hide_btn">"הסתר"</string>
+	<!---->
+	<string name="loading">"טוען תכנים"</string>
+	<!---->
+	<string name="alert_delete_multiple">"הקבצים הנבחרים יימחקו!"</string>
+	<!---->
+	<string name="modified_time">"שונה"</string>
+	<!---->
+	<string name="msg_rename_ext">"הנך משנה את סיומת הקובץ. פעולה זו עלולה לגרום לכך שהקובץ לא יזוהה. האם אתה בטוח שברצונך לעשות זאת?"</string>
+	<!---->
+	<string name="wait">"המתן..."</string>
+	<!---->
+	<string name="done">"בוצע"</string>
+	<!---->
+	<string name="next">"הבא"</string>
+	<!---->
+	<string name="cancel">"ביטול"</string>
+	<!---->
+	<string name="show">"הצג"</string>
+	<!---->
+	<string name="no">"לא"</string>
+	<!---->
+	<string name="ok">"אישור"</string>
+	<!---->
+	<string name="confirm">"אשר"</string>
+	<!---->
+	<string name="yes">"כן"</string>
+	<!---->
+	<string name="send_file">"שתף קובץ(ים) באמצעות"</string>
+	<!---->
+	<string name="default_search_text">"חפש קבצים"</string>
+	<!---->
+	<string name="create_hidden_file">"הקובץ יוסתר אם שמו מתחיל ב-\'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"ספירה נוכחית："</string>
+	<!---->
+	<string name="unlimited_usage">"שימוש ללא הגבלה"</string>
+	<!---->
+	<string name="drm_current_right">"מגבלה נוכחית："</string>
+	<!---->
+	<string name="right_url">"URL של מנפיק רשיונות："</string>
+	<!---->
+	<string name="use_times">"השתמש %s פעמים"</string>
+	<!---->
+	<string name="valid_after">"תקף לאחר"</string>
+	<!---->
+	<string name="valid_until">"תקף עד"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"קבצים מוגני זכויות יוצרים"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"לא ניתן להפיץ קובץ המוגן בזכויות יוצרים."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"כיבוי קישור TV"</string>
+	<!---->
+	<string name="confirm_rename">"אשר שינוי שם"</string>
+	<!---->
+	<string name="drm_protection_status">"מצב הגנה:"</string>
+	<!---->
+	<string name="default_folder_name">"שם תיקייה"</string>
+	<!---->
+	<string name="drm_can_forward">"ניתן להעברה."</string>
+	<!---->
+	<string name="drm_can_not_forward">"לא ניתן להעברה."</string>
+	<!---->
+	<string name="drm_no_license">"אין רישיון DRM זמין."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"תוקפו של רישיון ה-DRM פג."</string>
+	<!---->
+	<string name="drm_interval">"בתוקף למשך %s מהשימוש הראשון"</string>
+	<!---->
+	<string name="drm_begin">"התחל:"</string>
+	<!---->
+	<string name="drm_no_limitation">"אין הגבלה."</string>
+	<!---->
+	<string name="drm_end">"סיים:"</string>
+	<!---->
+	<string name="drm_use_left">"נותרו:"</string>
+	<!---->
+	<string name="readable_m">"ניתן לקריאה"</string>
+	<!---->
+	<string name="writable">"ניתן לצריבה"</string>
+	<!---->
+	<string name="permission_m">"אישורים"</string>
+	<!---->
+	<string name="executable_m">"יישום"</string>
+	<!---->
+	<string name="writable_m">"ניתנים לצריבה"</string>
+	<!---->
+	<string name="detail_path_m">"מיקום"</string>
+	<!---->
+	<string name="detail_name_m">"שם"</string>
+	<!---->
+	<string name="detail_size_m">"גודל"</string>
+	<!---->
+	<string name="detail_time_m">"שונה לאחרונה"</string>
+	<!---->
+	<string name="dialog_close_btn">"סגור"</string>
+	<!---->
+	<string name="exit_dialog_content">"הפעולה הנוכחית נמשכת, בטוח שאתה רוצה לצאת?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"כרטיס ה-SD הוסר או שהוא מובנה."</string>
+	<!---->
+	<string name="warning">"מצב אזהרה"</string>
+	<!---->
+	<string name="share_warning">"מספר הקבצים לשיתוף מוגבל ל-100."</string>
+	<!---->
+	<string name="unknown">"לא ידוע"</string>
+	<!---->
+	<string name="no_search_result">"0 תוצאות עבור ‎\"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"אין רשות להעתיק"</string>
+	<!---->
+	<string name="cut_deny">"אין רשות לחתוך"</string>
+	<!---->
+	<string name="delete_deny">"אין רשות למחוק"</string>
+	<!---->
+	<string name="insufficient_memory">"אין מספיק זכרון"</string>
+	<!---->
+	<string name="paste_same_folder">"לא ניתן להדביק לאותה הספרייה"</string>
+	<!---->
+	<string name="invalid_char_prompt">"הזנת תו לא חוקי"</string>
+	<!---->
+	<string name="msg_unable_open_file">"תבנית הקובץ אינה נתמכת."</string>
+	<!---->
+	<string name="paste_sub_folder">"לא ניתן להדביק את הקובץ לתוך תיקיית משנה"</string>
+	<!---->
+	<string name="operation_fail">"פעולת קובץ נכשלה."</string>
+	<!---->
+	<string name="search_result">"%2$d תוצאה(ות) עבור \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s כבר נמצא בשימוש"</string>
+	<!---->
+	<string name="unmounted">"הטעינה של %1$s בוטלה"</string>
+	<!---->
+	<string name="file_name_too_long">"השם שהוזן ארוך מדי"</string>
+	<!---->
+	<string name="some_paste_fail">"הדבקת הפעולות נכשלה"</string>
+	<!---->
+	<string name="delete_fail">"המחיקה נכשלה"</string>
+	<!---->
+	<string name="some_delete_fail">"פעולת מחיקה נכשלה"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"אין ישום זמין לפתיחת הקובץ"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"לא ניתן להעביר"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"לא ניתן להעביר את קובץ ה-DRM."</string>
+	<!---->
+	<string name="drm_no_valid_right">"אין לקובץ רשות DRM חוקית!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"תצוגת Wi-Fi נסגרה"</string>
+	<!---->
+	<string name="no_folder">"התיקייה ריקה"</string>
+	<!---->
+	<string name="no_category">"הקטגוריה ריקה"</string>
+	<!---->
+	<string name="pasted">"קובץ מודבק"</string>
+	<!---->
+	<string name="deleted">"קובץ נמחק"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s אינו קיים"</string>
+	<!---->
+	<string name="not_available">"לא זמין"</string>
+	<!---->
+	<string name="shortcut_no_exist">"התיקייה המבוקשת לא קיימת"</string>
+	<!---->
+	<string name="no_search_result_m">"לא נמצאו תוצאות עבור \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"חורג ממספר המשימות המרבי הנוכחי"</string>
+	<!---->
+	<string name="add_waiting_task">"התווסף לתור ביצוע המשימות"</string>
+	<!---->
+	<string name="category_pictures">"תמונות"</string>
+	<!---->
+	<string name="category_vedios">"סרטוני וידאו"</string>
+	<!---->
+	<string name="category_music">"מוסיקה"</string>
+	<!---->
+	<string name="category_download">"הורדות"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"אחרונים"</string>
+	<!---->
+	<string name="main_document">"מסמכים"</string>
+	<!---->
+	<string name="category_archives">"ארכיונים"</string>
+	<!---->
+	<string name="category_audio">"אודיו"</string>
+	<!---->
+	<string name="main_installers">"מנהלי התקנה"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB‏‏"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"אחסון פנימי"</string>
+	<!---->
+	<string name="sd_card">"כרטיס SD"</string>
+	<!---->
+	<string name="usbotg">"אחסון USB חיצוני"</string>
+	<!---->
+	<string name="choice_file">"בחר יעד"</string>
+	<!---->
+	<string name="permission_welcome_title">"נדרשת הרשאה"</string>
+	<!---->
+	<string name="permission_setting_title">"אפשר גישה"</string>
+	<!---->
+	<string name="permission_setting_content">"שנה הרשאות בהגדרות היישום של המכשיר. הענק למנהל הקבצים גישה לאחסון."</string>
+	<!---->
+	<string name="permission_exit_btn">"יציאה"</string>
+	<!---->
+	<string name="selected">"נבחר"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"טלפון"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"אחסון פנימי"</string>
+	<!---->
+	<string name="usbotg_m">"חיצוני"</string>
+	<!---->
+	<string name="usbotg_n">"אחסון חיצוני"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"הגדרות"</string>
+	<!---->
+	<string name="total_progress">"התקדמות כוללת:"</string>
+	<!---->
+	<string name="total_task">"‏מספר משימות:"</string>
+	<!---->
+	<string name="items">"פריטים"</string>
+	<!---->
+	<string name="folder_items">"%1$s פריטים"</string>
+	<!---->
+	<string name="freeof_m">"מצב חופשי"</string>
+	<!---->
+	<string name="choose_files">"בחר קובץ(ים)"</string>
+	<!---->
+	<string name="used_of">"בשימוש מתוך"</string>
+	<!---->
+	<string name="invalid_empty_name">"שם קובץ או תיקייה אינו יכול להיות ריק"</string>
+	<!---->
+	<string name="just_now">"בדיוק עכשיו"</string>
+	<!---->
+	<string name="minutes_ago">"לפני דקות"</string>
+	<!---->
+	<string name="hours_ago">"לפני שעות"</string>
+	<!---->
+	<string name="minute_ago">"לפני דקה"</string>
+	<!---->
+	<string name="hour_ago">"לפני שעה"</string>
+	<!---->
+	<string name="day_ago">"לפני יום"</string>
+	<!---->
+	<string name="searching">"מחפש...​"</string>
+	<!---->
+	<string name="safe_no_file_title">"עדיין אין קבצים פרטיים"</string>
+	<!---->
+	<string name="safe_no_file_content">"להוספת קבצים, לחץ על התפריט בפינה הימנית העליונה"</string>
+	<!---->
+	<string name="safe_activity_title">"קבצים פרטיים"</string>
+	<!---->
+	<string name="move_safe">"הגדר כפרטי"</string>
+	<!---->
+	<string name="set_public">"הגדר כציבורי"</string>
+	<!---->
+	<string name="add_files">"הוסף קבצים"</string>
+	<!---->
+	<string name="compress_susscces">"הקובץ כווץ"</string>
+	<!---->
+	<string name="extract_susscces">"הקובץ חולץ"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"שם הקובץ הדחוס ארוך מדי"</string>
+	<!---->
+	<string name="category_safe">"פרטי"</string>
+	<!---->
+	<string name="remove_private_tip">"להסיר ממצב פרטי?"</string>
+	<!---->
+	<string name="remove_private_title">"הסר"</string>
+	<!---->
+	<string name="remove_safe_single">"האם להציג %1$s לכל המשתמשים?"</string>
+	<!---->
+	<string name="remove_safe_multi">"האם להציג קבצים נבחרים לכל המשתמשים?"</string>
+	<!---->
+	<string name="folder_already_exists">"התיקייה קיימת כבר"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s כבר קיים"</string>
+	<!---->
+	<string name="keep_both">"שמור את שניהם"</string>
+	<!---->
+	<string name="set_private_failed">"לא ניתן להגדיר קובץ חיצוני כקובץ פרטי."</string>
+	<!---->
+	<string name="app_name_new">"מנהל קבצים"</string>
+</resources>

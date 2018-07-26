@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Amafayela"</string>
+	<!---->
+	<string name="sort">"Hlunga"</string>
+	<!---->
+	<string name="sort_by_name">"Igama"</string>
+	<!---->
+	<string name="sort_by_time">"Usuku"</string>
+	<!---->
+	<string name="sort_by_type">"Uhlobo"</string>
+	<!---->
+	<string name="sort_by_size">"Usayizi"</string>
+	<!---->
+	<string name="copy">"Kopisha"</string>
+	<!---->
+	<string name="create_folder">"Yakha"</string>
+	<!---->
+	<string name="cut">"Sika"</string>
+	<!---->
+	<string name="delete">"Sula"</string>
+	<!---->
+	<string name="deselect_all">"Ungakhethi konke"</string>
+	<!---->
+	<string name="select_all">"Khetha konke"</string>
+	<!---->
+	<string name="show_file">"Bonisa amafayela afihliwe"</string>
+	<!---->
+	<string name="hide_file">"Fihla amafayela afihliwe"</string>
+	<!---->
+	<string name="paste">"Namathisela"</string>
+	<!---->
+	<string name="rename">"Qamba kabusha"</string>
+	<!---->
+	<string name="extract">"Khipha"</string>
+	<!---->
+	<string name="extracting">"Iyakhipha"</string>
+	<!---->
+	<string name="compress">"Cindezela"</string>
+	<!---->
+	<string name="compressing">"Iyacindezela"</string>
+	<!---->
+	<string name="share">"Yabelana"</string>
+	<!---->
+	<string name="menu_select">"Khetha"</string>
+	<!---->
+	<string name="view_list">"Ukubuka uhlu"</string>
+	<!---->
+	<string name="view_grid">"Ukubuka kwegridi"</string>
+	<!---->
+	<string name="create_new_folder">"Yakha ifolda"</string>
+	<!---->
+	<string name="detail">"Imininingwane"</string>
+	<!---->
+	<string name="shortcut_item">"Engeza isinqamuleli"</string>
+	<!---->
+	<string name="search">"Cinga"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Sula izinto ezikhethiwe?"</string>
+	<!---->
+	<string name="hide_btn">"Fihla"</string>
+	<!---->
+	<string name="loading">"Ilayisha okuqukethwe"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Amafayela akhethiwe azosulwa."</string>
+	<!---->
+	<string name="modified_time">"Kuguquliwe"</string>
+	<!---->
+	<string name="msg_rename_ext">"Ukunwebisa kwefayela kuzoshintshwa. Ifayela lingahle lingabonwa. Qhubeka?"</string>
+	<!---->
+	<string name="wait">"Sicela ulinde..."</string>
+	<!---->
+	<string name="done">"Iqedile"</string>
+	<!---->
+	<string name="next">"Okulandelayo"</string>
+	<!---->
+	<string name="cancel">"Khansela"</string>
+	<!---->
+	<string name="show">"Bonisa"</string>
+	<!---->
+	<string name="no">"Cha"</string>
+	<!---->
+	<string name="ok">"KULUNGILE"</string>
+	<!---->
+	<string name="confirm">"Qinisekisa"</string>
+	<!---->
+	<string name="yes">"Yebo"</string>
+	<!---->
+	<string name="send_file">"Yabelana ngamafayela nge-"</string>
+	<!---->
+	<string name="default_search_text">"Cinga amafayela"</string>
+	<!---->
+	<string name="create_hidden_file">"Ifayela izofihlwa uma igama layo liqala ngo-\'.\'."</string>
+	<!---->
+	<string name="drm_current_count">"Ukubala kwamanje:"</string>
+	<!---->
+	<string name="unlimited_usage">"Ukusebenzisa okungakhawulelwe"</string>
+	<!---->
+	<string name="drm_current_right">"Ukubamba kwamanje:"</string>
+	<!---->
+	<string name="right_url">"I-URL yomkhiphi wamalayisense:"</string>
+	<!---->
+	<string name="use_times">"Sebenzisa izikhathi ezingu-%s"</string>
+	<!---->
+	<string name="valid_after">"Kuqinisekile ngemuva"</string>
+	<!---->
+	<string name="valid_until">"Ivumeleke kuze kube"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopisha amafaela avikeliwe"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Ifayela elivikelwe ngekhophi alikwazi ukusatshalaliswa."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Vala Isobonisi se-Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Qinisekisa igama"</string>
+	<!---->
+	<string name="drm_protection_status">"Isimo sokuvikela:"</string>
+	<!---->
+	<string name="default_folder_name">"Igama lefolda"</string>
+	<!---->
+	<string name="drm_can_forward">"Kungadluliswa."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ayikwazi ukudluliseka"</string>
+	<!---->
+	<string name="drm_no_license">"Ayikho ilayisense ye-DRM etholakalayo."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Ilayisense ye-DRM iphelelwe isikhathi."</string>
+	<!---->
+	<string name="drm_interval">"Kuvumelekele %s ngemuva kokusebenzisa kokuqala"</string>
+	<!---->
+	<string name="drm_begin">"Qala:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Awukho umkhawulo"</string>
+	<!---->
+	<string name="drm_end">"Qeda:"</string>
+	<!---->
+	<string name="drm_use_left">"Okusele:"</string>
+	<!---->
+	<string name="readable_m">"Kuyafundeka"</string>
+	<!---->
+	<string name="writable">"kuyabhaleka"</string>
+	<!---->
+	<string name="permission_m">"Izimvume"</string>
+	<!---->
+	<string name="executable_m">"Uhlelo"</string>
+	<!---->
+	<string name="writable_m">"Kuyabhaleka"</string>
+	<!---->
+	<string name="detail_path_m">"Indawo"</string>
+	<!---->
+	<string name="detail_name_m">"Igama"</string>
+	<!---->
+	<string name="detail_size_m">"Usayizi"</string>
+	<!---->
+	<string name="detail_time_m">"Ukushintsha kokugcina"</string>
+	<!---->
+	<string name="dialog_close_btn">"Vala"</string>
+	<!---->
+	<string name="exit_dialog_content">"Umsebenzi wamanje uyaqhubeka, uqinisekile ngokuphuma?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Ikhadi le-SD likhishiwe noma lakhelwe ngaphakathi."</string>
+	<!---->
+	<string name="warning">"Ubukhulu benani yefayela"</string>
+	<!---->
+	<string name="share_warning">"Awukwazi ukwabelana ngamafayela angaphezu kuka-100."</string>
+	<!---->
+	<string name="unknown">"akwaziwa"</string>
+	<!---->
+	<string name="no_search_result">"0 amafayela atholakele e-\"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Ayikho imvume yokukopisha."</string>
+	<!---->
+	<string name="cut_deny">"Ayikho imvume yokusika:"</string>
+	<!---->
+	<string name="delete_deny">"Ayikho imvume yokusula."</string>
+	<!---->
+	<string name="insufficient_memory">"Isikhala esinganele"</string>
+	<!---->
+	<string name="paste_same_folder">"Ayikwazanga ukukopisha: ifolda yomthombo kanye nendawo kuyafana."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Uthayiphe uhlamvu olungalungile."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Ifomethi yefayela ayisekelwa."</string>
+	<!---->
+	<string name="paste_sub_folder">"Ayikwazi ukunamathisela kufolda yangezansi."</string>
+	<!---->
+	<string name="operation_fail">"Eminye imisebenzi yefayela yehlulekile."</string>
+	<!---->
+	<string name="search_result">"Umphumela(imi)%2$d we-\"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"I-%1$s isivele iyasenenza"</string>
+	<!---->
+	<string name="unmounted">"I-%1$s ayifakiwe"</string>
+	<!---->
+	<string name="file_name_too_long">"Igama lokufaka lide kakhulu."</string>
+	<!---->
+	<string name="some_paste_fail">"Imisebenzi yokunamathisela yehlulekile."</string>
+	<!---->
+	<string name="delete_fail">"Ayikwazanga ukusula"</string>
+	<!---->
+	<string name="some_delete_fail">"Eminye imisebenzi yokusula yehlulekile."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Alukho uhlelo olungavula ifayela"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Akukho phambili"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Ifayela le-DRM alikwazi ukudlulisela."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Ifayela alinakho ukugunyaza kwe-DRM okuvumelekile."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Isibonisi se-Wi-Fi sivaliwe"</string>
+	<!---->
+	<string name="no_folder">"Le folda ayinalutho"</string>
+	<!---->
+	<string name="no_category">"Lesi sigaba asinalutho"</string>
+	<!---->
+	<string name="pasted">"Ifayela linamathiselwe"</string>
+	<!---->
+	<string name="deleted">"ifayela lisuliwe"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s ayikho"</string>
+	<!---->
+	<string name="not_available">"Akutholakali"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Ifolda eceliwe ayikho"</string>
+	<!---->
+	<string name="no_search_result_m">"Ayikho imiphumela etholakelele i-\"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Idlule inombolo enkulu yemisebenzi"</string>
+	<!---->
+	<string name="add_waiting_task">"Ingeziwe kumugqa womsenzi"</string>
+	<!---->
+	<string name="category_pictures">"Izithombe"</string>
+	<!---->
+	<string name="category_vedios">"Amavidiyo"</string>
+	<!---->
+	<string name="category_music">"Umculo"</string>
+	<!---->
+	<string name="category_download">"Okulandiwe"</string>
+	<!---->
+	<string name="category_bluetooth">"I-Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Okwakamuva"</string>
+	<!---->
+	<string name="main_document">"Amadokhumenti"</string>
+	<!---->
+	<string name="category_archives">"Okugciniwe"</string>
+	<!---->
+	<string name="category_audio">"Umsindo"</string>
+	<!---->
+	<string name="main_installers">"Izifaki"</string>
+	<!---->
+	<string name="unit_B">"I-B"</string>
+	<!---->
+	<string name="unit_KB">"I-KB"</string>
+	<!---->
+	<string name="unit_MB">"I-MB"</string>
+	<!---->
+	<string name="unit_GB">"I-GB"</string>
+	<!---->
+	<string name="unit_TB">"I-TB"</string>
+	<!---->
+	<string name="phone_storage">"Isitoreji sefoni"</string>
+	<!---->
+	<string name="sd_card">"Ikhadi le-SD"</string>
+	<!---->
+	<string name="usbotg">"Isitoreji sangaphandle se-USB"</string>
+	<!---->
+	<string name="choice_file">"Khetha indawo"</string>
+	<!---->
+	<string name="permission_welcome_title">"Imvume iyadingeka"</string>
+	<!---->
+	<string name="permission_setting_title">"Nika ukufinyelela"</string>
+	<!---->
+	<string name="permission_setting_content">"Shintsha izimvume kumasethingi ohlelo lwedivayisi yakho. Nika umphathi wefayela ukufinyelela kusitoreji."</string>
+	<!---->
+	<string name="permission_exit_btn">"Phuma"</string>
+	<!---->
+	<string name="selected">"Kukhethiwe"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Ifoni"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Isitoreji sangaphakathi"</string>
+	<!---->
+	<string name="usbotg_m">"Ngaphandle"</string>
+	<!-- no translation found for usbotg_n -->
+	<skip />
+	<!---->
+	<string name="sd_m">"I-SD"</string>
+	<!---->
+	<string name="permission_settings">"Amasethingi"</string>
+	<!---->
+	<string name="total_progress">"Ukuqhubeka okuphelele:"</string>
+	<!---->
+	<string name="total_task">"Ukubala umsebenzi:"</string>
+	<!---->
+	<string name="items">"izinto"</string>
+	<!---->
+	<string name="folder_items">"%1$s izinto"</string>
+	<!---->
+	<string name="freeof_m">"Kukhululekile"</string>
+	<!---->
+	<string name="choose_files">"Khetha amfayela"</string>
+	<!---->
+	<string name="used_of">"esetshenzisiwe"</string>
+	<!---->
+	<string name="invalid_empty_name">"Igama lefayela noma lefolda alikwazi ukungabi nalutho."</string>
+	<!---->
+	<string name="just_now">"manje"</string>
+	<!---->
+	<string name="minutes_ago">"imizuzu edlule."</string>
+	<!---->
+	<string name="hours_ago">"amahora adlule"</string>
+	<!---->
+	<string name="minute_ago">"imizuzu edlule"</string>
+	<!---->
+	<string name="hour_ago">"amahora adlule"</string>
+	<!---->
+	<string name="day_ago">"usuku oludlule"</string>
+	<!---->
+	<string name="searching">"Iyasesha..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Awekho amafayela wangasese okwamanje"</string>
+	<!---->
+	<string name="safe_no_file_content">"Cindezela imenyu ekhoneni eliphezulu kwesokudla ukuze ungeze amafayela"</string>
+	<!---->
+	<string name="safe_activity_title">"Amafayela wangasese"</string>
+	<!---->
+	<string name="move_safe">"Setha njengokungasese"</string>
+	<!---->
+	<string name="set_public">"Setha njengokomphakathi"</string>
+	<!---->
+	<string name="add_files">"Engeza amafayela"</string>
+	<!---->
+	<string name="compress_susscces">"Ifayela licindezelwe"</string>
+	<!---->
+	<string name="extract_susscces">"Ifayela likhishiwe"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Igama lefayela lokucindezela lide kakhulu"</string>
+	<!---->
+	<string name="category_safe">"Ngasese"</string>
+	<!---->
+	<string name="remove_private_tip">"Susa kusuka kumodi yangasese?"</string>
+	<!---->
+	<string name="remove_private_title">"Khipha"</string>
+	<!---->
+	<string name="remove_safe_single">"Yenza i-%1$s ibonakale kubo bonke abasebenzisi?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Yenza amafayela akhethiwe abonakale kubo bonke abasebenzisi?"</string>
+	<!---->
+	<string name="folder_already_exists">"Ifolda isikhona kakade"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s isikhona kakade"</string>
+	<!---->
+	<string name="keep_both">"Gcina kokubili"</string>
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

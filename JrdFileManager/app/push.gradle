@@ -1,0 +1,321 @@
+import groovy.json.JsonSlurper
+
+repositories {
+    maven {
+        url = 'http://172.16.12.20:8081/nexus/content/repositories/gapp/'
+    }
+}
+
+dependencies {
+    compile 'com.tct.api:TclPusher:7.0.0.0.0211.0'
+    compile 'com.google.firebase:firebase-messaging:11.2.2'
+}
+
+class TclPusherTask extends DefaultTask {
+
+    private static final String OAUTH_CLIENT_TYPE_WEB = "3"
+
+    @OutputDirectory
+    public File intermediateDir
+
+    // default is true,for test app server.
+    public boolean debug = false
+
+    // the host application package name
+    public String packageName
+
+    @TaskAction
+    public void action() throws IOException {
+        println "start to config push sdk debug: ${debug}"
+
+        def rootObject
+        def jsonSlurper
+
+        // 1.get configurations
+        if (packageName == null) {
+            throw new GradleException("Invalid applicationId: ensure you have config the defaultConfig in the android closure.")
+        }
+        String domain = debug ? 'https://pushplatform-test.tclclouds.com' : 'https://pushplatform.tclclouds.com'
+        HttpURLConnection connection = new URL("$domain/api/v1/app/config?packageName=$packageName").openConnection()
+        connection.setDoInput(true)
+        connection.setConnectTimeout(5000)
+        connection.setReadTimeout(5000)
+        connection.setRequestMethod("GET")
+        connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+        try {
+            def jsonStr = connection.inputStream.text
+            jsonSlurper = new JsonSlurper()
+            def object = jsonSlurper.parseText(jsonStr)
+            println "fetch config result:${object}"
+            if (object.code == 200) {
+                rootObject = jsonSlurper.parseText(object.data)
+            }
+        } catch (Exception ignore) {
+            throw new GradleException("fetch push sdk configuration info failed: ensure you can visit: ${domain} in your build environment!!!")
+        }
+        if (rootObject == null) {
+            throw new GradleException('config project failed: No project!!!')
+        }
+
+        // 2.apply configurations to value.xml
+        Map<String, String> resValues = new TreeMap<String, String>()
+        Map<String, Map<String, String>> resAttributes = new TreeMap<String, Map<String, String>>()
+
+        handleProjectNumberAndProjectId(rootObject, resValues)
+        handleFirebaseUrl(rootObject, resValues)
+
+        def clientObject = getClientForPackageName(rootObject)
+
+        if (clientObject != null) {
+            handleAnalytics(clientObject, resValues)
+            handleMapsService(clientObject, resValues)
+            handleGoogleApiKey(clientObject, resValues)
+            handleGoogleAppId(clientObject, resValues)
+            handleWebClientId(clientObject, resValues)
+        } else {
+            throw new GradleException("No matching client found for package name '" + packageName + "'")
+        }
+
+        println resValues
+
+        // write the values file.
+        File values = new File(intermediateDir, "values")
+        if (!values.exists() && !values.mkdirs()) {
+            throw new GradleException("Failed to create folder: " + values)
+        }
+
+        String content = getValuesContent(resValues, resAttributes)
+        new File(values, "values.xml").write(content, "utf-8")
+    }
+
+    /**
+     * find an item in the "client" array that match the package name of the app
+     * @param jsonObject the root json object.
+     * @return a JsonObject representing the client entry or null if no match is found.
+     */
+    private Object getClientForPackageName(Object jsonObject) {
+        for (def item : jsonObject.client) {
+            if (item.client_info.android_client_info.package_name == packageName) {
+                return item
+            }
+        }
+        return null
+    }
+
+    private
+    static String getValuesContent(Map<String, String> values, Map<String, Map<String, String>> attributes) {
+        StringBuilder sb = new StringBuilder(256)
+
+        sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                "<resources>\n")
+
+        for (Map.Entry<String, String> entry : values.entrySet()) {
+            String name = entry.getKey()
+            sb.append("    <string name=\"").append(name).append("\" translatable=\"false\"")
+            if (attributes.containsKey(name)) {
+                for (Map.Entry<String, String> attr : attributes.get(name).entrySet()) {
+                    sb.append(" ").append(attr.getKey()).append("=\"")
+                            .append(attr.getValue()).append("\"")
+                }
+            }
+            sb.append(">").append(entry.getValue()).append("</string>\n")
+        }
+
+        sb.append("</resources>\n")
+
+        return sb.toString()
+    }
+
+    /**
+     * Handle project_info/project_number for @string/gcm_defaultSenderId, and fill the res map with the read value.
+     * @param rootObject the root Json object.
+     * @throws IOException
+     */
+    private void handleProjectNumberAndProjectId(Object rootObject, Map<String, String> resValues) throws IOException {
+        def projectInfo = rootObject.project_info
+        if (projectInfo == null) {
+            throw new GradleException("Missing project_info object")
+        }
+
+        def projectNumber = projectInfo.project_number
+        if (projectNumber == null) {
+            throw new GradleException("Missing project_info/project_number object")
+        }
+
+        resValues.put("gcm_defaultSenderId", projectNumber)
+
+        def bucketName = projectInfo.storage_bucket
+        if (bucketName != null) {
+            resValues.put("google_storage_bucket", bucketName)
+        }
+    }
+
+    private void handleFirebaseUrl(Object rootObject, Map<String, String> resValues) throws IOException {
+        def projectInfo = rootObject.project_info
+        if (projectInfo == null) {
+            throw new GradleException("Missing project_info object")
+        }
+
+        def firebaseUrl = projectInfo.firebase_url
+        if (firebaseUrl != null) {
+            resValues.put("firebase_database_url", firebaseUrl)
+        }
+    }
+
+    /**
+     * Handle a client object for analytics (@xml/global_tracker)
+     * @param clientObject the client Json object.
+     * @throws IOException
+     */
+    private void handleAnalytics(Object clientObject, Map<String, String> resValues) throws IOException {
+        def services = clientObject.services
+        if (services == null) return
+
+        def analyticsService = services.analytics_service
+        if (analyticsService == null) return
+
+        def analyticsProp = analyticsService.analytics_property
+        if (analyticsProp == null) return
+
+        def trackingId = analyticsProp.tracking_id
+        if (trackingId == null) return
+
+        resValues.put("ga_trackingId", trackingId)
+
+        File xml = new File(intermediateDir, "xml")
+        if (!xml.exists() && !xml.mkdirs()) {
+            throw new GradleException("Failed to create folder: " + xml)
+        }
+
+        new File(xml, "global_tracker.xml").write(getGlobalTrackerContent(trackingId), "utf-8")
+    }
+
+    private static String getGlobalTrackerContent(String ga_trackingId) {
+        return "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                "<resources>\n" +
+                "    <string name=\"ga_trackingId\" translatable=\"false\">" + ga_trackingId + "</string>\n" +
+                "</resources>\n"
+    }
+
+    /**
+     * Handle a client object for maps (@string/google_maps_key).
+     * @param clientObject the client Json object.
+     * @throws IOException
+     */
+    private void handleMapsService(Object clientObject, Map<String, String> resValues)
+            throws IOException {
+        def services = clientObject.services
+        if (services == null) return
+
+        def mapsService = services.maps_service
+        if (mapsService == null) return
+
+        String apiKey = getAndroidApiKey(clientObject)
+        if (apiKey != null) {
+            resValues.put("google_maps_key", apiKey)
+            return
+        }
+        throw new GradleException("Missing api_key/current_key object")
+    }
+
+    private void handleGoogleApiKey(Object clientObject, Map<String, String> resValues) {
+        String apiKey = getAndroidApiKey(clientObject)
+        if (apiKey != null) {
+            resValues.put("google_api_key", apiKey)
+            return
+        }
+
+        // if google_api_key is missing.
+        // throw new GradleException("Missing api_key/current_key object")
+        throw new GradleException("Missing api_key/current_key object")
+    }
+
+    private String getAndroidApiKey(Object clientObject) {
+        for (def item : clientObject.api_key) {
+            return item.current_key
+        }
+        return null
+    }
+
+    /**
+     * Handle a client object for Google App Id.
+     */
+    private void handleGoogleAppId(Object clientObject, Map<String, String> resValues)
+            throws IOException {
+        def clientInfo = clientObject.client_info
+        if (clientInfo == null) {
+            // Should not happen
+            throw new GradleException("Client does not have client info")
+        }
+
+        def googleAppId = clientInfo.mobilesdk_app_id
+        if (googleAppId == null) return
+
+        String googleAppIdStr = googleAppId
+        if (googleAppIdStr == null || "".equalsIgnoreCase(googleAppIdStr)) return
+
+        resValues.put("google_app_id", googleAppIdStr)
+    }
+
+    private void handleWebClientId(Object clientObject, Map<String, String> resValues) {
+        for (def item : clientObject.oauth_client) {
+            def clientType = item.client_type
+            if (clientType == null) {
+                continue
+            }
+
+            String clientTypeStr = clientType
+            if (!OAUTH_CLIENT_TYPE_WEB.equals(clientTypeStr)) {
+                continue
+            }
+            def clientId = item.client_id
+            if (clientId == null) {
+                continue
+            }
+            resValues.put("default_web_client_id", clientId)
+            return
+        }
+    }
+}
+
+class TclPusherPlugin implements Plugin<Project> {
+
+    @Override
+    void apply(Project target) {
+        target.android.applicationVariants.all { variant ->
+            handleVariant(target, variant)
+        }
+    }
+
+    private static void handleVariant(Project project, def variant) {
+        //  TODO support flavor build.
+//        String variantName = "$variant.dirName"
+//        String[] variantTokens = variantName.split('/')
+//        List<String> fileLocation = new ArrayList<>()
+//
+//        if (variantTokens.length == 2) {
+//            // If flavor and buildType are found.
+//            String flavorName = variantTokens[0]
+//            String buildType = variantTokens[1]
+//            fileLocation.add('src/' + flavorName + '/' + buildType)
+//            fileLocation.add('src/' + buildType + '/' + flavorName)
+//            fileLocation.add('src/' + flavorName)
+//            fileLocation.add('src/' + buildType)
+//        } else if (variantTokens.length == 1) {
+//            // If only buildType is found.
+//            fileLocation.add('src/' + variantTokens[0])
+//        }
+
+        // generated resource.
+        File outputDir = project.file("$project.buildDir/generated/res/tclpusher/$variant.dirName")
+
+        TclPusherTask task = project.tasks.create("process${variant.name.capitalize()}TclPusher", TclPusherTask)
+        task.intermediateDir = outputDir
+        task.debug = 'Debug'.equalsIgnoreCase(variant.name.capitalize())
+        task.packageName = project.android.defaultConfig.applicationId
+
+        variant.registerResGeneratingTask(task, outputDir)
+    }
+}
+
+apply plugin: TclPusherPlugin

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Failid"</string>
+	<!---->
+	<string name="sort">"Sordi"</string>
+	<!---->
+	<string name="sort_by_name">"Nimi"</string>
+	<!---->
+	<string name="sort_by_time">"Kuupäev"</string>
+	<!---->
+	<string name="sort_by_type">"Tüüp"</string>
+	<!---->
+	<string name="sort_by_size">"Suurus"</string>
+	<!---->
+	<string name="copy">"Kopeeri"</string>
+	<!---->
+	<string name="create_folder">"Loo"</string>
+	<!---->
+	<string name="cut">"Lõika"</string>
+	<!---->
+	<string name="delete">"Kustuta"</string>
+	<!---->
+	<string name="deselect_all">"Tühista kõik valikud"</string>
+	<!---->
+	<string name="select_all">"Vali kõik"</string>
+	<!---->
+	<string name="show_file">"Kuva varjatud faile"</string>
+	<!---->
+	<string name="hide_file">"Varja varjatud failid"</string>
+	<!---->
+	<string name="paste">"Kleebi"</string>
+	<!---->
+	<string name="rename">"Nimeta ümber"</string>
+	<!---->
+	<string name="extract">"Ekstrakti"</string>
+	<!---->
+	<string name="extracting">"Ekstraktimine"</string>
+	<!---->
+	<string name="compress">"Paki"</string>
+	<!---->
+	<string name="compressing">"Pakkimine"</string>
+	<!---->
+	<string name="share">"Jaga"</string>
+	<!---->
+	<string name="menu_select">"Vali"</string>
+	<!---->
+	<string name="view_list">"Loendikuva"</string>
+	<!---->
+	<string name="view_grid">"Ruudustikvaade"</string>
+	<!---->
+	<string name="create_new_folder">"Loo kaust"</string>
+	<!---->
+	<string name="detail">"Üksikasjad"</string>
+	<!---->
+	<string name="shortcut_item">"Lisa otsetee"</string>
+	<!---->
+	<string name="search">"Otsing"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Kas kustutada valitud üksused?"</string>
+	<!---->
+	<string name="hide_btn">"Peida"</string>
+	<!---->
+	<string name="loading">"Sisu laadimine"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Valitud failid kustutatakse."</string>
+	<!---->
+	<string name="modified_time">"Muudetud"</string>
+	<!---->
+	<string name="msg_rename_ext">"Faili laiendit muudetakse. Faili ei pruugita ära tunda. Kas jätkata?"</string>
+	<!---->
+	<string name="wait">"Oodake ..."</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!---->
+	<string name="next">"Järgmine"</string>
+	<!---->
+	<string name="cancel">"Tühista"</string>
+	<!---->
+	<string name="show">"Kuva"</string>
+	<!---->
+	<string name="no">"Ei"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Kinnita"</string>
+	<!---->
+	<string name="yes">"Jah"</string>
+	<!---->
+	<string name="send_file">"Jaga faili (faile) järgmise üksuse kaudu:"</string>
+	<!---->
+	<string name="default_search_text">"Otsi faile"</string>
+	<!---->
+	<string name="create_hidden_file">"Märgiga \.\ algava nimega failid peidetakse."</string>
+	<!---->
+	<string name="drm_current_count">"Praegune arv:"</string>
+	<!---->
+	<string name="unlimited_usage">"Piiramatu kasutus"</string>
+	<!---->
+	<string name="drm_current_right">"Praegune piirang:"</string>
+	<!---->
+	<string name="right_url">"Litsentside väljastaja URL:"</string>
+	<!---->
+	<string name="use_times">"Kasuta %s korda"</string>
+	<!---->
+	<string name="valid_after">"Kehtiv alates"</string>
+	<!---->
+	<string name="valid_until">"Kehtiv kuni"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopeerimiskaitstud failid"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopeerimiskaitstud faili ei saa jagada."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Lülita Wi-Fi-kuva välja"</string>
+	<!---->
+	<string name="confirm_rename">"Kinnita nimi"</string>
+	<!---->
+	<string name="drm_protection_status">"Kaitstuse olek:"</string>
+	<!---->
+	<string name="default_folder_name">"Kausta nimi"</string>
+	<!---->
+	<string name="drm_can_forward">"Saab edastada."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ei saa edastada."</string>
+	<!---->
+	<string name="drm_no_license">"DRM-i litsents ei ole saadaval."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-i litsents on aegunud."</string>
+	<!---->
+	<string name="drm_interval">"Kehtib %s pärast esimest kasutust"</string>
+	<!---->
+	<string name="drm_begin">"Algus:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Piirangut ei ole."</string>
+	<!---->
+	<string name="drm_end">"Lõpp:"</string>
+	<!---->
+	<string name="drm_use_left">"Jääk:"</string>
+	<!---->
+	<string name="readable_m">"Loetav"</string>
+	<!---->
+	<string name="writable">"kirjutatav"</string>
+	<!---->
+	<string name="permission_m">"Load"</string>
+	<!---->
+	<string name="executable_m">"Rakendus"</string>
+	<!---->
+	<string name="writable_m">"Kirjutatav"</string>
+	<!---->
+	<string name="detail_path_m">"Asukoht"</string>
+	<!---->
+	<string name="detail_name_m">"Nimi"</string>
+	<!---->
+	<string name="detail_size_m">"Suurus"</string>
+	<!---->
+	<string name="detail_time_m">"Viimati muudetud"</string>
+	<!---->
+	<string name="dialog_close_btn">"Sulge"</string>
+	<!---->
+	<string name="exit_dialog_content">"Praegune toiming on pooleli, kas soovid kindlasti väljuda?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kaart on eemaldatud või sisseehitatud."</string>
+	<!---->
+	<string name="warning">"Failide maksimaalne arv"</string>
+	<!---->
+	<string name="share_warning">"Te ei saa jagada üle 100 faili."</string>
+	<!---->
+	<string name="unknown">"Tundmatu"</string>
+	<!---->
+	<string name="no_search_result">"0 faili leiti otsingule \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Kopeerimisluba pole."</string>
+	<!---->
+	<string name="cut_deny">"Lõikamisluba pole."</string>
+	<!---->
+	<string name="delete_deny">"Kustutamisluba pole."</string>
+	<!---->
+	<string name="insufficient_memory">"Ruumi pole piisavalt."</string>
+	<!---->
+	<string name="paste_same_folder">"Ei saanud kopeerida: lähte- ja sihtkaust on samad."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Sisestasite sobimatu märgi."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Seda failivormingut ei toetata."</string>
+	<!---->
+	<string name="paste_sub_folder">"Alamkausta ei saa kleepida."</string>
+	<!---->
+	<string name="operation_fail">"Mõni failitoiming ebaõnnestus."</string>
+	<!---->
+	<string name="search_result">"%2$d tulemust otsingule \"%1$s\"</string>
+	<!---->
+	<string name="already_exists">"%1$s on juba kasutusel."</string>
+	<!---->
+	<string name="unmounted">"%1$s on lahti ühendatud"</string>
+	<!---->
+	<string name="file_name_too_long">"Sisestatud nimi on liiga pikk."</string>
+	<!---->
+	<string name="some_paste_fail">"Mõni kleepimistoiming ebaõnnestus"</string>
+	<!---->
+	<string name="delete_fail">"Kustutamine ebaõnnestus"</string>
+	<!---->
+	<string name="some_delete_fail">"Mõni kustutamistoiming ebaõnnestus"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Faili avamiseks ei ole rakendust"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Ei edastata"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM-faili ei saa edastada."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Failil ei ole kehtivat DRM-i volitust."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-kuva on kinni pandud"</string>
+	<!---->
+	<string name="no_folder">"See kaust on tühi"</string>
+	<!---->
+	<string name="no_category">"See kategooria on tühi."</string>
+	<!---->
+	<string name="pasted">"Fail kleebitud"</string>
+	<!---->
+	<string name="deleted">"Fail kustutatud"</string>
+	<!---->
+	<string name="path_not_exists">"Üksust %1$s pole olemas"</string>
+	<!---->
+	<string name="not_available">"Ei ole saadaval"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Otsitavat kausta ei ole."</string>
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\" kohta ei ole tulemusi"</string>
+	<!---->
+	<string name="exceeded_max_task">"Maksimaalne aktiivsete ülesannete arv on ületatud"</string>
+	<!---->
+	<string name="add_waiting_task">"On lisatud täidetavate ülesannete järjekorda"</string>
+	<!---->
+	<string name="category_pictures">"Pildid"</string>
+	<!---->
+	<string name="category_vedios">"Videod"</string>
+	<!---->
+	<string name="category_music">"Muusika"</string>
+	<!---->
+	<string name="category_download">"Allalaadimised"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Hiljutised"</string>
+	<!---->
+	<string name="main_document">"Dokumendid"</string>
+	<!---->
+	<string name="category_archives">"Arhiivid"</string>
+	<!---->
+	<string name="category_audio">"Heli"</string>
+	<!---->
+	<string name="main_installers">"Installijad"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"kB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Sisemälu"</string>
+	<!---->
+	<string name="sd_card">"SD-kaart"</string>
+	<!---->
+	<string name="usbotg">"Väline USB-salvestusruum"</string>
+	<!---->
+	<string name="choice_file">"Vali sihtpunkt"</string>
+	<!---->
+	<string name="permission_welcome_title">"Vajalik luba"</string>
+	<!---->
+	<string name="permission_setting_title">"Anna luba"</string>
+	<!---->
+	<string name="permission_setting_content">"Muuda oma seadme rakenduste seadetes luba. Anna failihaldurile ligipääsuluba mäluruumile."</string>
+	<!---->
+	<string name="permission_exit_btn">"Välju"</string>
+	<!---->
+	<string name="selected">"Valitud"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Sisemälu"</string>
+	<!---->
+	<string name="usbotg_m">"Väline"</string>
+	<!---->
+	<string name="usbotg_n">"Väline talletusruum"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Seaded"</string>
+	<!---->
+	<string name="total_progress">"Kogu progress:"</string>
+	<!---->
+	<string name="total_task">"Ülesannete loendamine:"</string>
+	<!---->
+	<string name="items">"üksused"</string>
+	<!---->
+	<string name="folder_items">"%1$s üksused"</string>
+	<!---->
+	<string name="freeof_m">"Vaba"</string>
+	<!---->
+	<string name="choose_files">"Vali fail(id)"</string>
+	<!---->
+	<string name="used_of">"kasutatud"</string>
+	<!---->
+	<string name="invalid_empty_name">"Faili või kausta nimi ei saa olla tühi."</string>
+	<!---->
+	<string name="just_now">"praegu"</string>
+	<!---->
+	<string name="minutes_ago">"minutit tagasi"</string>
+	<!---->
+	<string name="hours_ago">"tundi tagasi"</string>
+	<!---->
+	<string name="minute_ago">"minut tagasi"</string>
+	<!---->
+	<string name="hour_ago">"tund tagasi"</string>
+	<!---->
+	<string name="day_ago">"päev tagasi"</string>
+	<!---->
+	<string name="searching">"Otsimine..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Privaatseid faile veel pole"</string>
+	<!---->
+	<string name="safe_no_file_content">"Failide lisamiseks vajuta paremas ülemises nurgas olevale menüüle"</string>
+	<!---->
+	<string name="safe_activity_title">"Privaatsed failid"</string>
+	<!---->
+	<string name="move_safe">"Määra privaatseks"</string>
+	<!---->
+	<string name="set_public">"Määra avalikuks"</string>
+	<!---->
+	<string name="add_files">"Lisa failid"</string>
+	<!---->
+	<string name="compress_susscces">"Fail kokku pakitud"</string>
+	<!---->
+	<string name="extract_susscces">"Fail lahti pakitud"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Pakitud faili nimi on liiga pikk"</string>
+	<!---->
+	<string name="category_safe">"Privaatne"</string>
+	<!---->
+	<string name="remove_private_tip">"Eemaldada erarežiimist?"</string>
+	<!---->
+	<string name="remove_private_title">"Eemalda"</string>
+	<!---->
+	<string name="remove_safe_single">"Kas muuta %1$s nähtavaks kõikidele kasutajatele?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Kas muuta valitud failid kõikidele nähtavaks?"</string>
+	<!---->
+	<string name="folder_already_exists">"Kaust on juba olemas"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s on juba olemas"</string>
+	<!---->
+	<string name="keep_both">"Hoia mõlemad alles"</string>
+	<!---->
+	<string name="set_private_failed">"Välist faili ei saa määrata privaatseks failiks."</string>
+	<!---->
+	<string name="app_name_new">"Failihaldur"</string>
+</resources>

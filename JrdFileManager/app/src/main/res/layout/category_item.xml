@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center">
+
+    <ImageView
+        android:id="@+id/category_img"
+        android:layout_width="@dimen/category_image_size"
+        android:layout_height="@dimen/category_image_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_list_unknow_bg_40dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_below="@id/category_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/category_item_name_color"
+        android:textSize="@dimen/category_item_name_text_size"/>
+
+    <TextView
+        android:id="@+id/category_count"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_below="@id/category_name"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/unknown"
+        android:textColor="@color/category_item_count_color"
+        android:textSize="@dimen/category_item_count_text_size"/>
+
+</RelativeLayout>

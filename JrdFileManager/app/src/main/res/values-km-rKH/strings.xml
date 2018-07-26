@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!---->
+	<string name="sort">"តម្រៀប"</string>
+	<!---->
+	<string name="sort_by_name">"ឈ្មោះ"</string>
+	<!---->
+	<string name="sort_by_time">"កាលបរិច្ឆេទ"</string>
+	<!---->
+	<string name="sort_by_type">"ប្រភេទ"</string>
+	<!---->
+	<string name="sort_by_size">"ទំហំ"</string>
+	<!---->
+	<string name="copy">"ចម្លង"</string>
+	<!---->
+	<string name="create_folder">"បង្កើត"</string>
+	<!---->
+	<string name="cut">"កាត់"</string>
+	<!---->
+	<string name="delete">"លុបចោល"</string>
+	<!---->
+	<string name="deselect_all">"មិនជ្រើសរើសទាំងអស់"</string>
+	<!---->
+	<string name="select_all">"ជ្រើសយកទាំងអស់"</string>
+	<!---->
+	<string name="show_file">"បង្ហាញឯកសារដែលបានលាក់"</string>
+	<!---->
+	<string name="hide_file">"លាក់ឯកសារដែលបានលាក់"</string>
+	<!---->
+	<string name="paste">"បិត"</string>
+	<!---->
+	<string name="rename">"ដាក់ឈ្មោះថ្មី"</string>
+	<!-- no translation found for extract -->
+	<skip />
+	<!-- no translation found for extracting -->
+	<skip />
+	<!-- no translation found for compress -->
+	<skip />
+	<!-- no translation found for compressing -->
+	<skip />
+	<!---->
+	<string name="share">"ចែករំលែក"</string>
+	<!---->
+	<string name="menu_select">"សូមជ្រើសរើស"</string>
+	<!-- no translation found for view_list -->
+	<skip />
+	<!---->
+	<string name="view_grid">"មើលជាក្រឡា"</string>
+	<!---->
+	<string name="create_new_folder">"បង្កើតសឺមី"</string>
+	<!---->
+	<string name="detail">"ព័ត៌មានលំអិត"</string>
+	<!---->
+	<string name="shortcut_item">"បន្ថែមទៅក្នុងពាក្យបញ្ជាផ្លូវកាត់"</string>
+	<!---->
+	<string name="search">"រាវរក"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</string>
+	<!-- no translation found for hide_btn -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!---->
+	<string name="alert_delete_multiple">"របស់ទាំងនេះនឹងត្រូវលុបចេញ"</string>
+	<!---->
+	<string name="modified_time">"បានកែសម្រួល"</string>
+	<!---->
+	<string name="msg_rename_ext">"អ្នកកំពុងតែប្តូរកន្ទុយរបស់ឈ្មោះឯកសារ ដែលអាចធ្វើឲ្យឯកសារមិនត្រូវបានទទួលស្គាល់ ។ តើអ្នកពិតជាចង់ប្តូរវាមែនទេ?"</string>
+	<!---->
+	<string name="wait">"សូមរង់ចាំ..."</string>
+	<!---->
+	<string name="done">"បានធ្វើរួច"</string>
+	<!---->
+	<string name="next">"បន្ទាប់"</string>
+	<!---->
+	<string name="cancel">"លើកលែង"</string>
+	<!-- no translation found for show -->
+	<skip />
+	<!---->
+	<string name="no">"ទេ"</string>
+	<!---->
+	<string name="ok">"យល់ព្រម"</string>
+	<!-- no translation found for confirm -->
+	<skip />
+	<!---->
+	<string name="yes">"បាទ"</string>
+	<!---->
+	<string name="send_file">"ផ្ញើរឯកសារ"</string>
+	<!---->
+	<string name="default_search_text">"រាវរកឯកសារ"</string>
+	<!---->
+	<string name="create_hidden_file">"ឯកសារនឹងត្រូវបានលាក់ ប្រសិនបើឈ្មោះរបស់វាចាប់ផ្តើមដោយ \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"ការរាប់បច្ចុប្បន្ន："</string>
+	<!---->
+	<string name="unlimited_usage">"ការប្រើមិនកំណត់"</string>
+	<!---->
+	<string name="drm_current_right">"ឧបសគ្គនាពេលបច្ចុប្បន្ន："</string>
+	<!---->
+	<string name="right_url">"អ្នកចេញអាជ្ញាប័ណ្ណ URL៖："</string>
+	<!---->
+	<string name="use_times">"ប្រើប្រាស់ %s ដង"</string>
+	<!---->
+	<string name="valid_after">"មានសុពលភាពក្រោយពី"</string>
+	<!---->
+	<string name="valid_until">"មានសុពលភាពរហូតដល់"</string>
+	<!-- no translation found for drm_wifidisplay_title -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_message">"ឯកសាការពារថតចម្លងមិនអាចចែកចាយ ។"</string>
+	<!-- no translation found for drm_wifidisplay_cancel_btn -->
+	<skip />
+	<!---->
+	<string name="confirm_rename">"បញ្ញាក់ការដាក់ឈ្មោះថ្មី"</string>
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"ឈ្មោះ​សឺមី"</string>
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!---->
+	<string name="drm_toast_license_expired">"អាជ្ញាប័ណ្ណ DRM បានផុតកំណត់ហើយ ។"</string>
+	<!-- no translation found for drm_interval -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for readable_m -->
+	<skip />
+	<!-- no translation found for writable -->
+	<skip />
+	<!-- no translation found for permission_m -->
+	<skip />
+	<!-- no translation found for executable_m -->
+	<skip />
+	<!-- no translation found for writable_m -->
+	<skip />
+	<!---->
+	<string name="detail_path_m">"ទីតាំង"</string>
+	<!---->
+	<string name="detail_name_m">"ឈ្មោះ"</string>
+	<!---->
+	<string name="detail_size_m">"ទំហំ"</string>
+	<!-- no translation found for detail_time_m -->
+	<skip />
+	<!---->
+	<string name="dialog_close_btn">"បិទ"</string>
+	<!-- no translation found for exit_dialog_content -->
+	<skip />
+	<!-- no translation found for no_available_storage_dialog_content -->
+	<skip />
+	<!---->
+	<string name="warning">"ព្រមាន"</string>
+	<!---->
+	<string name="share_warning">"ឯកសារដែលត្រូវចែករំលែកមិនត្រូវឱ្យលើសពី 100 ឡើយ."</string>
+	<!---->
+	<string name="unknown">"មិនស្គាល់"</string>
+	<!---->
+	<string name="no_search_result">"លទ្ធផល 0 ចំពោះ\"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"មិនមានការអនុញ្ញាតដើម្បីចម្លង"</string>
+	<!---->
+	<string name="cut_deny">"មិនមានការអនុញ្ញាតដើម្បីកាត់"</string>
+	<!---->
+	<string name="delete_deny">"មិនមានការអនុញ្ញាតដើម្បីលុបចោល"</string>
+	<!---->
+	<string name="insufficient_memory">"កន្លែងផ្ទុកមិនគ្រប់គ្រាន់"</string>
+	<!---->
+	<string name="paste_same_folder">"មិនអាចដាក់ក្នុងសឺមីតែមួយបានទេ"</string>
+	<!---->
+	<string name="invalid_char_prompt">"អ្នកបានបញ្ចូលតួអក្សរដែលមិនមានសុពលភាព"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ទ្រង់ទ្រាយរបស់ឯកសារមិនអាចប្រើបានទេ ។"</string>
+	<!---->
+	<string name="paste_sub_folder">"មិនអាចដាក់ក្នុងសឺមីរងបានទេ ។"</string>
+	<!---->
+	<string name="operation_fail">"ប្រតិបត្តិការឯកសារមួយចំនួនបានបរាជ័យ។"</string>
+	<!---->
+	<string name="search_result">"%2$d លទ្ធផលសម្រាប់ \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s កំពុង​ត្រូវ​បាន​ប្រើ​ហើយ"</string>
+	<!---->
+	<string name="unmounted">"%1$s ត្រូវបានបិទ"</string>
+	<!---->
+	<string name="file_name_too_long">"ឈ្មោះដែលអ្នកវាយបញ្ចូលវែងពេក"</string>
+	<!---->
+	<string name="some_paste_fail">"ប្រតិបត្តិការដាក់បញ្ចូលខ្លះត្រូវបរាជ័យ"</string>
+	<!---->
+	<string name="delete_fail">"លុបចោលមិនបានទទួលជោគជ័យទេ!"</string>
+	<!---->
+	<string name="some_delete_fail">"ប្រតិបត្តិការដែលបានលុបមួយចំនួនបានបរាជ័យ។"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"គ្មាន​កម្មវិធី​ដើម្បី​បើក​ឯកសារ"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"មិន បានបញ្ចូនត"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"ឯកសារ DRMមិនអាចបញ្ចូនត"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ឯកសារនេះពុំមានការអនុញ្ញាតសិទ្ធិ DRM ត្រឹមត្រូវឡើយ!"</string>
+	<!-- no translation found for tv_link_close_toast -->
+	<skip />
+	<!---->
+	<string name="no_folder">"សឺមីនេះទទេ"</string>
+	<!-- no translation found for no_category -->
+	<skip />
+	<!-- no translation found for pasted -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!---->
+	<string name="path_not_exists">"%1$sមិនមាន"</string>
+	<!---->
+	<string name="not_available">"មិនទំនេរ"</string>
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!-- no translation found for exceeded_max_task -->
+	<skip />
+	<!-- no translation found for add_waiting_task -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"រូបភាព"</string>
+	<!---->
+	<string name="category_vedios">"វីដេអូ"</string>
+	<!---->
+	<string name="category_music">"តន្រ្តី"</string>
+	<!---->
+	<string name="category_download">"ទាញយក"</string>
+	<!---->
+	<string name="category_bluetooth">"ប្ល៊ូធូស"</string>
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!-- no translation found for main_document -->
+	<skip />
+	<!---->
+	<string name="category_archives">"កាលប្បវតិ្ត"</string>
+	<!---->
+	<string name="category_audio">"អូឌីអូ"</string>
+	<!-- no translation found for main_installers -->
+	<skip />
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="phone_storage">"កន្លែងរក្សាទុកទិន្នន័យរបស់ទូរសព័្ទ"</string>
+	<!---->
+	<string name="sd_card">"កាត SD"</string>
+	<!---->
+	<string name="usbotg">"ការផ្ទុកឯកសារក្នុងឧបករណ៍ USB ខាងក្រៅ"</string>
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!-- no translation found for permission_setting_title -->
+	<skip />
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"ចាកចេញ"</string>
+	<!---->
+	<string name="selected">"បានជ្រើសរើស"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"ទូរស័ព្ទ"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"កន្លែងរក្សាទុកទិន្នន័យរបស់ទូរសព័្ទ"</string>
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!-- no translation found for usbotg_n -->
+	<skip />
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="permission_settings">"ការសិត"</string>
+	<!-- no translation found for total_progress -->
+	<skip />
+	<!-- no translation found for total_task -->
+	<skip />
+	<!-- no translation found for items -->
+	<skip />
+	<!-- no translation found for folder_items -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"ម៉ូដសេរី"</string>
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for used_of -->
+	<skip />
+	<!---->
+	<string name="invalid_empty_name">"ឈ្មោះឯកសារ​ ឬសឺមីមិនអាចទទេបានឡើយ"</string>
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for minutes_ago -->
+	<skip />
+	<!-- no translation found for hours_ago -->
+	<skip />
+	<!-- no translation found for minute_ago -->
+	<skip />
+	<!-- no translation found for hour_ago -->
+	<skip />
+	<!-- no translation found for day_ago -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for safe_no_file_title -->
+	<skip />
+	<!-- no translation found for safe_no_file_content -->
+	<skip />
+	<!-- no translation found for safe_activity_title -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for add_files -->
+	<skip />
+	<!-- no translation found for compress_susscces -->
+	<skip />
+	<!-- no translation found for extract_susscces -->
+	<skip />
+	<!-- no translation found for compress_file_name_too_long -->
+	<skip />
+	<!---->
+	<string name="category_safe">"ឯកជន"</string>
+	<!-- no translation found for remove_private_tip -->
+	<skip />
+	<!---->
+	<string name="remove_private_title">"លុបចោល"</string>
+	<!-- no translation found for remove_safe_single -->
+	<skip />
+	<!-- no translation found for remove_safe_multi -->
+	<skip />
+	<!-- no translation found for folder_already_exists -->
+	<skip />
+	<!-- no translation found for file_already_exists -->
+	<skip />
+	<!-- no translation found for keep_both -->
+	<skip />
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ফাইল"</string>
+	<!---->
+	<string name="sort">"বাছাই করা"</string>
+	<!---->
+	<string name="sort_by_name">"নাম"</string>
+	<!---->
+	<string name="sort_by_time">"তারিখ"</string>
+	<!---->
+	<string name="sort_by_type">"ধরন"</string>
+	<!---->
+	<string name="sort_by_size">"আয়তন"</string>
+	<!---->
+	<string name="copy">"কপি করুন"</string>
+	<!---->
+	<string name="create_folder">"তৈরি করুন"</string>
+	<!---->
+	<string name="cut">"কাট করুন"</string>
+	<!---->
+	<string name="delete">"মুছে"</string>
+	<!---->
+	<string name="deselect_all">"অনির্বাচন"</string>
+	<!---->
+	<string name="select_all">"সব নির্বাচন"</string>
+	<!---->
+	<string name="show_file">"লুকানো ফাইল দেখান"</string>
+	<!---->
+	<string name="hide_file">"লুকানো ফাইল লুকান"</string>
+	<!---->
+	<string name="paste">"পেস্ট"</string>
+	<!---->
+	<string name="rename">"নামান্তর"</string>
+	<!-- no translation found for extract -->
+	<skip />
+	<!-- no translation found for extracting -->
+	<skip />
+	<!-- no translation found for compress -->
+	<skip />
+	<!-- no translation found for compressing -->
+	<skip />
+	<!---->
+	<string name="share">"ভাগ"</string>
+	<!---->
+	<string name="menu_select">"নির্বাচন করুন"</string>
+	<!---->
+	<string name="view_list">"তালিকা আকারে দেখা"</string>
+	<!---->
+	<string name="view_grid">"গ্রিড দর্শন"</string>
+	<!---->
+	<string name="create_new_folder">"ফোল্ডার তৈরি করুন"</string>
+	<!---->
+	<string name="detail">"বিস্তারিত"</string>
+	<!---->
+	<string name="shortcut_item">"শর্টকাট যুক্ত করুন"</string>
+	<!---->
+	<string name="search">"অনুসন্ধান"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</string>
+	<!-- no translation found for hide_btn -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!---->
+	<string name="alert_delete_multiple">"নির্বাচিত ফাইল মুছে যাবে."</string>
+	<!---->
+	<string name="modified_time">"পরিমার্জিত"</string>
+	<!---->
+	<string name="msg_rename_ext">"ফাইল এক্সটেনশন পরিবর্তন করা হবে. ফাইল স্বীকৃত হতে পারে না. চালিয়ে?"</string>
+	<!---->
+	<string name="wait">"অপেক্ষা করুন..."</string>
+	<!---->
+	<string name="done">"সম্পন্ন"</string>
+	<!---->
+	<string name="next">"পরবর্তী"</string>
+	<!---->
+	<string name="cancel">"বাতিল করুন"</string>
+	<!-- no translation found for show -->
+	<skip />
+	<!---->
+	<string name="no">"না"</string>
+	<!---->
+	<string name="ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="confirm">"নিশ্চিত করা"</string>
+	<!---->
+	<string name="yes">"হ্যা"</string>
+	<!---->
+	<string name="send_file">"ফাইলটি পাঠান"</string>
+	<!---->
+	<string name="default_search_text">"ফাইল খুঁজুন"</string>
+	<!---->
+	<string name="create_hidden_file">"ফাইলের নাম যদি \'.\' দিয়ে শুরু হয়ে থাকে তাহলে এটি লুকিয়ে রাখা হবে"</string>
+	<!---->
+	<string name="drm_current_count">"বর্তমান ছাত্রদের_x000D_ ："</string>
+	<!---->
+	<string name="unlimited_usage">"অজানা লাইসেন্স"</string>
+	<!---->
+	<string name="drm_current_right">"বর্তমান সীমাবদ্ধতা_x000D_ ："</string>
+	<!---->
+	<string name="right_url">"ইস্যুকারী URL টি লাইসেন্স :_x000D_ ："</string>
+	<!---->
+	<string name="use_times">"%s বার ব্যবহার করুন"</string>
+	<!---->
+	<string name="valid_after">"পরে বৈধ"</string>
+	<!---->
+	<string name="valid_until">"যতক্ষণ বৈধ"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"কপি সুরক্ষিত ফাইল"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"কপি সুরক্ষিত ফাইল বিতরণ করা যাবে না."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"ওয়াই ফাই প্রদর্শন বন্ধ"</string>
+	<!---->
+	<string name="confirm_rename">"নাম নিশ্চিত"</string>
+	<!---->
+	<string name="drm_protection_status">"সুরক্ষার অবস্থা:"</string>
+	<!---->
+	<string name="default_folder_name">"ফোল্ডারের নাম"</string>
+	<!---->
+	<string name="drm_can_forward">"ফরওয়ার্ড করা যাবে।"</string>
+	<!---->
+	<string name="drm_can_not_forward">"ফরওয়ার্ড করা যাবে না।"</string>
+	<!---->
+	<string name="drm_no_license">"কোন ডিআরএম লাইসেন্স নেই।"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"ডিআরএম লাইসেন্স মেয়াদোত্তীর্ণ হয়ে গেছে।"</string>
+	<!---->
+	<string name="drm_interval">"বৈধর জন্য %s প্রথমবার ব্যবহারের পরে"</string>
+	<!---->
+	<string name="drm_begin">"শুরু:"</string>
+	<!---->
+	<string name="drm_no_limitation">"কোন সীমাবদ্ধতা নেই।"</string>
+	<!---->
+	<string name="drm_end">"শেষ:"</string>
+	<!---->
+	<string name="drm_use_left">"কাউন্ট লেফ্ট:"</string>
+	<!---->
+	<string name="readable_m">"সুপাঠ্য"</string>
+	<!-- no translation found for writable -->
+	<skip />
+	<!-- no translation found for permission_m -->
+	<skip />
+	<!---->
+	<string name="executable_m">"অ্যাপলিকেশন"</string>
+	<!-- no translation found for writable_m -->
+	<skip />
+	<!---->
+	<string name="detail_path_m">"লোকেশন"</string>
+	<!---->
+	<string name="detail_name_m">"নাম"</string>
+	<!---->
+	<string name="detail_size_m">"আয়তন"</string>
+	<!---->
+	<string name="detail_time_m">"সর্বশেষ পরিবর্তিত"</string>
+	<!---->
+	<string name="dialog_close_btn">"বন্ধ করুন"</string>
+	<!-- no translation found for exit_dialog_content -->
+	<skip />
+	<!-- no translation found for no_available_storage_dialog_content -->
+	<skip />
+	<!---->
+	<string name="warning">"ফাইলের সর্বোচ্চ পরিমাণ"</string>
+	<!---->
+	<string name="share_warning">"আপনি ১০০ টিরও বেশি ফাইল শেয়ার করতে পারবেন না."</string>
+	<!---->
+	<string name="unknown">"অজানা"</string>
+	<!---->
+	<string name="no_search_result">"0 result(s) for \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"কপি করার অনুমতি নেই"</string>
+	<!---->
+	<string name="cut_deny">"কাট করার অনুমতি নেই"</string>
+	<!---->
+	<string name="delete_deny">"মুছে ফেলার কোন অনুমতি নেই"</string>
+	<!---->
+	<string name="insufficient_memory">"অপর্যাপ্ত জায়গা"</string>
+	<!---->
+	<string name="paste_same_folder">"অনুলিপি করতে পারিনি: উৎস এবং গন্তব্য ফোল্ডারটি একই."</string>
+	<!---->
+	<string name="invalid_char_prompt">"আপনি অবৈধ অক্ষর নিবেশ করেছেন"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ফাইলটি খুলতে পারছি না।"</string>
+	<!---->
+	<string name="paste_sub_folder">"সাবফোল্ডারে পেস্ট করা যায়নি"</string>
+	<!---->
+	<string name="operation_fail">"কিছু ফাইল অপারেশন ব্যর্থ."</string>
+	<!---->
+	<string name="search_result">"%2$d হল \"%1$s\"-এর ফলাফল"</string>
+	<!---->
+	<string name="already_exists">"%1$s ইতিমধ্যেই ব্যবহৃত হচ্ছে"</string>
+	<!---->
+	<string name="unmounted">"%1$s আনমাউন্টেড"</string>
+	<!---->
+	<string name="file_name_too_long">"প্রবেশ করানো নাম অনেক দীর্ঘ"</string>
+	<!---->
+	<string name="some_paste_fail">"কিছু কার্যক্রম পেস্ট করতে ব্যর্থ হয়েছে"</string>
+	<!---->
+	<string name="delete_fail">"মোছা যায়নি"</string>
+	<!---->
+	<string name="some_delete_fail">"কিছু মুছে অপারেশন ব্যর্থ."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"এই ফাইলটি খোলার জন্য কোনও অ্যাপলিকেশন নেই।"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"ফরোয়ার্ড"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"ডিআরএম ফাইল ফরোয়ার্ড পারবেন না."</string>
+	<!---->
+	<string name="drm_no_valid_right">"ফাইলটি কোন বৈধ জন্য DRM কর্তৃপক্ষ আছে!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi প্রদর্শন বন্ধ করা হয়েছে"</string>
+	<!---->
+	<string name="no_folder">"এই ফোল্ডারটি খালি"</string>
+	<!---->
+	<string name="no_category">"এই বিষয়শ্রেণীতে অন্তর্ভুক্ত মোট খালি."</string>
+	<!---->
+	<string name="pasted">"ফাইল আটকানো"</string>
+	<!-- no translation found for deleted -->
+	<skip />
+	<!---->
+	<string name="path_not_exists">"%1$s বিদ্যমান নেই"</string>
+	<!---->
+	<string name="not_available">"লভ্য নয়"</string>
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!-- no translation found for exceeded_max_task -->
+	<skip />
+	<!-- no translation found for add_waiting_task -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"ছবি"</string>
+	<!---->
+	<string name="category_vedios">"ভিডিও"</string>
+	<!---->
+	<string name="category_music">"মিউজিক"</string>
+	<!---->
+	<string name="category_download">"ডাউনলোড"</string>
+	<!---->
+	<string name="category_bluetooth">"ব্লুটুথ"</string>
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!---->
+	<string name="main_document">"কাগজপত্র"</string>
+	<!---->
+	<string name="category_archives">"নথিপত্র"</string>
+	<!---->
+	<string name="category_audio">"অডিও"</string>
+	<!---->
+	<string name="main_installers">"ইনস্টলারের"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"ফোন স্টোরেজ"</string>
+	<!---->
+	<string name="sd_card">"এসডি কার্ড"</string>
+	<!---->
+	<string name="usbotg">"এক্সটার্নাল ইউএসবি স্টোরেজ"</string>
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!---->
+	<string name="permission_setting_title">"গ্রান্ট এক্সেস"</string>
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"প্রস্থান"</string>
+	<!---->
+	<string name="selected">"নির্বাচিত"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"ফোন"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"ফোনের স্টোরেজ"</string>
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!---->
+	<string name="usbotg_n">"বাহ্যিক সংগ্রহস্থল"</string>
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="permission_settings">"সেটিং"</string>
+	<!-- no translation found for total_progress -->
+	<skip />
+	<!-- no translation found for total_task -->
+	<skip />
+	<!-- no translation found for items -->
+	<skip />
+	<!-- no translation found for folder_items -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"ফ্রি মোড"</string>
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for used_of -->
+	<skip />
+	<!---->
+	<string name="invalid_empty_name">"ফাইল বা ফোল্ডারের নাম খালি রাখা যাবে না"</string>
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for minutes_ago -->
+	<skip />
+	<!-- no translation found for hours_ago -->
+	<skip />
+	<!-- no translation found for minute_ago -->
+	<skip />
+	<!-- no translation found for hour_ago -->
+	<skip />
+	<!-- no translation found for day_ago -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for safe_no_file_title -->
+	<skip />
+	<!-- no translation found for safe_no_file_content -->
+	<skip />
+	<!-- no translation found for safe_activity_title -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for add_files -->
+	<skip />
+	<!-- no translation found for compress_susscces -->
+	<skip />
+	<!-- no translation found for extract_susscces -->
+	<skip />
+	<!-- no translation found for compress_file_name_too_long -->
+	<skip />
+	<!---->
+	<string name="category_safe">"ব্যক্তিগত"</string>
+	<!-- no translation found for remove_private_tip -->
+	<skip />
+	<!---->
+	<string name="remove_private_title">"সরিয়ে ফেলুন"</string>
+	<!-- no translation found for remove_safe_single -->
+	<skip />
+	<!-- no translation found for remove_safe_multi -->
+	<skip />
+	<!-- no translation found for folder_already_exists -->
+	<skip />
+	<!-- no translation found for file_already_exists -->
+	<skip />
+	<!-- no translation found for keep_both -->
+	<skip />
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

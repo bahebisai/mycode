@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!---->
+	<string name="sort">"စီသည်"</string>
+	<!---->
+	<string name="sort_by_name">"အမည္"</string>
+	<!---->
+	<string name="sort_by_time">"ရက်စွဲ"</string>
+	<!---->
+	<string name="sort_by_type">"ရိုက်သည်"</string>
+	<!---->
+	<string name="sort_by_size">"အရြယ္အစား"</string>
+	<!---->
+	<string name="copy">"မိတ္တူကူးရန်"</string>
+	<!---->
+	<string name="create_folder">"ဖန်တီးရန်"</string>
+	<!---->
+	<string name="cut">"ဖြတ်ရန်"</string>
+	<!---->
+	<string name="delete">"ဖ်က္ရန္"</string>
+	<!---->
+	<string name="deselect_all">"အားလုံးရွေးချယ်ထားခြင်းကို ပယ်ဖျက်ပါ"</string>
+	<!---->
+	<string name="select_all">"အားလံုးကိုေရြး"</string>
+	<!---->
+	<string name="show_file">"ဖျောက်ထားသည့် ဖိုင်များ ပြသည်"</string>
+	<!---->
+	<string name="hide_file">"ဖျောက်ထားသည့် ဖိုင်များဖွက်သည်"</string>
+	<!---->
+	<string name="paste">"ခ်"</string>
+	<!---->
+	<string name="rename">"အမည္ေျပာင္း"</string>
+	<!-- no translation found for extract -->
+	<skip />
+	<!-- no translation found for extracting -->
+	<skip />
+	<!-- no translation found for compress -->
+	<skip />
+	<!-- no translation found for compressing -->
+	<skip />
+	<!---->
+	<string name="share">"မွ်ေ၀ပါ"</string>
+	<!---->
+	<string name="menu_select">"ေရြးခ်ယ္သည္"</string>
+	<!-- no translation found for view_list -->
+	<skip />
+	<!---->
+	<string name="view_grid">"ဇယားကြက္ျဖင့္ ၾကည့္ပါ"</string>
+	<!---->
+	<string name="create_new_folder">"ဖိုဒါဖန်တီးပါ"</string>
+	<!---->
+	<string name="detail">"အသေးစိတ်"</string>
+	<!---->
+	<string name="shortcut_item">"ျဖတ္လမ္းအျဖစ္ထားပါ"</string>
+	<!---->
+	<string name="search">"ရှာရန်"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"ေရြးခ်ယ္ထားေသာအရာကိုဖ်က္မည္လား?"</string>
+	<!-- no translation found for hide_btn -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!---->
+	<string name="alert_delete_multiple">"ဖ်က္သိမ္းမည္႔ ဖိုင္မ်ားကို ေရြးခ်ယ္သည္"</string>
+	<!---->
+	<string name="modified_time">"ျပင္ထားေသာ"</string>
+	<!---->
+	<string name="msg_rename_ext">"သင်သည် ဖိုင်နောက်ဆက်တွဲအား ပြောင်းနေပါသည်၊ ယင်းမှာ ဖိုင်အား မမှတ်မိခြင်း ဖြစ်စေနိုင်ပါသည်။ သင်၎င်းကို ပြုလုပ်ရန် သေချာပါသလား။"</string>
+	<!---->
+	<string name="wait">"စောင့်ဆိုင်းပါ..."</string>
+	<!---->
+	<string name="done">"ပြီးပြီ"</string>
+	<!---->
+	<string name="next">"ေနာက္ထပ္"</string>
+	<!---->
+	<string name="cancel">"ပယ္ဖ်က္ရန္"</string>
+	<!-- no translation found for show -->
+	<skip />
+	<!---->
+	<string name="no">"မှား"</string>
+	<!---->
+	<string name="ok">"အုိေက"</string>
+	<!-- no translation found for confirm -->
+	<skip />
+	<!---->
+	<string name="yes">"မှန်"</string>
+	<!---->
+	<string name="send_file">"ဖိုင်ပို့သည်"</string>
+	<!---->
+	<string name="default_search_text">"ဖိုင်များ ရှာသည်"</string>
+	<!---->
+	<string name="create_hidden_file">"အကယ်၍ ဖိုင်အမည်သည် \'.\' ဖြင့်စလျှင် ထိုဖိုင်ကို ဖျောက်ထားလိမ့်မည်။"</string>
+	<!---->
+	<string name="drm_current_count">"Current Count："</string>
+	<!---->
+	<string name="unlimited_usage">"အကန္႔အသတ္မရွိသံုးစြဲမႈ"</string>
+	<!---->
+	<string name="drm_current_right">"လက္ရိွအကန္႔အသတ္："</string>
+	<!---->
+	<string name="right_url">"URL လိုင္စင္ထုတ္ေပးသူ："</string>
+	<!---->
+	<string name="use_times">"%s အႀကိမ္မ်ားအသံုးျပဳပါ။"</string>
+	<!---->
+	<string name="valid_after">"ကုန္ဆံုးၿပီးေနာက္"</string>
+	<!---->
+	<string name="valid_until">"တုိင္ေအာင္ၾကာရွည္ခံသည္။"</string>
+	<!-- no translation found for drm_wifidisplay_title -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_message">"ကူးယူမႈပိတ္ထားသည့္ဖိုင္အား ျဖန္႔ျဖဴး၍ မရႏိုင္ပါ။"</string>
+	<!-- no translation found for drm_wifidisplay_cancel_btn -->
+	<skip />
+	<!---->
+	<string name="confirm_rename">"အမည်ပြန်ပေးခြင်း သေချာမှုပြုသည်"</string>
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"ဖိုင္တြဲအည္"</string>
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!---->
+	<string name="drm_toast_license_expired">"DRM လိုင်စင် သက်တမ်းကုန်နေပြီ။"</string>
+	<!-- no translation found for drm_interval -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for readable_m -->
+	<skip />
+	<!-- no translation found for writable -->
+	<skip />
+	<!-- no translation found for permission_m -->
+	<skip />
+	<!-- no translation found for executable_m -->
+	<skip />
+	<!-- no translation found for writable_m -->
+	<skip />
+	<!---->
+	<string name="detail_path_m">"တည်နေရာ"</string>
+	<!---->
+	<string name="detail_name_m">"အမည္"</string>
+	<!---->
+	<string name="detail_size_m">"အရြယ္အစား"</string>
+	<!-- no translation found for detail_time_m -->
+	<skip />
+	<!---->
+	<string name="dialog_close_btn">"ပိတ်သည်"</string>
+	<!-- no translation found for exit_dialog_content -->
+	<skip />
+	<!-- no translation found for no_available_storage_dialog_content -->
+	<skip />
+	<!---->
+	<string name="warning">"သတိပေးသည့် ပုံစံ"</string>
+	<!---->
+	<string name="share_warning">"ရင်းမြစ် : မျှဝေလိုသည့် ဖိုင်များ ၁၀၀ ထက် မကျော်လွန်ရပါ"</string>
+	<!---->
+	<string name="unknown">"အမည်မသိ"</string>
+	<!---->
+	<string name="no_search_result">""%1$s" အတြက္ ရလဒ္ “၀”"</string>
+	<!---->
+	<string name="copy_deny">"ကူးယူရန် ခွင့်ပြုချက်မရှိပါ"</string>
+	<!---->
+	<string name="cut_deny">"ဖြတ်ရန် ခွင့်ပြုချက်မရှိပါ"</string>
+	<!---->
+	<string name="delete_deny">"ဖျက်ပစ်ရန် ခွင့်ပြုချက်မရှိပါ"</string>
+	<!---->
+	<string name="insufficient_memory">"နေရာလွတ် မလုံလောက်ပါ"</string>
+	<!---->
+	<string name="paste_same_folder">"လမ်းညွှန်အတူတူထဲသို့ ပြန်လည်ဖော်၍ မရနိုင်ပါ"</string>
+	<!---->
+	<string name="invalid_char_prompt">"မလျော်ကန်သော အက္ခရာကို သင် သွင်းထားပါသည်"</string>
+	<!---->
+	<string name="msg_unable_open_file">"ဖိုင်ပုံစံမှာ အထောက်အပံ့ မပေးထားပါ။"</string>
+	<!---->
+	<string name="paste_sub_folder">"ဖို(လ်)ဒါ အခွဲသို့ ပြန်လည်ဖော်၍ မရပါ"</string>
+	<!---->
+	<string name="operation_fail">"လုပ္ငန္းမ်ားေဆာင္ရြက္မရပါ။"</string>
+	<!---->
+	<string name="search_result">"%2$d ရလဒ်(များ) အတွက် \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s မှာ သုံးပြီးဖြစ်ပါသည်"</string>
+	<!---->
+	<string name="unmounted">"%1$s အားတပ်ဆင် ပြီးမှ ပြန်လည်ဖယ်ထုတ် လိုက်သည်"</string>
+	<!---->
+	<string name="file_name_too_long">"ထည့်သွင်းသော အမည်မှာ အလွန်ရှည်သည်"</string>
+	<!---->
+	<string name="some_paste_fail">"အချို့သော ပြန်လည်ဖော်သည့် ဆောင်ရွက်ချက်များ မအောင်မြင်ပါ"</string>
+	<!---->
+	<string name="delete_fail">"ဖျက်ပစ်မှု မအောင်မြင်ပါ"</string>
+	<!---->
+	<string name="some_delete_fail">"အခ်ိဳ႕ပယ္ဖ်က္ျခင္းလုပ္ငန္းမ်ား ေဆာင္ရြက္၍မရပါ။"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"ဖိုင္ကိုဖြင့္ရန္ အသံုးျပဳျခင္း မရႏုိင္ပါ"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"ျပန္ပို ့၍မရပါ"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM ဖိုင္(လ္)ကို ျပန္ပို ့၍မရနုိင္ပါ။"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ဖိုင္(လ္)တြင္ အသံုးျပဳႏုိင္ေသာ DRM ခြင့္ျပဳခ်က္ မပါရိွပါ။"</string>
+	<!-- no translation found for tv_link_close_toast -->
+	<skip />
+	<!---->
+	<string name="no_folder">"ဤဖိုဒါမှာ ဗလာဖြစ်နေသည်"</string>
+	<!-- no translation found for no_category -->
+	<skip />
+	<!-- no translation found for pasted -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!---->
+	<string name="path_not_exists">"%1$s မတည်ရှိပါ"</string>
+	<!---->
+	<string name="not_available">"မရနိုင်ပါ"</string>
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!-- no translation found for exceeded_max_task -->
+	<skip />
+	<!-- no translation found for add_waiting_task -->
+	<skip />
+	<!---->
+	<string name="category_pictures">"ရုပ်ပုံများ"</string>
+	<!---->
+	<string name="category_vedios">"ဗီဒီယိုများ"</string>
+	<!---->
+	<string name="category_music">"တေးဂီတ"</string>
+	<!---->
+	<string name="category_download">"ဒေါင်းလုဒ်လုပ်ထားချက်များ"</string>
+	<!---->
+	<string name="category_bluetooth">"ဘလူးတု(သ်)"</string>
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!-- no translation found for main_document -->
+	<skip />
+	<!---->
+	<string name="category_archives">"မွတ္တမ္း"</string>
+	<!---->
+	<string name="category_audio">"အသံ"</string>
+	<!-- no translation found for main_installers -->
+	<skip />
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!---->
+	<string name="phone_storage">"ဖုန္းသိမ္းဆည္းမႈ"</string>
+	<!---->
+	<string name="sd_card">"SD ကတ်"</string>
+	<!---->
+	<string name="usbotg">"ပြင်ပ USB သိမ်းဆည်းရန်နေရာ"</string>
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!-- no translation found for permission_setting_title -->
+	<skip />
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"ထြက္ေပါက္"</string>
+	<!---->
+	<string name="selected">"ရွေးချယ်ထားသော"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"ဖုန်း"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"အတြင္းပိုင္း သိမ္းဆည္းရန္ေနရာ"</string>
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!-- no translation found for usbotg_n -->
+	<skip />
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!---->
+	<string name="permission_settings">"္ဆက္တင္မ်ား"</string>
+	<!-- no translation found for total_progress -->
+	<skip />
+	<!-- no translation found for total_task -->
+	<skip />
+	<!-- no translation found for items -->
+	<skip />
+	<!-- no translation found for folder_items -->
+	<skip />
+	<!---->
+	<string name="freeof_m">"Free"</string>
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for used_of -->
+	<skip />
+	<!---->
+	<string name="invalid_empty_name">"ဖိုင် သို့မဟုတ် ဖို(လ်)ဒါ အမည် မရှိအောင် မလုပ်နိုင်ပါ"</string>
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for minutes_ago -->
+	<skip />
+	<!-- no translation found for hours_ago -->
+	<skip />
+	<!-- no translation found for minute_ago -->
+	<skip />
+	<!-- no translation found for hour_ago -->
+	<skip />
+	<!-- no translation found for day_ago -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for safe_no_file_title -->
+	<skip />
+	<!-- no translation found for safe_no_file_content -->
+	<skip />
+	<!-- no translation found for safe_activity_title -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for add_files -->
+	<skip />
+	<!-- no translation found for compress_susscces -->
+	<skip />
+	<!-- no translation found for extract_susscces -->
+	<skip />
+	<!-- no translation found for compress_file_name_too_long -->
+	<skip />
+	<!---->
+	<string name="category_safe">"ပုဂ္ဂလိက"</string>
+	<!-- no translation found for remove_private_tip -->
+	<skip />
+	<!-- no translation found for remove_private_title -->
+	<skip />
+	<!-- no translation found for remove_safe_single -->
+	<skip />
+	<!-- no translation found for remove_safe_multi -->
+	<skip />
+	<!-- no translation found for folder_already_exists -->
+	<skip />
+	<!-- no translation found for file_already_exists -->
+	<skip />
+	<!-- no translation found for keep_both -->
+	<skip />
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

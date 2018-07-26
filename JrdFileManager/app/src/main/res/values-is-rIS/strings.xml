@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Aug 29 15:47:44 GMT+08:00 2017
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Skrár"</string>
+	<!---->
+	<string name="sort">"Raða"</string>
+	<!---->
+	<string name="sort_by_name">"Heiti"</string>
+	<!---->
+	<string name="sort_by_time">"Dagsetning"</string>
+	<!---->
+	<string name="sort_by_type">"Tegund"</string>
+	<!---->
+	<string name="sort_by_size">"Stærð"</string>
+	<!---->
+	<string name="copy">"Afrita"</string>
+	<!---->
+	<string name="create_folder">"Búa til"</string>
+	<!---->
+	<string name="cut">"Klippa"</string>
+	<!---->
+	<string name="delete">"Eyða"</string>
+	<!---->
+	<string name="deselect_all">"Velja ekkert"</string>
+	<!---->
+	<string name="select_all">"Velja allt"</string>
+	<!---->
+	<string name="show_file">"Sýna faldar skrár"</string>
+	<!---->
+	<string name="hide_file">"Fela faldar skrár"</string>
+	<!---->
+	<string name="paste">"Líma"</string>
+	<!---->
+	<string name="rename">"Endurnefna"</string>
+	<!---->
+	<string name="extract">"Draga út"</string>
+	<!---->
+	<string name="extracting">"Dregur út"</string>
+	<!---->
+	<string name="compress">"Þjappa"</string>
+	<!---->
+	<string name="compressing">"Þjappar"</string>
+	<!---->
+	<string name="share">"Deila"</string>
+	<!---->
+	<string name="menu_select">"Velja"</string>
+	<!---->
+	<string name="view_list">"Listayfirlit"</string>
+	<!---->
+	<string name="view_grid">"Töfluyfirlit"</string>
+	<!---->
+	<string name="create_new_folder">"Búa til möppu"</string>
+	<!---->
+	<string name="detail">"Upplýsingar"</string>
+	<!---->
+	<string name="shortcut_item">"Bæta við flýtileið"</string>
+	<!---->
+	<string name="search">"Leita"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vildu eyða völdum atriðum?"</string>
+	<!---->
+	<string name="hide_btn">"Fela"</string>
+	<!---->
+	<string name="loading">"Hleður efni"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Völdum skrám verður eytt."</string>
+	<!---->
+	<string name="modified_time">"Breytt"</string>
+	<!---->
+	<string name="msg_rename_ext">"Skráarendingu verður breytt. Hugsanlega verða ekki borin kennsl á skrána. Viltu halda áfram?"</string>
+	<!---->
+	<string name="wait">"Augnablik ..."</string>
+	<!---->
+	<string name="done">"Lokið"</string>
+	<!---->
+	<string name="next">"Áfram"</string>
+	<!---->
+	<string name="cancel">"Hætta við"</string>
+	<!---->
+	<string name="show">"Sýna"</string>
+	<!---->
+	<string name="no">"Nei"</string>
+	<!---->
+	<string name="ok">"Í lagi"</string>
+	<!---->
+	<string name="confirm">"Staðfesta"</string>
+	<!---->
+	<string name="yes">"Já"</string>
+	<!---->
+	<string name="send_file">"Deila skrá(m) með"</string>
+	<!---->
+	<string name="default_search_text">"Leita að skrám"</string>
+	<!---->
+	<string name="create_hidden_file">"Skráin verður falin ef heitið hefst á punkti (.)"</string>
+	<!---->
+	<string name="drm_current_count">"Núverandi fjöldi:"</string>
+	<!---->
+	<string name="unlimited_usage">"Ótakmörkuð notkun"</string>
+	<!---->
+	<string name="drm_current_right">"Núverandi takmörkun:"</string>
+	<!---->
+	<string name="right_url">"Vefslóð leyfisútgefanda:"</string>
+	<!---->
+	<string name="use_times">"Use %s times"</string>
+	<!---->
+	<string name="valid_after">"Gildir eftir"</string>
+	<!---->
+	<string name="valid_until">"Gildir til"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Afritunarvarðar skrár"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Ekki er hægt að dreifa afritunarvörðum skrám."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Slökkva á útsendingarskjá"</string>
+	<!---->
+	<string name="confirm_rename">"Staðfesta nafn"</string>
+	<!---->
+	<string name="drm_protection_status">"Verndarstaða:"</string>
+	<!---->
+	<string name="default_folder_name">"Möppuheiti"</string>
+	<!---->
+	<string name="drm_can_forward">"Hægt að framsenda."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ekki hægt að framsenda"</string>
+	<!---->
+	<string name="drm_no_license">"Ekkert tiltækt DRM-leyfi."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-leyfið er útrunnið."</string>
+	<!---->
+	<string name="drm_interval">"Gildir í %s eftir notkun í fyrsta skipti"</string>
+	<!---->
+	<string name="drm_begin">"Byrja:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Engin takmörk"</string>
+	<!---->
+	<string name="drm_end">"Ljúka:"</string>
+	<!---->
+	<string name="drm_use_left">"Eftir:"</string>
+	<!---->
+	<string name="readable_m">"Læsilegt"</string>
+	<!---->
+	<string name="writable">"skrifanlegt"</string>
+	<!---->
+	<string name="permission_m">"Heimildir"</string>
+	<!---->
+	<string name="executable_m">"Forrit"</string>
+	<!---->
+	<string name="writable_m">"Skrifanleg"</string>
+	<!---->
+	<string name="detail_path_m">"Staðsetning"</string>
+	<!---->
+	<string name="detail_name_m">"Heiti"</string>
+	<!---->
+	<string name="detail_size_m">"Stærð"</string>
+	<!---->
+	<string name="detail_time_m">"Síðast breytt"</string>
+	<!---->
+	<string name="dialog_close_btn">"Loka"</string>
+	<!---->
+	<string name="exit_dialog_content">"Aðgerð er í gangi. Viltu örugglega hætta?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kortið var fjarlægt eða er innbyggt."</string>
+	<!---->
+	<string name="warning">"Hámarksskráarfjölda náð"</string>
+	<!---->
+	<string name="share_warning">"Þú getur ekki deilt fleiri en 100 skrám."</string>
+	<!---->
+	<string name="unknown">"óþekkt"</string>
+	<!---->
+	<string name="no_search_result">"0 skrá(r) fundust fyrir \„%1$s\“"</string>
+	<!---->
+	<string name="copy_deny">"Ekki heimild to afrita."</string>
+	<!---->
+	<string name="cut_deny">"Ekki heimild til að klippa."</string>
+	<!---->
+	<string name="delete_deny">"Ekki heimild til að eyða."</string>
+	<!---->
+	<string name="insufficient_memory">"Ekki nægt pláss"</string>
+	<!---->
+	<string name="paste_same_folder">"Ekki tókst að afrita: Uppruna- og viðtökumappa er sú sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Þú hefur slegið inn ógildan staf."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Skráarsniðið er ekki stutt."</string>
+	<!---->
+	<string name="paste_sub_folder">"Ekki hægt að líma í undirmöppu."</string>
+	<!---->
+	<string name="operation_fail">"Ekki tókst að framkvæma sumar skrár"</string>
+	<!---->
+	<string name="search_result">"%2$d niðurstaða/niðurstöður fyrir \„%1$s\“"</string>
+	<!---->
+	<string name="already_exists">"%1$s er þegar í notkun."</string>
+	<!---->
+	<string name="unmounted">"%1$s er aftengt"</string>
+	<!---->
+	<string name="file_name_too_long">"Heitið er of langt."</string>
+	<!---->
+	<string name="some_paste_fail">"Ekki var hægt að líma sumt"</string>
+	<!---->
+	<string name="delete_fail">"Ekki tókst að eyða"</string>
+	<!---->
+	<string name="some_delete_fail">"Ekki var hægt að eyða sumu"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Ekkert forrit til að opna skrána"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Ekki framsenda"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Ekki er hægt að framsenda DRM-skrána."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Skráin er ekki með gilda DRM-heimild."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Útsendingarskjá hefur verið lokað"</string>
+	<!---->
+	<string name="no_folder">"Þessi mappa er tóm"</string>
+	<!---->
+	<string name="no_category">"Þessi flokkur er tómur"</string>
+	<!---->
+	<string name="pasted">"Skrá límd"</string>
+	<!---->
+	<string name="deleted">"Skrá eytt"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s er ekki til"</string>
+	<!---->
+	<string name="not_available">"Ekki tiltækt"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Umbeðin mappa er ekki til"</string>
+	<!---->
+	<string name="no_search_result_m">"Engar niðurstöður fundust fyrir \„%1$s\“"</string>
+	<!---->
+	<string name="exceeded_max_task">"Hefur farið yfir hámarksfjölda verka"</string>
+	<!---->
+	<string name="add_waiting_task">"Hefur verið bætt við biðröð keyrsluverka"</string>
+	<!---->
+	<string name="category_pictures">"Myndir"</string>
+	<!---->
+	<string name="category_vedios">"Myndbönd"</string>
+	<!---->
+	<string name="category_music">"Tónlist"</string>
+	<!---->
+	<string name="category_download">"Niðurhal"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Nýlegt"</string>
+	<!---->
+	<string name="main_document">"Skjöl"</string>
+	<!---->
+	<string name="category_archives">"Söfn"</string>
+	<!---->
+	<string name="category_audio">"Hljóð"</string>
+	<!---->
+	<string name="main_installers">"Uppsetningarforrit"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Geymsla símans"</string>
+	<!---->
+	<string name="sd_card">"SD-kort"</string>
+	<!---->
+	<string name="usbotg">"Ytri USB-geymsla"</string>
+	<!---->
+	<string name="choice_file">"Velja endastað"</string>
+	<!---->
+	<string name="permission_welcome_title">"Heimildar krafist"</string>
+	<!---->
+	<string name="permission_setting_title">"Veita aðgang"</string>
+	<!---->
+	<string name="permission_setting_content">"Þú getur breytt heimildum tækisins í stillingum forritsins. Veittu skráastjórnun aðgang að geymslunni."</string>
+	<!---->
+	<string name="permission_exit_btn">"Loka"</string>
+	<!---->
+	<string name="selected">"Valið"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Sími"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Innri geymsla"</string>
+	<!---->
+	<string name="usbotg_m">"Ytri"</string>
+	<!---->
+	<string name="usbotg_n">"Ytri geymsla"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Stillingar"</string>
+	<!---->
+	<string name="total_progress">"Heildarframvinda:"</string>
+	<!---->
+	<string name="total_task">"Fjöldi verkefna:"</string>
+	<!---->
+	<string name="items">"atriði"</string>
+	<!---->
+	<string name="folder_items">"%1$d atriði"</string>
+	<!---->
+	<string name="freeof_m">"Ókeypis"</string>
+	<!---->
+	<string name="choose_files">"Veldu skrá(r)"</string>
+	<!---->
+	<string name="used_of">"notað af"</string>
+	<!---->
+	<string name="invalid_empty_name">"Heiti skráar eða möppu má ekki vera autt."</string>
+	<!---->
+	<string name="just_now">"rétt í þessu"</string>
+	<!---->
+	<string name="minutes_ago">"mínútur síðan"</string>
+	<!---->
+	<string name="hours_ago">"klukkustundir síðan"</string>
+	<!---->
+	<string name="minute_ago">"mínúta síðan"</string>
+	<!---->
+	<string name="hour_ago">"klukkustund síðan"</string>
+	<!---->
+	<string name="day_ago">"dagur síðan"</string>
+	<!---->
+	<string name="searching">"Leitar ..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Engar lokaðar skrár að svo stöddu"</string>
+	<!---->
+	<string name="safe_no_file_content">"Snertu efst í hægra horninu til að bæta við skrám"</string>
+	<!---->
+	<string name="safe_activity_title">"Lokaðar skrár"</string>
+	<!---->
+	<string name="move_safe">"Gera lokað"</string>
+	<!---->
+	<string name="set_public">"Gera opinbert"</string>
+	<!---->
+	<string name="add_files">"Bæta við skrám"</string>
+	<!---->
+	<string name="compress_susscces">"Skrá þjöppuð"</string>
+	<!---->
+	<string name="extract_susscces">"Skrá afþjöppuð"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Þjappað skráarheiti er of langt"</string>
+	<!---->
+	<string name="category_safe">"Lokað"</string>
+	<!---->
+	<string name="remove_private_tip">"Fjarlægja úr einkastillingu?"</string>
+	<!---->
+	<string name="remove_private_title">"Fjarlægja"</string>
+	<!---->
+	<string name="remove_safe_single">"Gera %1$s sýnilegt öllum notendum?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Gera valdar skrár sýnilegar öllum notendum?"</string>
+	<!---->
+	<string name="folder_already_exists">"Mappan er þegar til"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s er þegar til"</string>
+	<!---->
+	<string name="keep_both">"Halda báðum"</string>
+	<!---->
+	<string name="set_private_failed">"Ytri skrá getur ekki stillt einkaskrá."</string>
+</resources>

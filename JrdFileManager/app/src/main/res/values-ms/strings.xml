@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Fail"</string>
+	<!---->
+	<string name="sort">"Isih"</string>
+	<!---->
+	<string name="sort_by_name">"Nama"</string>
+	<!---->
+	<string name="sort_by_time">"Tarikh"</string>
+	<!---->
+	<string name="sort_by_type">"Taip"</string>
+	<!---->
+	<string name="sort_by_size">"Saiz"</string>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!---->
+	<string name="create_folder">"Buat"</string>
+	<!---->
+	<string name="cut">"Potong"</string>
+	<!---->
+	<string name="delete">"Padam"</string>
+	<!---->
+	<string name="deselect_all">"Nyahpilih semua"</string>
+	<!---->
+	<string name="select_all">"Pilih semua"</string>
+	<!---->
+	<string name="show_file">"Tunjukkan fail tersembunyi"</string>
+	<!---->
+	<string name="hide_file">"Sembunyikan fail tersembunyi"</string>
+	<!---->
+	<string name="paste">"Tampal"</string>
+	<!---->
+	<string name="rename">"Namakan semula"</string>
+	<!---->
+	<string name="extract">"Ekstrak"</string>
+	<!---->
+	<string name="extracting">"Mengekstrak"</string>
+	<!---->
+	<string name="compress">"Mampatkan"</string>
+	<!---->
+	<string name="compressing">"Memampatkan"</string>
+	<!---->
+	<string name="share">"Kongsi"</string>
+	<!---->
+	<string name="menu_select">"Pilih"</string>
+	<!---->
+	<string name="view_list">"Paparan senarai"</string>
+	<!---->
+	<string name="view_grid">"Paparan grid"</string>
+	<!---->
+	<string name="create_new_folder">"Buat folder"</string>
+	<!---->
+	<string name="detail">"Butiran"</string>
+	<!---->
+	<string name="shortcut_item">"Tambah pintasan"</string>
+	<!---->
+	<string name="search">"Cari"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Padam item yang dipilih?"</string>
+	<!---->
+	<string name="hide_btn">"Sembunyikan"</string>
+	<!---->
+	<string name="loading">"Memuatkan kandungan"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Fail yang dipilih akan dipadam."</string>
+	<!---->
+	<string name="modified_time">"Diubahsuai"</string>
+	<!---->
+	<string name="msg_rename_ext">"Sambungan fail akan ditukar. Fail mungkin tidak dikenali. Teruskan?"</string>
+	<!---->
+	<string name="wait">"Sila tunggu..."</string>
+	<!---->
+	<string name="done">"Selesai"</string>
+	<!---->
+	<string name="next">"Seterusnya"</string>
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="show">"Tunjuk"</string>
+	<!---->
+	<string name="no">"Tidak"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Sahkan"</string>
+	<!---->
+	<string name="yes">"Ya"</string>
+	<!---->
+	<string name="send_file">"Kongsi fail melalui"</string>
+	<!---->
+	<string name="default_search_text">"Cari fail"</string>
+	<!---->
+	<string name="create_hidden_file">"Fail akan disembunyikan jika namanya bermula dengan \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Kiraan semasa:"</string>
+	<!---->
+	<string name="unlimited_usage">"Penggunaan tanpa had"</string>
+	<!---->
+	<string name="drm_current_right">"Kekangan semasa:"</string>
+	<!---->
+	<string name="right_url">"URL Pengeluar Lesen:"</string>
+	<!---->
+	<string name="use_times">"Gunakan %s kali"</string>
+	<!---->
+	<string name="valid_after">"Sah selepas"</string>
+	<!---->
+	<string name="valid_until">"Sah sehingga"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Fail dilindung salin"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Dilindungi hak fail tidak boleh diagihkan."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Matikan Paparan Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Sahkan nama"</string>
+	<!---->
+	<string name="drm_protection_status">"Status perlindungan:"</string>
+	<!---->
+	<string name="default_folder_name">"Nama Folder"</string>
+	<!---->
+	<string name="drm_can_forward">"Boleh dikirim semula."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Tidak boleh dikemukakan."</string>
+	<!---->
+	<string name="drm_no_license">"Tiada lesen DRM disediakan."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Lesen DRM telah tamat."</string>
+	<!---->
+	<string name="drm_interval">"Sah selama %s selepas penggunaan kali pertama"</string>
+	<!---->
+	<string name="drm_begin">"bermula:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Tiada had."</string>
+	<!---->
+	<string name="drm_end">"akhir:"</string>
+	<!---->
+	<string name="drm_use_left">"Kekal:"</string>
+	<!---->
+	<string name="readable_m">"Boleh dibaca"</string>
+	<!---->
+	<string name="writable">"boleh ditulis"</string>
+	<!---->
+	<string name="permission_m">"Kebenaran"</string>
+	<!---->
+	<string name="executable_m">"Aplikasi"</string>
+	<!---->
+	<string name="writable_m">"Boleh ditulis"</string>
+	<!---->
+	<string name="detail_path_m">"Lokasi"</string>
+	<!---->
+	<string name="detail_name_m">"Nama"</string>
+	<!---->
+	<string name="detail_size_m">"Saiz"</string>
+	<!---->
+	<string name="detail_time_m">"Terakhir diubah"</string>
+	<!---->
+	<string name="dialog_close_btn">"Tutup"</string>
+	<!---->
+	<string name="exit_dialog_content">"Operasi semasa sedang berjalan, pasti ingin keluar?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Kad SD telah dialih keluar atau terbina dalam."</string>
+	<!---->
+	<string name="warning">"Jumlah fail maksimum"</string>
+	<!---->
+	<string name="share_warning">"Anda tidak boleh berkongsi lebih daripada 100 fail."</string>
+	<!---->
+	<string name="unknown">"Tidak diketahui"</string>
+	<!---->
+	<string name="no_search_result">"0 fail ditemui untuk \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Tiada kebenaran untuk salin"</string>
+	<!---->
+	<string name="cut_deny">"Tiada kebenaran untuk potong"</string>
+	<!---->
+	<string name="delete_deny">"Tiada kebenaran untuk padam"</string>
+	<!---->
+	<string name="insufficient_memory">"Ruang tidak mencukupi."</string>
+	<!---->
+	<string name="paste_same_folder">"Tidak dapat menyalin: folder sumber dan destinasi sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Anda telah memasukkan watak tidak sah"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format fail tidak disokong."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tidak boleh menampal fail ke subfolder"</string>
+	<!---->
+	<string name="operation_fail">"Beberapa operasi fail telah gagal."</string>
+	<!---->
+	<string name="search_result">"%2$d keputusan untuk \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sudah digunakan."</string>
+	<!---->
+	<string name="unmounted">"%1$s dinyahlekap"</string>
+	<!---->
+	<string name="file_name_too_long">"Nama yang dimasukkan terlalu panjang"</string>
+	<!---->
+	<string name="some_paste_fail">"Operasi tampal gagal"</string>
+	<!---->
+	<string name="delete_fail">"Tidak dapat dipadam"</string>
+	<!---->
+	<string name="some_delete_fail">"Beberapa operasi padam telah gagal"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Tiada aplikasi untuk membuka fail ini."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Tidak Dimajukan"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Fail DRM tidak boleh dimajukan."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Fail tidak mempunyai autoriti DRM yang sah!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Paparan Wi-Fi telah ditutup"</string>
+	<!---->
+	<string name="no_folder">"Folder ini kosong"</string>
+	<!---->
+	<string name="no_category">"Kategori ini kosong."</string>
+	<!---->
+	<string name="pasted">"Fail ditampal"</string>
+	<!---->
+	<string name="deleted">"Fail dipadam"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s tidak wujud"</string>
+	<!---->
+	<string name="not_available">"Tidak tersedia"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Folder yang diminta tidak wujud"</string>
+	<!---->
+	<string name="no_search_result_m">"Tiada hasil ditemui untuk \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Telah melebihi bilangan tugas maksimum semasa"</string>
+	<!---->
+	<string name="add_waiting_task">"Telah ditambah pada baris gilir pelaksanaan tugas"</string>
+	<!---->
+	<string name="category_pictures">"Gambar"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Muzik"</string>
+	<!---->
+	<string name="category_download">"Muat turun"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Terkini"</string>
+	<!---->
+	<string name="main_document">"Dokumen"</string>
+	<!---->
+	<string name="category_archives">"Arkib"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Pemasang"</string>
+	<!---->
+	<string name="unit_B">"B."</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Storan telefon"</string>
+	<!---->
+	<string name="sd_card">"Kad SD"</string>
+	<!---->
+	<string name="usbotg">"Storan USB luaran"</string>
+	<!---->
+	<string name="choice_file">"Pilih destinasi"</string>
+	<!---->
+	<string name="permission_welcome_title">"Kebenaran diperlukan"</string>
+	<!---->
+	<string name="permission_setting_title">"Berikan akses"</string>
+	<!---->
+	<string name="permission_setting_content">"Ubah kebenaran dalam seting apl peranti anda. Beri Pengurus Fail akses kepada storan."</string>
+	<!---->
+	<string name="permission_exit_btn">"Keluar"</string>
+	<!---->
+	<string name="selected">"dipilih"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Storan dalaman"</string>
+	<!---->
+	<string name="usbotg_m">"Luaran"</string>
+	<!---->
+	<string name="usbotg_n">"Storan luaran"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Tetapan"</string>
+	<!---->
+	<string name="total_progress">"Kemajuan keseluruhan:"</string>
+	<!---->
+	<string name="total_task">"Kiraan tugasan:"</string>
+	<!---->
+	<string name="items">"item"</string>
+	<!---->
+	<string name="folder_items">"%1$s item"</string>
+	<!---->
+	<string name="freeof_m">"Bebas"</string>
+	<!---->
+	<string name="choose_files">"Pilih  fail"</string>
+	<!---->
+	<string name="used_of">"digunakan"</string>
+	<!---->
+	<string name="invalid_empty_name">"Nama fail atau folder tidak boleh kosong"</string>
+	<!---->
+	<string name="just_now">"sebentar tadi"</string>
+	<!---->
+	<string name="minutes_ago">"minit yang lalu"</string>
+	<!---->
+	<string name="hours_ago">"jam yang lalu"</string>
+	<!---->
+	<string name="minute_ago">"minit yang lalu"</string>
+	<!---->
+	<string name="hour_ago">"jam yang lalu"</string>
+	<!---->
+	<string name="day_ago">"hari yang lalu"</string>
+	<!---->
+	<string name="searching">"Mencari...."</string>
+	<!---->
+	<string name="safe_no_file_title">"Belum ada fail peribadi"</string>
+	<!---->
+	<string name="safe_no_file_content">"Tekan menu di penjuru kanan atas untuk menambah fail"</string>
+	<!---->
+	<string name="safe_activity_title">"Fail peribadi"</string>
+	<!---->
+	<string name="move_safe">"Tetapkan sebagai peribadi"</string>
+	<!---->
+	<string name="set_public">"Tetapkan sebagai awam"</string>
+	<!---->
+	<string name="add_files">"Tambah fail"</string>
+	<!---->
+	<string name="compress_susscces">"Fail dimampatkan"</string>
+	<!---->
+	<string name="extract_susscces">"Fail diekstrak"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Nama fail mampatan terlalu panjang"</string>
+	<!---->
+	<string name="category_safe">"Persendirian"</string>
+	<!---->
+	<string name="remove_private_tip">"Alih keluar daripada mod Peribadi?"</string>
+	<!---->
+	<string name="remove_private_title">"Alih keluar"</string>
+	<!---->
+	<string name="remove_safe_single">"Buat %1$s dapat dilihat oleh semua pengguna?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Buat fail yang dipilih dapat dilihat oleh semua pengguna?"</string>
+	<!---->
+	<string name="folder_already_exists">"Folder sudah wujud"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s sudah wujud"</string>
+	<!---->
+	<string name="keep_both">"Simpan kedua-duanya"</string>
+	<!---->
+	<string name="set_private_failed">"Fail luaran tidak boleh menetapkan fail persendirian."</string>
+	<!---->
+	<string name="app_name_new">"Pengurus Fail"</string>
+</resources>

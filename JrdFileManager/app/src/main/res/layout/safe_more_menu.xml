@@ -1,0 +1,145 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/add_file_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/add_files"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/delete_item_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/delete"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/details_item_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/detail"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/rename_item_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/rename"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+
+    <TextView
+        android:id="@+id/share_item_safe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/share"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+
+    <TextView
+        android:id="@+id/remove_item_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/set_public"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/select_item_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/menu_select"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/selectall_item_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/select_all"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+    <TextView
+        android:id="@+id/unselectall_item_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ripple_bg"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/more_menu_item_padding"
+        android:paddingEnd="@dimen/more_menu_padding_left"
+        android:paddingStart="@dimen/more_menu_padding_left"
+        android:paddingTop="@dimen/more_menu_item_padding"
+        android:text="@string/deselect_all"
+        android:textColor="#DE000000"
+        android:textSize="@dimen/sort_menu_title_textSize"/>
+
+</LinearLayout>
+

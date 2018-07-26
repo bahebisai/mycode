@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Lêers"</string>
+	<!---->
+	<string name="sort">"Sorteer"</string>
+	<!---->
+	<string name="sort_by_name">"Naam"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Soort"</string>
+	<!---->
+	<string name="sort_by_size">"Grootte"</string>
+	<!---->
+	<string name="copy">"Kopieer"</string>
+	<!---->
+	<string name="create_folder">"Skep"</string>
+	<!---->
+	<string name="cut">"Sny"</string>
+	<!---->
+	<string name="delete">"Skrap"</string>
+	<!---->
+	<string name="deselect_all">"Deselekteer alles"</string>
+	<!---->
+	<string name="select_all">"Kies alle"</string>
+	<!---->
+	<string name="show_file">"Wys versteekte lêers"</string>
+	<!---->
+	<string name="hide_file">"Wys versteekte lêers"</string>
+	<!---->
+	<string name="paste">"Plak"</string>
+	<!---->
+	<string name="rename">"Hernoem"</string>
+	<!---->
+	<string name="extract">"Onttrek"</string>
+	<!---->
+	<string name="extracting">"Onttrek tans"</string>
+	<!---->
+	<string name="compress">"Pers saam"</string>
+	<!---->
+	<string name="compressing">"Pers tans saam"</string>
+	<!---->
+	<string name="share">"Deel"</string>
+	<!---->
+	<string name="menu_select">"Kies"</string>
+	<!---->
+	<string name="view_list">"Lysaansig"</string>
+	<!---->
+	<string name="view_grid">"Roosteraansig"</string>
+	<!---->
+	<string name="create_new_folder">"Skep omslag"</string>
+	<!---->
+	<string name="detail">"Besonderhede"</string>
+	<!---->
+	<string name="shortcut_item">"Voeg kortpad by"</string>
+	<!---->
+	<string name="search">"Soek"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Skrap gekose items?"</string>
+	<!---->
+	<string name="hide_btn">"Versteek"</string>
+	<!---->
+	<string name="loading">"Laai tans inhoud"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Gekose lêers sal geskrap word."</string>
+	<!---->
+	<string name="modified_time">"Gewysig"</string>
+	<!---->
+	<string name="msg_rename_ext">"Lêeruitbreiding sal verander word. Lêer word dalk nie herken nie. Gaan voort?"</string>
+	<!---->
+	<string name="wait">"Wag asseblief …"</string>
+	<!---->
+	<string name="done">"Klaar"</string>
+	<!---->
+	<string name="next">"Volgende"</string>
+	<!---->
+	<string name="cancel">"Kanselleer"</string>
+	<!---->
+	<string name="show">"Wys"</string>
+	<!---->
+	<string name="no">"Nee"</string>
+	<!---->
+	<string name="ok">"Goed"</string>
+	<!---->
+	<string name="confirm">"Bevestig"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="send_file">"Deel lêer(s) via"</string>
+	<!---->
+	<string name="default_search_text">"Deursoek lêers"</string>
+	<!---->
+	<string name="create_hidden_file">"Lêer sal verberg wees indien sy naam met \'.\' begin."</string>
+	<!---->
+	<string name="drm_current_count">"Huidige telling:"</string>
+	<!---->
+	<string name="unlimited_usage">"Onbeperkte gebruik"</string>
+	<!---->
+	<string name="drm_current_right">"Huidige beperking:"</string>
+	<!---->
+	<string name="right_url">"Lisensiegewer-URL:"</string>
+	<!---->
+	<string name="use_times">"Gebruik %s keer"</string>
+	<!---->
+	<string name="valid_after">"Geldig na"</string>
+	<!---->
+	<string name="valid_until">"Geldig tot"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopieer beskermde lêers"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopiebeskermde kan nie versprei word nie."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Skakel Wi-Fi-vertoonbeeld af"</string>
+	<!---->
+	<string name="confirm_rename">"Bevestig naam"</string>
+	<!---->
+	<string name="drm_protection_status">"Beskermingstatus:"</string>
+	<!---->
+	<string name="default_folder_name">"Vouernaam"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan deurgestuur word."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan nie deurgestuur word nie"</string>
+	<!---->
+	<string name="drm_no_license">"Geen beskikbare DRM-lisensie nie."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-lisensie is verstreke."</string>
+	<!---->
+	<string name="drm_interval">"Geldig vir %s na eerste keer gebruik is"</string>
+	<!---->
+	<string name="drm_begin">"Begin:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Geen beperking nie"</string>
+	<!---->
+	<string name="drm_end">"Einde:"</string>
+	<!---->
+	<string name="drm_use_left">"Bly oor:"</string>
+	<!---->
+	<string name="readable_m">"Leesbaar"</string>
+	<!---->
+	<string name="writable">"skryfbaar"</string>
+	<!---->
+	<string name="permission_m">"Toestemmings"</string>
+	<!---->
+	<string name="executable_m">"Toepassing"</string>
+	<!---->
+	<string name="writable_m">"Skryfbares"</string>
+	<!---->
+	<string name="detail_path_m">"Ligging"</string>
+	<!---->
+	<string name="detail_name_m">"Naam"</string>
+	<!---->
+	<string name="detail_size_m">"Grootte"</string>
+	<!---->
+	<string name="detail_time_m">"Laas gewysig"</string>
+	<!---->
+	<string name="dialog_close_btn">"Maak toe"</string>
+	<!---->
+	<string name="exit_dialog_content">"Huidige bewerking duur voort - is jy seker jy wil uitgaan?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kaart is verwyder of ingebou."</string>
+	<!---->
+	<string name="warning">"Maksimum lêergetal"</string>
+	<!---->
+	<string name="share_warning">"Jy kan nie meer as 100 lêers deel nie."</string>
+	<!---->
+	<string name="unknown">"onbekend"</string>
+	<!---->
+	<string name="no_search_result">"0 lêer(s) gevind vir \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Geen toestemming om te kopieer nie."</string>
+	<!---->
+	<string name="cut_deny">"Geen toestemming om te sny nie."</string>
+	<!---->
+	<string name="delete_deny">"Geen toestemming om te skrap nie."</string>
+	<!---->
+	<string name="insufficient_memory">"Onvoldoende ruimte"</string>
+	<!---->
+	<string name="paste_same_folder">"Kon nie kopieer nie: bron- en bestemmingsomslag is dieselfde."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Jy het \'n ongeldig karakter ingetik."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Die lêerformaat word nie gesteun nie."</string>
+	<!---->
+	<string name="paste_sub_folder">"Kan nie na subomslag plak nie."</string>
+	<!---->
+	<string name="operation_fail">"Sommige lêerbewerkings het misluk."</string>
+	<!---->
+	<string name="search_result">"%2$d resultate vir \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s is reeds in gebruik."</string>
+	<!---->
+	<string name="unmounted">"%1$s is ongekoppel"</string>
+	<!---->
+	<string name="file_name_too_long">"Die ingevoerde naam is te lank."</string>
+	<!---->
+	<string name="some_paste_fail">"Sommige plak-bewerkings het misluk."</string>
+	<!---->
+	<string name="delete_fail">"Kon nie skrap nie"</string>
+	<!---->
+	<string name="some_delete_fail">"Sommige skrap-bewerkings het misluk."</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Geen toepassing om lêer oop te maak nie"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nie deurstuur nie"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Die DRM-lêer kan nie deurstuur nie."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Lêer het geen geldige DRM-outoriteit nie."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi-vertoonbeeld is toegemaak"</string>
+	<!---->
+	<string name="no_folder">"Hierdie omslag is leeg"</string>
+	<!---->
+	<string name="no_category">"Hierdie kategorie is leeg"</string>
+	<!---->
+	<string name="pasted">"Lêer geplak"</string>
+	<!---->
+	<string name="deleted">"Lêer geskrap"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s bestaan nie"</string>
+	<!---->
+	<string name="not_available">"Nie beskikbaar nie"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Die gevraagde omslag bestaan nie"</string>
+	<!---->
+	<string name="no_search_result_m">"Geen resultate vir \"%1$s\" nie"</string>
+	<!---->
+	<string name="exceeded_max_task">"Het die huidige maksimum getal take oorskry"</string>
+	<!---->
+	<string name="add_waiting_task">"Is tot uitvoer-taakwagtou bygevoeg"</string>
+	<!---->
+	<string name="category_pictures">"Prente"</string>
+	<!---->
+	<string name="category_vedios">"Video’s"</string>
+	<!---->
+	<string name="category_music">"Musiek"</string>
+	<!---->
+	<string name="category_download">"Aflaaisels"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Onlangse"</string>
+	<!---->
+	<string name="main_document">"Dokumente"</string>
+	<!---->
+	<string name="category_archives">"Argiewe"</string>
+	<!---->
+	<string name="category_audio">"Oudio"</string>
+	<!---->
+	<string name="main_installers">"Installeerders"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Foonstoorruimte"</string>
+	<!---->
+	<string name="sd_card">"SD-kaart"</string>
+	<!---->
+	<string name="usbotg">"Eksterne USB-stoortoestel"</string>
+	<!---->
+	<string name="choice_file">"Kies bestemming"</string>
+	<!---->
+	<string name="permission_welcome_title">"Toestemming nodig"</string>
+	<!---->
+	<string name="permission_setting_title">"Verleen toegang"</string>
+	<!---->
+	<string name="permission_setting_content">"Verander toestemmings in jou toestel se toepassingsinstellings. Gee Lêerbestuurder toegang to stoorruimte."</string>
+	<!---->
+	<string name="permission_exit_btn">"Verlaat"</string>
+	<!---->
+	<string name="selected">"Gekies"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Foon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Interne berging"</string>
+	<!---->
+	<string name="usbotg_m">"Ekstern"</string>
+	<!---->
+	<string name="usbotg_n">"Eksterne berging"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Instellings"</string>
+	<!---->
+	<string name="total_progress">"Totale vordering:"</string>
+	<!---->
+	<string name="total_task">"Taakgetal:"</string>
+	<!---->
+	<string name="items">"items"</string>
+	<!---->
+	<string name="folder_items">"%1$s items"</string>
+	<!---->
+	<string name="freeof_m">"Gratis"</string>
+	<!---->
+	<string name="choose_files">"Kies lêer(s)"</string>
+	<!---->
+	<string name="used_of">"gebruik uit"</string>
+	<!---->
+	<string name="invalid_empty_name">"Lêer- of omslagnaam kan nie leeg wees nie."</string>
+	<!---->
+	<string name="just_now">"nou net"</string>
+	<!---->
+	<string name="minutes_ago">"minute gelede"</string>
+	<!---->
+	<string name="hours_ago">"uur gelede"</string>
+	<!---->
+	<string name="minute_ago">"minuut gelede"</string>
+	<!---->
+	<string name="hour_ago">"uur gelede"</string>
+	<!---->
+	<string name="day_ago">"dag gelede"</string>
+	<!---->
+	<string name="searching">"Soek tans…"</string>
+	<!---->
+	<string name="safe_no_file_title">"Nog geen privaat lêers nie"</string>
+	<!---->
+	<string name="safe_no_file_content">"Druk kieslys heel bo in die regterhoek om lêers by te voeg"</string>
+	<!---->
+	<string name="safe_activity_title">"Privaat lêers"</string>
+	<!---->
+	<string name="move_safe">"Stel as privaat"</string>
+	<!---->
+	<string name="set_public">"Stel as publiek"</string>
+	<!---->
+	<string name="add_files">"Voeg lêers by"</string>
+	<!---->
+	<string name="compress_susscces">"Lêer saamgepers"</string>
+	<!---->
+	<string name="extract_susscces">"Lêer onttrek"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Die ingevoerde lêernaam is te lank"</string>
+	<!---->
+	<string name="category_safe">"Privaat"</string>
+	<!---->
+	<string name="remove_private_tip">"Verwyder van privaatmodus?"</string>
+	<!---->
+	<string name="remove_private_title">"Verwyder"</string>
+	<!---->
+	<string name="remove_safe_single">"Maak %1$s sigbaar aan alle gebruikers?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Maak gekose lêers sigbaar aan alle gebruikers?"</string>
+	<!---->
+	<string name="folder_already_exists">"Omslag bestaan reeds"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s bestaan reeds"</string>
+	<!---->
+	<string name="keep_both">"Behou albei"</string>
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flag that indicate whether need to support DRM -->
+    <bool name="def_DRM_included">true</bool>
+    <!-- FLag that change default sort_name :true is sort by name false is sort by date-->
+    <bool name="def_Sort_type_name">true</bool>
+    <!-- Control the URI of the default type: 0x00 Open File Default URI TYPE:FileProvider URI(Except the DRM file), 0x01 Open File Default URI TYPE:Media URI.-->
+    <bool name="def_openfile_default_uri_type">false</bool>
+    <!-- Control the URI of the default type: 0x00 Share File Default URI TYPE:FileProvider URI(Except the DRM file), 0x01 Share File Default URI TYPE:Media URI.-->
+    <bool name="def_sharefile_default_uri_type">false</bool>
+    <!-- Flag that indicate whether need to support private Mode -->
+    <bool name="def_privatemode_included">true</bool>
+    <!-- Flag that indicate whether need to call mediascanner-->
+    <bool name="def_OTG_paste_mediascanner">true</bool>
+
+</resources>

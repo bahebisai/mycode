@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/sort_menu_title_textpaddingbottom">
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="@dimen/sort_menu_title_textpaddingbottom"
+            android:paddingStart="@dimen/sort_menu_title_paddingbottom"
+            android:paddingEnd="@dimen/sort_menu_title_paddingbottom"
+            android:paddingTop="@dimen/sort_menu_title_paddingtop"
+            android:text="@string/sort"
+            android:textColor="#212121"
+            android:textSize="@dimen/sort_menu_title_textSize"/>
+
+        <ListView
+            android:id="@+id/sort_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+</LinearLayout>

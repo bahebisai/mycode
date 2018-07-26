@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Fitxers"</string>
+	<!---->
+	<string name="sort">"Ordenar"</string>
+	<!---->
+	<string name="sort_by_name">"Nom"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipus"</string>
+	<!---->
+	<string name="sort_by_size">"Mida"</string>
+	<!---->
+	<string name="copy">"Copiar"</string>
+	<!---->
+	<string name="create_folder">"Crear"</string>
+	<!---->
+	<string name="cut">"Tallar"</string>
+	<!---->
+	<string name="delete">"Suprimir"</string>
+	<!---->
+	<string name="deselect_all">"Anul·lar selecció de tot"</string>
+	<!---->
+	<string name="select_all">"Seleccionar-ho tot"</string>
+	<!---->
+	<string name="show_file">"Mostrar els fitxers ocults"</string>
+	<!---->
+	<string name="hide_file">"Amagar els fitxers ocults"</string>
+	<!---->
+	<string name="paste">"Enganxar"</string>
+	<!---->
+	<string name="rename">"CANVIAR EL NOM"</string>
+	<!---->
+	<string name="extract">"Extreure"</string>
+	<!---->
+	<string name="extracting">"S’està extraient…"</string>
+	<!---->
+	<string name="compress">"Comprimir"</string>
+	<!---->
+	<string name="compressing">"S’està comprimint…"</string>
+	<!---->
+	<string name="share">"Compartir"</string>
+	<!---->
+	<string name="menu_select">"Seleccionar"</string>
+	<!---->
+	<string name="view_list">"Mostrar llista"</string>
+	<!---->
+	<string name="view_grid">"Visualització de quadrícula"</string>
+	<!---->
+	<string name="create_new_folder">"Carpeta nova"</string>
+	<!---->
+	<string name="detail">"Detalls"</string>
+	<!---->
+	<string name="shortcut_item">"Afegir drecera"</string>
+	<!---->
+	<string name="search">"Cercar"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Eliminar elements seleccionats?"</string>
+	<!---->
+	<string name="hide_btn">"Amagar"</string>
+	<!---->
+	<string name="loading">"S\'estan carregant els continguts."</string>
+	<!---->
+	<string name="alert_delete_multiple">"Els fitxers seleccionats s\'esborraran."</string>
+	<!---->
+	<string name="modified_time">"S\'ha modificat"</string>
+	<!---->
+	<string name="msg_rename_ext">"Es canviarà l\'extensió del fitxer. És possible que no es pugui reconèixer el fitxer. Voleu continuar?"</string>
+	<!---->
+	<string name="wait">"Espereu..."</string>
+	<!---->
+	<string name="done">"Fet"</string>
+	<!---->
+	<string name="next">"Següent"</string>
+	<!---->
+	<string name="cancel">"Anul·lar"</string>
+	<!---->
+	<string name="show">"Mostrar"</string>
+	<!---->
+	<string name="no">"No"</string>
+	<!---->
+	<string name="ok">"ACCEPTAR"</string>
+	<!---->
+	<string name="confirm">"Confirmar"</string>
+	<!---->
+	<string name="yes">"Sí"</string>
+	<!---->
+	<string name="send_file">"Compartir fitxers mitjançant"</string>
+	<!---->
+	<string name="default_search_text">"Buscar als fitxers"</string>
+	<!---->
+	<string name="create_hidden_file">"El fitxer s\'ocultarà si el seu nom comença per \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Recompte actual:"</string>
+	<!---->
+	<string name="unlimited_usage">"Ús il·limitat"</string>
+	<!---->
+	<string name="drm_current_right">"Restricció actual："</string>
+	<!---->
+	<string name="right_url">"URL distribuïdora de llicències:"</string>
+	<!---->
+	<string name="use_times">"Utilitzar %s vegades:"</string>
+	<!---->
+	<string name="valid_after">"Vàlid a partir de"</string>
+	<!---->
+	<string name="valid_until">"Vàlid fins"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Fitxers protegits contra còpia"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"El fitxer protegit contra còpia no es pot distribuir."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Desactivar Wi-Fi Display"</string>
+	<!---->
+	<string name="confirm_rename">"Confirmar el nom"</string>
+	<!---->
+	<string name="drm_protection_status">"Estat de protecció:"</string>
+	<!---->
+	<string name="default_folder_name">"Nom carpeta"</string>
+	<!---->
+	<string name="drm_can_forward">"Es pot reenviar."</string>
+	<!---->
+	<string name="drm_can_not_forward">"No es pot reenviar."</string>
+	<!---->
+	<string name="drm_no_license">"No hi ha cap llicència de DRM disponible."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"La llicència de DRM ha caducat."</string>
+	<!---->
+	<string name="drm_interval">"Vàlid durant %s després del primer ús"</string>
+	<!---->
+	<string name="drm_begin">"Començar:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sense limitacions"</string>
+	<!---->
+	<string name="drm_end">"Finalitzar:"</string>
+	<!---->
+	<string name="drm_use_left">"En queden:"</string>
+	<!---->
+	<string name="readable_m">"Llegible"</string>
+	<!---->
+	<string name="writable">"gravable"</string>
+	<!---->
+	<string name="permission_m">"Permisos"</string>
+	<!---->
+	<string name="executable_m">"Aplicació"</string>
+	<!---->
+	<string name="writable_m">"Gravables"</string>
+	<!---->
+	<string name="detail_path_m">"Ubicació"</string>
+	<!---->
+	<string name="detail_name_m">"Nom"</string>
+	<!---->
+	<string name="detail_size_m">"Mida"</string>
+	<!---->
+	<string name="detail_time_m">"Darrera modificació"</string>
+	<!---->
+	<string name="dialog_close_btn">"Tancar"</string>
+	<!---->
+	<string name="exit_dialog_content">"L\'operació actual està en curs; confirmeu que voleu sortir?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"S’ha extret o introduït una targeta SD."</string>
+	<!---->
+	<string name="warning">"Nombre màxim de fitxers"</string>
+	<!---->
+	<string name="share_warning">"No podeu compartir més de 100 fitxers."</string>
+	<!---->
+	<string name="unknown">"Desconegut"</string>
+	<!---->
+	<string name="no_search_result">"0 resultats per a \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"No teniu permís per copiar"</string>
+	<!---->
+	<string name="cut_deny">"No teniu permís per retallar"</string>
+	<!---->
+	<string name="delete_deny">"No teniu permís per eliminar"</string>
+	<!---->
+	<string name="insufficient_memory">"No hi ha prou espai."</string>
+	<!---->
+	<string name="paste_same_folder">"No s\'ha pogut copiar: la carpeta d\'origen i de destí és la mateixa."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Heu introduït un caràcter no vàlid"</string>
+	<!---->
+	<string name="msg_unable_open_file">"No s\'admet el format del fitxer."</string>
+	<!---->
+	<string name="paste_sub_folder">"o es pot enganxar a la mateixa subcarpeta"</string>
+	<!---->
+	<string name="operation_fail">"Error en alguna operació del fitxer."</string>
+	<!---->
+	<string name="search_result">"%2$d resultats per a \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s ja s\'està utilitzant"</string>
+	<!---->
+	<string name="unmounted">"%1$s s\'ha desconnectat"</string>
+	<!---->
+	<string name="file_name_too_long">"El nom introduït és massa llarg."</string>
+	<!---->
+	<string name="some_paste_fail">"Les operacions d\'enganxar no s\'han pogut realitzar."</string>
+	<!---->
+	<string name="delete_fail">"No s\'ha pogut esborrar."</string>
+	<!---->
+	<string name="some_delete_fail">"Algunes operacions d\'eliminació no s\'han pogut realitzar"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"No hi ha cap aplicació per obrir el fitxer."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"No reenviat"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"El fitxer DRM no es pot reenviar."</string>
+	<!---->
+	<string name="drm_no_valid_right">"El fitxer no té una autoritat DRM vàlida."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display s\'ha tancat."</string>
+	<!---->
+	<string name="no_folder">"Aquesta carpeta és buida."</string>
+	<!---->
+	<string name="no_category">"Aquesta categoria és buida."</string>
+	<!---->
+	<string name="pasted">"Fitxer enganxat"</string>
+	<!---->
+	<string name="deleted">"Fitxer suprimit"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s no existeix."</string>
+	<!---->
+	<string name="not_available">"No disponible"</string>
+	<!---->
+	<string name="shortcut_no_exist">"La carpeta sol·licitada no existeix."</string>
+	<!---->
+	<string name="no_search_result_m">"No s\'ha trobat cap resultat per a \"%1$s\"."</string>
+	<!---->
+	<string name="exceeded_max_task">"Ha superat el nombre màxim actual de tasques."</string>
+	<!---->
+	<string name="add_waiting_task">"S\'ha afegit a la cua de tasques d\'execució."</string>
+	<!---->
+	<string name="category_pictures">"Fotos"</string>
+	<!---->
+	<string name="category_vedios">"Vídeos"</string>
+	<!---->
+	<string name="category_music">"Música"</string>
+	<!---->
+	<string name="category_download">"Baixades"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Recents"</string>
+	<!---->
+	<string name="main_document">"Documents"</string>
+	<!---->
+	<string name="category_archives">"Arxius"</string>
+	<!---->
+	<string name="category_audio">"Àudio"</string>
+	<!---->
+	<string name="main_installers">"Instal·ladors"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Emmagatzematge del telèfon"</string>
+	<!---->
+	<string name="sd_card">"Targeta SD"</string>
+	<!---->
+	<string name="usbotg">"Emmagatzematge USB extern"</string>
+	<!---->
+	<string name="choice_file">"Trieu un destí."</string>
+	<!---->
+	<string name="permission_welcome_title">"Permís necessari"</string>
+	<!---->
+	<string name="permission_setting_title">"Concedir accés"</string>
+	<!---->
+	<string name="permission_setting_content">"Canvieu els permisos als paràmetres de l\'aplicació, al dispositiu. Permeteu que el Gestor de fitxers accedeixi a l\'emmagatzematge."</string>
+	<!---->
+	<string name="permission_exit_btn">"Sortir"</string>
+	<!---->
+	<string name="selected">"seleccionat"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telèfon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Emmagatz. int."</string>
+	<!---->
+	<string name="usbotg_m">"Extern"</string>
+	<!---->
+	<string name="usbotg_n">"Emmagatzematge Extern"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Paràmetres"</string>
+	<!---->
+	<string name="total_progress">"Progrés total:"</string>
+	<!---->
+	<string name="total_task">"Nombre de tasques:"</string>
+	<!---->
+	<string name="items">"elements"</string>
+	<!---->
+	<string name="folder_items">"%1$s elements"</string>
+	<!---->
+	<string name="freeof_m">"Lliure"</string>
+	<!---->
+	<string name="choose_files">"Seleccionar fitxers"</string>
+	<!---->
+	<string name="used_of">"utilitzats de:"</string>
+	<!---->
+	<string name="invalid_empty_name">"El nom del fitxer o la carpeta no pot estar buit"</string>
+	<!---->
+	<string name="just_now">"ara mateix"</string>
+	<!---->
+	<string name="minutes_ago">"minuts enrere"</string>
+	<!---->
+	<string name="hours_ago">"hores enrere"</string>
+	<!---->
+	<string name="minute_ago">"minut enrere"</string>
+	<!---->
+	<string name="hour_ago">"hora enrere"</string>
+	<!---->
+	<string name="day_ago">"dia enrere"</string>
+	<!---->
+	<string name="searching">"S\'està cercant…"</string>
+	<!---->
+	<string name="safe_no_file_title">"Encara no hi ha cap fitxer privat."</string>
+	<!---->
+	<string name="safe_no_file_content">"Premeu el menú a la cantonada superior dreta per afegir fitxers."</string>
+	<!---->
+	<string name="safe_activity_title">"Fitxers privats"</string>
+	<!---->
+	<string name="move_safe">"Establir com a privat"</string>
+	<!---->
+	<string name="set_public">"Establir com a públic"</string>
+	<!---->
+	<string name="add_files">"Afegir fitxers"</string>
+	<!---->
+	<string name="compress_susscces">"S’ha comprimit el fitxer."</string>
+	<!---->
+	<string name="extract_susscces">"S’ha extret el fitxer."</string>
+	<!---->
+	<string name="compress_file_name_too_long">"El nom del fitxer de compressió és massa llarg."</string>
+	<!---->
+	<string name="category_safe">"Privat"</string>
+	<!---->
+	<string name="remove_private_tip">"Voleu suprimir del mode privat?"</string>
+	<!---->
+	<string name="remove_private_title">"Eliminar"</string>
+	<!---->
+	<string name="remove_safe_single">"Voleu que els %1$s fitxers seleccionats siguin visibles per a tots els usuaris?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Voleu que els fitxers seleccionats siguin visibles per a tots els usuaris?"</string>
+	<!---->
+	<string name="folder_already_exists">"La carpeta ja existeix."</string>
+	<!---->
+	<string name="file_already_exists">"%1$s ja existeix"</string>
+	<!---->
+	<string name="keep_both">"Conservar-los tots dos"</string>
+	<!---->
+	<string name="set_private_failed">"El fitxer extern no es pot establir com a fitxer privat."</string>
+	<!---->
+	<string name="app_name_new">"Gestor de fitxers"</string>
+</resources>

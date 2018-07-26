@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Файли"</string>
+	<!---->
+	<string name="sort">"Сортув."</string>
+	<!---->
+	<string name="sort_by_name">"І\'мя"</string>
+	<!---->
+	<string name="sort_by_time">"Дата"</string>
+	<!---->
+	<string name="sort_by_type">"Тип"</string>
+	<!---->
+	<string name="sort_by_size">"Розмір"</string>
+	<!---->
+	<string name="copy">"Копіюв."</string>
+	<!---->
+	<string name="create_folder">"Створ."</string>
+	<!---->
+	<string name="cut">"Виріз."</string>
+	<!---->
+	<string name="delete">"Видал."</string>
+	<!---->
+	<string name="deselect_all">"Скасувати вибір всіх"</string>
+	<!---->
+	<string name="select_all">"Вибрати все"</string>
+	<!---->
+	<string name="show_file">"Показувати приховані файли"</string>
+	<!---->
+	<string name="hide_file">"Приховати приховані файли"</string>
+	<!---->
+	<string name="paste">"Вставити"</string>
+	<!---->
+	<string name="rename">"Переймен."</string>
+	<!---->
+	<string name="extract">"Вилучити"</string>
+	<!---->
+	<string name="extracting">"Вилучення"</string>
+	<!---->
+	<string name="compress">"Стиснути"</string>
+	<!---->
+	<string name="compressing">"Стиснення"</string>
+	<!---->
+	<string name="share">"Спіл. доступ"</string>
+	<!---->
+	<string name="menu_select">"Вибрати"</string>
+	<!---->
+	<string name="view_list">"Перегляд списку"</string>
+	<!---->
+	<string name="view_grid">"Перегляд таблиці"</string>
+	<!---->
+	<string name="create_new_folder">"Створити папку"</string>
+	<!---->
+	<string name="detail">"Деталі"</string>
+	<!---->
+	<string name="shortcut_item">"Дод. клавішу швид. доступу"</string>
+	<!---->
+	<string name="search">"Пошук"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Видалити вибрані елементи?"</string>
+	<!---->
+	<string name="hide_btn">"Приховати"</string>
+	<!---->
+	<string name="loading">"Завантаження вмісту"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Вибрані файли буде видалено."</string>
+	<!---->
+	<string name="modified_time">"Змінено"</string>
+	<!---->
+	<string name="msg_rename_ext">"Розширення файлу буде змінено. Файл може не розпізнатися. Продовжити?"</string>
+	<!---->
+	<string name="wait">"Зачекайте…"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="next">"Далі"</string>
+	<!---->
+	<string name="cancel">"Відмінити"</string>
+	<!---->
+	<string name="show">"Показати"</string>
+	<!---->
+	<string name="no">"Ні"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Підтвердити"</string>
+	<!---->
+	<string name="yes">"Так"</string>
+	<!---->
+	<string name="send_file">"Надсилання файлів через"</string>
+	<!---->
+	<string name="default_search_text">"Пошук файлів"</string>
+	<!---->
+	<string name="create_hidden_file">"Файл буде приховано, якщо його ім\'я починається з \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Поточна кількість:"</string>
+	<!---->
+	<string name="unlimited_usage">"Необмежене використання"</string>
+	<!---->
+	<string name="drm_current_right">"Поточне обмеження："</string>
+	<!---->
+	<string name="right_url">"URL-адр ліц:"</string>
+	<!---->
+	<string name="use_times">"Використання (разів): %s"</string>
+	<!---->
+	<string name="valid_after">"Діє після"</string>
+	<!---->
+	<string name="valid_until">"Діє до"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Файли, захищені від копіювання"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Файл, захищений від копіювання, не можна поширювати."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Вимкнути дисплей із підтримкою Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Підтвердити назву"</string>
+	<!---->
+	<string name="drm_protection_status">"Стан захисту:"</string>
+	<!---->
+	<string name="default_folder_name">"Назва папки"</string>
+	<!---->
+	<string name="drm_can_forward">"Можна переадресувати."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не можна переадресувати."</string>
+	<!---->
+	<string name="drm_no_license">"Немає доступної ліцензії DRM."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Термін дії ліцензії DRM минув."</string>
+	<!---->
+	<string name="drm_interval">"Дійсно протягом %s з моменту першого використання"</string>
+	<!---->
+	<string name="drm_begin">"Початок:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Без обмеження."</string>
+	<!---->
+	<string name="drm_end">"Завершення:"</string>
+	<!---->
+	<string name="drm_use_left">"Залишилося:"</string>
+	<!---->
+	<string name="readable_m">"Доступні для перегляду"</string>
+	<!---->
+	<string name="writable">"придатний для запису"</string>
+	<!---->
+	<string name="permission_m">"Дозволи"</string>
+	<!---->
+	<string name="executable_m">"Програма"</string>
+	<!---->
+	<string name="writable_m">"Придатні для запису"</string>
+	<!---->
+	<string name="detail_path_m">"Розташування"</string>
+	<!---->
+	<string name="detail_name_m">"І\'мя"</string>
+	<!---->
+	<string name="detail_size_m">"Розмір"</string>
+	<!---->
+	<string name="detail_time_m">"Змінено"</string>
+	<!---->
+	<string name="dialog_close_btn">"Закрити"</string>
+	<!---->
+	<string name="exit_dialog_content">"Наразі триває операція — дійсно вийти?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Карта пам’яті відсутня або вбудована."</string>
+	<!---->
+	<string name="warning">"Максимальний розмір файлу"</string>
+	<!---->
+	<string name="share_warning">"Неможливо вислати більше, ніж 100 файлів."</string>
+	<!---->
+	<string name="unknown">"Невідомий"</string>
+	<!---->
+	<string name="no_search_result">"Результатів для \"%1$s\": 0"</string>
+	<!---->
+	<string name="copy_deny">"Немає дозволу, щоб копіювати"</string>
+	<!---->
+	<string name="cut_deny">"Немає дозволу, щоб вирізати"</string>
+	<!---->
+	<string name="delete_deny">"Немає дозволу, щоб видалити"</string>
+	<!---->
+	<string name="insufficient_memory">"Недостатньо місця."</string>
+	<!---->
+	<string name="paste_same_folder">"Не вдалося скопіювати: вихідна та потрібна папки однакові."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Введено хибний символ"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Формат файла не підтримується."</string>
+	<!---->
+	<string name="paste_sub_folder">"Неможливо вставити файл у підпапку"</string>
+	<!---->
+	<string name="operation_fail">"Помилка деякої файлової операції."</string>
+	<!---->
+	<string name="search_result">"%2$d результатів для \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s вже використовується"</string>
+	<!---->
+	<string name="unmounted">"%1$s відключено"</string>
+	<!---->
+	<string name="file_name_too_long">"Введене ім\'я задовге"</string>
+	<!---->
+	<string name="some_paste_fail">"Не вдалося вставити операції"</string>
+	<!---->
+	<string name="delete_fail">"Не вдалося видалити"</string>
+	<!---->
+	<string name="some_delete_fail">"Помилка деякої операції видалення"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Немає програми, щоб відкрити файл."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Не пересилати"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Файл DRM не можна переслати."</string>
+	<!---->
+	<string name="drm_no_valid_right">"O ficheiro non ten autoridade DRM válida!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Роботу дисплея із підтримкою Wi-Fi завершено"</string>
+	<!---->
+	<string name="no_folder">"Ця папка порожня"</string>
+	<!---->
+	<string name="no_category">"Ця категорія пуста."</string>
+	<!---->
+	<string name="pasted">"Файл вставлено"</string>
+	<!---->
+	<string name="deleted">"Файл видалено"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s не існує"</string>
+	<!---->
+	<string name="not_available">"Недоступно"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Папка запиту не існує"</string>
+	<!---->
+	<string name="no_search_result_m">"Немає результатів для «%1$s»"</string>
+	<!---->
+	<string name="exceeded_max_task">"Перевищено поточну максимальну кількість задач"</string>
+	<!---->
+	<string name="add_waiting_task">"Було додано до черги виконання задач"</string>
+	<!---->
+	<string name="category_pictures">"Зображення"</string>
+	<!---->
+	<string name="category_vedios">"Відео"</string>
+	<!---->
+	<string name="category_music">"Музика"</string>
+	<!---->
+	<string name="category_download">"Завантаж."</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Останні"</string>
+	<!---->
+	<string name="main_document">"Документи"</string>
+	<!---->
+	<string name="category_archives">"Архіви"</string>
+	<!---->
+	<string name="category_audio">"Аудіо"</string>
+	<!---->
+	<string name="main_installers">"Програми інсталяції"</string>
+	<!---->
+	<string name="unit_B">"байт"</string>
+	<!---->
+	<string name="unit_KB">"КБ"</string>
+	<!---->
+	<string name="unit_MB">"МБ"</string>
+	<!---->
+	<string name="unit_GB">"ГБ"</string>
+	<!---->
+	<string name="unit_TB">"ТБ"</string>
+	<!---->
+	<string name="phone_storage">"Сховище телефону"</string>
+	<!---->
+	<string name="sd_card">"Карта пам."</string>
+	<!---->
+	<string name="usbotg">"Зовнішній USB-накопичувач"</string>
+	<!---->
+	<string name="choice_file">"Виберіть місце призначення"</string>
+	<!---->
+	<string name="permission_welcome_title">"Потрібен дозвіл"</string>
+	<!---->
+	<string name="permission_setting_title">"Надати доступ"</string>
+	<!---->
+	<string name="permission_setting_content">"Змініть дозволи у налаштуваннях програми на пристрої. Надати диспетчеру файлів доступ до місця збереження."</string>
+	<!---->
+	<string name="permission_exit_btn">"Вихід"</string>
+	<!---->
+	<string name="selected">"вибрано"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Телефон"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Внутр. пам\'ять"</string>
+	<!---->
+	<string name="usbotg_m">"Зовнішнє"</string>
+	<!---->
+	<string name="usbotg_n">"Зовнішнє місце збереження"</string>
+	<!---->
+	<string name="sd_m">"Карта пам’яті"</string>
+	<!---->
+	<string name="permission_settings">"Установки"</string>
+	<!---->
+	<string name="total_progress">"Усього:"</string>
+	<!---->
+	<string name="total_task">"Число задач:"</string>
+	<!---->
+	<string name="items">"об’єкти"</string>
+	<!---->
+	<string name="folder_items">"%1$s об’єкти"</string>
+	<!---->
+	<string name="freeof_m">"Вільний"</string>
+	<!---->
+	<string name="choose_files">"Виберіть файл(-и)"</string>
+	<!---->
+	<string name="used_of">"використано  з"</string>
+	<!---->
+	<string name="invalid_empty_name">"Поле введення ім\'я файла або папки не може бути пустим"</string>
+	<!---->
+	<string name="just_now">"тільки що"</string>
+	<!---->
+	<string name="minutes_ago">"хв. тому"</string>
+	<!---->
+	<string name="hours_ago">"год. тому"</string>
+	<!---->
+	<string name="minute_ago">"хвилину тому"</string>
+	<!---->
+	<string name="hour_ago">"годину тому"</string>
+	<!---->
+	<string name="day_ago">"дн. тому"</string>
+	<!---->
+	<string name="searching">"Пошук..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Немає ще приватних файлів"</string>
+	<!---->
+	<string name="safe_no_file_content">"Натисніть меню у правому верхньому куті, щоб додати файли"</string>
+	<!---->
+	<string name="safe_activity_title">"Приватні файли"</string>
+	<!---->
+	<string name="move_safe">"Встановити як приватний"</string>
+	<!---->
+	<string name="set_public">"Встановити як загальнодоступний"</string>
+	<!---->
+	<string name="add_files">"Додати файли"</string>
+	<!---->
+	<string name="compress_susscces">"Файл стиснуто"</string>
+	<!---->
+	<string name="extract_susscces">"Файл розпаковано"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Ім’я стиснутого файлу задовге"</string>
+	<!---->
+	<string name="category_safe">"Приватно"</string>
+	<!---->
+	<string name="remove_private_tip">"Виключити з приватного режиму?"</string>
+	<!---->
+	<string name="remove_private_title">"Видалити"</string>
+	<!---->
+	<string name="remove_safe_single">"Зробити %1$s видимими для всіх користувачів?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Зробити вибрані файли видимими для всіх користувачів?"</string>
+	<!---->
+	<string name="folder_already_exists">"Папка вже існує"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s вже існує"</string>
+	<!---->
+	<string name="keep_both">"Зберегти обидва"</string>
+	<!---->
+	<string name="set_private_failed">"Зовнішній файл неможливо зробити приватним."</string>
+	<!---->
+	<string name="app_name_new">"Диспетчер файлів"</string>
+</resources>

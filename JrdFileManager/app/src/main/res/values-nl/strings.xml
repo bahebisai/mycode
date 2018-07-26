@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Bestanden"</string>
+	<!---->
+	<string name="sort">"Sorteren"</string>
+	<!---->
+	<string name="sort_by_name">"Naam"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Type"</string>
+	<!---->
+	<string name="sort_by_size">"Grootte"</string>
+	<!---->
+	<string name="copy">"Kopiëren"</string>
+	<!---->
+	<string name="create_folder">"Maken"</string>
+	<!---->
+	<string name="cut">"Knippen"</string>
+	<!---->
+	<string name="delete">"Wissen"</string>
+	<!---->
+	<string name="deselect_all">"Alle selecties opheffen"</string>
+	<!---->
+	<string name="select_all">"Alles selecteren"</string>
+	<!---->
+	<string name="show_file">"Verborgen bestanden weergeven"</string>
+	<!---->
+	<string name="hide_file">"Verborgen bestanden verbergen"</string>
+	<!---->
+	<string name="paste">"Plakken"</string>
+	<!---->
+	<string name="rename">"Naam wijzigen"</string>
+	<!---->
+	<string name="extract">"Uitpakken"</string>
+	<!---->
+	<string name="extracting">"Uitpakken"</string>
+	<!---->
+	<string name="compress">"Comprimeren"</string>
+	<!---->
+	<string name="compressing">"Comprimeren"</string>
+	<!---->
+	<string name="share">"Delen"</string>
+	<!---->
+	<string name="menu_select">"Selecteren"</string>
+	<!---->
+	<string name="view_list">"Lijstweergave"</string>
+	<!---->
+	<string name="view_grid">"Rasterweergave"</string>
+	<!---->
+	<string name="create_new_folder">"Map maken"</string>
+	<!---->
+	<string name="detail">"Details"</string>
+	<!---->
+	<string name="shortcut_item">"Snelkoppeling toevoegen"</string>
+	<!---->
+	<string name="search">"Zoeken"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Geselecteerde items verwijderen?"</string>
+	<!---->
+	<string name="hide_btn">"Verbergen"</string>
+	<!---->
+	<string name="loading">"Inhoud laden"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Het geselecteerde bestanden worden verwijderd."</string>
+	<!---->
+	<string name="modified_time">"Aangepast"</string>
+	<!---->
+	<string name="msg_rename_ext">"Bestandsextensie wordt gewijzigd. Bestand wordt mogelijk niet herkend. Doorgaan?"</string>
+	<!---->
+	<string name="wait">"Een ogenblik geduld..."</string>
+	<!---->
+	<string name="done">"Gereed"</string>
+	<!---->
+	<string name="next">"Volgende"</string>
+	<!---->
+	<string name="cancel">"Annuleren"</string>
+	<!---->
+	<string name="show">"Weergeven"</string>
+	<!---->
+	<string name="no">"Nee"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Bevestigen"</string>
+	<!---->
+	<string name="yes">"Ja"</string>
+	<!---->
+	<string name="send_file">"Bestand(en) verzenden via"</string>
+	<!---->
+	<string name="default_search_text">"Zoeken in bestanden"</string>
+	<!---->
+	<string name="create_hidden_file">"Bestand worden verborgen als de naam begint met \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Huidige teller："</string>
+	<!---->
+	<string name="unlimited_usage">"Onbeperkt gebruik"</string>
+	<!---->
+	<string name="drm_current_right">"Huidige beperking:"</string>
+	<!---->
+	<string name="right_url">"URL licentie-uitgever:"</string>
+	<!---->
+	<string name="use_times">"%s keer gebruiken"</string>
+	<!---->
+	<string name="valid_after">"Geldig na"</string>
+	<!---->
+	<string name="valid_until">"Geldig tot"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Tegen schrijven beschermde bestanden"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Tegen schrijven beschermd bestand kan niet worden verspreid."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Wi-Fi Display uitschakelen"</string>
+	<!---->
+	<string name="confirm_rename">"Naam bevestigen"</string>
+	<!---->
+	<string name="drm_protection_status">"Beveiligingsstatus:"</string>
+	<!---->
+	<string name="default_folder_name">"Mapnaam"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan worden doorgestuurd."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan niet worden doorgestuurd."</string>
+	<!---->
+	<string name="drm_no_license">"Geen DRM-licentie beschikbaar."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-licentie is verlopen."</string>
+	<!---->
+	<string name="drm_interval">"Geldig voor %s na eerste keer gebruiken"</string>
+	<!---->
+	<string name="drm_begin">"Begin:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Geen beperking."</string>
+	<!---->
+	<string name="drm_end">"Einde:"</string>
+	<!---->
+	<string name="drm_use_left">"Resterend:"</string>
+	<!---->
+	<string name="readable_m">"Leesbaar"</string>
+	<!---->
+	<string name="writable">"schrijfbaar"</string>
+	<!---->
+	<string name="permission_m">"Machtigingen"</string>
+	<!---->
+	<string name="executable_m">"Applicatie"</string>
+	<!---->
+	<string name="writable_m">"Schrijfbare"</string>
+	<!---->
+	<string name="detail_path_m">"Locatie"</string>
+	<!---->
+	<string name="detail_name_m">"Naam"</string>
+	<!---->
+	<string name="detail_size_m">"Grootte"</string>
+	<!---->
+	<string name="detail_time_m">"Laatst aangepast"</string>
+	<!---->
+	<string name="dialog_close_btn">"Sluiten"</string>
+	<!---->
+	<string name="exit_dialog_content">"De huidige bewerking wordt uitgevoerd. Weet u zeker dat u wilt afsluiten?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-kaart is verwijderd of ingebouwd."</string>
+	<!---->
+	<string name="warning">"Maximaal aantal bestanden"</string>
+	<!---->
+	<string name="share_warning">"U kunt maximaal 100 bestanden delen."</string>
+	<!---->
+	<string name="unknown">"Onbekend"</string>
+	<!---->
+	<string name="no_search_result">"0 resultaten voor \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Geen toestemming om te kopiëren"</string>
+	<!---->
+	<string name="cut_deny">"Geen toestemming om te knippen"</string>
+	<!---->
+	<string name="delete_deny">"Geen toestemming om te verwijderen"</string>
+	<!---->
+	<string name="insufficient_memory">"Onvoldoende ruimte."</string>
+	<!---->
+	<string name="paste_same_folder">"Kan niet kopiëren: bron- en doelmap zijn gelijk."</string>
+	<!---->
+	<string name="invalid_char_prompt">"U hebt een ongeldig teken ingevoerd"</string>
+	<!---->
+	<string name="msg_unable_open_file">"De bestandsindeling wordt niet ondersteund."</string>
+	<!---->
+	<string name="paste_sub_folder">"Kan bestand niet plakken in submap"</string>
+	<!---->
+	<string name="operation_fail">"Een bestandsbewerking is mislukt."</string>
+	<!---->
+	<string name="search_result">"%2$d resultaten voor \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s wordt al gebruikt"</string>
+	<!---->
+	<string name="unmounted">"%1$s is losgekoppeld"</string>
+	<!---->
+	<string name="file_name_too_long">"De ingevoerde naam is te lang"</string>
+	<!---->
+	<string name="some_paste_fail">"Plakbewerkingen mislukt"</string>
+	<!---->
+	<string name="delete_fail">"Kan niet verwijderen"</string>
+	<!---->
+	<string name="some_delete_fail">"Een verwijderbewerking is mislukt"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Geen applicatie beschikbaar om bestand te openen"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Niet doorschakelen"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Het DRM-bestand kan niet worden doorgestuurd"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Het bestand heeft geen geldige DRM-autoriteit."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Display is gesloten"</string>
+	<!---->
+	<string name="no_folder">"Deze map is leeg"</string>
+	<!---->
+	<string name="no_category">"Deze categorie is leeg."</string>
+	<!---->
+	<string name="pasted">"Bestand geplakt"</string>
+	<!---->
+	<string name="deleted">"Bestand verwijderd"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s bestaat niet"</string>
+	<!---->
+	<string name="not_available">"Niet beschikbaar"</string>
+	<!---->
+	<string name="shortcut_no_exist">"De opgevraagde map bestaat niet"</string>
+	<!---->
+	<string name="no_search_result_m">"Geen resultaten gevonden voor \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Heeft het maximum aantal taken overschreden"</string>
+	<!---->
+	<string name="add_waiting_task">"Is toegevoegd aan de wachtrij voor uitvoeringstaken"</string>
+	<!---->
+	<string name="category_pictures">"Afbeeldingen"</string>
+	<!---->
+	<string name="category_vedios">"Video\'s"</string>
+	<!---->
+	<string name="category_music">"Muziek"</string>
+	<!---->
+	<string name="category_download">"Downloads"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Recent"</string>
+	<!---->
+	<string name="main_document">"Documenten"</string>
+	<!---->
+	<string name="category_archives">"Archieven"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Installatie-Apps"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"kB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Telefoonopslag"</string>
+	<!---->
+	<string name="sd_card">"SD-kaart"</string>
+	<!---->
+	<string name="usbotg">"Externe USB-opslag"</string>
+	<!---->
+	<string name="choice_file">"Bestemming kiezen"</string>
+	<!---->
+	<string name="permission_welcome_title">"Toestemming nodig"</string>
+	<!---->
+	<string name="permission_setting_title">"Toegang verlenen"</string>
+	<!---->
+	<string name="permission_setting_content">"Wijzig de toestemming in de app-instellingen van uw apparaat. Geef Bestandsmanager toegang tot opslag."</string>
+	<!---->
+	<string name="permission_exit_btn">"Afsluiten"</string>
+	<!---->
+	<string name="selected">"geselecteerd"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefoon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Interne opslag"</string>
+	<!---->
+	<string name="usbotg_m">"Extern"</string>
+	<!---->
+	<string name="usbotg_n">"Externe opslag"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Instellingen"</string>
+	<!---->
+	<string name="total_progress">"Totale voortgang:"</string>
+	<!---->
+	<string name="total_task">"Aantal taken:"</string>
+	<!---->
+	<string name="items">"items"</string>
+	<!---->
+	<string name="folder_items">"%1$s items"</string>
+	<!---->
+	<string name="freeof_m">"Vrij"</string>
+	<!---->
+	<string name="choose_files">"Bestand(en) selecteren"</string>
+	<!---->
+	<string name="used_of">"gebruikt van"</string>
+	<!---->
+	<string name="invalid_empty_name">"Bestands- of mapnaam mag niet leeg zijn"</string>
+	<!---->
+	<string name="just_now">"zojuist"</string>
+	<!---->
+	<string name="minutes_ago">"minuten geleden"</string>
+	<!---->
+	<string name="hours_ago">"uur geleden"</string>
+	<!---->
+	<string name="minute_ago">"minuut geleden"</string>
+	<!---->
+	<string name="hour_ago">"uur geleden"</string>
+	<!---->
+	<string name="day_ago">"dag geleden"</string>
+	<!---->
+	<string name="searching">"Zoeken...."</string>
+	<!---->
+	<string name="safe_no_file_title">"Nog geen privébestanden"</string>
+	<!---->
+	<string name="safe_no_file_content">"Druk op Menu in de rechterbovenhoek om bestanden toe te voegen"</string>
+	<!---->
+	<string name="safe_activity_title">"Privébestanden"</string>
+	<!---->
+	<string name="move_safe">"Instellen als privé"</string>
+	<!---->
+	<string name="set_public">"Instellen als openbaar"</string>
+	<!---->
+	<string name="add_files">"Bestanden toevoegen"</string>
+	<!---->
+	<string name="compress_susscces">"Bestand gecomprimeerd"</string>
+	<!---->
+	<string name="extract_susscces">"Bestand uitgepakt"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"De gecomprimeerde bestandsnaam is te lang"</string>
+	<!---->
+	<string name="category_safe">"Privé"</string>
+	<!---->
+	<string name="remove_private_tip">"Verwijderen uit privémodus?"</string>
+	<!---->
+	<string name="remove_private_title">"Verwijderen"</string>
+	<!---->
+	<string name="remove_safe_single">"%1$s zichtbaar maken voor alle gebruikers?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Geselecteerde bestanden zichtbaar maken voor alle gebruikers?"</string>
+	<!---->
+	<string name="folder_already_exists">"Map bestaat al"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s bestaat al"</string>
+	<!---->
+	<string name="keep_both">"Beide behouden"</string>
+	<!---->
+	<string name="set_private_failed">"Extern bestand kan geen privébestand instellen."</string>
+	<!---->
+	<string name="app_name_new">"Bestands beheer"</string>
+</resources>

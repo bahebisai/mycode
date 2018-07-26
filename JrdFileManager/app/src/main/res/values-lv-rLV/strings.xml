@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Datnes"</string>
+	<!---->
+	<string name="sort">"Kārtot"</string>
+	<!---->
+	<string name="sort_by_name">"Nosauk."</string>
+	<!---->
+	<string name="sort_by_time">"Datums"</string>
+	<!---->
+	<string name="sort_by_type">"Veids"</string>
+	<!---->
+	<string name="sort_by_size">"Lielums"</string>
+	<!---->
+	<string name="copy">"Kopēt"</string>
+	<!---->
+	<string name="create_folder">"Izveidot"</string>
+	<!---->
+	<string name="cut">"Izgriezt"</string>
+	<!---->
+	<string name="delete">"Dzēst"</string>
+	<!---->
+	<string name="deselect_all">"Atcelt visu atlasi"</string>
+	<!---->
+	<string name="select_all">"Atlasīt visu"</string>
+	<!---->
+	<string name="show_file">"Rādīt slēptos failus"</string>
+	<!---->
+	<string name="hide_file">"Slēpt slēptos failus"</string>
+	<!---->
+	<string name="paste">"Ielīmēt"</string>
+	<!---->
+	<string name="rename">"Pārdēvēt"</string>
+	<!---->
+	<string name="extract">"Izvilkt"</string>
+	<!---->
+	<string name="extracting">"Notiek izvilkšana..."</string>
+	<!---->
+	<string name="compress">"Saspiest"</string>
+	<!---->
+	<string name="compressing">"Notiek saspiešana"</string>
+	<!---->
+	<string name="share">"Kopīgot"</string>
+	<!---->
+	<string name="menu_select">"Atlasīt"</string>
+	<!---->
+	<string name="view_list">"Saraksta skatījums"</string>
+	<!---->
+	<string name="view_grid">"Režģa skats"</string>
+	<!---->
+	<string name="create_new_folder">"Izveidot mapi"</string>
+	<!---->
+	<string name="detail">"Informācija"</string>
+	<!---->
+	<string name="shortcut_item">"Pievienot saīsni"</string>
+	<!---->
+	<string name="search">"Meklēt"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Vai dzēst atlasītos vienumus?"</string>
+	<!---->
+	<string name="hide_btn">"Paslēpt"</string>
+	<!---->
+	<string name="loading">"Ielādē saturu"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Atlasītos Failus tiks dzēsts."</string>
+	<!---->
+	<string name="modified_time">"Mainīts"</string>
+	<!---->
+	<string name="msg_rename_ext">"Faila paplašinājums tiks mainīts. Fails var netikt atpazīts. Vai turpināt?"</string>
+	<!---->
+	<string name="wait">"Lūdzu, uzgaidiet..."</string>
+	<!---->
+	<string name="done">"PABEIGTS"</string>
+	<!---->
+	<string name="next">"Tālāk"</string>
+	<!---->
+	<string name="cancel">"Atcelt"</string>
+	<!---->
+	<string name="show">"Rādīt"</string>
+	<!---->
+	<string name="no">"Nē"</string>
+	<!---->
+	<string name="ok">"Labi"</string>
+	<!---->
+	<string name="confirm">"Apstiprināt"</string>
+	<!---->
+	<string name="yes">"Jā"</string>
+	<!---->
+	<string name="send_file">"Kopīgot failu(-us), izmantojot"</string>
+	<!---->
+	<string name="default_search_text">"Meklēt failus"</string>
+	<!---->
+	<string name="create_hidden_file">"Fails tiks paslēpts, ja tā nosaukums sākas ar \'.\'."</string>
+	<!---->
+	<string name="drm_current_count">"Pašreizējais skaits:"</string>
+	<!---->
+	<string name="unlimited_usage">"Neierobežots lietošanas apjoms"</string>
+	<!---->
+	<string name="drm_current_right">"Pašreizējais ierobežojums:"</string>
+	<!---->
+	<string name="right_url">"Licenču izsniedzēja URL:"</string>
+	<!---->
+	<string name="use_times">"Lietojiet %s reizes"</string>
+	<!---->
+	<string name="valid_after">"Derīgs pēc:"</string>
+	<!---->
+	<string name="valid_until">"Derīgs līdz:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Pret kopēšanu aizsargāti faili"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Pret kopēšanu aizsargātu failu nevar izplatīt."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Izslēgt Wi-Fi rādījumu"</string>
+	<!---->
+	<string name="confirm_rename">"Apstiprināt nosaukumu"</string>
+	<!---->
+	<string name="drm_protection_status">"Aizsardzības statuss:"</string>
+	<!---->
+	<string name="default_folder_name">"Mapes nosaukums"</string>
+	<!---->
+	<string name="drm_can_forward">"Var pārsūtīt."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nevar pārsūtīt."</string>
+	<!---->
+	<string name="drm_no_license">"Nav pieejama neviena DRM licence."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Ir beidzies DRM licences derīguma termiņš."</string>
+	<!---->
+	<string name="drm_interval">"Pēc pirmās lietošanas derīgs: %s"</string>
+	<!---->
+	<string name="drm_begin">"Sākums:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Bez ierobežojumiem."</string>
+	<!---->
+	<string name="drm_end">"Beigas:"</string>
+	<!---->
+	<string name="drm_use_left">"Atlikums:"</string>
+	<!---->
+	<string name="readable_m">"Lasāms"</string>
+	<!---->
+	<string name="writable">"rakstāms"</string>
+	<!---->
+	<string name="permission_m">"Atļaujas"</string>
+	<!---->
+	<string name="executable_m">"Lietotne"</string>
+	<!---->
+	<string name="writable_m">"Rakstāmie"</string>
+	<!---->
+	<string name="detail_path_m">"Atrašanās vieta"</string>
+	<!---->
+	<string name="detail_name_m">"Nosaukums"</string>
+	<!---->
+	<string name="detail_size_m">"Lielums"</string>
+	<!---->
+	<string name="detail_time_m">"Pēd. pārv."</string>
+	<!---->
+	<string name="dialog_close_btn">"Aizvērt"</string>
+	<!---->
+	<string name="exit_dialog_content">"Pašreizējā darbība nav pabeigta, vai tiešām vēlaties iziet?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD karte ir izņemta vai ir iebūvēta."</string>
+	<!---->
+	<string name="warning">"Maksimālais faila apjoms"</string>
+	<!---->
+	<string name="share_warning">"Jūs nevarat atlasīt vairāk par 100 failiem."</string>
+	<!---->
+	<string name="unknown">"nezināms"</string>
+	<!---->
+	<string name="no_search_result">"\"%1$s\" - atrasti 0 faili"</string>
+	<!---->
+	<string name="copy_deny">"Nav atļaujas kopēt."</string>
+	<!---->
+	<string name="cut_deny">"Nav atļaujas izgriezt."</string>
+	<!---->
+	<string name="delete_deny">"Nav atļaujas dzēst."</string>
+	<!---->
+	<string name="insufficient_memory">"Nepietiekama vieta."</string>
+	<!---->
+	<string name="paste_same_folder">"Nevarēja nokopēt: avota un mērķa mape ir tā pati."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Ievadīta nederīga rakstzīme."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Faila formāts netiek atbalstīts."</string>
+	<!---->
+	<string name="paste_sub_folder">"Nevar ielīmēt apakšmapē."</string>
+	<!---->
+	<string name="operation_fail">"Darbības ar dažiem failiem neizdevās."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultāts(-i) vaicājumam \“%1$s\”"</string>
+	<!---->
+	<string name="already_exists">"%1$s jau tiek izmantots."</string>
+	<!---->
+	<string name="unmounted">"%1$s ir atmontēts"</string>
+	<!---->
+	<string name="file_name_too_long">"Ievadītais nosaukums ir pārāk garš."</string>
+	<!---->
+	<string name="some_paste_fail">"Dažas ielīmēšanas darbības neizdevās"</string>
+	<!---->
+	<string name="delete_fail">"Neizdevās dzēst"</string>
+	<!---->
+	<string name="some_delete_fail">"Dažas dzēšanas darbības neizdevās"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nav lietotnes faila atvēršanai"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nav pārsūtīts"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Nevar pārsūtīt DRM failu."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Failam nav derīgas DRM pilnvaras."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi displejs ir aizvērts"</string>
+	<!---->
+	<string name="no_folder">"Šī mape ir tukša."</string>
+	<!---->
+	<string name="no_category">"Šī kategorija ir tukša."</string>
+	<!---->
+	<string name="pasted">"Datne izdzēsta"</string>
+	<!---->
+	<string name="deleted">"Fails izdzēsts"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s nepastāv"</string>
+	<!---->
+	<string name="not_available">"Nav pieejams"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Prasītā mape nepastāv"</string>
+	<!---->
+	<string name="no_search_result_m">"Meklējot \"%1$s\", nav rezultātu"</string>
+	<!---->
+	<string name="exceeded_max_task">"Ir pārsniegts pašreizējais maksimālais uzdevumu skaits"</string>
+	<!---->
+	<string name="add_waiting_task">"Vienums ir pievienots izpildes rindas beigās"</string>
+	<!---->
+	<string name="category_pictures">"Attēli"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Mūzika"</string>
+	<!---->
+	<string name="category_download">"Lejupielādes"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Jaunākais"</string>
+	<!---->
+	<string name="main_document">"Dokumenti"</string>
+	<!---->
+	<string name="category_archives">"Arhīvi"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Instalētāji"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Iekšējā atmiņa"</string>
+	<!---->
+	<string name="sd_card">"SD karte"</string>
+	<!---->
+	<string name="usbotg">"Ārējā USB atmiņa"</string>
+	<!---->
+	<string name="choice_file">"Izvēlieties mērķi"</string>
+	<!---->
+	<string name="permission_welcome_title">"Nepieciešama atļauja"</string>
+	<!---->
+	<string name="permission_setting_title">"Nodrošināt pieeju"</string>
+	<!---->
+	<string name="permission_setting_content">"Mainiet atļaujas ierīces lietotņu iestatījumos. Nodrošiniet, lai Failu pārvaldniekam būtu piekļuve krātuvei."</string>
+	<!---->
+	<string name="permission_exit_btn">"Iziet"</string>
+	<!---->
+	<string name="selected">"atlasīta"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Tālrunis"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Iekšējā atmiņa"</string>
+	<!---->
+	<string name="usbotg_m">"Ārējā"</string>
+	<!---->
+	<string name="usbotg_n">"Ārējā krātuve"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Iestatījumi"</string>
+	<!---->
+	<string name="total_progress">"Kopējā virzība:"</string>
+	<!---->
+	<string name="total_task">"Uzdevumu skaits:"</string>
+	<!---->
+	<string name="items">"vienumi"</string>
+	<!---->
+	<string name="folder_items">"%1$s vienumi"</string>
+	<!---->
+	<string name="freeof_m">"Bezmaksas"</string>
+	<!---->
+	<string name="choose_files">"Atlasiet failu(-s)"</string>
+	<!---->
+	<string name="used_of">"izmantots no"</string>
+	<!---->
+	<string name="invalid_empty_name">"Faila vai mapes nosaukums nedrīkst būt tukšs."</string>
+	<!---->
+	<string name="just_now">"tikko"</string>
+	<!---->
+	<string name="minutes_ago">"minūtes iepriekš"</string>
+	<!---->
+	<string name="hours_ago">"stundas iepriekš"</string>
+	<!---->
+	<string name="minute_ago">"minūti iepriekš"</string>
+	<!---->
+	<string name="hour_ago">"stundu iepriekš"</string>
+	<!---->
+	<string name="day_ago">"dienu iepriekš"</string>
+	<!---->
+	<string name="searching">"Notiek meklēšana..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Vēl nav privātu failu"</string>
+	<!---->
+	<string name="safe_no_file_content">"Lai pievienotu failus, piespiediet uz izvēlnes augšējā labajā stūrī"</string>
+	<!---->
+	<string name="safe_activity_title">"Privāti faili"</string>
+	<!---->
+	<string name="move_safe">"Iestatīt kā privātu"</string>
+	<!---->
+	<string name="set_public">"Iestatīt kā publisku"</string>
+	<!---->
+	<string name="add_files">"Pievienot failus"</string>
+	<!---->
+	<string name="compress_susscces">"Fails saspiests"</string>
+	<!---->
+	<string name="extract_susscces">"Fails izvilkts"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Saspiestā faila nosaukums ir pārāk garš"</string>
+	<!---->
+	<string name="category_safe">"Privāts"</string>
+	<!---->
+	<string name="remove_private_tip">"Vai noņemt no privātā režīma?"</string>
+	<!---->
+	<string name="remove_private_title">"Dzēst"</string>
+	<!---->
+	<string name="remove_safe_single">"Vai padarīt %1$s redzamu visiem lietotājiem?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Vai padarīt atlasītos failus redzamus visiem lietotājiem?"</string>
+	<!---->
+	<string name="folder_already_exists">"Mape jau pastāv"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s jau pastāv"</string>
+	<!---->
+	<string name="keep_both">"Saglabāt abus"</string>
+	<!---->
+	<string name="set_private_failed">"Ārējo failu nevar iestatīt kā privātu."</string>
+	<!---->
+	<string name="app_name_new">"Failu pārvaldnieks"</string>
+</resources>

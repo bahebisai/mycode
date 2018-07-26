@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/extract_edit_text"
+        android:theme="@style/CustomEditTextTheme"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="17dp"
+        android:inputType="textCapSentences|textNoSuggestions"
+        android:maxLength="254"
+        android:singleLine="true"
+        android:textColor="#757575"
+        android:hint="@string/default_folder_name"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/compress_edit_text"
+        android:theme="@style/CustomEditTextTheme"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="17dp"
+        android:inputType="textCapSentences|textNoSuggestions"
+        android:maxLength="250"
+        android:hint="@string/category_archives"
+        android:singleLine="true"
+        android:textColor="#757575"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/delete_dialog_message"
+        android:layout_width="@dimen/dialog_width"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/extract_dialog_keep"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/ripple_bg"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/dialog_ok"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:text= "@string/keep_both"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/extract_dialog_rename"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/dialog_ok"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:background="@drawable/ripple_bg"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text= "@string/rename"
+        android:visibility="gone"/>
+
+</LinearLayout>

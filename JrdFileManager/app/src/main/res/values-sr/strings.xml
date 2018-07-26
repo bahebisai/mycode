@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Datoteke"</string>
+	<!---->
+	<string name="sort">"Razvrst."</string>
+	<!---->
+	<string name="sort_by_name">"Ime"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Tip"</string>
+	<!---->
+	<string name="sort_by_size">"Veličina"</string>
+	<!---->
+	<string name="copy">"Kopiraj"</string>
+	<!---->
+	<string name="create_folder">"Kreiraj"</string>
+	<!---->
+	<string name="cut">"Iseci"</string>
+	<!---->
+	<string name="delete">"Izbriši"</string>
+	<!---->
+	<string name="deselect_all">"Opozovi sve izbore"</string>
+	<!---->
+	<string name="select_all">"Izaberi sve"</string>
+	<!---->
+	<string name="show_file">"Prikaži sakrivene datoteke"</string>
+	<!---->
+	<string name="hide_file">"Sakrij skrivene datoteke"</string>
+	<!---->
+	<string name="paste">"Nalepi"</string>
+	<!---->
+	<string name="rename">"Promeni ime"</string>
+	<!---->
+	<string name="extract">"Izdvoj"</string>
+	<!---->
+	<string name="extracting">"Izdvajanje"</string>
+	<!---->
+	<string name="compress">"Kompromovati"</string>
+	<!---->
+	<string name="compressing">"Komprimovanje"</string>
+	<!---->
+	<string name="share">"Deli"</string>
+	<!---->
+	<string name="menu_select">"Odaberi"</string>
+	<!---->
+	<string name="view_list">"Pregled liste"</string>
+	<!---->
+	<string name="view_grid">"Mrežasti pregled"</string>
+	<!---->
+	<string name="create_new_folder">"Nova fascikla"</string>
+	<!---->
+	<string name="detail">"Detalji"</string>
+	<!---->
+	<string name="shortcut_item">"Dodajte prečicu"</string>
+	<!---->
+	<string name="search">"Pretraga"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Izbrisati izabrane stavke?"</string>
+	<!---->
+	<string name="hide_btn">"Sakrij"</string>
+	<!---->
+	<string name="loading">"Učitavanje sadržaja"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Izabrana datoteke će biti izbrisana."</string>
+	<!---->
+	<string name="modified_time">"Promenjeno"</string>
+	<!---->
+	<string name="msg_rename_ext">"Ekstenzija datoteke će biti promenjena. Datoteka možda neće biti prepoznata. Nastaviti?"</string>
+	<!---->
+	<string name="wait">"Sačekajte..."</string>
+	<!---->
+	<string name="done">"Urađeno"</string>
+	<!---->
+	<string name="next">"Sledeće"</string>
+	<!---->
+	<string name="cancel">"Otkaži"</string>
+	<!---->
+	<string name="show">"Pokaži"</string>
+	<!---->
+	<string name="no">"Ne"</string>
+	<!---->
+	<string name="ok">"U redu"</string>
+	<!---->
+	<string name="confirm">"Potvrdi"</string>
+	<!---->
+	<string name="yes">"Da"</string>
+	<!---->
+	<string name="send_file">"Pošalji datoteku putem:"</string>
+	<!---->
+	<string name="default_search_text">"Pretraži datoteke"</string>
+	<!---->
+	<string name="create_hidden_file">"Datoteka će biti sakrivena ako joj ime počinje sa \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Trenutni broj："</string>
+	<!---->
+	<string name="unlimited_usage">"Neograničena upotreba"</string>
+	<!---->
+	<string name="drm_current_right">"Trenutna ograničenja："</string>
+	<!---->
+	<string name="right_url">"URL izdavača licenci:"</string>
+	<!---->
+	<string name="use_times">"Korišćeno %s puta"</string>
+	<!---->
+	<string name="valid_after">"Važi posle"</string>
+	<!---->
+	<string name="valid_until">"Važi do"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Datoteke zaštićene od kopiranja"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Datoteke zaštićene od kopiranja ne mogu da se distribuiraju."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Isključite Wi-Fi prikaz"</string>
+	<!---->
+	<string name="confirm_rename">"Potvrdi ime"</string>
+	<!---->
+	<string name="drm_protection_status">"Status zaštite:"</string>
+	<!---->
+	<string name="default_folder_name">"Ime fascikle"</string>
+	<!---->
+	<string name="drm_can_forward">"Može se proslediti."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ne može se proslediti."</string>
+	<!---->
+	<string name="drm_no_license">"Nema dostupnih DRM licenci."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licenca je istekla."</string>
+	<!---->
+	<string name="drm_interval">"Važi %s posle prve upotrebe"</string>
+	<!---->
+	<string name="drm_begin">"Počni:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nema ograničenja."</string>
+	<!---->
+	<string name="drm_end">"Kraj:"</string>
+	<!---->
+	<string name="drm_use_left">"Preostalo:"</string>
+	<!---->
+	<string name="readable_m">"Čitljivo"</string>
+	<!---->
+	<string name="writable">"Upisivo"</string>
+	<!---->
+	<string name="permission_m">"Dozvole"</string>
+	<!---->
+	<string name="executable_m">"Aplikacija"</string>
+	<!---->
+	<string name="writable_m">"upisive"</string>
+	<!---->
+	<string name="detail_path_m">"Lokacija"</string>
+	<!---->
+	<string name="detail_name_m">"Ime"</string>
+	<!---->
+	<string name="detail_size_m">"Veličina"</string>
+	<!---->
+	<string name="detail_time_m">"Poslednje izmenjeno"</string>
+	<!---->
+	<string name="dialog_close_btn">"Zatvori"</string>
+	<!---->
+	<string name="exit_dialog_content">"Trenutna operacija je u toku, sigurni ste da želite da izađete?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD kartica je uklonjena ili je ugrađena."</string>
+	<!---->
+	<string name="warning">"Maksimlani broj datoteka"</string>
+	<!---->
+	<string name="share_warning">"Nije moguće deljenje više od 100 datoteka."</string>
+	<!---->
+	<string name="unknown">"nepoznato"</string>
+	<!---->
+	<string name="no_search_result">"0 rezultata za: \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nema dozvole za kopiranje"</string>
+	<!---->
+	<string name="cut_deny">"Nema dozvole za sečenje"</string>
+	<!---->
+	<string name="delete_deny">"Nema dozvole za brisanje"</string>
+	<!---->
+	<string name="insufficient_memory">"Nedovoljno prostora."</string>
+	<!---->
+	<string name="paste_same_folder">"Kopiranje nije moguće: izvorna i ciljna fascikla su iste."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Uneli ste nedozvoljeni znak"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format datoteke nije podržan."</string>
+	<!---->
+	<string name="paste_sub_folder">"Ne može da nalepi datoteku u podfasciklu."</string>
+	<!---->
+	<string name="operation_fail">"Neke operacije datoteka nisu uspele."</string>
+	<!---->
+	<string name="search_result">"%2$d rezultat(a) za: \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s je već u upotrebi"</string>
+	<!---->
+	<string name="unmounted">"%1$s je demontirana"</string>
+	<!---->
+	<string name="file_name_too_long">"Uneto ime je predugo"</string>
+	<!---->
+	<string name="some_paste_fail">"Neke operacije lepljenja nisu uspele"</string>
+	<!---->
+	<string name="delete_fail">"Brisanje nije moguće"</string>
+	<!---->
+	<string name="some_delete_fail">"Neke operacije brisanja nisu uspele"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Nema aplikacije za otvaranje datoteke."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nije prosleđeno"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM datoteka ne može da se prosledi."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Datoteka nema ispravno DRM ovlašćenje."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi prikaz je zatvoren"</string>
+	<!---->
+	<string name="no_folder">"Ova fascikla je prazna"</string>
+	<!---->
+	<string name="no_category">"Ova katogorija je prazna."</string>
+	<!---->
+	<string name="pasted">"Datoteka je nalepljena"</string>
+	<!---->
+	<string name="deleted">"Datoteka je izbrisana"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s ne postoji"</string>
+	<!---->
+	<string name="not_available">"Nije dostupno"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Tražena fascikla ne postoji"</string>
+	<!---->
+	<string name="no_search_result_m">"Nema pronađenih rezultata za: \„%1$s\“"</string>
+	<!---->
+	<string name="exceeded_max_task">"Premašen je trenutni maksimalni broj zadataka"</string>
+	<!---->
+	<string name="add_waiting_task">"Dodato je redu zadataka za izvršavanje"</string>
+	<!---->
+	<string name="category_pictures">"Slike"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Muzika"</string>
+	<!---->
+	<string name="category_download">"Preuzimanja"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Nedavno"</string>
+	<!---->
+	<string name="main_document">"Dokumenti"</string>
+	<!---->
+	<string name="category_archives">"Arhive"</string>
+	<!---->
+	<string name="category_audio">"Audio-zapis"</string>
+	<!---->
+	<string name="main_installers">"Program za instalaciju"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Memorija telefona"</string>
+	<!---->
+	<string name="sd_card">"SD kartica"</string>
+	<!---->
+	<string name="usbotg">"Spoljna USB memorija"</string>
+	<!---->
+	<string name="choice_file">"Izaberite odredište"</string>
+	<!---->
+	<string name="permission_welcome_title">"Potrebna je dozvola"</string>
+	<!---->
+	<string name="permission_setting_title">"Odobri pristup"</string>
+	<!---->
+	<string name="permission_setting_content">"Promenite dozvole u podešavanjima aplikacija na uređaju. Dozvolite Upravljanju datotekama pristup memoriji."</string>
+	<!---->
+	<string name="permission_exit_btn">"Izađi"</string>
+	<!---->
+	<string name="selected">"Odabrano"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Interna memorija"</string>
+	<!---->
+	<string name="usbotg_m">"Eksterno"</string>
+	<!---->
+	<string name="usbotg_n">"Eksterna memorija"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Podešavanja"</string>
+	<!---->
+	<string name="total_progress">"Ukupan napredak:"</string>
+	<!---->
+	<string name="total_task">"Broj zadataka:"</string>
+	<!---->
+	<string name="items">"Stavke"</string>
+	<!---->
+	<string name="folder_items">"%1$s stavke"</string>
+	<!---->
+	<string name="freeof_m">"Slobodno"</string>
+	<!---->
+	<string name="choose_files">"Izabrane datoteke"</string>
+	<!---->
+	<string name="used_of">"iskorišćeno od"</string>
+	<!---->
+	<string name="invalid_empty_name">"Ime datoteke ili fascikle ne može biti prazno"</string>
+	<!---->
+	<string name="just_now">"upravo sada"</string>
+	<!---->
+	<string name="minutes_ago">"minuta ranije"</string>
+	<!---->
+	<string name="hours_ago">"sata/i ranije"</string>
+	<!---->
+	<string name="minute_ago">"minut ranije"</string>
+	<!---->
+	<string name="hour_ago">"sat ranije"</string>
+	<!---->
+	<string name="day_ago">"dan ranije"</string>
+	<!---->
+	<string name="searching">"Pretraga..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Još uvek nema privatnih datoteka"</string>
+	<!---->
+	<string name="safe_no_file_content">"Pritisnite meni u gornjem desnom uglu za dodavanje datoteka"</string>
+	<!---->
+	<string name="safe_activity_title">"Privatne datoteke"</string>
+	<!---->
+	<string name="move_safe">"Postavi kao privatno"</string>
+	<!---->
+	<string name="set_public">"Postavi kao javno"</string>
+	<!---->
+	<string name="add_files">"Dodaj datoteke"</string>
+	<!---->
+	<string name="compress_susscces">"Datoteka je komprimovana"</string>
+	<!---->
+	<string name="extract_susscces">"Datoteka je raspakovana"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Ime komprimovane datoteke je predugo"</string>
+	<!---->
+	<string name="category_safe">"Privatno"</string>
+	<!---->
+	<string name="remove_private_tip">"Ukloniti iz Privatnog režima?"</string>
+	<!---->
+	<string name="remove_private_title">"Ukloni"</string>
+	<!---->
+	<string name="remove_safe_single">"Da datoteka %1$s bude vidljiva svim korisnicima?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Da izabrane datoteke budu vidljive svim korisnicima?"</string>
+	<!---->
+	<string name="folder_already_exists">"Fascikla već postoji"</string>
+	<!---->
+	<string name="file_already_exists">"%1$sveć postoji"</string>
+	<!---->
+	<string name="keep_both">"Zadrži oba"</string>
+	<!---->
+	<string name="set_private_failed">"Eksterna datoteka ne može da se postavi za privatnu datoteku."</string>
+	<!---->
+	<string name="app_name_new">"Upravljanje datotekama"</string>
+</resources>

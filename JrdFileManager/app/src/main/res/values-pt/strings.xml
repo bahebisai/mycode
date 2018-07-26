@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Ficheiros"</string>
+	<!---->
+	<string name="sort">"Ordenar"</string>
+	<!---->
+	<string name="sort_by_name">"Nome"</string>
+	<!---->
+	<string name="sort_by_time">"Data"</string>
+	<!---->
+	<string name="sort_by_type">"Tipo"</string>
+	<!---->
+	<string name="sort_by_size">"Taman."</string>
+	<!---->
+	<string name="copy">"Copiar"</string>
+	<!---->
+	<string name="create_folder">"Criar"</string>
+	<!---->
+	<string name="cut">"Recortar"</string>
+	<!---->
+	<string name="delete">"Eliminar"</string>
+	<!---->
+	<string name="deselect_all">"Desmarcar tds"</string>
+	<!---->
+	<string name="select_all">"Selecionar tudo"</string>
+	<!---->
+	<string name="show_file">"Mostrar ficheiros ocultos"</string>
+	<!---->
+	<string name="hide_file">"Ocultar ficheiros ocultos"</string>
+	<!---->
+	<string name="paste">"Colar"</string>
+	<!---->
+	<string name="rename">"Mudar o nome"</string>
+	<!---->
+	<string name="extract">"Extrair"</string>
+	<!---->
+	<string name="extracting">"A extrair"</string>
+	<!---->
+	<string name="compress">"Comprimir"</string>
+	<!---->
+	<string name="compressing">"A comprimir"</string>
+	<!---->
+	<string name="share">"Partilhar"</string>
+	<!---->
+	<string name="menu_select">"Selecionar"</string>
+	<!---->
+	<string name="view_list">"Visualização em lista"</string>
+	<!---->
+	<string name="view_grid">"Vista de grelha"</string>
+	<!---->
+	<string name="create_new_folder">"Criar pasta"</string>
+	<!---->
+	<string name="detail">"Detalhes"</string>
+	<!---->
+	<string name="shortcut_item">"Adicionar atalho"</string>
+	<!---->
+	<string name="search">"Pesquis."</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Eliminar os itens selecionados?"</string>
+	<!---->
+	<string name="hide_btn">"Ocultar"</string>
+	<!---->
+	<string name="loading">"A carregar conteúdo"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Os ficheiros selecionados serão apagados."</string>
+	<!---->
+	<string name="modified_time">"Modificado"</string>
+	<!---->
+	<string name="msg_rename_ext">"A extensão do ficheiro será alterada. O ficheiro pode não ser reconhecido. Continuar?"</string>
+	<!---->
+	<string name="wait">"Aguarde..."</string>
+	<!---->
+	<string name="done">"Concluído"</string>
+	<!---->
+	<string name="next">"Avançar"</string>
+	<!---->
+	<string name="cancel">"Cancelar"</string>
+	<!---->
+	<string name="show">"Mostrar"</string>
+	<!---->
+	<string name="no">"Não"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Confirmar"</string>
+	<!---->
+	<string name="yes">"Sim"</string>
+	<!---->
+	<string name="send_file">"Partilhar ficheiro(s) por"</string>
+	<!---->
+	<string name="default_search_text">"Pesquisar ficheiros"</string>
+	<!---->
+	<string name="create_hidden_file">"O ficheiro fica oculto se o nome começar com \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Contagem atual："</string>
+	<!---->
+	<string name="unlimited_usage">"Utilização ilimitada"</string>
+	<!---->
+	<string name="drm_current_right">"Limitação atual："</string>
+	<!---->
+	<string name="right_url">"URL emissor das licenças:："</string>
+	<!---->
+	<string name="use_times">"Utilizar %s vezes"</string>
+	<!---->
+	<string name="valid_after">"Válido depois de"</string>
+	<!---->
+	<string name="valid_until">"Válido até"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Ficheiros protegidos contra cópia"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"O ficheiro protegido contra cópia não pode ser distribuído."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Desativar Visualização Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Confirmar nome"</string>
+	<!---->
+	<string name="drm_protection_status">"Estado de protecção:"</string>
+	<!---->
+	<string name="default_folder_name">"Nome da pasta"</string>
+	<!---->
+	<string name="drm_can_forward">"Pode ser reencaminhado."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Não pode ser reencaminhado."</string>
+	<!---->
+	<string name="drm_no_license">"Nenhuma licença DRM disponível."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"A licença DRM expirou."</string>
+	<!---->
+	<string name="drm_interval">"Válido para %s após a primeira utilização"</string>
+	<!---->
+	<string name="drm_begin">"Início:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sem limitação."</string>
+	<!---->
+	<string name="drm_end">"Fim:"</string>
+	<!---->
+	<string name="drm_use_left">"Utilizações restantes:"</string>
+	<!---->
+	<string name="readable_m">"Legível"</string>
+	<!---->
+	<string name="writable">"gravável"</string>
+	<!---->
+	<string name="permission_m">"Permissões"</string>
+	<!---->
+	<string name="executable_m">"Aplicação"</string>
+	<!---->
+	<string name="writable_m">"graváveis"</string>
+	<!---->
+	<string name="detail_path_m">"Localização"</string>
+	<!---->
+	<string name="detail_name_m">"Nome"</string>
+	<!---->
+	<string name="detail_size_m">"Tamanho"</string>
+	<!---->
+	<string name="detail_time_m">"Última modificação"</string>
+	<!---->
+	<string name="dialog_close_btn">"Fechar"</string>
+	<!---->
+	<string name="exit_dialog_content">"A operação atual está em curso. Sair?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"O cartão SD foi removido ou está integrado."</string>
+	<!---->
+	<string name="warning">"Número máximo de ficheiros"</string>
+	<!---->
+	<string name="share_warning">"Não pode partilhar mais de 100 ficheiros."</string>
+	<!---->
+	<string name="unknown">"Desconhecido"</string>
+	<!---->
+	<string name="no_search_result">"0 resultado(s) para \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Sem permissão p/a copiar"</string>
+	<!---->
+	<string name="cut_deny">"Sem permissão p/a cortar"</string>
+	<!---->
+	<string name="delete_deny">"Sem permissão p/ apagar"</string>
+	<!---->
+	<string name="insufficient_memory">"Espaço insuficiente."</string>
+	<!---->
+	<string name="paste_same_folder">"Não foi possível copiar: a pasta de origem e destino é a mesma."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Introduziu um carácter inválido"</string>
+	<!---->
+	<string name="msg_unable_open_file">"O formato de ficheiro não é suportado."</string>
+	<!---->
+	<string name="paste_sub_folder">"Não é possível colar ficheiro na subpasta"</string>
+	<!---->
+	<string name="operation_fail">"Operação de ficheiros falhou."</string>
+	<!---->
+	<string name="search_result">"%2$d resultado(s) para \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s já está em utilização"</string>
+	<!---->
+	<string name="unmounted">"%1$s não ativado"</string>
+	<!---->
+	<string name="file_name_too_long">"O nome inserido é demasiado longo"</string>
+	<!---->
+	<string name="some_paste_fail">"Operações de colagem falharam"</string>
+	<!---->
+	<string name="delete_fail">"Não foi possível eliminar"</string>
+	<!---->
+	<string name="some_delete_fail">"Operação de eliminação falhou"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Não existe aplicação para abrir o ficheiro."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Não encaminhar"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Não é possível reenviar o ficheiro DRM."</string>
+	<!---->
+	<string name="drm_no_valid_right">"O ficheiro não tem autoridade DRM válida!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"A Visualização Wi-Fi foi fechada"</string>
+	<!---->
+	<string name="no_folder">"Esta pasta está vazia"</string>
+	<!---->
+	<string name="no_category">"Esta categoria está vazia."</string>
+	<!---->
+	<string name="pasted">"Ficheiro colado"</string>
+	<!---->
+	<string name="deleted">"Ficheiro eliminado"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s não existe"</string>
+	<!---->
+	<string name="not_available">"Não disponível"</string>
+	<!---->
+	<string name="shortcut_no_exist">"A pasta solicitada não existe"</string>
+	<!---->
+	<string name="no_search_result_m">"Nenhum resultado encontrado para \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Excedeu o número máximo de tarefas atuais"</string>
+	<!---->
+	<string name="add_waiting_task">"Foi adicionada à fila de tarefas de execução"</string>
+	<!---->
+	<string name="category_pictures">"Imagens"</string>
+	<!---->
+	<string name="category_vedios">"Vídeos"</string>
+	<!---->
+	<string name="category_music">"Música"</string>
+	<!---->
+	<string name="category_download">"Transferências"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Recentes"</string>
+	<!---->
+	<string name="main_document">"Documentos"</string>
+	<!---->
+	<string name="category_archives">"Arquiv."</string>
+	<!---->
+	<string name="category_audio">"Áudio"</string>
+	<!---->
+	<string name="main_installers">"Instaladores"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Memória do telefone"</string>
+	<!---->
+	<string name="sd_card">"Cartão SD"</string>
+	<!---->
+	<string name="usbotg">"Armazenamento USB externo"</string>
+	<!---->
+	<string name="choice_file">"Escolher destino"</string>
+	<!---->
+	<string name="permission_welcome_title">"Permissão necessária"</string>
+	<!---->
+	<string name="permission_setting_title">"Conceder acesso"</string>
+	<!---->
+	<string name="permission_setting_content">"Altere as permissões nas definições de aplicação do dispositivo. Permita que o Gestor de ficheiros aceda à memória."</string>
+	<!---->
+	<string name="permission_exit_btn">"Sair"</string>
+	<!---->
+	<string name="selected">"Selecionado"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefone"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Memória interna"</string>
+	<!---->
+	<string name="usbotg_m">"Externa"</string>
+	<!---->
+	<string name="usbotg_n">"Memória externa"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Definições"</string>
+	<!---->
+	<string name="total_progress">"Progresso total:"</string>
+	<!---->
+	<string name="total_task">"Número de tarefas:"</string>
+	<!---->
+	<string name="items">"itens"</string>
+	<!---->
+	<string name="folder_items">"%1$s itens"</string>
+	<!---->
+	<string name="freeof_m">"Disponível"</string>
+	<!---->
+	<string name="choose_files">"Selecionar ficheiro(s)"</string>
+	<!---->
+	<string name="used_of">"utilizado de"</string>
+	<!---->
+	<string name="invalid_empty_name">"Nome de ficheiro ou pasta não pode estar vazio"</string>
+	<!---->
+	<string name="just_now">"mesmo agora"</string>
+	<!---->
+	<string name="minutes_ago">"minutos atrás"</string>
+	<!---->
+	<string name="hours_ago">"horas atrás"</string>
+	<!---->
+	<string name="minute_ago">"minuto atrás"</string>
+	<!---->
+	<string name="hour_ago">"hora atrás"</string>
+	<!---->
+	<string name="day_ago">"dia atrás"</string>
+	<!---->
+	<string name="searching">"A pesquisar..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Ainda não existem ficheiros privados"</string>
+	<!---->
+	<string name="safe_no_file_content">"Prima menu no canto superior direito para adicionar ficheiros"</string>
+	<!---->
+	<string name="safe_activity_title">"Ficheiros privados"</string>
+	<!---->
+	<string name="move_safe">"Definir como privado"</string>
+	<!---->
+	<string name="set_public">"Definir como público"</string>
+	<!---->
+	<string name="add_files">"Adicionar ficheiros"</string>
+	<!---->
+	<string name="compress_susscces">"Ficheiro compactado"</string>
+	<!---->
+	<string name="extract_susscces">"Ficheiro extraído"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"O nome de ficheiro comprimido é demasiado longo."</string>
+	<!---->
+	<string name="category_safe">"Privado"</string>
+	<!---->
+	<string name="remove_private_tip">"Remover do modo privado?"</string>
+	<!---->
+	<string name="remove_private_title">"Remover"</string>
+	<!---->
+	<string name="remove_safe_single">"Tornar %1$s visível para todos os utilizadores?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Tornar os ficheiros selecionados visíveis para todos os utilizadores?"</string>
+	<!---->
+	<string name="folder_already_exists">"A pasta já existe"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s já existe"</string>
+	<!---->
+	<string name="keep_both">"Manter ambos"</string>
+	<!---->
+	<string name="set_private_failed">"Um ficheiro privado não pode ser definido por um ficheiro externo."</string>
+	<!---->
+	<string name="app_name_new">"Gestor de ficheiros"</string>
+</resources>

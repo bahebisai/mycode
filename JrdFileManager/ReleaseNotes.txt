@@ -1,0 +1,26 @@
+Version:v5.1.0.1.0312.0
+
+APK URI: https://172.16.11.175/FileManager/FileManager_02/v5.1.0.1.0312.0/
+
+Translation Lable: null
+commitID：0abde62643cd69e9337d96839d1ca8aea4bef67c
+
+Milestone: FirstRun
+Description:
+
+FileManager_Global_v5.1.0.1.0312.0_signed_platformkey_alldpi.apk 
+FileManager_Global_v5.1.0.1.0312.0_unsigned_platformkey_alldpi.apk
+Resolution Ratio: (mdpi,hdpi,lhdpi,xhdpi)
+Platform:MTK && QualComm(5.0)
+Phone type and mode: idol3
+
+Integration Guide:
+
+
+Main change:
+1. update version.
+2. 307904
+
+
+ERGO/GD URI:
+http://172.24.61.76/delivery_ergo2/index.php?D=%2FNewProjects%2F2015_Apps_5.0%2FFile+Manager%2FErgo

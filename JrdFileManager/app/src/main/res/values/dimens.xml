@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bar_height_size">70dp</dimen>
+    <dimen name="menu_parent_width">60dp</dimen>
+    <dimen name="menu_size">48dp</dimen>
+    <dimen name="menu_space">22dp</dimen>
+    <dimen name="nail_size">32dp</dimen>
+    <dimen name="nail_padding">16dp</dimen>
+    <dimen name="grid_nail_size">120dp</dimen>
+    <dimen name="grid_text_height">16dp</dimen>
+    <dimen name="no_search_image">76dp</dimen>
+    <dimen name="no_search_image_margin_top">34dp</dimen>
+    <dimen name="category_image_size">56dp</dimen>
+    <dimen name="category_image_h_space">20dp</dimen>
+    <dimen name="category_image_v_space">8dp</dimen>
+    <dimen name="category_space">3dp</dimen>
+    <dimen name="tab_margin_left">6dp</dimen>
+    <dimen name="drawer_width">280dp</dimen>
+    <dimen name="drawer_padding">11dp</dimen>
+    <dimen name="select_file_tab_margin_left">-12dp</dimen>
+    <dimen name="select_file_bar_height_size">48dp</dimen>
+    <dimen name="bottom_bar_margin_top">2dp</dimen>
+    <dimen name="list_item_margin_left_right">16dp</dimen>
+    <dimen name="drawer_shadow">9dp</dimen>
+    <dimen name="grid_text_padding">4dp</dimen>
+    <dimen name="grid_text_width">100dp</dimen>
+    <dimen name="percentage_bar_top_margin">10dp</dimen>
+    <dimen name="percentage_bar_padding">10dp</dimen>
+    <dimen name="category_size_height">80dp</dimen>
+    <dimen name="storage_size_padding">32dp</dimen>
+    <dimen name="percentage_bar_height">12dp</dimen>
+    <dimen name="home_text_size">18dp</dimen>
+    <dimen name="bar_small_text_size">12dp</dimen>
+    <dimen name="home_small_text_size">12dp</dimen>
+    <dimen name="no_search_result_text_size">20dp</dimen>
+    <dimen name="drawer_list_item_text_size">14sp</dimen>
+    <dimen name="category_phone_storage_memory_size">8sp</dimen>
+    <dimen name="category_sdcard_storage_text_size">12sp</dimen>
+    <dimen name="category_item_name_text_size">12sp</dimen>
+    <dimen name="category_item_count_text_size">8sp</dimen>
+
+    <integer name="name_max_length">255</integer> <!-- add for PR848342 by yane.wang@jrdcom.com 20141124 -->
+    <dimen name="floating_action_button_height">56dp</dimen>
+    <dimen name="floating_action_button_width">56dp</dimen>
+    <dimen name="floating_action_button_margin_right">16dp</dimen>
+    <dimen name="floating_action_button_margin_bottom">16dp</dimen>
+    <dimen name="floating_action_button_translation_z">2dp</dimen>
+    <dimen name="floating_action_button_list_bottom_padding">88dp</dimen>
+    <dimen name="indicate_file_title_size">14sp</dimen>
+    <dimen name="list_title_text_size">14sp</dimen>
+    <dimen name="list_time_text_size">13sp</dimen>
+    <dimen name="sory_by_list_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="category_margin_top">8dp</dimen>
+    <dimen name="category_name_margin_image">4dp</dimen>
+    <dimen name="category_card_heigt">24dp</dimen>
+    <dimen name="percentage_h_offset">0px</dimen>
+    <dimen name="percentage_v_offset">2px</dimen>
+    <dimen name="category_grid_height">110dp</dimen>
+    <dimen name="action_bar_path_width">130dp</dimen>
+    <dimen name="path_text_size">18dp</dimen>
+    <dimen name="detail_dialog_width">300dp</dimen>
+    <dimen name="detail_dialog_height">330dp</dimen>
+    <dimen name="detail_dialog_multi_screen_height">300dp</dimen>
+    <dimen name="search_view_width">300dp</dimen>
+    <dimen name="menu_padding_top">52dp</dimen>
+
+    <integer name="percentage_sd_offset">11</integer>
+    <!-- main.xml start -->
+    <dimen name="main_filepathbrower_height">48dp</dimen>
+    <dimen name="main_filepathbrower_margin">16dp</dimen>
+    <dimen name="main_filepathbrower_size">14sp</dimen>
+    <dimen name="main_filepathbrower_width">20dp</dimen>
+    <dimen name="main_filepathbrower_navigation_porit_width">270dp</dimen>
+    <dimen name="main_filepathbrower_navigation_land_width">508dp</dimen>
+    <dimen name="main_filepathbrower_navigation_max_width">150dp</dimen>
+    <dimen name="main_snacktext_margin_left">24dp</dimen>
+    <dimen name="main_snackbar_textsize">14sp</dimen>
+    <dimen name="main_snackbar_height">48dp</dimen>
+    <dimen name="main_actionbar_padding_left">8dp</dimen>
+    <dimen name="main_frame_padding_top">54dp</dimen>
+    <dimen name="main_actionbar_height">54dp</dimen>
+    <!-- main.xml end -->
+    <!-- homeScreen mainItem start -->
+    <dimen name="main_item_icon_height">48dp</dimen>
+    <dimen name="main_item_icon_size">24dp</dimen>
+    <dimen name="main_item_size">112dp</dimen>
+    <dimen name="main_item_margin">4dp</dimen>
+    <dimen name="main_item_text_margin">12dp</dimen>
+    <dimen name="main_item_text_name">13sp</dimen>
+    <dimen name="main_item_text_size">12sp</dimen>
+    <!-- homeScreen mainItem end -->
+    <!-- fragment_category start -->
+    <dimen name="storage_image_margin_top">8dp</dimen>
+    <dimen name="storage_image_margin_land_top">8dp</dimen>
+    <dimen name="storage_image_margin_land_right">0dp</dimen>
+    <dimen name="storage_image_margin_left">16dp</dimen>
+    <dimen name="storage_height">73dp</dimen>
+    <dimen name="storage_icon_size">24dp</dimen>
+    <dimen name="storage_land_height">65dp</dimen>
+    <dimen name="gridview_margin">4dp</dimen>
+    <dimen name="phone_text_height">30dp</dimen>
+    <dimen name="storage_parent_margin">8dp</dimen>
+    <dimen name="storage_parent_margin_top">1dp</dimen>
+    <dimen name="phone_margin_top">18dp</dimen>
+    <dimen name="storage_image_padding">5dp</dimen>
+    <dimen name="storage_text_margin_start">6dp</dimen>
+    <dimen name="storage_progress_margin_bottom">15dp</dimen>
+    <dimen name="storage_text_margin_end">12dp</dimen>
+    <dimen name="category_phone_storage_text_size">14sp</dimen>
+    <dimen name="category_phone_storage_size">12sp</dimen>
+    <dimen name="gridview_land_margin">2dp</dimen>
+    <dimen name="phone_parent_margin_top">10dp</dimen>
+    <dimen name="phone_parent_margin_bottom">20dp</dimen>
+    <dimen name="extra_parent_margin_top_m">0dp</dimen>
+	<dimen name="extra_parent_margin_bottom_m">0dp</dimen>
+	<dimen name="phone_parent_margin_top_m">0dp</dimen>
+	<dimen name="phone_parent_margin_bottom_m">0dp</dimen>
+	<dimen name="sd_parent_margin_top_m">0dp</dimen>
+	<dimen name="sd_parent_margin_bottom_m">0dp</dimen>
+    <dimen name="phone_parent_margin_left">7.5dp</dimen>
+    <dimen name="phone_parent_margin_right">7.5dp</dimen>
+    <dimen name="phone_image_padding_top">5dp</dimen>
+    <dimen name="phone_image_padding_bottom">5dp</dimen>
+    <dimen name="phone_text_magin_start">6dp</dimen>
+    <dimen name="phone_text_margin_bottom">12dp</dimen>
+    <dimen name="sd_parent_margin_top">10dp</dimen>
+    <dimen name="sd_parent_margin_bottom">10dp</dimen>
+    <dimen name="sd_parent_margin_left">5dp</dimen>
+    <dimen name="sd_parent_margin_right">7.5dp</dimen>
+    <dimen name="sd_image_padding_top">5dp</dimen>
+    <dimen name="sd_image_padding_bottom">5dp</dimen>
+    <dimen name="sd_text_margin_start">6dp</dimen>
+    <dimen name="sd_text_margin_end">12dp</dimen>
+    <dimen name="extra_parent_margin_left">5dp</dimen>
+    <dimen name="extra_parent_margin_right">7.5dp</dimen>
+    <dimen name="extra_parent_margin_top">10dp</dimen>
+    <dimen name="extra_parent_margin_bottom">10dp</dimen>
+    <dimen name="extra_image_padding_top">5dp</dimen>
+    <dimen name="extra_image_padding_bottom">5dp</dimen>
+    <dimen name="extra_text_margin_start">6dp</dimen>
+    <dimen name="extra_text_margin_end">12dp</dimen>
+    <dimen name="phone_parent_text_maigin_right">16dp</dimen>
+    <dimen name="phone_parent_text_maigin_land_right">5dp</dimen>
+    <dimen name="phone_line_margin_left">54dp</dimen>
+    <dimen name="category_phone_storage_size_size">13sp</dimen>
+    <!-- fragment_category end -->
+    <!-- FileGlobalSearchActvity start -->
+    <dimen name="search_view_text_size">16sp</dimen>
+    <dimen name="search_view_bar_height">60dp</dimen>
+    <dimen name="no_search_view_margin">16dp</dimen>
+    <dimen name="search_back_margin">20dp</dimen>
+    <dimen name="search_line_height">1dp</dimen>
+    <!-- FileGlobalSearchActvity end -->
+    <!-- sort_menu.xml start -->
+    <dimen name="sort_menu_width">196dp</dimen>
+    <dimen name="sort_menu_height">296dp</dimen>
+    <dimen name="sort_menu_title_paddingtop">16dp</dimen>
+    <dimen name="sort_menu_title_paddingbottom">19dp</dimen>
+    <dimen name="sort_menu_title_textpaddingbottom">10dp</dimen>
+    <dimen name="sort_menu_title_textSize">15sp</dimen>
+    <dimen name="sort_menu_title_start">10dp</dimen>
+    <dimen name="sort_menu_pop_width">217dp</dimen>
+    <dimen name="sort_menu_pop_height">246dp</dimen>
+    <dimen name="sort_menu_pop_xoff">10dp</dimen>
+    <dimen name="sort_menu_pop_yoff">18dp</dimen>
+    <!-- sort_menu.xml end -->
+
+
+    <!-- sort_menu_item.xml start -->
+    <dimen name="sort_menu_item_paddingtop">8dp</dimen>
+    <dimen name="sort_menu_item_text">10dp</dimen>
+    <dimen name="sort_menu_item_textsize">16sp</dimen>
+    <dimen name="sort_menu_item_radio">130dp</dimen>
+    <!-- sort_menu_item.xml end -->
+
+
+    <!-- file_gird_item start -->
+    <dimen name="file_grid_item_size">112dp</dimen>
+    <dimen name="file_grid_item_image_margin_top">10dp</dimen>
+    <dimen name="file_grid_item_name_height">40dp</dimen>
+    <dimen name="file_grid_item_view_margin">3dp</dimen>
+    <dimen name="file_grid_item_more_maginend">2dp</dimen>
+    <dimen name="file_grid_item_more_icon_size">24dp</dimen>
+    <dimen name="file_grid_item_name_margin_top">4dp</dimen>
+    <dimen name="file_grid_item_name_margin_left">5dp</dimen>
+    <dimen name="file_grid_item_name_h">18dp</dimen>
+    <dimen name="file_list_more_width">48dp</dimen>
+    <dimen name="file_grid_margin_left">10dp</dimen>
+    <!-- grid_item end -->
+    <!-- file_list_item start -->
+    <dimen name="file_list_item_minheight">64dp</dimen>
+    <dimen name="file_list_item_icon_size">32dp</dimen>
+    <dimen name="file_list_item_layout_margin">16dp</dimen>
+    <dimen name="file_list_item_size_margin">20dp</dimen>
+    <dimen name="file_list_item_margin">20dp</dimen>
+    <dimen name="file_list_item_more_margin">10dp</dimen>
+
+    <!-- file_list_item_end -->
+    <!-- more_menu.xml start -->
+    <dimen name="more_menu_pop_height">226dp</dimen>
+    <dimen name="more_menu_pop_paste_height">180dp</dimen>
+    <dimen name="more_menu_pop_category_height">146dp</dimen>
+    <dimen name="more_menu_pop_folder_height">278dp</dimen>
+    <dimen name="more_menu_pop_folder_normal_height">263dp</dimen>
+    <dimen name="more_menu_pop_share_height">305dp</dimen>
+    <dimen name="more_menu_pop_multishare_height">233dp</dimen>
+    <dimen name="more_menu_pop_multishare_normal_height">223dp</dimen>
+    <dimen name="more_menu_pop_multi_height">190dp</dimen>
+    <dimen name="more_menu_pop_multifile_height">230dp</dimen>
+    <dimen name="more_menu_padding_left">16dp</dimen>
+    <dimen name="more_menu_padding_bottom">12dp</dimen>
+    <dimen name="more_menu_item_padding">12dp</dimen>
+    <dimen name="more_menu_item_left">15dp</dimen>
+    <dimen name="more_menu_pop_xoff">10dp</dimen>
+    <dimen name="more_menu_pop_yoff">18dp</dimen>
+    <dimen name="more_menu_edit_count">20dp</dimen>
+    <dimen name="item_more_menu_pop_listxoff">17dp</dimen>
+    <dimen name="item_more_menu_pop_listyoff">27dp</dimen>
+    <dimen name="item_more_menu_pop_gridxoff">10dp</dimen>
+    <dimen name="item_more_menu_pop_gridyoff">17dp</dimen>
+    <dimen name="no_folder_font_size">16sp</dimen>
+    <dimen name="no_folder_margin_top">10dp</dimen>
+    <dimen name="more_menu_linear_top">4dp</dimen>
+    <dimen name="more_menu_land_pop_drmnoshare_height">200dp</dimen>
+    <dimen name="more_menu_land_pop_multishare_height">250dp</dimen>
+    <dimen name="more_menu_porit_pop_folder_height">290dp</dimen>
+    <dimen name="more_menu_land_pop_folder_height">345dp</dimen>
+    <dimen name="more_menu_multiscreen_pop_height">200dp</dimen>
+    <!-- more_menu.xml end -->
+
+    <dimen name="item_more_menu_pop_category_height">300dp</dimen>
+    <dimen name="item_more_menu_pop_path_height">345dp</dimen>
+    <dimen name="item_more_menu_pop_drm_height">200dp</dimen>
+    <dimen name="item_more_menu_pop_sd_drm_height">245dp</dimen>
+    <dimen name="item_more_menu_pop_share_height">235dp</dimen>
+    <dimen name="item_more_menu_pop_private_height">345dp</dimen>
+    <dimen name="item_more_menu_pop_path_private_height">390dp</dimen>
+
+    <dimen name="floating_window_z">16dp</dimen>
+
+    <!-- fragment_permission.xml start -->
+    <dimen name="permission_welcome_title_top">55dp</dimen>
+    <dimen name="permission_welcome_title_size">26sp</dimen>
+    <dimen name="permission_welcome_img_bottom">100dp</dimen>
+    <dimen name="permission_deny_title_left">39dp</dimen>
+    <dimen name="permission_deny_title_top">35dp</dimen>
+    <dimen name="permission_deny_title_bottom">15dp</dimen>
+    <dimen name="permission_deny_title_sizes">24sp</dimen>
+    <dimen name="permission_deny_content_bottom">25dp</dimen>
+    <dimen name="permission_deny_content_size">16sp</dimen>
+    <dimen name="permission_deny_line_bottom">25dp</dimen>
+    <dimen name="permission_setting_left">63dp</dimen>
+    <dimen name="permission_setting_bottom">15dp</dimen>
+    <dimen name="permission_setting_size">14sp</dimen>
+    <dimen name="permission_setting_nav_width">18dp</dimen>
+    <dimen name="permission_setting_nav_left">6dp</dimen>
+    <!-- fragment_permission.xml end -->
+
+    <dimen name="delete_dialog_width">280dp</dimen>
+
+    <!--safe.xml start-->
+    <dimen name="more_safe_menu_land_pop_folder_height">350dp</dimen>
+    <integer name="category_gridview_numColumns">3</integer>
+    <integer name="safe_category_gridview_numColumns">2</integer>
+    <!--safe.xml end-->
+
+
+
+
+
+    <dimen name="safe_storage_title_bottom">10dp</dimen>
+    <dimen name="safe_storage_title_left">15dp</dimen>
+    <dimen name="safe_storage_font_size">18sp</dimen>
+
+
+
+
+
+
+    <dimen name="safe_set_title_left">15dp</dimen>
+    <dimen name="safe_set_title_bottom">10dp</dimen>
+    <dimen name="safe_set_title_size">14sp</dimen>
+    <dimen name="safe_set_font_size">16sp</dimen>
+
+
+
+    <dimen name="update_password_title_left">10dp</dimen>
+    <dimen name="update_password_title_bottom">25dp</dimen>
+    <dimen name="update_password_title_top">50dp</dimen>
+    <dimen name="update_password_font_size">14sp</dimen>
+
+
+
+    <dimen name="update_question_title_left">10dp</dimen>
+    <dimen name="update_question_title_bottom">25dp</dimen>
+    <dimen name="update_question_title_top">50dp</dimen>
+    <dimen name="update_question_font_size">14sp</dimen>
+
+
+
+    <dimen name="fab_size_large">56dp</dimen>
+    <dimen name="fab_size_normal">42dp</dimen>
+    <dimen name="fab_size_mini">35dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">2dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="search_icon_width">32dp</dimen>
+
+    <dimen name="drm_icon_width">32dp</dimen>
+
+    <dimen name="multiwindow_recyclerView_height">200dp</dimen>
+    <dimen name="drm_lock_icon_left">18dp</dimen>
+
+    <dimen name="dialog_width">260dp</dimen>
+    <dimen name="actionbar_img_size">36dp</dimen>
+
+    <dimen name="default_icon_size">24dp</dimen>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="main_item_icon_height">72dp</dimen>
+<dimen name="main_item_icon_size">32dp</dimen>
+<dimen name="main_item_text_name">16sp</dimen>
+<dimen name="main_item_text_size">14sp</dimen>
+<dimen name="storage_icon_size">32dp</dimen>
+<dimen name="category_phone_storage_text_size">16sp</dimen>
+<dimen name="category_phone_storage_size_size">14sp</dimen>
+<dimen name="file_list_item_minheight">72dp</dimen>
+<dimen name="file_list_item_icon_size">32dp</dimen>
+<dimen name="list_title_text_size">16sp</dimen>
+<dimen name="list_time_text_size">15sp</dimen>
+<dimen name="file_list_item_more_margin">18dp</dimen>
+<dimen name="file_list_item_margin">25dp</dimen>
+<dimen name="file_grid_item_name_height">56dp</dimen>
+<dimen name="bar_small_text_size">14dp</dimen>
+<dimen name="file_grid_item_more_maginend">5dp</dimen>
+<dimen name="default_icon_size">32dp</dimen>
+</resources>

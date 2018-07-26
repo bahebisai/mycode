@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Файлы"</string>
+	<!---->
+	<string name="sort">"Сортировка"</string>
+	<!---->
+	<string name="sort_by_name">"Имя"</string>
+	<!---->
+	<string name="sort_by_time">"Дата"</string>
+	<!---->
+	<string name="sort_by_type">"Тип"</string>
+	<!---->
+	<string name="sort_by_size">"Размер"</string>
+	<!---->
+	<string name="copy">"Копировать"</string>
+	<!---->
+	<string name="create_folder">"Создать"</string>
+	<!---->
+	<string name="cut">"Вырезать"</string>
+	<!---->
+	<string name="delete">"Удалить"</string>
+	<!---->
+	<string name="deselect_all">"Отменить все"</string>
+	<!---->
+	<string name="select_all">"Выбрать все"</string>
+	<!---->
+	<string name="show_file">"Показать скрытые файлы"</string>
+	<!---->
+	<string name="hide_file">"Скрыть скрытые файлы"</string>
+	<!---->
+	<string name="paste">"Вставить"</string>
+	<!---->
+	<string name="rename">"Переименовать"</string>
+	<!---->
+	<string name="extract">"Извлечь"</string>
+	<!---->
+	<string name="extracting">"Извлечение"</string>
+	<!---->
+	<string name="compress">"Сжать"</string>
+	<!---->
+	<string name="compressing">"Сжатие"</string>
+	<!---->
+	<string name="share">"Отправить"</string>
+	<!---->
+	<string name="menu_select">"Выбрать"</string>
+	<!---->
+	<string name="view_list">"Список"</string>
+	<!---->
+	<string name="view_grid">"Значки"</string>
+	<!---->
+	<string name="create_new_folder">"Создать папку"</string>
+	<!---->
+	<string name="detail">"Сведения"</string>
+	<!---->
+	<string name="shortcut_item">"Создать ярлык"</string>
+	<!---->
+	<string name="search">"Поиск"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Удалить выделенные элементы?"</string>
+	<!---->
+	<string name="hide_btn">"Скрыть"</string>
+	<!---->
+	<string name="loading">"Загрузка..."</string>
+	<!---->
+	<string name="alert_delete_multiple">"Выбранные файлы будут удалены."</string>
+	<!---->
+	<string name="modified_time">"Изменено"</string>
+	<!---->
+	<string name="msg_rename_ext">"Расширение файла будет изменено. Файл не может быть распознан. Продолжить?"</string>
+	<!---->
+	<string name="wait">"Подождите..."</string>
+	<!---->
+	<string name="done">"ОК"</string>
+	<!---->
+	<string name="next">"Далее"</string>
+	<!---->
+	<string name="cancel">"Отмена"</string>
+	<!---->
+	<string name="show">"Показать"</string>
+	<!---->
+	<string name="no">"Нет"</string>
+	<!---->
+	<string name="ok">"ОК"</string>
+	<!---->
+	<string name="confirm">"Подтвердите"</string>
+	<!---->
+	<string name="yes">"Да"</string>
+	<!---->
+	<string name="send_file">"Отправить с помощью"</string>
+	<!---->
+	<string name="default_search_text">"Поиск файлов"</string>
+	<!---->
+	<string name="create_hidden_file">"Файл будет скрыт, если его имя начинается с «.»."</string>
+	<!---->
+	<string name="drm_current_count">"Текущее кол-во:"</string>
+	<!---->
+	<string name="unlimited_usage">"Неограниченное использование"</string>
+	<!---->
+	<string name="drm_current_right">"Текущее ограничение："</string>
+	<!---->
+	<string name="right_url">"URL лицензиара: ："</string>
+	<!---->
+	<string name="use_times">"Использовать раз: %s"</string>
+	<!---->
+	<string name="valid_after">"Действительно после"</string>
+	<!---->
+	<string name="valid_until">"Действительно до"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Защищенные от копирования файлы"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Файл, защищённый от копирования, не может быть отправлен."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Выключить Wi-Fi экран"</string>
+	<!---->
+	<string name="confirm_rename">"Подтвердите имя"</string>
+	<!---->
+	<string name="drm_protection_status">"Состояние защиты:"</string>
+	<!---->
+	<string name="default_folder_name">"Имя папки"</string>
+	<!---->
+	<string name="drm_can_forward">"Может быть переадресован."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не может быть переадресован."</string>
+	<!---->
+	<string name="drm_no_license">"Отсутствует доступная лицензия DRM."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Срок использования DRM лицензии истек."</string>
+	<!---->
+	<string name="drm_interval">"Действительно в течение %s после первого использования"</string>
+	<!---->
+	<string name="drm_begin">"Начать:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Без ограничений."</string>
+	<!---->
+	<string name="drm_end">"Завершить:"</string>
+	<!---->
+	<string name="drm_use_left">"Осталось:"</string>
+	<!---->
+	<string name="readable_m">"Чтение"</string>
+	<!---->
+	<string name="writable">"перезапись"</string>
+	<!---->
+	<string name="permission_m">"Разрешения"</string>
+	<!---->
+	<string name="executable_m">"Приложение"</string>
+	<!---->
+	<string name="writable_m">"Перезапись"</string>
+	<!---->
+	<string name="detail_path_m">"Местоположение"</string>
+	<!---->
+	<string name="detail_name_m">"Имя"</string>
+	<!---->
+	<string name="detail_size_m">"Размер"</string>
+	<!---->
+	<string name="detail_time_m">"Последнее изменение"</string>
+	<!---->
+	<string name="dialog_close_btn">"Закрыть"</string>
+	<!---->
+	<string name="exit_dialog_content">"Текущее действие продолжается, уверены, что хотите выйти?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD-карты была извлечена или встроенная."</string>
+	<!---->
+	<string name="warning">"Максимальный объем файла"</string>
+	<!---->
+	<string name="share_warning">"Невозможно отправить более 100 файлов."</string>
+	<!---->
+	<string name="unknown">"Неизвестный"</string>
+	<!---->
+	<string name="no_search_result">"По запросу «%1$s» ничего не найдено"</string>
+	<!---->
+	<string name="copy_deny">"Нет разрешения на копирование"</string>
+	<!---->
+	<string name="cut_deny">"Нет разрешения на вырезание"</string>
+	<!---->
+	<string name="delete_deny">"Нет разрешения на удаление"</string>
+	<!---->
+	<string name="insufficient_memory">"Недостаточно места."</string>
+	<!---->
+	<string name="paste_same_folder">"Не удалось скопировать: источник и папка назначения совпадают."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Введен неверный символ."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Формат файла не поддерживается."</string>
+	<!---->
+	<string name="paste_sub_folder">"Невозможно вставить файл в подпапку"</string>
+	<!---->
+	<string name="operation_fail">"Не удалось выполнить операцию с файлом."</string>
+	<!---->
+	<string name="search_result">"Результатов для «%1$s»: %2$d"</string>
+	<!---->
+	<string name="already_exists">"Элемент с именем %1$s уже существует."</string>
+	<!---->
+	<string name="unmounted">"Накопитель отключён: %1$s"</string>
+	<!---->
+	<string name="file_name_too_long">"Слишком длинное имя."</string>
+	<!---->
+	<string name="some_paste_fail">"Не удалось выполнить операцию вставки"</string>
+	<!---->
+	<string name="delete_fail">"Не удалось удалить"</string>
+	<!---->
+	<string name="some_delete_fail">"Не удалось выполнить операцию удаления"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Нет приложения для открытия файла."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Не пересылать"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Файл, защищённый DRM, не может быть переслан."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Данный файл не имеет действительных разрешений DRM."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi экран выключен"</string>
+	<!---->
+	<string name="no_folder">"Пустая папка"</string>
+	<!---->
+	<string name="no_category">"Здесь пока ничего нет"</string>
+	<!---->
+	<string name="pasted">"Файл вставлен"</string>
+	<!---->
+	<string name="deleted">"Файл удалён"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s не существует."</string>
+	<!---->
+	<string name="not_available">"Недоступно"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Запрашиваемая папка не существует"</string>
+	<!---->
+	<string name="no_search_result_m">"По запросу «%1$s» ничего не найдено"</string>
+	<!---->
+	<string name="exceeded_max_task">"Превысило текущее максимальное количество задач"</string>
+	<!---->
+	<string name="add_waiting_task">"Был добавлен в очередь выполнения задач"</string>
+	<!---->
+	<string name="category_pictures">"Изображения"</string>
+	<!---->
+	<string name="category_vedios">"Видео"</string>
+	<!---->
+	<string name="category_music">"Музыка"</string>
+	<!---->
+	<string name="category_download">"Загрузки"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Журнал"</string>
+	<!---->
+	<string name="main_document">"Документы"</string>
+	<!---->
+	<string name="category_archives">"Архивы"</string>
+	<!---->
+	<string name="category_audio">"Аудио"</string>
+	<!---->
+	<string name="main_installers">"Приложения"</string>
+	<!---->
+	<string name="unit_B">"Б"</string>
+	<!---->
+	<string name="unit_KB">"КБ"</string>
+	<!---->
+	<string name="unit_MB">"МБ"</string>
+	<!---->
+	<string name="unit_GB">"ГБ"</string>
+	<!---->
+	<string name="unit_TB">"ТБ"</string>
+	<!---->
+	<string name="phone_storage">"Память устройства"</string>
+	<!---->
+	<string name="sd_card">"SD-карта"</string>
+	<!---->
+	<string name="usbotg">"USB-накопитель"</string>
+	<!---->
+	<string name="choice_file">"Выберите место"</string>
+	<!---->
+	<string name="permission_welcome_title">"Требуется ваше разрешение"</string>
+	<!---->
+	<string name="permission_setting_title">"Требуется ваше разрешение"</string>
+	<!---->
+	<string name="permission_setting_content">"Измените список разрешений в меню Настройки вашего устройства. Разрешите приложению «Файлы» доступ к памяти."</string>
+	<!---->
+	<string name="permission_exit_btn">"Выход"</string>
+	<!---->
+	<string name="selected">"Выбрано"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Устройство"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Память устройства"</string>
+	<!---->
+	<string name="usbotg_m">"USB-накопитель"</string>
+	<!---->
+	<string name="usbotg_n">"Внешний накопитель"</string>
+	<!---->
+	<string name="sd_m">"SD-карта"</string>
+	<!---->
+	<string name="permission_settings">"Настройки"</string>
+	<!---->
+	<string name="total_progress">"Всего:"</string>
+	<!---->
+	<string name="total_task">"Количество задач:"</string>
+	<!---->
+	<string name="items">"элементы"</string>
+	<!---->
+	<string name="folder_items">"Элементов: %1$s"</string>
+	<!---->
+	<string name="freeof_m">"Доступно"</string>
+	<!---->
+	<string name="choose_files">"Выбрать файлы"</string>
+	<!---->
+	<string name="used_of">"используется"</string>
+	<!---->
+	<string name="invalid_empty_name">"Имя файла или папки не может быть пустым"</string>
+	<!---->
+	<string name="just_now">"сейчас"</string>
+	<!---->
+	<string name="minutes_ago">"мин назад"</string>
+	<!---->
+	<string name="hours_ago">"ч назад"</string>
+	<!---->
+	<string name="minute_ago">"мин назад"</string>
+	<!---->
+	<string name="hour_ago">"час назад"</string>
+	<!---->
+	<string name="day_ago">"день назад"</string>
+	<!---->
+	<string name="searching">"Поиск..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Нет личных файлов"</string>
+	<!---->
+	<string name="safe_no_file_content">"Для добавления файлов нажмите клавишу меню в правом верхнем углу"</string>
+	<!---->
+	<string name="safe_activity_title">"Личные файлы"</string>
+	<!---->
+	<string name="move_safe">"Установить как личные"</string>
+	<!---->
+	<string name="set_public">"Установить как общедоступные"</string>
+	<!---->
+	<string name="add_files">"Добавить файлы"</string>
+	<!---->
+	<string name="compress_susscces">"Файл сжат"</string>
+	<!---->
+	<string name="extract_susscces">"Файл извлечен"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Сжатое имя слишком длинное"</string>
+	<!---->
+	<string name="category_safe">"Частное"</string>
+	<!---->
+	<string name="remove_private_tip">"Удалить из Приватного режима?"</string>
+	<!---->
+	<string name="remove_private_title">"Удалить"</string>
+	<!---->
+	<string name="remove_safe_single">"Сделать %1$s видимым для всех пользователей?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Сделать выбранные файлы видимыми для всех пользователей?"</string>
+	<!---->
+	<string name="folder_already_exists">"Папка уже существует"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s уже существует"</string>
+	<!---->
+	<string name="keep_both">"Сохранить оба"</string>
+	<!---->
+	<string name="set_private_failed">"Внешний файл невозможно установить как личный файл."</string>
+	<!---->
+	<string name="app_name_new">"Файлы"</string>
+</resources>

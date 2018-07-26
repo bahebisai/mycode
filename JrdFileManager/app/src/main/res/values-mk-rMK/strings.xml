@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Датотеки"</string>
+	<!---->
+	<string name="sort">"Сорт."</string>
+	<!---->
+	<string name="sort_by_name">"Име"</string>
+	<!---->
+	<string name="sort_by_time">"Датум"</string>
+	<!---->
+	<string name="sort_by_type">"Тип"</string>
+	<!---->
+	<string name="sort_by_size">"Голем."</string>
+	<!---->
+	<string name="copy">"Копирај"</string>
+	<!---->
+	<string name="create_folder">"Креирај"</string>
+	<!---->
+	<string name="cut">"Отсечи"</string>
+	<!---->
+	<string name="delete">"Избр."</string>
+	<!---->
+	<string name="deselect_all">"Отк.се"</string>
+	<!---->
+	<string name="select_all">"Изб.се"</string>
+	<!---->
+	<string name="show_file">"Прикажи ги сокриените датотеки"</string>
+	<!---->
+	<string name="hide_file">"Сокриј ги сокриените датотеки"</string>
+	<!---->
+	<string name="paste">"Залепи"</string>
+	<!---->
+	<string name="rename">"Преим."</string>
+	<!---->
+	<string name="extract">"Отпакувај"</string>
+	<!---->
+	<string name="extracting">"Се отпакува"</string>
+	<!---->
+	<string name="compress">"Компресирај"</string>
+	<!---->
+	<string name="compressing">"Се компресира"</string>
+	<!---->
+	<string name="share">"Спод."</string>
+	<!---->
+	<string name="menu_select">"Избери"</string>
+	<!---->
+	<string name="view_list">"Преглед на листа"</string>
+	<!---->
+	<string name="view_grid">"Мрежен преглед"</string>
+	<!---->
+	<string name="create_new_folder">"Креирај папка"</string>
+	<!---->
+	<string name="detail">"Детали"</string>
+	<!---->
+	<string name="shortcut_item">"Додај кратенка"</string>
+	<!---->
+	<string name="search">"Преб."</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Избриши ги избраните ставки?"</string>
+	<!---->
+	<string name="hide_btn">"Сокриј"</string>
+	<!---->
+	<string name="loading">"Се вчитува содржина"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Избраните датотеки ќе бидат избришени!"</string>
+	<!---->
+	<string name="modified_time">"Измен."</string>
+	<!---->
+	<string name="msg_rename_ext">"Вашата промена на екстензија на датотеката, ќе предизвика непрепознавање на датотеката. Сигурно сакате да го направите тоа?"</string>
+	<!---->
+	<string name="wait">"Почекајте..."</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="next">"Следно"</string>
+	<!---->
+	<string name="cancel">"Откажи"</string>
+	<!---->
+	<string name="show">"Прикажи"</string>
+	<!---->
+	<string name="no">"Не"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Потврди"</string>
+	<!---->
+	<string name="yes">"Да"</string>
+	<!---->
+	<string name="send_file">"Сподели (датотек(а)и) преку"</string>
+	<!---->
+	<string name="default_search_text">"Пребарување на датотеки"</string>
+	<!---->
+	<string name="create_hidden_file">"Датотеката ќе биде сокриена ако името започнува со  \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Тековно броење："</string>
+	<!---->
+	<string name="unlimited_usage">"Неограничена употреба"</string>
+	<!---->
+	<string name="drm_current_right">"Тековно ограничув.："</string>
+	<!---->
+	<string name="right_url">"URL лиц"</string>
+	<!---->
+	<string name="use_times">"Користи %s пати"</string>
+	<!---->
+	<string name="valid_after">"Валидно после"</string>
+	<!---->
+	<string name="valid_until">"Валидно до пред"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Датотеки заштитени од копирање"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Заштитената датотека не може да се дистрибуира."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Исклучи  Wi-Fi екран"</string>
+	<!---->
+	<string name="confirm_rename">"Потврди име"</string>
+	<!---->
+	<string name="drm_protection_status">"Статус на заштита:"</string>
+	<!---->
+	<string name="default_folder_name">"Име на папка"</string>
+	<!---->
+	<string name="drm_can_forward">"Не може да се пренасочи."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не може да се пренасочи."</string>
+	<!---->
+	<string name="drm_no_license">"Нема достапна DRM лиценца."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM лиценцата е измината."</string>
+	<!---->
+	<string name="drm_interval">"Валидно за %s по првата употреба"</string>
+	<!---->
+	<string name="drm_begin">"Започни:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Нема ограничување."</string>
+	<!---->
+	<string name="drm_end">"Крај:"</string>
+	<!---->
+	<string name="drm_use_left">"Преостанато:"</string>
+	<!---->
+	<string name="readable_m">"Читливо"</string>
+	<!---->
+	<string name="writable">"со можност за запишување"</string>
+	<!---->
+	<string name="permission_m">"Дозволи"</string>
+	<!---->
+	<string name="executable_m">"Апликација"</string>
+	<!---->
+	<string name="writable_m">"Ставки со можност за запишување"</string>
+	<!---->
+	<string name="detail_path_m">"Локација"</string>
+	<!---->
+	<string name="detail_name_m">"Име"</string>
+	<!---->
+	<string name="detail_size_m">"Големина"</string>
+	<!---->
+	<string name="detail_time_m">"Последно изменето"</string>
+	<!---->
+	<string name="dialog_close_btn">"Затвори"</string>
+	<!---->
+	<string name="exit_dialog_content">"Моменталната операција е во тек, дали сте сигурни дека сакате да излезете?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD картичката е отстранета или е вградена."</string>
+	<!---->
+	<string name="warning">"Дозволена количина на датотеки"</string>
+	<!---->
+	<string name="share_warning">"Не можете да споделите повеќе од 100 датотеки."</string>
+	<!---->
+	<string name="unknown">"Непознато"</string>
+	<!---->
+	<string name="no_search_result">"0 резултати за \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Нема дозвола за копирање"</string>
+	<!---->
+	<string name="cut_deny">"Нема дозвола за сечење"</string>
+	<!---->
+	<string name="delete_deny">"Нема дозвола за бришење"</string>
+	<!---->
+	<string name="insufficient_memory">"Недоволно простор"</string>
+	<!---->
+	<string name="paste_same_folder">"Не може да се копира: папката на изворот и дестинацијата се исти."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Внесовте недозволен карактер"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Форматот на датотеката не е поддржан."</string>
+	<!---->
+	<string name="paste_sub_folder">"Не може да се копира датотеката во суб-папката"</string>
+	<!---->
+	<string name="operation_fail">"Некои операции на датотеките се неуспешни."</string>
+	<!---->
+	<string name="search_result">"%2$d резултати за \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s веќе е во употреба"</string>
+	<!---->
+	<string name="unmounted">"%1$s е демонтирано"</string>
+	<!---->
+	<string name="file_name_too_long">"Името на внесот е предолго"</string>
+	<!---->
+	<string name="some_paste_fail">"Копирањето е неуспешно"</string>
+	<!---->
+	<string name="delete_fail">"Неуспешно бришење"</string>
+	<!---->
+	<string name="some_delete_fail">"Неуспешно бришење на некои операции"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Нема апликација за отворање на датотеката."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Не пренасочувај"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM датотеката не може да се пренасочи."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Датотеката нема валидна DRM дозвола!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi екранот е затворен"</string>
+	<!---->
+	<string name="no_folder">"Папката е празна"</string>
+	<!---->
+	<string name="no_category">"Оваа категорија е празна."</string>
+	<!---->
+	<string name="pasted">"Датотеката е налепена"</string>
+	<!---->
+	<string name="deleted">"Датотеката е избришана"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s не постои"</string>
+	<!---->
+	<string name="not_available">"Не е достапен"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Бараната папка не постои"</string>
+	<!---->
+	<string name="no_search_result_m">"Нема пронајдено резултати за \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Го надмина тековниот максимален број на задачи"</string>
+	<!---->
+	<string name="add_waiting_task">"Додадено е во листата со задачи за извршување"</string>
+	<!---->
+	<string name="category_pictures">"Слики"</string>
+	<!---->
+	<string name="category_vedios">"Снимки"</string>
+	<!---->
+	<string name="category_music">"Музика"</string>
+	<!---->
+	<string name="category_download">"Превземања"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Неодамнешни"</string>
+	<!---->
+	<string name="main_document">"Документи"</string>
+	<!---->
+	<string name="category_archives">"Архиви"</string>
+	<!---->
+	<string name="category_audio">"Аудио"</string>
+	<!---->
+	<string name="main_installers">"Инсталери"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Меморија на телефон"</string>
+	<!---->
+	<string name="sd_card">"SD картичка"</string>
+	<!---->
+	<string name="usbotg">"Надворешна USB меморија"</string>
+	<!---->
+	<string name="choice_file">"Изберете дестинација"</string>
+	<!---->
+	<string name="permission_welcome_title">"Потребна е дозвола"</string>
+	<!---->
+	<string name="permission_setting_title">"Дозволи пристап"</string>
+	<!---->
+	<string name="permission_setting_content">"Промени дозволи во апликацијата за подесувања на уредот. Дозволи пристап на апликацијата Фајл Менаџер до меморија."</string>
+	<!---->
+	<string name="permission_exit_btn">"Излез"</string>
+	<!---->
+	<string name="selected">"избрано"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Телефон"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Внатрешна меморија"</string>
+	<!---->
+	<string name="usbotg_m">"Надворешна"</string>
+	<!---->
+	<string name="usbotg_n">"Надворешна меморија"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Подесувања"</string>
+	<!---->
+	<string name="total_progress">"Вкупен напредок:"</string>
+	<!---->
+	<string name="total_task">"Број на задачи:"</string>
+	<!---->
+	<string name="items">"ставки"</string>
+	<!---->
+	<string name="folder_items">"%1$s ставки"</string>
+	<!---->
+	<string name="freeof_m">"Слободно"</string>
+	<!---->
+	<string name="choose_files">"Изберете датотека/и"</string>
+	<!---->
+	<string name="used_of">"искористени од"</string>
+	<!---->
+	<string name="invalid_empty_name">"Името на датотеката или на папката не може да биде празно"</string>
+	<!---->
+	<string name="just_now">"пред малку"</string>
+	<!---->
+	<string name="minutes_ago">"минути претходно"</string>
+	<!---->
+	<string name="hours_ago">"часа"</string>
+	<!---->
+	<string name="minute_ago">"минута претходно"</string>
+	<!---->
+	<string name="hour_ago">"час претходно"</string>
+	<!---->
+	<string name="day_ago">"ден претходно"</string>
+	<!---->
+	<string name="searching">"Се пребарува...."</string>
+	<!---->
+	<string name="safe_no_file_title">"Нема приватни датотеки"</string>
+	<!---->
+	<string name="safe_no_file_content">"Притиснете го менито во горниот десен агол за да додадете датотеки"</string>
+	<!---->
+	<string name="safe_activity_title">"Приватни датотеки"</string>
+	<!---->
+	<string name="move_safe">"Постави како приватно"</string>
+	<!---->
+	<string name="set_public">"Постави како јавно"</string>
+	<!---->
+	<string name="add_files">"Додај датотеки"</string>
+	<!---->
+	<string name="compress_susscces">"Датотеката е компресирана"</string>
+	<!---->
+	<string name="extract_susscces">"Датотеката е отпакувана"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Името на компресираната датотека е предолго"</string>
+	<!---->
+	<string name="category_safe">"Приватно"</string>
+	<!---->
+	<string name="remove_private_tip">"Отстрани од Приватен режим?"</string>
+	<!---->
+	<string name="remove_private_title">"Отстрани"</string>
+	<!---->
+	<string name="remove_safe_single">"Направи ги %1$s видливи за сите корисници?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Направи ги избраните датотеки видливи за сите корисници?"</string>
+	<!---->
+	<string name="folder_already_exists">"Папката веќе постои"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s веќе постои"</string>
+	<!---->
+	<string name="keep_both">"Задржи ги двете"</string>
+	<!---->
+	<string name="set_private_failed">"Надворешна датотека не може да постави приватна датотека."</string>
+	<!---->
+	<string name="app_name_new">"Фајл менаџер"</string>
+</resources>

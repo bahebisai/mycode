@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/select_type_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/list_view_divider" />
+
+    <ScrollView
+        android:id="@+id/no_private_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/no_private_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/safe_no_folder_img"
+                android:layout_width="132dp"
+                android:layout_height="132dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_empty" />
+
+            <TextView
+                android:id="@+id/no_private_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/safe_no_folder_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/no_category"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/safe_add_file_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_private_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/add_files"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+

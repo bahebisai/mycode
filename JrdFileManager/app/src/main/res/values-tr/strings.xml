@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Dosyalar"</string>
+	<!---->
+	<string name="sort">"Sırala"</string>
+	<!---->
+	<string name="sort_by_name">"Ad"</string>
+	<!---->
+	<string name="sort_by_time">"Tarih"</string>
+	<!---->
+	<string name="sort_by_type">"Tür"</string>
+	<!---->
+	<string name="sort_by_size">"Boyut"</string>
+	<!---->
+	<string name="copy">"Kopyala"</string>
+	<!---->
+	<string name="create_folder">"Oluştur"</string>
+	<!---->
+	<string name="cut">"Kes"</string>
+	<!---->
+	<string name="delete">"Sil"</string>
+	<!---->
+	<string name="deselect_all">"Tümünün seçimini kaldır"</string>
+	<!---->
+	<string name="select_all">"Tümünü seç"</string>
+	<!---->
+	<string name="show_file">"Gizli dosyaları göster"</string>
+	<!---->
+	<string name="hide_file">"Gizli dosyaları gizle"</string>
+	<!---->
+	<string name="paste">"Yapıştır"</string>
+	<!---->
+	<string name="rename">"Yeniden adlandır"</string>
+	<!---->
+	<string name="extract">"Ayıkla"</string>
+	<!---->
+	<string name="extracting">"Ayıklanıyor"</string>
+	<!---->
+	<string name="compress">"Sıkıştır"</string>
+	<!---->
+	<string name="compressing">"Sıkıştırılıyor"</string>
+	<!---->
+	<string name="share">"Paylaş"</string>
+	<!---->
+	<string name="menu_select">"Seç"</string>
+	<!---->
+	<string name="view_list">"Liste görünümü"</string>
+	<!---->
+	<string name="view_grid">"Izgara görünümü"</string>
+	<!---->
+	<string name="create_new_folder">"Klasör oluştur"</string>
+	<!---->
+	<string name="detail">"Ayrıntılar"</string>
+	<!---->
+	<string name="shortcut_item">"Kısayol ekle"</string>
+	<!---->
+	<string name="search">"Arama"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Seçili öğeler silinsin mi?"</string>
+	<!---->
+	<string name="hide_btn">"Gizle"</string>
+	<!---->
+	<string name="loading">"İçerik yükleniyor"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Seçilen dosyalar silinecektir."</string>
+	<!---->
+	<string name="modified_time">"Değiştirildi"</string>
+	<!---->
+	<string name="msg_rename_ext">"Dosya uzantısı değiştirilecek. Dosya tanınmayabilir Devam edilsin mi?"</string>
+	<!---->
+	<string name="wait">"Lütfen bekleyin..."</string>
+	<!---->
+	<string name="done">"Tamamlandı"</string>
+	<!---->
+	<string name="next">"Sonraki"</string>
+	<!---->
+	<string name="cancel">"İptal"</string>
+	<!---->
+	<string name="show">"Göster"</string>
+	<!---->
+	<string name="no">"Hayır"</string>
+	<!---->
+	<string name="ok">"TAMAM"</string>
+	<!---->
+	<string name="confirm">"Onayla"</string>
+	<!---->
+	<string name="yes">"Evet"</string>
+	<!---->
+	<string name="send_file">"Dosyaları paylaşma aracı"</string>
+	<!---->
+	<string name="default_search_text">"Dosyaları ara"</string>
+	<!---->
+	<string name="create_hidden_file">"Dosya adı \'.\' ile başlarsa, dosya gizlenir"</string>
+	<!---->
+	<string name="drm_current_count">"Mevcut Sayım:"</string>
+	<!---->
+	<string name="unlimited_usage">"Sınırsız kullanım"</string>
+	<!---->
+	<string name="drm_current_right">"Mevcut Kısıtlama:"</string>
+	<!---->
+	<string name="right_url">"Lisans Yayıncısı URL:"</string>
+	<!---->
+	<string name="use_times">"%s kez kullan"</string>
+	<!---->
+	<string name="valid_after">"Şu tarihten sonra geçerlidir:"</string>
+	<!---->
+	<string name="valid_until">"Şu tarihe kadar geçerlidir:"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Kopyalama korumalı dosyalar"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopya korumalı dosya dağıtılamıyor."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Wi-Fi Ekranını Kapat"</string>
+	<!---->
+	<string name="confirm_rename">"Adı onayla"</string>
+	<!---->
+	<string name="drm_protection_status">"Koruma durumu:"</string>
+	<!---->
+	<string name="default_folder_name">"Klasör adı"</string>
+	<!---->
+	<string name="drm_can_forward">"İletilebilir."</string>
+	<!---->
+	<string name="drm_can_not_forward">"İletilemez."</string>
+	<!---->
+	<string name="drm_no_license">"Kullanılabilir DRM lisansı yok."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM lisansı süresi doldu."</string>
+	<!---->
+	<string name="drm_interval">"İlk kullanımdan itibaren %s geçerlidir"</string>
+	<!---->
+	<string name="drm_begin">"Başla:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sınırlama yok."</string>
+	<!---->
+	<string name="drm_end">"Bitir:"</string>
+	<!---->
+	<string name="drm_use_left">"Kalanlar:"</string>
+	<!---->
+	<string name="readable_m">"Okunabilir"</string>
+	<!---->
+	<string name="writable">"yazılabilir"</string>
+	<!---->
+	<string name="permission_m">"İzinler"</string>
+	<!---->
+	<string name="executable_m">"Uygulama"</string>
+	<!---->
+	<string name="writable_m">"Yazılabilirler"</string>
+	<!---->
+	<string name="detail_path_m">"Konum"</string>
+	<!---->
+	<string name="detail_name_m">"Ad"</string>
+	<!---->
+	<string name="detail_size_m">"Boyut"</string>
+	<!---->
+	<string name="detail_time_m">"Son değiştirilme"</string>
+	<!---->
+	<string name="dialog_close_btn">"Kapat"</string>
+	<!---->
+	<string name="exit_dialog_content">"Geçerli işlem devam ediyor, çıkmak istediğinizden emin misiniz?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD kart çıkarıldı veya yerleşik durumda."</string>
+	<!---->
+	<string name="warning">"Maksimum dosya sayısı"</string>
+	<!---->
+	<string name="share_warning">"100\'den fazla dosya paylaşamazsınız."</string>
+	<!---->
+	<string name="unknown">"Bilinmeyen"</string>
+	<!---->
+	<string name="no_search_result">"\"%1$s\" için 0 sonuç"</string>
+	<!---->
+	<string name="copy_deny">"Kopyalama izni yok"</string>
+	<!---->
+	<string name="cut_deny">"Kesme izni yok"</string>
+	<!---->
+	<string name="delete_deny">"Silme izni yok"</string>
+	<!---->
+	<string name="insufficient_memory">"Yetersiz boş alan."</string>
+	<!---->
+	<string name="paste_same_folder">"Kopyalanamadı: kaynak ve hedef klasör aynı."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Geçersiz karakter girdiniz"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Dosya biçimi desteklenmiyor."</string>
+	<!---->
+	<string name="paste_sub_folder">"Dosya alt klasöre yapıştırılamıyor"</string>
+	<!---->
+	<string name="operation_fail">"Bazı dosya işlemleri başarısız."</string>
+	<!---->
+	<string name="search_result">"\"%1$s\" için %2$d sonuç"</string>
+	<!---->
+	<string name="already_exists">"%1$s kullanılıyor"</string>
+	<!---->
+	<string name="unmounted">"%1$s çıkarıldı"</string>
+	<!---->
+	<string name="file_name_too_long">"Giriş adı çok uzun"</string>
+	<!---->
+	<string name="some_paste_fail">"Yapıştırma işlemleri başarısız"</string>
+	<!---->
+	<string name="delete_fail">"Silinemedi"</string>
+	<!---->
+	<string name="some_delete_fail">"Bazı silme işlemleri başarısız"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Dosyayı açacak uygulama yok."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"İletilemedi"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM dosyası iletilemiyor."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Dosyada geçerli DRM yetkisi yok!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi Ekranı kapatıldı"</string>
+	<!---->
+	<string name="no_folder">"Bu klasör boş"</string>
+	<!---->
+	<string name="no_category">"Bu kategori boş."</string>
+	<!---->
+	<string name="pasted">"Dosya yapıştırıldı"</string>
+	<!---->
+	<string name="deleted">"Dosya silindi"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s yolu mevcut değil"</string>
+	<!---->
+	<string name="not_available">"Kullanılamaz"</string>
+	<!---->
+	<string name="shortcut_no_exist">"İstenen klasör mevcut değil"</string>
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\" için sonuç bulunamadı"</string>
+	<!---->
+	<string name="exceeded_max_task">"Geçerli maksimum görev sayısını aştı"</string>
+	<!---->
+	<string name="add_waiting_task">"Çalıştırma görev sırasına eklendi"</string>
+	<!---->
+	<string name="category_pictures">"Resimler"</string>
+	<!---->
+	<string name="category_vedios">"Videolar"</string>
+	<!---->
+	<string name="category_music">"Müzik"</string>
+	<!---->
+	<string name="category_download">"İndirilenler"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Son Çalınanlar"</string>
+	<!---->
+	<string name="main_document">"Belgeler"</string>
+	<!---->
+	<string name="category_archives">"Arşivler"</string>
+	<!---->
+	<string name="category_audio">"Ses"</string>
+	<!---->
+	<string name="main_installers">"Yükleyiciler"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Telefon Depolama Birimi"</string>
+	<!---->
+	<string name="sd_card">"SD Kart"</string>
+	<!---->
+	<string name="usbotg">"Harici USB hafıza"</string>
+	<!---->
+	<string name="choice_file">"Hedef seçin"</string>
+	<!---->
+	<string name="permission_welcome_title">"İzin gerekli"</string>
+	<!---->
+	<string name="permission_setting_title">"Erişim ver"</string>
+	<!---->
+	<string name="permission_setting_content">"Cihazınızdaki uygulama ayarlarında izinleri değiştirin. Dosya Yöneticisine depolama alanı erişimi verin."</string>
+	<!---->
+	<string name="permission_exit_btn">"Çıkış"</string>
+	<!---->
+	<string name="selected">"seçili"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Dahili dep birm"</string>
+	<!---->
+	<string name="usbotg_m">"Harici"</string>
+	<!---->
+	<string name="usbotg_n">"Harici depolama"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Ayarlar"</string>
+	<!---->
+	<string name="total_progress">"Toplam ilerleme:"</string>
+	<!---->
+	<string name="total_task">"Görev sayısı:"</string>
+	<!---->
+	<string name="items">"öğeler"</string>
+	<!---->
+	<string name="folder_items">"%1$s öğeler"</string>
+	<!---->
+	<string name="freeof_m">"Boş"</string>
+	<!---->
+	<string name="choose_files">"Dosya(lar) seç"</string>
+	<!---->
+	<string name="used_of">"/"</string>
+	<!---->
+	<string name="invalid_empty_name">"Dosya ya da klasör adı boş olamaz"</string>
+	<!---->
+	<string name="just_now">"az önce"</string>
+	<!---->
+	<string name="minutes_ago">"dakika önce"</string>
+	<!---->
+	<string name="hours_ago">"saat önce"</string>
+	<!---->
+	<string name="minute_ago">"dakika önce"</string>
+	<!---->
+	<string name="hour_ago">"saat önce"</string>
+	<!---->
+	<string name="day_ago">"gün önce"</string>
+	<!---->
+	<string name="searching">"Aranıyor..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Henüz gizli dosya yok"</string>
+	<!---->
+	<string name="safe_no_file_content">"Şarkı eklemek için sağ üst köşedeki menüye basın"</string>
+	<!---->
+	<string name="safe_activity_title">"Gizli dosyalar"</string>
+	<!---->
+	<string name="move_safe">"Gizli olarak ayarla"</string>
+	<!---->
+	<string name="set_public">"Herkese açık olarak ayarla"</string>
+	<!---->
+	<string name="add_files">"Dosya ekle"</string>
+	<!---->
+	<string name="compress_susscces">"Dosya sıkıştırıldı"</string>
+	<!---->
+	<string name="extract_susscces">"Dosya dışarı çıkartıldı"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Sıkıştırma dosya adı çok uzun."</string>
+	<!---->
+	<string name="category_safe">"Gizli"</string>
+	<!---->
+	<string name="remove_private_tip">"Özel moddan çıkarılsın mı?"</string>
+	<!---->
+	<string name="remove_private_title">"Kaldır"</string>
+	<!---->
+	<string name="remove_safe_single">"%1$s tüm kullanıcılar tarafından görülsün mü?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Seçili dosyalar tüm kullanıcılar tarafından görülsün mü?"</string>
+	<!---->
+	<string name="folder_already_exists">"Klasör zaten mevcut"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s zaten mevcut"</string>
+	<!---->
+	<string name="keep_both">"Her ikisini de tut"</string>
+	<!---->
+	<string name="set_private_failed">"Harici dosya gizli dosyayı ayarlayamıyor."</string>
+	<!---->
+	<string name="app_name_new">"Dosya Yöneticisi"</string>
+</resources>

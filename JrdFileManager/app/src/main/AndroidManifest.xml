@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jrdcom.filemanager"
+          android:versionCode="0516083001"
+          android:versionName="v7.0.1.1.0501.0">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.GRANT_RUNTIME_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.REVOKE_RUNTIME_PERMISSIONS"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24"/>
+
+    <application
+        android:name=".FileManagerApplication"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name_new"
+        android:supportsRtl="true"
+        android:resizeableActivity="true"
+        android:theme="@style/FileManagerOperTheme">
+
+        <activity
+            android:name=".activity.FileBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenSize|fontScale"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true"
+            android:theme="@style/ActivityTheme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.FileSafeBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenSize"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true"
+            android:theme="@style/ActivityTheme.appCompat">
+            <intent-filter>
+                <action android:name="com.jrdcom.filemanager.action.SAFEBOX"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.FilePrivateModeActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenSize"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true"
+            android:theme="@style/PrivateActivityTheme.appCompat">
+            <intent-filter>
+                <action android:name="com.jrdcom.filemanager.action.PRIVATEMODE"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.FileSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/ActivityTheme.appCompat"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/audio"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="application/*"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.mediatek.filemanager.ADD_FILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PathSelectionActivity"
+            android:configChanges="orientation|keyboardHidden|smallestScreenSize|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/ActivityTheme.appCompat"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.fileexplorer.action.DIR_SEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.FilesReceiver">
+            <intent-filter android:priority="95">
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:authorities="com.jrdcom.filemanager.fileProvider"
+            android:name="android.support.v4.content.FileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false"
+            >
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.1'
+
+//    signingConfigs {
+//        tcl {
+//            keyAlias 'android'
+//            keyPassword 'android'
+//            storeFile file('/home/user/Code/tcl.keystore')
+//            storePassword 'android'
+//        }
+//    }
+
+    defaultConfig {
+        applicationId "com.jrdcom.filemanager"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode Integer.valueOf("0717101201")
+        versionName "v7.1.7.1.0704.0"
+    }
+
+    lintOptions {
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+//        debug {
+//            signingConfig signingConfigs.tcl
+//        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:support-annotations:26.1.0'
+    compile 'com.google.firebase:firebase-core:11.2.2'
+//    compile 'com.mtk.drm.frameworks:MtkDrmManager:3.2'
+//    compile 'com.tct.drm.api:TctDrmManager:3.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    provided files('provided_libs/framework.jar')
+}
+
+//apply from: 'push.gradle'

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Files"</string>
+	<!---->
+	<string name="sort">"Sort"</string>
+	<!---->
+	<string name="sort_by_name">"Name"</string>
+	<!---->
+	<string name="sort_by_time">"Date"</string>
+	<!---->
+	<string name="sort_by_type">"Type"</string>
+	<!---->
+	<string name="sort_by_size">"Size"</string>
+	<!---->
+	<string name="copy">"Copy"</string>
+	<!---->
+	<string name="create_folder">"Create"</string>
+	<!---->
+	<string name="cut">"Cut"</string>
+	<!---->
+	<string name="delete">"Delete"</string>
+	<!---->
+	<string name="deselect_all">"Deselect all"</string>
+	<!---->
+	<string name="select_all">"Select all"</string>
+	<!---->
+	<string name="show_file">"Show hidden files"</string>
+	<!---->
+	<string name="hide_file">"Hide hidden files"</string>
+	<!---->
+	<string name="paste">"Paste"</string>
+	<!---->
+	<string name="rename">"Rename"</string>
+	<!---->
+	<string name="extract">"Extract"</string>
+	<!---->
+	<string name="extracting">"Extracting"</string>
+	<!---->
+	<string name="compress">"Compress"</string>
+	<!---->
+	<string name="compressing">"Compressing"</string>
+	<!---->
+	<string name="share">"Share"</string>
+	<!---->
+	<string name="menu_select">"Select"</string>
+	<!---->
+	<string name="view_list">"List view"</string>
+	<!---->
+	<string name="view_grid">"Grid view"</string>
+	<!---->
+	<string name="create_new_folder">"Create folder"</string>
+	<!---->
+	<string name="detail">"Details"</string>
+	<!---->
+	<string name="shortcut_item">"Add shortcut"</string>
+	<!---->
+	<string name="search">"Search"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Delete selected items?"</string>
+	<!---->
+	<string name="hide_btn">"Hide"</string>
+	<!---->
+	<string name="loading">"Loading contents"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Selected files will be deleted."</string>
+	<!---->
+	<string name="modified_time">"Modified"</string>
+	<!---->
+	<string name="msg_rename_ext">"File extension will be changed. File might not be recognized. Continue?"</string>
+	<!---->
+	<string name="wait">"Please wait..."</string>
+	<!---->
+	<string name="done">"Done"</string>
+	<!---->
+	<string name="next">"Next"</string>
+	<!---->
+	<string name="cancel">"Cancel"</string>
+	<!---->
+	<string name="show">"Show"</string>
+	<!---->
+	<string name="no">"No"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Confirm"</string>
+	<!---->
+	<string name="yes">"Yes"</string>
+	<!---->
+	<string name="send_file">"Share file(s) via"</string>
+	<!---->
+	<string name="default_search_text">"Search files"</string>
+	<!---->
+	<string name="create_hidden_file">"File will be hidden if its name starts with \'.\'."</string>
+	<!---->
+	<string name="drm_current_count">"Current count:"</string>
+	<!---->
+	<string name="unlimited_usage">"Unlimited usage"</string>
+	<!---->
+	<string name="drm_current_right">"Current constraint:"</string>
+	<!---->
+	<string name="right_url">"Licenses Issuer URL:"</string>
+	<!---->
+	<string name="use_times">"Use %s times"</string>
+	<!---->
+	<string name="valid_after">"Valid after"</string>
+	<!---->
+	<string name="valid_until">"Valid until"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Copy-protected files"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Copy-protected file can\'t be distributed."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Turn off cast screen"</string>
+	<!---->
+	<string name="confirm_rename">"Confirm name"</string>
+	<!---->
+	<string name="drm_protection_status">"Protection status:"</string>
+	<!---->
+	<string name="default_folder_name">"Folder name"</string>
+	<!---->
+	<string name="drm_can_forward">"Can be forwarded."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Can\'t be forwarded"</string>
+	<!---->
+	<string name="drm_no_license">"No available DRM license."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM license has expired."</string>
+	<!---->
+	<string name="drm_interval">"Valid for %s after first time use"</string>
+	<!---->
+	<string name="drm_begin">"Begin:"</string>
+	<!---->
+	<string name="drm_no_limitation">"No limitation"</string>
+	<!---->
+	<string name="drm_end">"End:"</string>
+	<!---->
+	<string name="drm_use_left">"Remains:"</string>
+	<!---->
+	<string name="readable_m">"Readable"</string>
+	<!---->
+	<string name="writable">"writable"</string>
+	<!---->
+	<string name="permission_m">"Permissions"</string>
+	<!---->
+	<string name="executable_m">"Application"</string>
+	<!---->
+	<string name="writable_m">"Writables"</string>
+	<!---->
+	<string name="detail_path_m">"Location"</string>
+	<!---->
+	<string name="detail_name_m">"Name"</string>
+	<!---->
+	<string name="detail_size_m">"Size"</string>
+	<!---->
+	<string name="detail_time_m">"Last modified"</string>
+	<!---->
+	<string name="dialog_close_btn">"Close"</string>
+	<!---->
+	<string name="exit_dialog_content">"Current operation is ongoing, are you sure you want to exit?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD card has been removed or built-in."</string>
+	<!---->
+	<string name="warning">"Maximum file amount"</string>
+	<!---->
+	<string name="share_warning">"You can’t share more than 100 files."</string>
+	<!---->
+	<string name="unknown">"unknown"</string>
+	<!---->
+	<string name="no_search_result">"0 file(s) found for \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"No permission to copy."</string>
+	<!---->
+	<string name="cut_deny">"No permission to cut."</string>
+	<!---->
+	<string name="delete_deny">"No permission to delete."</string>
+	<!---->
+	<string name="insufficient_memory">"Insufficient space"</string>
+	<!---->
+	<string name="paste_same_folder">"Couldn\'t copy: source and destination folder are the same."</string>
+	<!---->
+	<string name="invalid_char_prompt">"You have typed an invalid character."</string>
+	<!---->
+	<string name="msg_unable_open_file">"The file format is not supported."</string>
+	<!---->
+	<string name="paste_sub_folder">"Can\'t paste to subfolder."</string>
+	<!---->
+	<string name="operation_fail">"Couldn\'t operate some files"</string>
+	<!---->
+	<string name="search_result">"%2$d result(s) for \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s is already in use."</string>
+	<!---->
+	<string name="unmounted">"%1$s is unmounted"</string>
+	<!---->
+	<string name="file_name_too_long">"The input name is too long."</string>
+	<!---->
+	<string name="some_paste_fail">"Some couldn\'t paste"</string>
+	<!---->
+	<string name="delete_fail">"Couldn\'t delete"</string>
+	<!---->
+	<string name="some_delete_fail">"Some couldn\'t delete"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"No app to open file"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Not Forward"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"The DRM file can\'t be forwarded."</string>
+	<!---->
+	<string name="drm_no_valid_right">"File has no valid DRM authority."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Cast screen has been closed"</string>
+	<!---->
+	<string name="no_folder">"This folder is empty"</string>
+	<!---->
+	<string name="no_category">"This category is empty"</string>
+	<!---->
+	<string name="pasted">"File pasted"</string>
+	<!---->
+	<string name="deleted">"File deleted"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s doesn\'t exist"</string>
+	<!---->
+	<string name="not_available">"Not available"</string>
+	<!---->
+	<string name="shortcut_no_exist">"The requested folder does not exist"</string>
+	<!---->
+	<string name="no_search_result_m">"No results found for \"%1$s\"</string>
+	<!---->
+	<string name="exceeded_max_task">"Has exceeded the current maximum number of tasks"</string>
+	<!---->
+	<string name="add_waiting_task">"Has been added to execution task queue"</string>
+	<!---->
+	<string name="category_pictures">"Pictures"</string>
+	<!---->
+	<string name="category_vedios">"Videos"</string>
+	<!---->
+	<string name="category_music">"Music"</string>
+	<!---->
+	<string name="category_download">"Downloads"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Recents"</string>
+	<!---->
+	<string name="main_document">"Documents"</string>
+	<!---->
+	<string name="category_archives">"Archives"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Installers"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Phone storage"</string>
+	<!---->
+	<string name="sd_card">"SD card"</string>
+	<!---->
+	<string name="usbotg">"External USB storage"</string>
+	<!---->
+	<string name="choice_file">"Choose destination"</string>
+	<!---->
+	<string name="permission_welcome_title">"Permission needed"</string>
+	<!---->
+	<string name="permission_setting_title">"Grant access"</string>
+	<!---->
+	<string name="permission_setting_content">"Change permissions in your device\'s app settings. Give File Manager access to storage."</string>
+	<!---->
+	<string name="permission_exit_btn">"Exit"</string>
+	<!---->
+	<string name="selected">"Selected"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Phone"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Internal storage"</string>
+	<!---->
+	<string name="usbotg_m">"External"</string>
+	<!---->
+	<string name="usbotg_n">"External storage"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Settings"</string>
+	<!---->
+	<string name="total_progress">"Total progress:"</string>
+	<!---->
+	<string name="total_task">"Task count:"</string>
+	<!---->
+	<string name="items">"items"</string>
+	<!---->
+	<string name="folder_items">"%1$s items"</string>
+	<!---->
+	<string name="freeof_m">"Free"</string>
+	<!---->
+	<string name="choose_files">"Select file(s)"</string>
+	<!---->
+	<string name="used_of">"used of"</string>
+	<!---->
+	<string name="invalid_empty_name">"File or folder name can\'t be empty."</string>
+	<!---->
+	<string name="just_now">"just now"</string>
+	<!---->
+	<string name="minutes_ago">"minutes ago"</string>
+	<!---->
+	<string name="hours_ago">"hours ago"</string>
+	<!---->
+	<string name="minute_ago">"minute ago"</string>
+	<!---->
+	<string name="hour_ago">"hour ago"</string>
+	<!---->
+	<string name="day_ago">"day ago"</string>
+	<!---->
+	<string name="searching">"Searching...."</string>
+	<!---->
+	<string name="safe_no_file_title">"No private files yet"</string>
+	<!---->
+	<string name="safe_no_file_content">"Touch the top right corner to add files"</string>
+	<!---->
+	<string name="safe_activity_title">"Private files"</string>
+	<!---->
+	<string name="move_safe">"Set private"</string>
+	<!---->
+	<string name="set_public">"Set public"</string>
+	<!---->
+	<string name="add_files">"Add files"</string>
+	<!---->
+	<string name="compress_susscces">"File compressed"</string>
+	<!---->
+	<string name="extract_susscces">"File extracted"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"The compressed file name is too long"</string>
+	<!---->
+	<string name="category_safe">"Private"</string>
+	<!---->
+	<string name="remove_private_tip">"Remove from Private mode?"</string>
+	<!---->
+	<string name="remove_private_title">"Remove"</string>
+	<!---->
+	<string name="remove_safe_single">"Make %1$s visible to all users?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Make selected files visible to all users?"</string>
+	<!---->
+	<string name="folder_already_exists">"Folder already exists"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s already exists"</string>
+	<!---->
+	<string name="keep_both">"Keep both"</string>
+	<!---->
+	<string name="set_private_failed">"External file can\'t set private file."</string>
+	<!---->
+	<string name="app_name_new">"File Manager"</string>
+</resources>

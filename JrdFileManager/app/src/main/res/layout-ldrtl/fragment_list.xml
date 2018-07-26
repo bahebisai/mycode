@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gird_item_name_bg">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"/>
+
+    <LinearLayout
+        android:id="@+id/list_no_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/a_119" />
+
+        <TextView
+            android:id="@+id/list_no_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/no_search_view_margin"
+            android:layout_marginStart="@dimen/no_search_view_margin"
+            android:layout_marginTop="@dimen/no_search_view_margin"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/no_search_result"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_no_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/list_no_folder_img"
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            android:gravity="center"
+            android:src="@drawable/ic_empty" />
+
+        <TextView
+            android:id="@+id/list_no_folder_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/no_folder_margin_top"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/no_folder"
+            android:textColor="@color/grid_time_text_color"
+            android:textSize="@dimen/no_folder_font_size" />
+    </LinearLayout>
+
+    <com.jrdcom.filemanager.view.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        fab:fab_expandDirection="up"
+        fab:fab_addButtonColorNormal="@color/float_menu_default_color"
+        fab:fab_addButtonColorPressed="@color/float_menu_default_pressed_color"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="large"
+        fab:fab_labelsPosition="right"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_private"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_cat_private"
+            fab:fab_title="@string/move_safe" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_share"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_share"
+            fab:fab_title="@string/share" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_archive"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_archives"
+            fab:fab_title="@string/compress" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_extract"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_extract"
+            fab:fab_title="@string/extract" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_delete"
+            fab:fab_title="@string/delete" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_copy"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_copy"
+            fab:fab_title="@string/copy" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_cut"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_cut"
+            fab:fab_title="@string/cut" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_paste"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/fingerprint" />
+
+    </com.jrdcom.filemanager.view.FloatingActionsMenu>
+
+    <com.jrdcom.filemanager.view.FloatingActionsMenu
+        android:id="@+id/multiple_actions_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        fab:fab_expandDirection="right"
+        fab:fab_addButtonColorNormal="@color/float_menu_default_color"
+        fab:fab_addButtonColorPressed="@color/float_menu_default_pressed_color"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="large"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_private_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_cat_private"
+            fab:fab_title="@string/move_safe" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_share_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_share"
+            fab:fab_title="@string/share" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_archive_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_archives"
+            fab:fab_title="@string/compress" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_extract_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_extract"
+            fab:fab_title="@string/extract" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_delete_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_delete"
+            fab:fab_title="@string/delete" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_copy_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_copy"
+            fab:fab_title="@string/copy" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_cut_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/ic_action_cut"
+            fab:fab_title="@string/cut" />
+
+        <com.jrdcom.filemanager.view.FloatingActionButton
+            android:id="@+id/float_action_paste_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:foregroundGravity="center"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/actionbar_edit_bg"
+            fab:fab_colorPressed="@color/actionbar_edit_bg"
+            fab:fab_icon="@drawable/fingerprint" />
+
+    </com.jrdcom.filemanager.view.FloatingActionsMenu>
+
+</FrameLayout>

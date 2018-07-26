@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"文件管理器"</string>
+	<!---->
+	<string name="sort">"分類"</string>
+	<!---->
+	<string name="sort_by_name">"名字"</string>
+	<!---->
+	<string name="sort_by_time">"日期"</string>
+	<!---->
+	<string name="sort_by_type">"類型"</string>
+	<!---->
+	<string name="sort_by_size">"大小"</string>
+	<!---->
+	<string name="copy">"複製"</string>
+	<!---->
+	<string name="create_folder">"建立"</string>
+	<!---->
+	<string name="cut">"剪下"</string>
+	<!---->
+	<string name="delete">"刪除"</string>
+	<!---->
+	<string name="deselect_all">"取消全選"</string>
+	<!---->
+	<string name="select_all">"全部選取"</string>
+	<!---->
+	<string name="show_file">"顯示隱藏檔案"</string>
+	<!---->
+	<string name="hide_file">"不顯示隱藏檔案"</string>
+	<!---->
+	<string name="paste">"貼上"</string>
+	<!---->
+	<string name="rename">"重新命名"</string>
+	<!---->
+	<string name="extract">"擷取"</string>
+	<!---->
+	<string name="extracting">"正在擷取"</string>
+	<!---->
+	<string name="compress">"壓縮"</string>
+	<!---->
+	<string name="compressing">"正在壓縮"</string>
+	<!---->
+	<string name="share">"分享"</string>
+	<!---->
+	<string name="menu_select">"選取"</string>
+	<!---->
+	<string name="view_list">"清單檢視"</string>
+	<!---->
+	<string name="view_grid">"格狀檢視"</string>
+	<!---->
+	<string name="create_new_folder">"新增資料夾"</string>
+	<!---->
+	<string name="detail">"詳細資料"</string>
+	<!---->
+	<string name="shortcut_item">"新增捷徑"</string>
+	<!---->
+	<string name="search">"搜尋"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"刪除選取的項目？"</string>
+	<!---->
+	<string name="hide_btn">"隱藏"</string>
+	<!---->
+	<string name="loading">"正在載入內容"</string>
+	<!---->
+	<string name="alert_delete_multiple">"已選檔案將被刪除。"</string>
+	<!---->
+	<string name="modified_time">"修改日期"</string>
+	<!---->
+	<string name="msg_rename_ext">"檔案附檔名將變更。檔案可能無法被識別。是否繼續？"</string>
+	<!---->
+	<string name="wait">"請稍候…"</string>
+	<!---->
+	<string name="done">"完成"</string>
+	<!---->
+	<string name="next">"下一頁"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="show">"顯示"</string>
+	<!---->
+	<string name="no">"否"</string>
+	<!---->
+	<string name="ok">"確定"</string>
+	<!---->
+	<string name="confirm">"確認"</string>
+	<!---->
+	<string name="yes">"是"</string>
+	<!---->
+	<string name="send_file">"傳送檔案"</string>
+	<!---->
+	<string name="default_search_text">"搜尋檔案"</string>
+	<!---->
+	<string name="create_hidden_file">"系統會隱藏名稱以 \'.\' 開頭的檔案"</string>
+	<!---->
+	<string name="drm_current_count">"目前的次數："</string>
+	<!---->
+	<string name="unlimited_usage">"無限使用"</string>
+	<!---->
+	<string name="drm_current_right">"目前的限制："</string>
+	<!---->
+	<string name="right_url">"許可證發行網址："</string>
+	<!---->
+	<string name="use_times">"使用 %s 次"</string>
+	<!---->
+	<string name="valid_after">"後有效"</string>
+	<!---->
+	<string name="valid_until">"有效至"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"禁止複製的檔案"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"進行分配。"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"關閉 Wi-Fi 顯示屏"</string>
+	<!---->
+	<string name="confirm_rename">"確認名稱"</string>
+	<!---->
+	<string name="drm_protection_status">"保護狀態："</string>
+	<!---->
+	<string name="default_folder_name">"資料夾名稱"</string>
+	<!---->
+	<string name="drm_can_forward">"可轉寄。"</string>
+	<!---->
+	<string name="drm_can_not_forward">"無法轉寄。"</string>
+	<!---->
+	<string name="drm_no_license">"無可用的 DRM 授權。"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM 授權已過期。"</string>
+	<!---->
+	<string name="drm_interval">"在第一次使用后有效達 %s"</string>
+	<!---->
+	<string name="drm_begin">"開始："</string>
+	<!---->
+	<string name="drm_no_limitation">"無限制。"</string>
+	<!---->
+	<string name="drm_end">"結束："</string>
+	<!---->
+	<string name="drm_use_left">"剩餘次數："</string>
+	<!---->
+	<string name="readable_m">"可讀"</string>
+	<!---->
+	<string name="writable">"可寫"</string>
+	<!---->
+	<string name="permission_m">"權限"</string>
+	<!---->
+	<string name="executable_m">"應用程式"</string>
+	<!---->
+	<string name="writable_m">"可寫"</string>
+	<!---->
+	<string name="detail_path_m">"地點"</string>
+	<!---->
+	<string name="detail_name_m">"名字"</string>
+	<!---->
+	<string name="detail_size_m">"大小"</string>
+	<!---->
+	<string name="detail_time_m">"上次修改時間"</string>
+	<!---->
+	<string name="dialog_close_btn">"關閉"</string>
+	<!---->
+	<string name="exit_dialog_content">"當前操作正在進行，確定退出？"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"已移除或內置 SD 卡。"</string>
+	<!---->
+	<string name="warning">"最大檔案數量"</string>
+	<!---->
+	<string name="share_warning">"無法分享超過 100 個檔案。"</string>
+	<!---->
+	<string name="unknown">"不明"</string>
+	<!---->
+	<string name="no_search_result">"搜尋 \"%1$s\" 無結果"</string>
+	<!---->
+	<string name="copy_deny">"沒有權限複製"</string>
+	<!---->
+	<string name="cut_deny">"沒有權限剪下"</string>
+	<!---->
+	<string name="delete_deny">"沒有權限刪除"</string>
+	<!---->
+	<string name="insufficient_memory">"記憶體不足。"</string>
+	<!---->
+	<string name="paste_same_folder">"無法複製：源資料夾和目標資料夾相同。"</string>
+	<!---->
+	<string name="invalid_char_prompt">"輸入的字元無效"</string>
+	<!---->
+	<string name="msg_unable_open_file">"無法開啟檔案。"</string>
+	<!---->
+	<string name="paste_sub_folder">"無法貼至子資料夾"</string>
+	<!---->
+	<string name="operation_fail">"部分檔案操作失敗。"</string>
+	<!---->
+	<string name="search_result">"搜尋 \"%1$s\" 獲得 %2$d 筆結果"</string>
+	<!---->
+	<string name="already_exists">"%1$s 已存在"</string>
+	<!---->
+	<string name="unmounted">"已移除 %1$s"</string>
+	<!---->
+	<string name="file_name_too_long">"輸入的名稱過長"</string>
+	<!---->
+	<string name="some_paste_fail">"部分貼上操作失敗"</string>
+	<!---->
+	<string name="delete_fail">"無法刪除"</string>
+	<!---->
+	<string name="some_delete_fail">"部分刪除操作失敗"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"沒有應用程式可打開此檔案。"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"未轉寄"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM 檔案無法轉寄。"</string>
+	<!---->
+	<string name="drm_no_valid_right">"該文件無有效的DRM權限！"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi 顯示屏已經關閉"</string>
+	<!---->
+	<string name="no_folder">"資料夾無內容"</string>
+	<!---->
+	<string name="no_category">"此分類為空白。"</string>
+	<!---->
+	<string name="pasted">"檔案粘貼"</string>
+	<!---->
+	<string name="deleted">"檔案刪除"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s 不存在"</string>
+	<!---->
+	<string name="not_available">"無法取得"</string>
+	<!---->
+	<string name="shortcut_no_exist">"請求的資料夾不存在"</string>
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\"未發現結果"</string>
+	<!---->
+	<string name="exceeded_max_task">"已超出當前任務數量上限"</string>
+	<!---->
+	<string name="add_waiting_task">"已新增至執行任務佇列"</string>
+	<!---->
+	<string name="category_pictures">"圖片"</string>
+	<!---->
+	<string name="category_vedios">"影片"</string>
+	<!---->
+	<string name="category_music">"音樂"</string>
+	<!---->
+	<string name="category_download">"下載"</string>
+	<!---->
+	<string name="category_bluetooth">"藍牙"</string>
+	<!---->
+	<string name="main_recents">"最近"</string>
+	<!---->
+	<string name="main_document">"文檔"</string>
+	<!---->
+	<string name="category_archives">"歸檔"</string>
+	<!---->
+	<string name="category_audio">"音訊"</string>
+	<!---->
+	<string name="main_installers">"安裝器"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"手機儲存空間"</string>
+	<!---->
+	<string name="sd_card">"SD 卡"</string>
+	<!---->
+	<string name="usbotg">"外部 USB 儲存裝置"</string>
+	<!---->
+	<string name="choice_file">"選擇目的地"</string>
+	<!---->
+	<string name="permission_welcome_title">"所需的權限"</string>
+	<!---->
+	<string name="permission_setting_title">"授予訪問權限"</string>
+	<!---->
+	<string name="permission_setting_content">"在您的裝置應用程式設定中變更權限。給予檔案管理器訪問儲存裝置的權限。"</string>
+	<!---->
+	<string name="permission_exit_btn">"退出"</string>
+	<!---->
+	<string name="selected">"已選取"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"手機"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"內部儲存空間"</string>
+	<!---->
+	<string name="usbotg_m">"外部的"</string>
+	<!---->
+	<string name="usbotg_n">"外部儲存裝置"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"設定"</string>
+	<!---->
+	<string name="total_progress">"總進度："</string>
+	<!---->
+	<string name="total_task">"作業次數："</string>
+	<!---->
+	<string name="items">"項目"</string>
+	<!---->
+	<string name="folder_items">"%1$s 項"</string>
+	<!---->
+	<string name="freeof_m">"可用"</string>
+	<!---->
+	<string name="choose_files">"選擇檔案"</string>
+	<!---->
+	<string name="used_of">"使用次數"</string>
+	<!---->
+	<string name="invalid_empty_name">"檔案或資料夾名稱不能為空"</string>
+	<!---->
+	<string name="just_now">"剛剛"</string>
+	<!---->
+	<string name="minutes_ago">"分鐘以前"</string>
+	<!---->
+	<string name="hours_ago">"小時以前"</string>
+	<!---->
+	<string name="minute_ago">"分鐘以前"</string>
+	<!---->
+	<string name="hour_ago">"小時以前"</string>
+	<!---->
+	<string name="day_ago">"天以前"</string>
+	<!---->
+	<string name="searching">"正在搜尋"</string>
+	<!---->
+	<string name="safe_no_file_title">"尚無私人檔案"</string>
+	<!---->
+	<string name="safe_no_file_content">"按右上角的選單新增檔案"</string>
+	<!---->
+	<string name="safe_activity_title">"私人檔案"</string>
+	<!---->
+	<string name="move_safe">"設為私人"</string>
+	<!---->
+	<string name="set_public">"設為公開"</string>
+	<!---->
+	<string name="add_files">"新增檔案"</string>
+	<!---->
+	<string name="compress_susscces">"檔案已壓縮"</string>
+	<!---->
+	<string name="extract_susscces">"檔案已解壓縮"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"壓縮檔案的名稱過長"</string>
+	<!---->
+	<string name="category_safe">"私人"</string>
+	<!---->
+	<string name="remove_private_tip">"是否從私人模式中移除？"</string>
+	<!---->
+	<string name="remove_private_title">"移除"</string>
+	<!---->
+	<string name="remove_safe_single">"是否使 %1$s 對所有使用者可見？"</string>
+	<!---->
+	<string name="remove_safe_multi">"是否使所選檔案對所有使用者可見？"</string>
+	<!---->
+	<string name="folder_already_exists">"資料夾已經存在"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s 已存在"</string>
+	<!---->
+	<string name="keep_both">"都保持"</string>
+	<!---->
+	<string name="set_private_failed">"外部檔案無法設為私人檔案。"</string>
+	<!---->
+	<string name="app_name_new">"檔案管理器"</string>
+</resources>

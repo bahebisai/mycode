@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for sort -->
+	<skip />
+	<!-- no translation found for sort_by_name -->
+	<skip />
+	<!-- no translation found for sort_by_time -->
+	<skip />
+	<!-- no translation found for sort_by_type -->
+	<skip />
+	<!-- no translation found for sort_by_size -->
+	<skip />
+	<!-- no translation found for copy -->
+	<skip />
+	<!-- no translation found for create_folder -->
+	<skip />
+	<!-- no translation found for cut -->
+	<skip />
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for deselect_all -->
+	<skip />
+	<!-- no translation found for select_all -->
+	<skip />
+	<!-- no translation found for show_file -->
+	<skip />
+	<!-- no translation found for hide_file -->
+	<skip />
+	<!-- no translation found for paste -->
+	<skip />
+	<!-- no translation found for rename -->
+	<skip />
+	<!-- no translation found for extract -->
+	<skip />
+	<!-- no translation found for extracting -->
+	<skip />
+	<!-- no translation found for compress -->
+	<skip />
+	<!-- no translation found for compressing -->
+	<skip />
+	<!-- no translation found for share -->
+	<skip />
+	<!-- no translation found for menu_select -->
+	<skip />
+	<!-- no translation found for view_list -->
+	<skip />
+	<!-- no translation found for view_grid -->
+	<skip />
+	<!---->
+	<string name="create_new_folder">"ໂຟລເດີໃໝ່"</string>
+	<!-- no translation found for detail -->
+	<skip />
+	<!-- no translation found for shortcut_item -->
+	<skip />
+	<!-- no translation found for search -->
+	<skip />
+	<!-- no translation found for multi_alert_delete_message -->
+	<skip />
+	<!-- no translation found for hide_btn -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!-- no translation found for alert_delete_multiple -->
+	<skip />
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for msg_rename_ext -->
+	<skip />
+	<!-- no translation found for wait -->
+	<skip />
+	<!-- no translation found for done -->
+	<skip />
+	<!---->
+	<string name="next">"ຕໍ່ໄປ"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!-- no translation found for show -->
+	<skip />
+	<!-- no translation found for no -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!-- no translation found for confirm -->
+	<skip />
+	<!-- no translation found for yes -->
+	<skip />
+	<!-- no translation found for send_file -->
+	<skip />
+	<!-- no translation found for default_search_text -->
+	<skip />
+	<!-- no translation found for create_hidden_file -->
+	<skip />
+	<!-- no translation found for drm_current_count -->
+	<skip />
+	<!-- no translation found for unlimited_usage -->
+	<skip />
+	<!-- no translation found for drm_current_right -->
+	<skip />
+	<!-- no translation found for right_url -->
+	<skip />
+	<!-- no translation found for use_times -->
+	<skip />
+	<!-- no translation found for valid_after -->
+	<skip />
+	<!-- no translation found for valid_until -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_title -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_cancel_btn -->
+	<skip />
+	<!-- no translation found for confirm_rename -->
+	<skip />
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!---->
+	<string name="default_folder_name">"ຊື່ໂຟນເດີ້"</string>
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!-- no translation found for drm_toast_license_expired -->
+	<skip />
+	<!-- no translation found for drm_interval -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for readable_m -->
+	<skip />
+	<!-- no translation found for writable -->
+	<skip />
+	<!-- no translation found for permission_m -->
+	<skip />
+	<!-- no translation found for executable_m -->
+	<skip />
+	<!-- no translation found for writable_m -->
+	<skip />
+	<!---->
+	<string name="detail_path_m">"ຕຳແໜ່ງ"</string>
+	<!-- no translation found for detail_name_m -->
+	<skip />
+	<!-- no translation found for detail_size_m -->
+	<skip />
+	<!-- no translation found for detail_time_m -->
+	<skip />
+	<!-- no translation found for dialog_close_btn -->
+	<skip />
+	<!-- no translation found for exit_dialog_content -->
+	<skip />
+	<!-- no translation found for no_available_storage_dialog_content -->
+	<skip />
+	<!-- no translation found for warning -->
+	<skip />
+	<!-- no translation found for share_warning -->
+	<skip />
+	<!-- no translation found for unknown -->
+	<skip />
+	<!-- no translation found for no_search_result -->
+	<skip />
+	<!-- no translation found for copy_deny -->
+	<skip />
+	<!-- no translation found for cut_deny -->
+	<skip />
+	<!-- no translation found for delete_deny -->
+	<skip />
+	<!-- no translation found for insufficient_memory -->
+	<skip />
+	<!-- no translation found for paste_same_folder -->
+	<skip />
+	<!-- no translation found for invalid_char_prompt -->
+	<skip />
+	<!-- no translation found for msg_unable_open_file -->
+	<skip />
+	<!-- no translation found for paste_sub_folder -->
+	<skip />
+	<!-- no translation found for operation_fail -->
+	<skip />
+	<!-- no translation found for search_result -->
+	<skip />
+	<!-- no translation found for already_exists -->
+	<skip />
+	<!-- no translation found for unmounted -->
+	<skip />
+	<!-- no translation found for file_name_too_long -->
+	<skip />
+	<!-- no translation found for some_paste_fail -->
+	<skip />
+	<!-- no translation found for delete_fail -->
+	<skip />
+	<!-- no translation found for some_delete_fail -->
+	<skip />
+	<!-- no translation found for msg_unable_open_file_in_app -->
+	<skip />
+	<!-- no translation found for drm_forwardforbidden_title -->
+	<skip />
+	<!-- no translation found for drm_forwardforbidden_message -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!-- no translation found for tv_link_close_toast -->
+	<skip />
+	<!-- no translation found for no_folder -->
+	<skip />
+	<!-- no translation found for no_category -->
+	<skip />
+	<!-- no translation found for pasted -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!-- no translation found for path_not_exists -->
+	<skip />
+	<!-- no translation found for not_available -->
+	<skip />
+	<!-- no translation found for shortcut_no_exist -->
+	<skip />
+	<!-- no translation found for no_search_result_m -->
+	<skip />
+	<!-- no translation found for exceeded_max_task -->
+	<skip />
+	<!-- no translation found for add_waiting_task -->
+	<skip />
+	<!-- no translation found for category_pictures -->
+	<skip />
+	<!-- no translation found for category_vedios -->
+	<skip />
+	<!-- no translation found for category_music -->
+	<skip />
+	<!-- no translation found for category_download -->
+	<skip />
+	<!-- no translation found for category_bluetooth -->
+	<skip />
+	<!-- no translation found for main_recents -->
+	<skip />
+	<!-- no translation found for main_document -->
+	<skip />
+	<!-- no translation found for category_archives -->
+	<skip />
+	<!-- no translation found for category_audio -->
+	<skip />
+	<!-- no translation found for main_installers -->
+	<skip />
+	<!-- no translation found for unit_B -->
+	<skip />
+	<!-- no translation found for unit_KB -->
+	<skip />
+	<!-- no translation found for unit_MB -->
+	<skip />
+	<!-- no translation found for unit_GB -->
+	<skip />
+	<!-- no translation found for unit_TB -->
+	<skip />
+	<!-- no translation found for phone_storage -->
+	<skip />
+	<!-- no translation found for sd_card -->
+	<skip />
+	<!-- no translation found for usbotg -->
+	<skip />
+	<!-- no translation found for choice_file -->
+	<skip />
+	<!-- no translation found for permission_welcome_title -->
+	<skip />
+	<!-- no translation found for permission_setting_title -->
+	<skip />
+	<!-- no translation found for permission_setting_content -->
+	<skip />
+	<!---->
+	<string name="permission_exit_btn">"ອອກ"</string>
+	<!-- no translation found for selected -->
+	<skip />
+	<!-- no translation found for draw_left_phone_storage_m -->
+	<skip />
+	<!-- no translation found for draw_left_phone_storage_n -->
+	<skip />
+	<!-- no translation found for usbotg_m -->
+	<skip />
+	<!-- no translation found for usbotg_n -->
+	<skip />
+	<!-- no translation found for sd_m -->
+	<skip />
+	<!-- no translation found for permission_settings -->
+	<skip />
+	<!-- no translation found for total_progress -->
+	<skip />
+	<!-- no translation found for total_task -->
+	<skip />
+	<!-- no translation found for items -->
+	<skip />
+	<!-- no translation found for folder_items -->
+	<skip />
+	<!-- no translation found for freeof_m -->
+	<skip />
+	<!-- no translation found for choose_files -->
+	<skip />
+	<!-- no translation found for used_of -->
+	<skip />
+	<!-- no translation found for invalid_empty_name -->
+	<skip />
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for minutes_ago -->
+	<skip />
+	<!-- no translation found for hours_ago -->
+	<skip />
+	<!-- no translation found for minute_ago -->
+	<skip />
+	<!-- no translation found for hour_ago -->
+	<skip />
+	<!-- no translation found for day_ago -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for safe_no_file_title -->
+	<skip />
+	<!-- no translation found for safe_no_file_content -->
+	<skip />
+	<!-- no translation found for safe_activity_title -->
+	<skip />
+	<!-- no translation found for move_safe -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for add_files -->
+	<skip />
+	<!-- no translation found for compress_susscces -->
+	<skip />
+	<!-- no translation found for extract_susscces -->
+	<skip />
+	<!-- no translation found for compress_file_name_too_long -->
+	<skip />
+	<!-- no translation found for category_safe -->
+	<skip />
+	<!-- no translation found for remove_private_tip -->
+	<skip />
+	<!-- no translation found for remove_private_title -->
+	<skip />
+	<!-- no translation found for remove_safe_single -->
+	<skip />
+	<!-- no translation found for remove_safe_multi -->
+	<skip />
+	<!-- no translation found for folder_already_exists -->
+	<skip />
+	<!-- no translation found for file_already_exists -->
+	<skip />
+	<!-- no translation found for keep_both -->
+	<skip />
+	<!-- no translation found for set_private_failed -->
+	<skip />
+</resources>

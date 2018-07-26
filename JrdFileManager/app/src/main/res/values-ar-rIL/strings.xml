@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ملفات"</string>
+	<!---->
+	<string name="sort">"فرز"</string>
+	<!---->
+	<string name="sort_by_name">"الاسم"</string>
+	<!---->
+	<string name="sort_by_time">"التاريخ"</string>
+	<!---->
+	<string name="sort_by_type">"النوع"</string>
+	<!---->
+	<string name="sort_by_size">"الحجم"</string>
+	<!---->
+	<string name="copy">"نسخ"</string>
+	<!---->
+	<string name="create_folder">"إنشاء"</string>
+	<!---->
+	<string name="cut">"قص"</string>
+	<!---->
+	<string name="delete">"حذف"</string>
+	<!---->
+	<string name="deselect_all">"إلغاء تحديد الكل"</string>
+	<!---->
+	<string name="select_all">"تحديد الكل"</string>
+	<!---->
+	<string name="show_file">"إظهار الملفات المخفية"</string>
+	<!---->
+	<string name="hide_file">"إخفاء الملفات المخفية"</string>
+	<!---->
+	<string name="paste">"لصق"</string>
+	<!---->
+	<string name="rename">"إعادة تسمية"</string>
+	<!---->
+	<string name="extract">"الاستخراج"</string>
+	<!---->
+	<string name="extracting">"جارٍ الاستخراج"</string>
+	<!---->
+	<string name="compress">"الضغط"</string>
+	<!---->
+	<string name="compressing">"جارٍ الضغط"</string>
+	<!---->
+	<string name="share">"مشاركة"</string>
+	<!---->
+	<string name="menu_select">"تحديد"</string>
+	<!---->
+	<string name="view_list">"عرض القائمة"</string>
+	<!---->
+	<string name="view_grid">"عرض الشبكة"</string>
+	<!---->
+	<string name="create_new_folder">"إنشاء مجلد"</string>
+	<!---->
+	<string name="detail">"التفاصيل"</string>
+	<!---->
+	<string name="shortcut_item">"إضافة اختصار"</string>
+	<!---->
+	<string name="search">"بحث"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"حذف العناصر المحددة؟"</string>
+	<!---->
+	<string name="hide_btn">"إخفاء؟"</string>
+	<!---->
+	<string name="loading">"جارٍ تحميل المحتويات"</string>
+	<!---->
+	<string name="alert_delete_multiple">"سيتم حذف الملفات المحددة."</string>
+	<!---->
+	<string name="modified_time">"تم التعديل"</string>
+	<!---->
+	<string name="msg_rename_ext">"سيتم تغيير ملحق الملف. قد لا يكون بالإمكان التعرف على الملف. متابعة؟"</string>
+	<!---->
+	<string name="wait">"يرجى الانتظار…"</string>
+	<!---->
+	<string name="done">"تم"</string>
+	<!---->
+	<string name="next">"التالي"</string>
+	<!---->
+	<string name="cancel">"إلغاء"</string>
+	<!---->
+	<string name="show">"إظهار"</string>
+	<!---->
+	<string name="no">"لا"</string>
+	<!---->
+	<string name="ok">"موافق"</string>
+	<!---->
+	<string name="confirm">"تأكيد"</string>
+	<!---->
+	<string name="yes">"نعم"</string>
+	<!---->
+	<string name="send_file">"مشاركة الملف (الملفات) عبر"</string>
+	<!---->
+	<string name="default_search_text">"البحث في الملفات"</string>
+	<!---->
+	<string name="create_hidden_file">"سيتم إخفاء الملف إذا كان الاسم يبدأ بـ \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"العد الحالي："</string>
+	<!---->
+	<string name="unlimited_usage">"استخدام غير محدود"</string>
+	<!---->
+	<string name="drm_current_right">"القيد الحالي："</string>
+	<!---->
+	<string name="right_url">"عنوان URL لجهة إصدار الترخيص: ："</string>
+	<!---->
+	<string name="use_times">"استخدام %s مرة"</string>
+	<!---->
+	<string name="valid_after">"صالح بعد"</string>
+	<!---->
+	<string name="valid_until">"صالح حتى"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"ملفات محمية ضد النسخ"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"لا يمكن نشر الملف المحمي ضد النسخ."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"إيقاف تشغيل جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"تأكيد الاسم"</string>
+	<!---->
+	<string name="drm_protection_status">"حالة الحماية:"</string>
+	<!---->
+	<string name="default_folder_name">"اسم المجلد"</string>
+	<!---->
+	<string name="drm_can_forward">"يمكن إعادة التوجيه."</string>
+	<!---->
+	<string name="drm_can_not_forward">"لا يمكن إعادة التوجيه."</string>
+	<!---->
+	<string name="drm_no_license">"لا يوجد ترخيص DRM متوافر."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"انتهت صلاحية ترخيص DRM."</string>
+	<!---->
+	<string name="drm_interval">"صالح لـ %s بعد الاستخدام للمرة الأولى"</string>
+	<!---->
+	<string name="drm_begin">"البدء:"</string>
+	<!---->
+	<string name="drm_no_limitation">"لا توجد حدود."</string>
+	<!---->
+	<string name="drm_end">"النهاية:"</string>
+	<!---->
+	<string name="drm_use_left">"يتبقى:"</string>
+	<!---->
+	<string name="readable_m">"قابل للقراءة"</string>
+	<!---->
+	<string name="writable">"قابل للكتابة"</string>
+	<!---->
+	<string name="permission_m">"الأذونات"</string>
+	<!---->
+	<string name="executable_m">"التطبيق"</string>
+	<!---->
+	<string name="writable_m">"قابل للكتابة"</string>
+	<!---->
+	<string name="detail_path_m">"الموقع"</string>
+	<!---->
+	<string name="detail_name_m">"الاسم"</string>
+	<!---->
+	<string name="detail_size_m">"الحجم"</string>
+	<!---->
+	<string name="detail_time_m">"التعديل الأخير"</string>
+	<!---->
+	<string name="dialog_close_btn">"إغلاق"</string>
+	<!---->
+	<string name="exit_dialog_content">"العملية الحالية جارية، هل تريد بالتأكيد الخروج؟"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"تمت إزالة بطاقة SD أو تم إدماجها."</string>
+	<!---->
+	<string name="warning">"الحد الأقصى لكمية الملفات"</string>
+	<!---->
+	<string name="share_warning">"لا يمكن مشاركة أكثر من 100 ملف."</string>
+	<!---->
+	<string name="unknown">"غير معروف"</string>
+	<!---->
+	<string name="no_search_result">"0 نتيجة (نتائج) من أجل \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"لا يوجد إذن بالنسخ"</string>
+	<!---->
+	<string name="cut_deny">"لا يوجد إذن بالقص"</string>
+	<!---->
+	<string name="delete_deny">"لا يوجد إذن بالحذف"</string>
+	<!---->
+	<string name="insufficient_memory">"مساحة غير كافية."</string>
+	<!---->
+	<string name="paste_same_folder">"تعذر النسخ: مجلد الوجهة والمصدر متماثلان."</string>
+	<!---->
+	<string name="invalid_char_prompt">"لقد أدخلت حرفًا غير صالح"</string>
+	<!---->
+	<string name="msg_unable_open_file">"تنسيق الملف غير مدعوم."</string>
+	<!---->
+	<string name="paste_sub_folder">"لا يمكن لصق الملف في مجلد فرعي"</string>
+	<!---->
+	<string name="operation_fail">"فشلت بعض عمليات الملف."</string>
+	<!---->
+	<string name="search_result">"%2$d نتيجة (نتائج) لـ \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s قيد الاستخدام بالفعل"</string>
+	<!---->
+	<string name="unmounted">"%1$s غير محمل"</string>
+	<!---->
+	<string name="file_name_too_long">"اسم الإدخال طويل للغاية"</string>
+	<!---->
+	<string name="some_paste_fail">"فشل عمليات اللصق"</string>
+	<!---->
+	<string name="delete_fail">"تعذر الحذف"</string>
+	<!---->
+	<string name="some_delete_fail">"فشلت بعض عمليات الحذف"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"لا يوجد تطبيق لفتح الملف"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"عدم إعادة التوجيه"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"يتعذر إعادة توجيه ملف DRM."</string>
+	<!---->
+	<string name="drm_no_valid_right">"لا يتوفر للملف تصريح DRM صالح!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"تم إغلاق جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="no_folder">"هذا المجلد فارغ"</string>
+	<!---->
+	<string name="no_category">"هذه الفئة فارغة."</string>
+	<!---->
+	<string name="pasted">"تم لصق الملف"</string>
+	<!---->
+	<string name="deleted">"تم حذف الملف"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s غير موجود"</string>
+	<!---->
+	<string name="not_available">"غير متاح"</string>
+	<!---->
+	<string name="shortcut_no_exist">"المجلد المطلوب غير موجود"</string>
+	<!---->
+	<string name="no_search_result_m">"لم يتم العثور على نتائج لـ \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"تجاوز الحد الأقصى الحالي لعدد المهام"</string>
+	<!---->
+	<string name="add_waiting_task">"تمت الإضافة إلى قائمة انتظار تنفيذ المهام"</string>
+	<!---->
+	<string name="category_pictures">"الصور"</string>
+	<!---->
+	<string name="category_vedios">"مقاطع الفيديو"</string>
+	<!---->
+	<string name="category_music">"الموسيقى"</string>
+	<!---->
+	<string name="category_download">"التنزيلات"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"الأحدث"</string>
+	<!---->
+	<string name="main_document">"المستندات"</string>
+	<!---->
+	<string name="category_archives">"الأرشيفات"</string>
+	<!---->
+	<string name="category_audio">"الصوت"</string>
+	<!---->
+	<string name="main_installers">"أدوات التثبيت"</string>
+	<!---->
+	<string name="unit_B">"بايت"</string>
+	<!---->
+	<string name="unit_KB">"كيلوبايت"</string>
+	<!---->
+	<string name="unit_MB">"ميغابايت"</string>
+	<!---->
+	<string name="unit_GB">"غيغابايت"</string>
+	<!---->
+	<string name="unit_TB">"تيرابايت"</string>
+	<!---->
+	<string name="phone_storage">"وحدة التخزين بالهاتف"</string>
+	<!---->
+	<string name="sd_card">"بطاقة SD"</string>
+	<!---->
+	<string name="usbotg">"وحدة تخزين USB خارجية"</string>
+	<!---->
+	<string name="choice_file">"اختيار الوجهة"</string>
+	<!---->
+	<string name="permission_welcome_title">"الإذن مطلوب"</string>
+	<!---->
+	<string name="permission_setting_title">"منح الوصول"</string>
+	<!---->
+	<string name="permission_setting_content">"قم بتغيير الأذونات في إعدادات التطبيق في جهازك. امنح مدير الملفات وصولاً إلى وحدة التخزين."</string>
+	<!---->
+	<string name="permission_exit_btn">"خروج"</string>
+	<!---->
+	<string name="selected">"محدد"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"الهاتف"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"وحدة التخزين الداخلية"</string>
+	<!---->
+	<string name="usbotg_m">"خارجي"</string>
+	<!---->
+	<string name="usbotg_n">"وحدة تخزين خارجية"</string>
+	<!---->
+	<string name="sd_m">"بطاقة SD"</string>
+	<!---->
+	<string name="permission_settings">"الإعدادات"</string>
+	<!---->
+	<string name="total_progress">"التقدم الإجمالي:"</string>
+	<!---->
+	<string name="total_task">"عدد المهام:"</string>
+	<!---->
+	<string name="items">"عناصر"</string>
+	<!---->
+	<string name="folder_items">"عناصر %1$s"</string>
+	<!---->
+	<string name="freeof_m">"الذاكرة المتاحة"</string>
+	<!---->
+	<string name="choose_files">"تحديد ملف (ملفات)"</string>
+	<!---->
+	<string name="used_of">"مستخدم من"</string>
+	<!---->
+	<string name="invalid_empty_name">"لا يمكن ترك اسم الملف أو المجلد فارغًا"</string>
+	<!---->
+	<string name="just_now">"الآن"</string>
+	<!---->
+	<string name="minutes_ago">"منذ دقائق"</string>
+	<!---->
+	<string name="hours_ago">"من الساعات مضت"</string>
+	<!---->
+	<string name="minute_ago">"منذ دقيقة"</string>
+	<!---->
+	<string name="hour_ago">"منذ ساعة"</string>
+	<!---->
+	<string name="day_ago">"منذ ساعة"</string>
+	<!---->
+	<string name="searching">"جارٍ البحث..."</string>
+	<!---->
+	<string name="safe_no_file_title">"لا توجد ملفات خاصة بعد"</string>
+	<!---->
+	<string name="safe_no_file_content">"اضغط القائمة الموجودة بالزاوية العلوية اليمنى لإضافة ملفات"</string>
+	<!---->
+	<string name="safe_activity_title">"ملفات خاصة"</string>
+	<!---->
+	<string name="move_safe">"تعيين كخاص"</string>
+	<!---->
+	<string name="set_public">"تعيين كعام"</string>
+	<!---->
+	<string name="add_files">"إضافة ملفات"</string>
+	<!---->
+	<string name="compress_susscces">"تم ضغط الملف"</string>
+	<!---->
+	<string name="extract_susscces">"تم استخراج الملف"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"اسم ملف الضغط طويل جدًا"</string>
+	<!---->
+	<string name="category_safe">"خاص"</string>
+	<!---->
+	<string name="remove_private_tip">"الإزالة من الوضع الخاص؟"</string>
+	<!---->
+	<string name="remove_private_title">"إزالة"</string>
+	<!---->
+	<string name="remove_safe_single">"جعل %1$s ظاهرة لكل المستخدمين؟"</string>
+	<!---->
+	<string name="remove_safe_multi">"جعل الملفات المحددة ظاهرة لكل المستخدمين؟"</string>
+	<!---->
+	<string name="folder_already_exists">"المجلد موجود بالفعل"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s موجود بالفعل"</string>
+	<!---->
+	<string name="keep_both">"احفظ الاثنين"</string>
+	<!---->
+	<string name="set_private_failed">"الملف الخارجي لا يمكنه وضع الملف السري."</string>
+	<!---->
+	<string name="app_name_new">"مدير الملفات"</string>
+</resources>

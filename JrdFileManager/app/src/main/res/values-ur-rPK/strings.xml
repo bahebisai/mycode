@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"فائلیں"</string>
+	<!---->
+	<string name="sort">"ترتیب دیں"</string>
+	<!---->
+	<string name="sort_by_name">"نام"</string>
+	<!---->
+	<string name="sort_by_time">"تاریخ"</string>
+	<!---->
+	<string name="sort_by_type">"قسم"</string>
+	<!---->
+	<string name="sort_by_size">"سائز"</string>
+	<!---->
+	<string name="copy">"کاپی کریں"</string>
+	<!---->
+	<string name="create_folder">"بنائیں"</string>
+	<!---->
+	<string name="cut">"کاٹیں"</string>
+	<!---->
+	<string name="delete">"حذف کریں"</string>
+	<!---->
+	<string name="deselect_all">"سبھی کو غیر منتخب کریں"</string>
+	<!---->
+	<string name="select_all">"سبھی کو منتخب کریں"</string>
+	<!---->
+	<string name="show_file">"پوشیدہ فائلیں دکھائیں"</string>
+	<!---->
+	<string name="hide_file">"پوشیدہ فائلیں چھپائیں"</string>
+	<!---->
+	<string name="paste">"پیسٹ کریں"</string>
+	<!---->
+	<string name="rename">"نام بدلیں"</string>
+	<!---->
+	<string name="extract">"نکالیں"</string>
+	<!---->
+	<string name="extracting">"نکال رہا ہے"</string>
+	<!---->
+	<string name="compress">"دبائيں"</string>
+	<!---->
+	<string name="compressing">"دبا رہا ہے"</string>
+	<!---->
+	<string name="share">"اشتراک کریں"</string>
+	<!---->
+	<string name="menu_select">"منتخب کریں"</string>
+	<!---->
+	<string name="view_list">"فہرست منظر"</string>
+	<!---->
+	<string name="view_grid">"گرڈ منظر"</string>
+	<!---->
+	<string name="create_new_folder">"فولڈر بنائیں"</string>
+	<!---->
+	<string name="detail">"تفصیلات"</string>
+	<!---->
+	<string name="shortcut_item">"شارٹ کٹ شامل کریں"</string>
+	<!---->
+	<string name="search">"تلاش کریں"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"منتخبہ آئٹمز حذف کریں؟"</string>
+	<!---->
+	<string name="hide_btn">"چھپائیں"</string>
+	<!---->
+	<string name="loading">"مواد لوڈ کیے جارہے ہیں"</string>
+	<!---->
+	<string name="alert_delete_multiple">"منتخبہ فائلیں حذف کریں؟"</string>
+	<!---->
+	<string name="modified_time">"ترمیم شدہ"</string>
+	<!---->
+	<string name="msg_rename_ext">"فائل نام کی توسیع تبدیل ہوجائے گی۔ ہوسکتا ہے کہ فائل کی شناخت نہ کی جا سکے۔ جاری رکھیں؟"</string>
+	<!---->
+	<string name="wait">"براہ کرم انتظار کریں…"</string>
+	<!---->
+	<string name="done">"ہو گیا"</string>
+	<!---->
+	<string name="next">"اگلا"</string>
+	<!---->
+	<string name="cancel">"منسوخ کریں"</string>
+	<!---->
+	<string name="show">"دکھائیں"</string>
+	<!---->
+	<string name="no">"نہیں"</string>
+	<!---->
+	<string name="ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="confirm">"توثیق کریں"</string>
+	<!---->
+	<string name="yes">"ہاں"</string>
+	<!---->
+	<string name="send_file">"فولڈر کا اشتراک کریں بذریعہ"</string>
+	<!---->
+	<string name="default_search_text">"فائلیں تلاش کریں"</string>
+	<!---->
+	<string name="create_hidden_file">"فائل پوشیدہ رہے گی اگر اس کا نام \'.\' سے شروع ہوتا ہے۔"</string>
+	<!---->
+	<string name="drm_current_count">"موجودہ شمار:"</string>
+	<!---->
+	<string name="unlimited_usage">"لا محدود استعمال"</string>
+	<!---->
+	<string name="drm_current_right">"موجودہ پابندی:"</string>
+	<!---->
+	<string name="right_url">"لائسنس جاری کرنے والے کا URL:"</string>
+	<!---->
+	<string name="use_times">"%s مرتبہ استعمال کریں"</string>
+	<!---->
+	<string name="valid_after">"کے بعد قابل قبول"</string>
+	<!---->
+	<string name="valid_until">"تک قابل قبول"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"نقل سے محفوظ کردہ فائلیں"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"نقل کئے جانے سے محفوظ فائل تقسیم نہیں کی جاسکتی۔"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Wi-Fi ڈسپلے آف کریں"</string>
+	<!---->
+	<string name="confirm_rename">"نام کی تصدیق کریں"</string>
+	<!---->
+	<string name="drm_protection_status">"تحفظ کی کیفیت:"</string>
+	<!---->
+	<string name="default_folder_name">"فولڈر کا نام"</string>
+	<!---->
+	<string name="drm_can_forward">"آگے بڑھایا جاسکتا ہے"</string>
+	<!---->
+	<string name="drm_can_not_forward">"آگے نہيں بڑھایا جاسکتا ہے۔"</string>
+	<!---->
+	<string name="drm_no_license">"کوئی دستیاب DRM لائسنس۔"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM لائسنس ختم۔"</string>
+	<!---->
+	<string name="drm_interval">"پہلی بار استعمال کے بعد %s کے لیے جائز"</string>
+	<!---->
+	<string name="drm_begin">"شروع:"</string>
+	<!---->
+	<string name="drm_no_limitation">"کوئی پابند نہيں۔"</string>
+	<!---->
+	<string name="drm_end">"ختم:"</string>
+	<!---->
+	<string name="drm_use_left">"باقی تعداد:"</string>
+	<!---->
+	<string name="readable_m">"ریڈیبل"</string>
+	<!---->
+	<string name="writable">"تحریر کرنے کے قابل"</string>
+	<!---->
+	<string name="permission_m">"اجازتیں"</string>
+	<!---->
+	<string name="executable_m">"اپلیکیشن"</string>
+	<!---->
+	<string name="writable_m">"تحریر کرنے کے قابل"</string>
+	<!---->
+	<string name="detail_path_m">"مقام"</string>
+	<!---->
+	<string name="detail_name_m">"نام"</string>
+	<!---->
+	<string name="detail_size_m">"سائز"</string>
+	<!---->
+	<string name="detail_time_m">"آخری بار ترمیم کردہ"</string>
+	<!---->
+	<string name="dialog_close_btn">"بند کریں"</string>
+	<!---->
+	<string name="exit_dialog_content">"حالیہ آپریشن جاری ہے، واقعی نکلنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"‏SD کارڈ ہٹا دیا گیا یا بلٹ ان کیا ہے۔"</string>
+	<!---->
+	<string name="warning">"زیادہ سے زیادہ فائل کی تعداد"</string>
+	<!---->
+	<string name="share_warning">"آپ 100 فائلوں سے زیادہ کا اشتراک نہیں کرسکتے۔"</string>
+	<!---->
+	<string name="unknown">"نامعلوم"</string>
+	<!---->
+	<string name="no_search_result">"\"%1$s\" کے لئے 0 فائل (فائلیں) ملیں"</string>
+	<!---->
+	<string name="copy_deny">"کاپی کرنے کے لئے اجازت نہیں۔"</string>
+	<!---->
+	<string name="cut_deny">"کاٹنے کی اجازت نہیں۔"</string>
+	<!---->
+	<string name="delete_deny">"حذف کرنے کے لئے اجازت نہیں۔"</string>
+	<!---->
+	<string name="insufficient_memory">"ناکافی جگہ۔"</string>
+	<!---->
+	<string name="paste_same_folder">"نقل نہیں کرسکا: ماخذ اور منزل فولڈر دونوں ایک ہی ہیں۔"</string>
+	<!---->
+	<string name="invalid_char_prompt">"آپ نے ناقابل قبول حرف ان پُٹ کیا ہے۔"</string>
+	<!---->
+	<string name="msg_unable_open_file">"فائل کا فارمیٹ تعاون یافتہ نہیں ہے۔"</string>
+	<!---->
+	<string name="paste_sub_folder">"ذیلی فولڈر میں پیسٹ نہیں کیا جاتا۔"</string>
+	<!---->
+	<string name="operation_fail">"فائل کے بعض اعمال ناکام رہے۔"</string>
+	<!---->
+	<string name="search_result">"\"%1$s\" کے لئے %2$d نتیجہ (نتائج)"</string>
+	<!---->
+	<string name="already_exists">"%1$s پہلے سے ہی استعمال میں ہے"</string>
+	<!---->
+	<string name="unmounted">"%1$s کو ان ماونٹ کیا گیا ہے"</string>
+	<!---->
+	<string name="file_name_too_long">"ان پُٹ نام بہت طویل ہے۔"</string>
+	<!---->
+	<string name="some_paste_fail">"پیسٹ کرنے کے بعض اعمال ناکام رہے۔"</string>
+	<!---->
+	<string name="delete_fail">"حذف نہیں کیا جا سکا"</string>
+	<!---->
+	<string name="some_delete_fail">"حذف کرنے کے بعض اعمال ناکام رہے۔"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"فائل کھولنے کے لئے کوئی ایپ نہیں ہے"</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"آگے نہیں بڑھایا گیا"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM فائل آگے نہیں بڑھائی جاسکتی۔"</string>
+	<!---->
+	<string name="drm_no_valid_right">"فائل کا کوئی قابل قبول DRM اختیار نہیں ہے۔"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi ڈسپلے بند کردیا گیا ہے"</string>
+	<!---->
+	<string name="no_folder">"یہ فولڈر خالی ہے"</string>
+	<!---->
+	<string name="no_category">"یہ زمرہ خالی ہے."</string>
+	<!---->
+	<string name="pasted">"فائل پیسٹ کی گئی"</string>
+	<!---->
+	<string name="deleted">"فائل حذف کردی گئی"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s موجود نہیں ہے"</string>
+	<!---->
+	<string name="not_available">"دستیاب نہیں ہے"</string>
+	<!---->
+	<string name="shortcut_no_exist">"درخواست کردہ فولڈر موجود نہیں ہے۔"</string>
+	<!---->
+	<string name="no_search_result_m">"\"%1$s\" کے لئے کوئی نتائج نہیں ملے ہیں"</string>
+	<!---->
+	<string name="exceeded_max_task">"حالیہ زیاد زیادہ کاموں کی تعداد بڑھ گئی ہے"</string>
+	<!---->
+	<string name="add_waiting_task">"کام انجام دیے جانے کے قطار میں شامل کردیا گیا"</string>
+	<!---->
+	<string name="category_pictures">"تصویریں"</string>
+	<!---->
+	<string name="category_vedios">"ویڈیوز"</string>
+	<!---->
+	<string name="category_music">"موسیقی"</string>
+	<!---->
+	<string name="category_download">"ڈاؤن لوڈز"</string>
+	<!---->
+	<string name="category_bluetooth">"بلوٹوتھ"</string>
+	<!---->
+	<string name="main_recents">"حالیہ"</string>
+	<!---->
+	<string name="main_document">"دستاویزات"</string>
+	<!---->
+	<string name="category_archives">"آرکائیوز"</string>
+	<!---->
+	<string name="category_audio">"آڈیو"</string>
+	<!---->
+	<string name="main_installers">"انسٹالر"</string>
+	<!---->
+	<string name="unit_B">"بائٹس"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"فون اسٹوریج"</string>
+	<!---->
+	<string name="sd_card">"‏SD کارڈ"</string>
+	<!---->
+	<string name="usbotg">"بیرونی USB اسٹوریج"</string>
+	<!---->
+	<string name="choice_file">"منزل کو چنیں"</string>
+	<!---->
+	<string name="permission_welcome_title">"اجازت ضروری"</string>
+	<!---->
+	<string name="permission_setting_title">"رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="permission_setting_content">"اپنے آلہ کی ایپ سیٹنگز میں اجازتیں تبدیل کریں۔ فائل مینیجر کو اسٹوریج تک رسائی کی اجازت دیں۔"</string>
+	<!---->
+	<string name="permission_exit_btn">"نکلنا"</string>
+	<!---->
+	<string name="selected">"منتخب کردہ"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"فون"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"داخلی اسٹوریج"</string>
+	<!---->
+	<string name="usbotg_m">"بیرونی"</string>
+	<!---->
+	<string name="usbotg_n">"بیرونی اسٹوریج"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"ترتیبات"</string>
+	<!---->
+	<string name="total_progress">"کل پیش رفت:"</string>
+	<!---->
+	<string name="total_task">"اہم کاموں کی تعداد:s"</string>
+	<!---->
+	<string name="items">"آئٹمز"</string>
+	<!---->
+	<string name="folder_items">"%1$s آئٹمز"</string>
+	<!---->
+	<string name="freeof_m">"خالی"</string>
+	<!---->
+	<string name="choose_files">"فائل(فائلیں) منتخب کریں"</string>
+	<!---->
+	<string name="used_of">"استعمال کردہ"</string>
+	<!---->
+	<string name="invalid_empty_name">"فائل یا فولڈر کا نام خالی نہیں ہو سکتا۔"</string>
+	<!---->
+	<string name="just_now">"ابھی ابھی"</string>
+	<!---->
+	<string name="minutes_ago">"منٹ پہلے"</string>
+	<!---->
+	<string name="hours_ago">"گھنٹے پہلے"</string>
+	<!---->
+	<string name="minute_ago">"منٹ پہلے"</string>
+	<!---->
+	<string name="hour_ago">"گھنٹہ پہلے"</string>
+	<!---->
+	<string name="day_ago">"دن پہلے"</string>
+	<!---->
+	<string name="searching">"تلاش کر رہا ہے..."</string>
+	<!---->
+	<string name="safe_no_file_title">"اب تک کوئی نجی فائلیں نہیں"</string>
+	<!---->
+	<string name="safe_no_file_content">"فائلیں شامل کرنے کیلئے بالائی دائيں کونے پر دبائيں"</string>
+	<!---->
+	<string name="safe_activity_title">"نجی فائلیں"</string>
+	<!---->
+	<string name="move_safe">"بطور نجی سیٹ کریں"</string>
+	<!---->
+	<string name="set_public">"بطور پبلک سیٹ کریں"</string>
+	<!---->
+	<string name="add_files">"فائليں شامل کریں"</string>
+	<!---->
+	<string name="compress_susscces">"فائل سیکڑ دی گئی"</string>
+	<!---->
+	<string name="extract_susscces">"فائل نکال دی گئی"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"سکیڑی فائل نام بہت طویل ہے"</string>
+	<!---->
+	<string name="category_safe">"نجی"</string>
+	<!---->
+	<string name="remove_private_tip">"نجی موض سے حذف کریں؟"</string>
+	<!---->
+	<string name="remove_private_title">"ہٹائیں"</string>
+	<!---->
+	<string name="remove_safe_single">"%1$s کو تمام صارفین کیلئے ظاہر کریں؟"</string>
+	<!---->
+	<string name="remove_safe_multi">"منتخب شدہ فائلوں کو تمام صارفین کیلئے ظاہر کریں؟"</string>
+	<!---->
+	<string name="folder_already_exists">"فولڈر پہلے سے موجود ہے"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s پہلے سے موجود ہے"</string>
+	<!---->
+	<string name="keep_both">"دونوں رکھیں"</string>
+	<!---->
+	<string name="set_private_failed">"بیرونی فائل نجی فائل کو سیٹ نہیں کرسکتا ہے"</string>
+	<!---->
+	<string name="app_name_new">"فائل مینیجر"</string>
+</resources>

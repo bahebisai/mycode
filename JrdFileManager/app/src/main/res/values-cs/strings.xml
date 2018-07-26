@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Soubory"</string>
+	<!---->
+	<string name="sort">"Seřadit"</string>
+	<!---->
+	<string name="sort_by_name">"Název"</string>
+	<!---->
+	<string name="sort_by_time">"Datum"</string>
+	<!---->
+	<string name="sort_by_type">"Typ"</string>
+	<!---->
+	<string name="sort_by_size">"Velikost"</string>
+	<!---->
+	<string name="copy">"Kopírovat"</string>
+	<!---->
+	<string name="create_folder">"Vytvořit"</string>
+	<!---->
+	<string name="cut">"Vyjmout"</string>
+	<!---->
+	<string name="delete">"Smazat"</string>
+	<!---->
+	<string name="deselect_all">"Zrušit výběr všech položek"</string>
+	<!---->
+	<string name="select_all">"Vybrat vše"</string>
+	<!---->
+	<string name="show_file">"Zobrazit skryté soubory"</string>
+	<!---->
+	<string name="hide_file">"Nezobrazovat skryté soubory"</string>
+	<!---->
+	<string name="paste">"Vložit"</string>
+	<!---->
+	<string name="rename">"Přejmenovat"</string>
+	<!---->
+	<string name="extract">"Rozbalit"</string>
+	<!---->
+	<string name="extracting">"Rozbalování"</string>
+	<!---->
+	<string name="compress">"Zkomprimovat"</string>
+	<!---->
+	<string name="compressing">"Komprimování"</string>
+	<!---->
+	<string name="share">"Sdílet"</string>
+	<!---->
+	<string name="menu_select">"Zvolit"</string>
+	<!---->
+	<string name="view_list">"Zobrazení v seznamu"</string>
+	<!---->
+	<string name="view_grid">"Mřížkové zobrazení"</string>
+	<!---->
+	<string name="create_new_folder">"Vytvořit složku"</string>
+	<!---->
+	<string name="detail">"Podrobnosti"</string>
+	<!---->
+	<string name="shortcut_item">"Přidat zástupce"</string>
+	<!---->
+	<string name="search">"Hledat"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Smazat vybrané položky?"</string>
+	<!---->
+	<string name="hide_btn">"Skrýt"</string>
+	<!---->
+	<string name="loading">"Načítání obsahu"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Vybrané soubory budou smazány."</string>
+	<!---->
+	<string name="modified_time">"Změněno"</string>
+	<!---->
+	<string name="msg_rename_ext">"Přípona souboru bude změněna. Soubor nelze rozpoznat. Pokračovat?"</string>
+	<!---->
+	<string name="wait">"Čekejte prosím..."</string>
+	<!---->
+	<string name="done">"Hotovo"</string>
+	<!---->
+	<string name="next">"Další"</string>
+	<!---->
+	<string name="cancel">"Zrušit"</string>
+	<!---->
+	<string name="show">"Zobrazit"</string>
+	<!---->
+	<string name="no">"Ne"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Potvrdit"</string>
+	<!---->
+	<string name="yes">"Ano"</string>
+	<!---->
+	<string name="send_file">"Sdílet soubor(y) přes"</string>
+	<!---->
+	<string name="default_search_text">"Hledat soubory"</string>
+	<!---->
+	<string name="create_hidden_file">"Soubor bude skrytý, pokud jeho název začíná ".""</string>
+	<!---->
+	<string name="drm_current_count">"Aktuální počet："</string>
+	<!---->
+	<string name="unlimited_usage">"Neomezené použití"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuální omezení："</string>
+	<!---->
+	<string name="right_url">"Adresa URL vydavatele licencí:："</string>
+	<!---->
+	<string name="use_times">"Použít %skrát"</string>
+	<!---->
+	<string name="valid_after">"Platné po"</string>
+	<!---->
+	<string name="valid_until">"Platné do"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Soubory chráněné proti kopírování"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Soubory chráněné proti kopírování nelze šířit."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Vypnout displej Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Potvrdit název"</string>
+	<!---->
+	<string name="drm_protection_status">"Stav ochrany:"</string>
+	<!---->
+	<string name="default_folder_name">"Název složky"</string>
+	<!---->
+	<string name="drm_can_forward">"Lze předat."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nelze předat."</string>
+	<!---->
+	<string name="drm_no_license">"Není dostupná žádná licence DRM."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Platnost licence DRM vypršela."</string>
+	<!---->
+	<string name="drm_interval">"Platné po dobu %s od prvního použití"</string>
+	<!---->
+	<string name="drm_begin">"Zahájení:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Bez omezení."</string>
+	<!---->
+	<string name="drm_end">"Ukončení:"</string>
+	<!---->
+	<string name="drm_use_left">"Zbývá:"</string>
+	<!---->
+	<string name="readable_m">"Čitelné"</string>
+	<!---->
+	<string name="writable">"zapisovatelný"</string>
+	<!---->
+	<string name="permission_m">"Oprávnění"</string>
+	<!---->
+	<string name="executable_m">"Aplikace"</string>
+	<!---->
+	<string name="writable_m">"Zapisovatelné"</string>
+	<!---->
+	<string name="detail_path_m">"Místo"</string>
+	<!---->
+	<string name="detail_name_m">"Název"</string>
+	<!---->
+	<string name="detail_size_m">"Velikost"</string>
+	<!---->
+	<string name="detail_time_m">"Naposledy změněno"</string>
+	<!---->
+	<string name="dialog_close_btn">"Zavřít"</string>
+	<!---->
+	<string name="exit_dialog_content">"Probíhá operace. Opravdu chcete aplikaci ukončit?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Karta SD byla odebrána nebo integrována."</string>
+	<!---->
+	<string name="warning">"Maximální počet souborů"</string>
+	<!---->
+	<string name="share_warning">"Nelze sdílet více než 100 souborů."</string>
+	<!---->
+	<string name="unknown">"Neznámé"</string>
+	<!---->
+	<string name="no_search_result">"0 výsledků pro výraz \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Nemáte oprávnění ke kopírování."</string>
+	<!---->
+	<string name="cut_deny">"Nemáte oprávnění k vyjmutí."</string>
+	<!---->
+	<string name="delete_deny">"Nemáte oprávnění k odstranění"</string>
+	<!---->
+	<string name="insufficient_memory">"Nedostatek místa."</string>
+	<!---->
+	<string name="paste_same_folder">"Kopírování nelze dokončit, protože zdrojová složka se shoduje s cílovou složkou."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Zadali jste neplatný znak."</string>
+	<!---->
+	<string name="msg_unable_open_file">"Formát souboru není podporován."</string>
+	<!---->
+	<string name="paste_sub_folder">"Soubor nelze vložit do podsložky"</string>
+	<!---->
+	<string name="operation_fail">"Některá z operací se soubory se nezdařila."</string>
+	<!---->
+	<string name="search_result">"Počet výsledků pro \"%1$s\": %2$d"</string>
+	<!---->
+	<string name="already_exists">"%1$s je již používán"</string>
+	<!---->
+	<string name="unmounted">"%1$s není připojena"</string>
+	<!---->
+	<string name="file_name_too_long">"Zadaný název je příliš dlouhý."</string>
+	<!---->
+	<string name="some_paste_fail">"Vložení se nezdařilo"</string>
+	<!---->
+	<string name="delete_fail">"Odstranění se nezdařilo."</string>
+	<!---->
+	<string name="some_delete_fail">"Některá z operací odstranění se nezdařila"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Není k dispozici žádná aplikace k otevření tohoto souboru."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Nepředáno dál"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Soubor s ochranou DRM nelze předat dál."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Soubor nemá platného vydavatele licence DRM."</string>
+	<!---->
+	<string name="tv_link_close_toast">"Displej Wi-Fi byl odpojen"</string>
+	<!---->
+	<string name="no_folder">"Tato složka je prázdná."</string>
+	<!---->
+	<string name="no_category">"Tato kategorie je prázdná."</string>
+	<!---->
+	<string name="pasted">"Soubor byl vložen"</string>
+	<!---->
+	<string name="deleted">"Souboru odstraněn"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s neexistuje"</string>
+	<!---->
+	<string name="not_available">"Nedostupný"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Požadovaná složka neexistuje"</string>
+	<!---->
+	<string name="no_search_result_m">"Při hledání výrazu „%1$s“ nebyly nalezeny žádné výsledky"</string>
+	<!---->
+	<string name="exceeded_max_task">"Byl překročen maximální počet úloh"</string>
+	<!---->
+	<string name="add_waiting_task">"Položka byla přidána do fronty úlohy ke spuštění"</string>
+	<!---->
+	<string name="category_pictures">"Obrázky"</string>
+	<!---->
+	<string name="category_vedios">"Videa"</string>
+	<!---->
+	<string name="category_music">"Hudba"</string>
+	<!---->
+	<string name="category_download">"Stažené položky"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Nedávné"</string>
+	<!---->
+	<string name="main_document">"Dokumenty"</string>
+	<!---->
+	<string name="category_archives">"Archívy"</string>
+	<!---->
+	<string name="category_audio">"Zvuk"</string>
+	<!---->
+	<string name="main_installers">"Instalační programy"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Úložiště v telefonu"</string>
+	<!---->
+	<string name="sd_card">"Karta SD"</string>
+	<!---->
+	<string name="usbotg">"Externí úložiště USB"</string>
+	<!---->
+	<string name="choice_file">"Vyberte cíl"</string>
+	<!---->
+	<string name="permission_welcome_title">"Je potřeba oprávnění"</string>
+	<!---->
+	<string name="permission_setting_title">"Udělit přístup"</string>
+	<!---->
+	<string name="permission_setting_content">"Změňte oprávnění v nastaveních aplikací v zařízení. Udělte aplikaci Správce souborů přístup k úložišti."</string>
+	<!---->
+	<string name="permission_exit_btn">"Ukončit"</string>
+	<!---->
+	<string name="selected">"Vybráno"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telefon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Interní úložiště"</string>
+	<!---->
+	<string name="usbotg_m">"Externí"</string>
+	<!---->
+	<string name="usbotg_n">"Externí úložiště"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Nastavení"</string>
+	<!---->
+	<string name="total_progress">"Celkem:"</string>
+	<!---->
+	<string name="total_task">"Počet úloh:"</string>
+	<!---->
+	<string name="items">"položky"</string>
+	<!---->
+	<string name="folder_items">"%1$s položky"</string>
+	<!---->
+	<string name="freeof_m">"Volná"</string>
+	<!---->
+	<string name="choose_files">"Vybrat soubor(y)"</string>
+	<!---->
+	<string name="used_of">"využito"</string>
+	<!---->
+	<string name="invalid_empty_name">"Název souboru nebo složky nemůže být prázdný"</string>
+	<!---->
+	<string name="just_now">"právě teď"</string>
+	<!---->
+	<string name="minutes_ago">"min. nazpět"</string>
+	<!---->
+	<string name="hours_ago">"hod. nazpět"</string>
+	<!---->
+	<string name="minute_ago">"min. nazpět"</string>
+	<!---->
+	<string name="hour_ago">"hod. nazpět"</string>
+	<!---->
+	<string name="day_ago">"den/dny nazpět"</string>
+	<!---->
+	<string name="searching">"Vyhledávání…"</string>
+	<!---->
+	<string name="safe_no_file_title">"Zatím nemáte žádné soukromé soubory"</string>
+	<!---->
+	<string name="safe_no_file_content">"Chcete-li přidat soubory, stiskněte ikonu nabídky v pravém horním rohu"</string>
+	<!---->
+	<string name="safe_activity_title">"Soukromé soubory"</string>
+	<!---->
+	<string name="move_safe">"Nastavit jako soukromé"</string>
+	<!---->
+	<string name="set_public">"Nastavit jako veřejné"</string>
+	<!---->
+	<string name="add_files">"Přidat soubory"</string>
+	<!---->
+	<string name="compress_susscces">"Soubor byl zkomprimován"</string>
+	<!---->
+	<string name="extract_susscces">"Soubor byl rozbalen"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Název komprimovaného souboru je příliš dlouhý"</string>
+	<!---->
+	<string name="category_safe">"Soukromá"</string>
+	<!---->
+	<string name="remove_private_tip">"Odebrat ze soukromého režimu?"</string>
+	<!---->
+	<string name="remove_private_title">"Odebrat"</string>
+	<!---->
+	<string name="remove_safe_single">"Zobrazit %1$s všem uživatelům?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Zobrazit vybrané soubory všem uživatelům?"</string>
+	<!---->
+	<string name="folder_already_exists">"Složka již existuje"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s již existuje"</string>
+	<!---->
+	<string name="keep_both">"Zachovat obojí"</string>
+	<!---->
+	<string name="set_private_failed">"Externí soubor nelze nastavit jako soukromý."</string>
+	<!---->
+	<string name="app_name_new">"Správce souborů"</string>
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"File"</string>
+	<!---->
+	<string name="sort">"Urutkan"</string>
+	<!---->
+	<string name="sort_by_name">"Nama"</string>
+	<!---->
+	<string name="sort_by_time">"Tanggal"</string>
+	<!---->
+	<string name="sort_by_type">"Jenis"</string>
+	<!---->
+	<string name="sort_by_size">"Ukuran"</string>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!---->
+	<string name="create_folder">"Buat"</string>
+	<!---->
+	<string name="cut">"Potong"</string>
+	<!---->
+	<string name="delete">"Hapus"</string>
+	<!---->
+	<string name="deselect_all">"Batal-pilih semua"</string>
+	<!---->
+	<string name="select_all">"Pilih semua"</string>
+	<!---->
+	<string name="show_file">"Tampilkan file tersembunyi"</string>
+	<!---->
+	<string name="hide_file">"Sembunyikan file tersembunyi"</string>
+	<!---->
+	<string name="paste">"Tempel"</string>
+	<!---->
+	<string name="rename">"Ganti nama"</string>
+	<!---->
+	<string name="extract">"Ekstrak"</string>
+	<!---->
+	<string name="extracting">"Mengekstrak"</string>
+	<!---->
+	<string name="compress">"Kompresi"</string>
+	<!---->
+	<string name="compressing">"Mengokompresi"</string>
+	<!---->
+	<string name="share">"Bagikan"</string>
+	<!---->
+	<string name="menu_select">"Pilih"</string>
+	<!---->
+	<string name="view_list">"Tampilan daftar"</string>
+	<!---->
+	<string name="view_grid">"tampilan grid"</string>
+	<!---->
+	<string name="create_new_folder">"Buat map"</string>
+	<!---->
+	<string name="detail">"Rincian"</string>
+	<!---->
+	<string name="shortcut_item">"Tambahkan cara pintas"</string>
+	<!---->
+	<string name="search">"Cari"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Hapus item terpilih?"</string>
+	<!---->
+	<string name="hide_btn">"Sembunyikan"</string>
+	<!---->
+	<string name="loading">"Memuat kontak"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Berkas yang dipilih akan dihapus."</string>
+	<!---->
+	<string name="modified_time">"Diubah"</string>
+	<!---->
+	<string name="msg_rename_ext">"Ekstensi file akan diubah. File mungkin tidak dapat dikenali. Lanjutkan?"</string>
+	<!---->
+	<string name="wait">"Harap tunggu…"</string>
+	<!---->
+	<string name="done">"Selesai"</string>
+	<!---->
+	<string name="next">"Berikutnya"</string>
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="show">"Tampilkan"</string>
+	<!---->
+	<string name="no">"Tidak"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Konfirmasi"</string>
+	<!---->
+	<string name="yes">"Ya"</string>
+	<!---->
+	<string name="send_file">"Bagikan file via"</string>
+	<!---->
+	<string name="default_search_text">"Cari File"</string>
+	<!---->
+	<string name="create_hidden_file">"Berkas akan disembunyikan jika namanya dimulai dengan \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Jumlah sekarang:"</string>
+	<!---->
+	<string name="unlimited_usage">"Penggunaan tak terbatas"</string>
+	<!---->
+	<string name="drm_current_right">"Batasan Saat Ini:"</string>
+	<!---->
+	<string name="right_url">"URL Penerbit Lisensi:"</string>
+	<!---->
+	<string name="use_times">"Gunakan %s kali"</string>
+	<!---->
+	<string name="valid_after">"Valid setelah"</string>
+	<!---->
+	<string name="valid_until">"Valid sampai"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"File yang tidak dapat disalin"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"File yang tidak dapat disalin tak bisa didistribusikan."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Matikan Layar Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Konfirmasi nama"</string>
+	<!---->
+	<string name="drm_protection_status">"Status perlindungan:"</string>
+	<!---->
+	<string name="default_folder_name">"Nama map"</string>
+	<!---->
+	<string name="drm_can_forward">"Dapat diteruskan."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Tidak dapat diteruskan."</string>
+	<!---->
+	<string name="drm_no_license">"Tidak ada lisensi DRM yang tersedia."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Lisensi DRM kedaluwarsa."</string>
+	<!---->
+	<string name="drm_interval">"Berlaku selama %s setelah penggunaan pertama"</string>
+	<!---->
+	<string name="drm_begin">"Mulai:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Tidak ada batasan."</string>
+	<!---->
+	<string name="drm_end">"Akhiri:"</string>
+	<!---->
+	<string name="drm_use_left">"Sisa:"</string>
+	<!---->
+	<string name="readable_m">"Dapat dibaca"</string>
+	<!---->
+	<string name="writable">"dapat ditulis"</string>
+	<!---->
+	<string name="permission_m">"Izin"</string>
+	<!---->
+	<string name="executable_m">"Aplikasi"</string>
+	<!---->
+	<string name="writable_m">"Dapat ditulis"</string>
+	<!---->
+	<string name="detail_path_m">"Lokasi"</string>
+	<!---->
+	<string name="detail_name_m">"Nama"</string>
+	<!---->
+	<string name="detail_size_m">"Ukuran"</string>
+	<!---->
+	<string name="detail_time_m">"Terakhir diubah"</string>
+	<!---->
+	<string name="dialog_close_btn">"Tutup"</string>
+	<!---->
+	<string name="exit_dialog_content">"Operasi saat ini sedang berlangsung, yakin untuk keluar?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Kartu SD telah dilepas atau dipasang."</string>
+	<!---->
+	<string name="warning">"Jumlah file maksimal"</string>
+	<!---->
+	<string name="share_warning">"Anda tidak dapat membagikan lebih dari 100 file."</string>
+	<!---->
+	<string name="unknown">"Tidak dikenali"</string>
+	<!---->
+	<string name="no_search_result">"0 hasil untuk \"%1$s\"</string>
+	<!---->
+	<string name="copy_deny">"Tidak ada izin untuk menyalin"</string>
+	<!---->
+	<string name="cut_deny">"Tidak ada izin untuk memotong"</string>
+	<!---->
+	<string name="delete_deny">"Tidak ada izin untuk menghapus"</string>
+	<!---->
+	<string name="insufficient_memory">"Ruang tidak cukup."</string>
+	<!---->
+	<string name="paste_same_folder">"Tidak dapat menyalin: folder asal dan tujuan sama."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Anda memasukkan karakter yang tidak valid"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Format berkas tidak didukung."</string>
+	<!---->
+	<string name="paste_sub_folder">"Tidak dapat menempel berkas ke submap"</string>
+	<!---->
+	<string name="operation_fail">"Gagal mengoperasikan beberapa file."</string>
+	<!---->
+	<string name="search_result">"%2$d hasil untuk \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s sudah digunakan"</string>
+	<!---->
+	<string name="unmounted">"%1$s dilepas"</string>
+	<!---->
+	<string name="file_name_too_long">"Nama masukan terlalu panjang"</string>
+	<!---->
+	<string name="some_paste_fail">"Operasi penempelan gagal"</string>
+	<!---->
+	<string name="delete_fail">"Tidak dapat menghapus"</string>
+	<!---->
+	<string name="some_delete_fail">"Gagal menghapus beberapa file"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Tdk ada aplikasi utk mmbuka file."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Tidak Diteruskan"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"File DRM tidak dapat diteruskan."</string>
+	<!---->
+	<string name="drm_no_valid_right">"File tidak memiliki otoritas DRM yang valid!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Layar Wi-Fi telah ditutup"</string>
+	<!---->
+	<string name="no_folder">"Map ini kosong"</string>
+	<!---->
+	<string name="no_category">"Kategori ini kosong"</string>
+	<!---->
+	<string name="pasted">"File ditempel"</string>
+	<!---->
+	<string name="deleted">"File dihapus"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s tidak ada"</string>
+	<!---->
+	<string name="not_available">"Tidak tersedia"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Folder yang diminta tidak ada."</string>
+	<!---->
+	<string name="no_search_result_m">"Tidak ada hasil untuk \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Telah melampaui jumlah maksimum tugas saat ini"</string>
+	<!---->
+	<string name="add_waiting_task">"Telah ditambahkan ke antrian tugas pelaksanaan"</string>
+	<!---->
+	<string name="category_pictures">"Gambar"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Musik"</string>
+	<!---->
+	<string name="category_download">"Unduhan"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Terbaru"</string>
+	<!---->
+	<string name="main_document">"Dokumen"</string>
+	<!---->
+	<string name="category_archives">"Rar"</string>
+	<!---->
+	<string name="category_audio">"Audio"</string>
+	<!---->
+	<string name="main_installers">"Installer"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Memori Ponsel"</string>
+	<!---->
+	<string name="sd_card">"Kartu SD"</string>
+	<!---->
+	<string name="usbotg">"Penyimpanan USB eksternal"</string>
+	<!---->
+	<string name="choice_file">"Pilih tujuan"</string>
+	<!---->
+	<string name="permission_welcome_title">"Diperlukan izin"</string>
+	<!---->
+	<string name="permission_setting_title">"Beri akses"</string>
+	<!---->
+	<string name="permission_setting_content">"Ganti perizinan dari pengaturan aplikasi perangkat. Izinkan Manajer File mengakses memori."</string>
+	<!---->
+	<string name="permission_exit_btn">"Keluar"</string>
+	<!---->
+	<string name="selected">"dipilih"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Telepon"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Memori pnsel"</string>
+	<!---->
+	<string name="usbotg_m">"Eksternal"</string>
+	<!---->
+	<string name="usbotg_n">"Penyimpanan eksternal"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Pengaturan"</string>
+	<!---->
+	<string name="total_progress">"Total kemajuan:"</string>
+	<!---->
+	<string name="total_task">"Jumlah tugas:"</string>
+	<!---->
+	<string name="items">"item"</string>
+	<!---->
+	<string name="folder_items">"%1$s item"</string>
+	<!---->
+	<string name="freeof_m">"Bebas"</string>
+	<!---->
+	<string name="choose_files">"Pilih file"</string>
+	<!---->
+	<string name="used_of">"digunakan"</string>
+	<!---->
+	<string name="invalid_empty_name">"Nama berkas atau map tidak boleh kosong"</string>
+	<!---->
+	<string name="just_now">"baru saja"</string>
+	<!---->
+	<string name="minutes_ago">"menit yang lalu"</string>
+	<!---->
+	<string name="hours_ago">"jam yang lalu"</string>
+	<!---->
+	<string name="minute_ago">"menit yang lalu"</string>
+	<!---->
+	<string name="hour_ago">"jam yang lalu"</string>
+	<!---->
+	<string name="day_ago">"hari yang lalu"</string>
+	<!---->
+	<string name="searching">"Mencari..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Belum ada file pribadi"</string>
+	<!---->
+	<string name="safe_no_file_content">"Tekan menu di pojok kanan atas untuk menambah file"</string>
+	<!---->
+	<string name="safe_activity_title">"File pribadi"</string>
+	<!---->
+	<string name="move_safe">"Atur menjadi privat"</string>
+	<!---->
+	<string name="set_public">"Atur menjadi publik"</string>
+	<!---->
+	<string name="add_files">"Tambah file"</string>
+	<!---->
+	<string name="compress_susscces">"File dikompres"</string>
+	<!---->
+	<string name="extract_susscces">"File diekstrak"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Nama file kompres terlalu panjang"</string>
+	<!---->
+	<string name="category_safe">"Swasta"</string>
+	<!---->
+	<string name="remove_private_tip">"Hapus dari mode Pribadi?"</string>
+	<!---->
+	<string name="remove_private_title">"Hapus"</string>
+	<!---->
+	<string name="remove_safe_single">"Buat %1$s nampak kepada semua pengguna?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Jadikan file yang dipilih nampak kepada semua pengguna?"</string>
+	<!---->
+	<string name="folder_already_exists">"Folder sudah ada"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s sudah ada"</string>
+	<!---->
+	<string name="keep_both">"Simpan keduanya"</string>
+	<!---->
+	<string name="set_private_failed">"File eksternal tidak dapat mengatur file pribadi."</string>
+	<!---->
+	<string name="app_name_new">"Manajer Berkas"</string>
+</resources>

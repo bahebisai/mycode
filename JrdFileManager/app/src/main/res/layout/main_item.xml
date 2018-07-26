@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_item_bac"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_item_icon_height"
+    android:layout_margin="3dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/main_item_icon_bg">
+
+            <ImageView
+                android:id="@+id/category_img"
+                android:layout_width="@dimen/main_item_icon_size"
+                android:layout_height="@dimen/main_item_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="12dp"
+                android:scaleType="centerInside"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/main_item_mes_bac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/main_item_text_margin"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/filermanager_accent_color"
+                android:textSize="@dimen/main_item_text_name" />
+
+            <TextView
+                android:id="@+id/category_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/main_item_text_margin"
+                android:layout_marginTop="1dp"
+                android:alpha="0.7"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/filermanager_accent_color"
+                android:textSize="@dimen/main_item_text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

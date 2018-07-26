@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Tập tin"</string>
+	<!---->
+	<string name="sort">"Sắp xếp"</string>
+	<!---->
+	<string name="sort_by_name">"Tên"</string>
+	<!---->
+	<string name="sort_by_time">"Ngày"</string>
+	<!---->
+	<string name="sort_by_type">"Loại"</string>
+	<!---->
+	<string name="sort_by_size">"K.thước"</string>
+	<!---->
+	<string name="copy">"Sao chép"</string>
+	<!---->
+	<string name="create_folder">"Tạo"</string>
+	<!---->
+	<string name="cut">"Cắt"</string>
+	<!---->
+	<string name="delete">"Xóa"</string>
+	<!---->
+	<string name="deselect_all">"Bỏ chọn tất cả"</string>
+	<!---->
+	<string name="select_all">"Chọn tất cả"</string>
+	<!---->
+	<string name="show_file">"Hiển thị các tập tin ẩn"</string>
+	<!---->
+	<string name="hide_file">"Ẩn các tập tin ẩn"</string>
+	<!---->
+	<string name="paste">"Dán"</string>
+	<!---->
+	<string name="rename">"Đổi tên"</string>
+	<!---->
+	<string name="extract">"Trích xuất"</string>
+	<!---->
+	<string name="extracting">"Đang trích xuất"</string>
+	<!---->
+	<string name="compress">"Nén"</string>
+	<!---->
+	<string name="compressing">"Đang nén"</string>
+	<!---->
+	<string name="share">"Chia sẻ"</string>
+	<!---->
+	<string name="menu_select">"Chọn"</string>
+	<!---->
+	<string name="view_list">"Chế độ xem danh sách"</string>
+	<!---->
+	<string name="view_grid">"Xem dạng ô"</string>
+	<!---->
+	<string name="create_new_folder">"Tạo thư mục"</string>
+	<!---->
+	<string name="detail">"Chi tiết"</string>
+	<!---->
+	<string name="shortcut_item">"Thêm lối tắt"</string>
+	<!---->
+	<string name="search">"Tìm"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Xóa các mục được chọn?"</string>
+	<!---->
+	<string name="hide_btn">"Ẩn"</string>
+	<!---->
+	<string name="loading">"Đang tải nội dung"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Tập tin đã chọn xóa sẽ bị xóa."</string>
+	<!---->
+	<string name="modified_time">"Đã sửa đổi"</string>
+	<!---->
+	<string name="msg_rename_ext">"Phần mở rộng của tập tin sẽ được thay đổi. Có thể không thể nhận diện được tập tin. Tiếp tục?"</string>
+	<!---->
+	<string name="wait">"Vui lòng đợi..."</string>
+	<!---->
+	<string name="done">"Xong"</string>
+	<!---->
+	<string name="next">"Tiếp theo"</string>
+	<!---->
+	<string name="cancel">"Hủy"</string>
+	<!---->
+	<string name="show">"Hiển thị"</string>
+	<!---->
+	<string name="no">"Không"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Xác nhận"</string>
+	<!---->
+	<string name="yes">"Có"</string>
+	<!---->
+	<string name="send_file">"Chia sẻ (các) tập tin qua"</string>
+	<!---->
+	<string name="default_search_text">"Tìm kiếm tập tin"</string>
+	<!---->
+	<string name="create_hidden_file">"Tập tin sẽ bị ẩn nếu tên tập tin bắt đầu bằng \'.\'"</string>
+	<!---->
+	<string name="drm_current_count">"Số hiện tại："</string>
+	<!---->
+	<string name="unlimited_usage">"Sử dụng không giới hạn"</string>
+	<!---->
+	<string name="drm_current_right">"Giới hạn hiện tại："</string>
+	<!---->
+	<string name="right_url">"URL người cấp giấy phép:"</string>
+	<!---->
+	<string name="use_times">"Sử dụng %s lần"</string>
+	<!---->
+	<string name="valid_after">"Có hiệu lực sau"</string>
+	<!---->
+	<string name="valid_until">"Có hiệu lực tới"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Tập tin được chống sao chép"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Không thể phân phối tập tin được chống sao chép."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Tắt Màn hình Wi-Fi"</string>
+	<!---->
+	<string name="confirm_rename">"Xác nhận tên"</string>
+	<!---->
+	<string name="drm_protection_status">"Trạng thái bảo vệ:"</string>
+	<!---->
+	<string name="default_folder_name">"Tên thư mục"</string>
+	<!---->
+	<string name="drm_can_forward">"Có thể chuyển tiếp."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Không thể chuyển tiếp."</string>
+	<!---->
+	<string name="drm_no_license">"Không có giấy phép DRM"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Giấy phép DRM đã hết hạn."</string>
+	<!---->
+	<string name="drm_interval">"Có hiệu lực trong %s sau lần dùng đầu tiên"</string>
+	<!---->
+	<string name="drm_begin">"Bắt đầu:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Không có giới hạn."</string>
+	<!---->
+	<string name="drm_end">"Kết thúc:"</string>
+	<!---->
+	<string name="drm_use_left">"Còn lại:"</string>
+	<!---->
+	<string name="readable_m">"Có thể đọc"</string>
+	<!---->
+	<string name="writable">"có thể ghi"</string>
+	<!---->
+	<string name="permission_m">"Quyền cho phép"</string>
+	<!---->
+	<string name="executable_m">"Ứng dụng"</string>
+	<!---->
+	<string name="writable_m">"Bản có thể ghi"</string>
+	<!---->
+	<string name="detail_path_m">"Vị trí"</string>
+	<!---->
+	<string name="detail_name_m">"Tên"</string>
+	<!---->
+	<string name="detail_size_m">"Kích thước"</string>
+	<!---->
+	<string name="detail_time_m">"Chỉnh sửa lần cuối"</string>
+	<!---->
+	<string name="dialog_close_btn">"Đóng"</string>
+	<!---->
+	<string name="exit_dialog_content">"Thao tác hiện tại đang thực hiện, chắc chắn muốn thoát?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"Thẻ nhớ đã được tháo hoặc tích hợp sẵn."</string>
+	<!---->
+	<string name="warning">"Số lượng tập tin tối đa"</string>
+	<!---->
+	<string name="share_warning">"Bạn không thể chia sẻ nhiều hơn 100 tập tin."</string>
+	<!---->
+	<string name="unknown">"Không xác định"</string>
+	<!---->
+	<string name="no_search_result">"0 kết quả cho \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Không có quyền sao chép"</string>
+	<!---->
+	<string name="cut_deny">"Không có quyền cắt"</string>
+	<!---->
+	<string name="delete_deny">"Không có quyền xóa"</string>
+	<!---->
+	<string name="insufficient_memory">"Không đủ bộ nhớ."</string>
+	<!---->
+	<string name="paste_same_folder">"K\hông thể sao chép: thư mục nguồn và thư mục đích giống nhau."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Bạn đã nhập ký tự không hợp lệ"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Định dạng tập tin không được hổ trợ."</string>
+	<!---->
+	<string name="paste_sub_folder">"Không thể dán tập tin vào thư mục con"</string>
+	<!---->
+	<string name="operation_fail">"Thao tác tập tin nào đó không thành công."</string>
+	<!---->
+	<string name="search_result">"%2$d kết quả cho \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s đang được sử dụng"</string>
+	<!---->
+	<string name="unmounted">"%1$s không được gắn"</string>
+	<!---->
+	<string name="file_name_too_long">"Tên mục nhập quá dài"</string>
+	<!---->
+	<string name="some_paste_fail">"Thao tác dán không thành công"</string>
+	<!---->
+	<string name="delete_fail">"K\hông thể xóa"</string>
+	<!---->
+	<string name="some_delete_fail">"Một số thao tác xóa không thành công"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Không có ứng dụng để mở tập tin."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Không Chuyển tiếp"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"Tập tin có bản quyền DRM k\hông thể gửi chuyển tiếp."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tập tin không có quyền DRM hợp lệ!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Màn hình Wi-Fi đã đóng"</string>
+	<!---->
+	<string name="no_folder">"Thư mục này trống"</string>
+	<!---->
+	<string name="no_category">"Danh mục này đang trống."</string>
+	<!---->
+	<string name="pasted">"Đã dán tập tin"</string>
+	<!---->
+	<string name="deleted">"Đã xóa tập tin"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s không tồn tại"</string>
+	<!---->
+	<string name="not_available">"Không có"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Thư mục được yêu cầu không tồn tại"</string>
+	<!---->
+	<string name="no_search_result_m">"Không tìm thấy kết quả cho \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Đã vượt quá số lượng tác vụ tối đa hiện tại"</string>
+	<!---->
+	<string name="add_waiting_task">"Đã được thêm vào hàng tác vụ thực hiện"</string>
+	<!---->
+	<string name="category_pictures">"Ảnh"</string>
+	<!---->
+	<string name="category_vedios">"Video"</string>
+	<!---->
+	<string name="category_music">"Nhạc"</string>
+	<!---->
+	<string name="category_download">"Tải xuống"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Gần đây"</string>
+	<!---->
+	<string name="main_document">"Tài liệu"</string>
+	<!---->
+	<string name="category_archives">"Lưu trữ"</string>
+	<!---->
+	<string name="category_audio">"Âm thanh"</string>
+	<!---->
+	<string name="main_installers">"Trình cài đặt"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"TB"</string>
+	<!---->
+	<string name="phone_storage">"Bộ nhớ Điện thoại"</string>
+	<!---->
+	<string name="sd_card">"Thẻ nhớ"</string>
+	<!---->
+	<string name="usbotg">"Bộ nhớ USB ngoài"</string>
+	<!---->
+	<string name="choice_file">"Chọn điểm đến"</string>
+	<!---->
+	<string name="permission_welcome_title">"Cần có quyền hạn"</string>
+	<!---->
+	<string name="permission_setting_title">"Cấp quyền truy cập"</string>
+	<!---->
+	<string name="permission_setting_content">"Thay đổi các quyền hạn trong các cài đặt ứng dụng trên thiết bị của bạn. Cho phép Trình quản lý Tập tin truy cập bộ nhớ."</string>
+	<!---->
+	<string name="permission_exit_btn">"Thoát"</string>
+	<!---->
+	<string name="selected">"đã chọn"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Điện thoại"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Bộ nhớ trong"</string>
+	<!---->
+	<string name="usbotg_m">"Ngoài"</string>
+	<!---->
+	<string name="usbotg_n">"Bộ nhớ ngoài"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Cài đặt"</string>
+	<!---->
+	<string name="total_progress">"Toàn bộ quá trình:"</string>
+	<!---->
+	<string name="total_task">"Số lượng tác vụ:"</string>
+	<!---->
+	<string name="items">"mục"</string>
+	<!---->
+	<string name="folder_items">"%1$s mục"</string>
+	<!---->
+	<string name="freeof_m">"Còn trống"</string>
+	<!---->
+	<string name="choose_files">"Chọn (các) tập tin"</string>
+	<!---->
+	<string name="used_of">"đã sử dụng"</string>
+	<!---->
+	<string name="invalid_empty_name">"Tên tập tin hoặc tên thư mục không được trống"</string>
+	<!---->
+	<string name="just_now">"ngay bây giờ"</string>
+	<!---->
+	<string name="minutes_ago">"phút trước"</string>
+	<!---->
+	<string name="hours_ago">"giờ trước"</string>
+	<!---->
+	<string name="minute_ago">"phút trước"</string>
+	<!---->
+	<string name="hour_ago">"giờ trước"</string>
+	<!---->
+	<string name="day_ago">"ngày trước"</string>
+	<!---->
+	<string name="searching">"Đang tìm kiếm..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Chưa có tập tin riêng tư nào"</string>
+	<!---->
+	<string name="safe_no_file_content">"Nhấn menu ở góc trên cùng bên phải để thêm tập tin"</string>
+	<!---->
+	<string name="safe_activity_title">"Tập tin riêng tư"</string>
+	<!---->
+	<string name="move_safe">"Đặt làm riêng tư"</string>
+	<!---->
+	<string name="set_public">"Đặt làm công khai"</string>
+	<!---->
+	<string name="add_files">"Thêm tập tin"</string>
+	<!---->
+	<string name="compress_susscces">"File đã được nén"</string>
+	<!---->
+	<string name="extract_susscces">"File đã được xuất"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Tên tập tin nén quá dài"</string>
+	<!---->
+	<string name="category_safe">"Riêng tư"</string>
+	<!---->
+	<string name="remove_private_tip">"Bỏ chế độ Riêng tư?"</string>
+	<!---->
+	<string name="remove_private_title">"Xóa"</string>
+	<!---->
+	<string name="remove_safe_single">"Hiển thị %1$s cho tất cả người dùng?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Hiển thị các tập tin được chọn cho tất cả người dùng?"</string>
+	<!---->
+	<string name="folder_already_exists">"Thư mục này đã tồn tại"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s đã tồn tại"</string>
+	<!---->
+	<string name="keep_both">"Giữ cả hai"</string>
+	<!---->
+	<string name="set_private_failed">"Tập tin bên ngoài không thể đặt là tập tin cá nhân."</string>
+	<!---->
+	<string name="app_name_new">"Quản lý tập tin"</string>
+</resources>

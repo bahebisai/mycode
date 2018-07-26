@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Файлове"</string>
+	<!---->
+	<string name="sort">"Сортиране"</string>
+	<!---->
+	<string name="sort_by_name">"Име"</string>
+	<!---->
+	<string name="sort_by_time">"Дата"</string>
+	<!---->
+	<string name="sort_by_type">"Тип"</string>
+	<!---->
+	<string name="sort_by_size">"Размер"</string>
+	<!---->
+	<string name="copy">"Копиране"</string>
+	<!---->
+	<string name="create_folder">"Създаване"</string>
+	<!---->
+	<string name="cut">"Изрежи"</string>
+	<!---->
+	<string name="delete">"Изтриване"</string>
+	<!---->
+	<string name="deselect_all">"Премахване на избора"</string>
+	<!---->
+	<string name="select_all">"Избери всичко"</string>
+	<!---->
+	<string name="show_file">"Показване на скрити файлове"</string>
+	<!---->
+	<string name="hide_file">"Скриване на скрити файлове"</string>
+	<!---->
+	<string name="paste">"Пост."</string>
+	<!---->
+	<string name="rename">"Преименуване"</string>
+	<!---->
+	<string name="extract">"Извличане"</string>
+	<!---->
+	<string name="extracting">"Извлича се"</string>
+	<!---->
+	<string name="compress">"Компресиране"</string>
+	<!---->
+	<string name="compressing">"Компресира се"</string>
+	<!---->
+	<string name="share">"Сподели"</string>
+	<!---->
+	<string name="menu_select">"Избор"</string>
+	<!---->
+	<string name="view_list">"Изглед на списък"</string>
+	<!---->
+	<string name="view_grid">"Табличен вид"</string>
+	<!---->
+	<string name="create_new_folder">"Създаване на папка"</string>
+	<!---->
+	<string name="detail">"Детайли"</string>
+	<!---->
+	<string name="shortcut_item">"Добавяне на пряк път"</string>
+	<!---->
+	<string name="search">"Търсене"</string>
+	<!---->
+	<string name="multi_alert_delete_message">"Изтриване на избраните елементи?"</string>
+	<!---->
+	<string name="hide_btn">"Скриване"</string>
+	<!---->
+	<string name="loading">"Зареждане на съдържанието"</string>
+	<!---->
+	<string name="alert_delete_multiple">"Маркираните файлове ще бъдат изтрити."</string>
+	<!---->
+	<string name="modified_time">"Пром."</string>
+	<!---->
+	<string name="msg_rename_ext">"Разширението на файла ще бъде променено. Възможно е файлът да не бъде разпознат. Продължаване?"</string>
+	<!---->
+	<string name="wait">"Моля, изчакайте…"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="next">"Следващ"</string>
+	<!---->
+	<string name="cancel">"Отказ"</string>
+	<!---->
+	<string name="show">"Показване"</string>
+	<!---->
+	<string name="no">"Не"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="confirm">"Потвърди"</string>
+	<!---->
+	<string name="yes">"Да"</string>
+	<!---->
+	<string name="send_file">"Сподели файла(овете) чрез"</string>
+	<!---->
+	<string name="default_search_text">"Търсене на файлове"</string>
+	<!---->
+	<string name="create_hidden_file">"Файлът ще бъде скрит, ако името му започва с ".""</string>
+	<!---->
+	<string name="drm_current_count">"Текущ Брой："</string>
+	<!---->
+	<string name="unlimited_usage">"Неограничено ползване"</string>
+	<!---->
+	<string name="drm_current_right">"Текущо ограничение："</string>
+	<!---->
+	<string name="right_url">"URL л.:"</string>
+	<!---->
+	<string name="use_times">"Използвай %s пъти"</string>
+	<!---->
+	<string name="valid_after">"Валиден след"</string>
+	<!---->
+	<string name="valid_until">"Валидна до"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Копи-защитени файлове"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Копи-защитен файл не може да бъде разпределен."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel_btn">"Изключване на Wi-Fi дисплея"</string>
+	<!---->
+	<string name="confirm_rename">"Потвърждаване на име"</string>
+	<!---->
+	<string name="drm_protection_status">"Състояние на защитата:"</string>
+	<!---->
+	<string name="default_folder_name">"Име на папка"</string>
+	<!---->
+	<string name="drm_can_forward">"Може да се препрати."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не може да се препрати."</string>
+	<!---->
+	<string name="drm_no_license">"Няма достъпен лиценз за DRM."</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Лицензът за DRM е изтекъл."</string>
+	<!---->
+	<string name="drm_interval">"Валидно за %s след първото използване"</string>
+	<!---->
+	<string name="drm_begin">"Начало:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Няма ограничение."</string>
+	<!---->
+	<string name="drm_end">"Край:"</string>
+	<!---->
+	<string name="drm_use_left">"Остава:"</string>
+	<!---->
+	<string name="readable_m">"Четлив"</string>
+	<!---->
+	<string name="writable">"записваем"</string>
+	<!---->
+	<string name="permission_m">"Разрешения"</string>
+	<!---->
+	<string name="executable_m">"Приложение"</string>
+	<!---->
+	<string name="writable_m">"Записваеми"</string>
+	<!---->
+	<string name="detail_path_m">"Местоположение"</string>
+	<!---->
+	<string name="detail_name_m">"Име"</string>
+	<!---->
+	<string name="detail_size_m">"Размер"</string>
+	<!---->
+	<string name="detail_time_m">"Последна промяна:"</string>
+	<!---->
+	<string name="dialog_close_btn">"Затваряне"</string>
+	<!---->
+	<string name="exit_dialog_content">"Текущата операция не е приключила, сигурни ли сте, че искате да излезете?"</string>
+	<!---->
+	<string name="no_available_storage_dialog_content">"SD картата е премахната или вградена."</string>
+	<!---->
+	<string name="warning">"Максимален брой на файлове"</string>
+	<!---->
+	<string name="share_warning">"Не може да споделяте повече от 100 файла."</string>
+	<!---->
+	<string name="unknown">"Непознат"</string>
+	<!---->
+	<string name="no_search_result">"0 резултат(и) за \"%1$s\""</string>
+	<!---->
+	<string name="copy_deny">"Няма разрешение за копиране"</string>
+	<!---->
+	<string name="cut_deny">"Няма разрешение за изрязване"</string>
+	<!---->
+	<string name="delete_deny">"Няма разрешение за изтриване"</string>
+	<!---->
+	<string name="insufficient_memory">"Недостатъчно място."</string>
+	<!---->
+	<string name="paste_same_folder">"Не може да бъде копиран: изходната и целевата папки са еднакви."</string>
+	<!---->
+	<string name="invalid_char_prompt">"Въвели сте невалиден знак"</string>
+	<!---->
+	<string name="msg_unable_open_file">"Форматът на файла не се поддържа."</string>
+	<!---->
+	<string name="paste_sub_folder">"Файлът не може да се постави в подпапка"</string>
+	<!---->
+	<string name="operation_fail">"Някои операции на файла са неуспешни."</string>
+	<!---->
+	<string name="search_result">"%2$d резултат(а) за \"%1$s\""</string>
+	<!---->
+	<string name="already_exists">"%1$s вече се използва"</string>
+	<!---->
+	<string name="unmounted">"%1$s е демонтирана"</string>
+	<!---->
+	<string name="file_name_too_long">"Въведеното име е прекалено дълго"</string>
+	<!---->
+	<string name="some_paste_fail">"Операциите по поставяне бяха неуспешни"</string>
+	<!---->
+	<string name="delete_fail">"Не може да бъде изтрит"</string>
+	<!---->
+	<string name="some_delete_fail">"Някои операциите по изтриването са неуспешни"</string>
+	<!---->
+	<string name="msg_unable_open_file_in_app">"Няма приложение, което да отвори файла."</string>
+	<!---->
+	<string name="drm_forwardforbidden_title">"Не е препратен"</string>
+	<!---->
+	<string name="drm_forwardforbidden_message">"DRM файлът не може да препраща."</string>
+	<!---->
+	<string name="drm_no_valid_right">"Файлът няма валиден DRM авторитет!"</string>
+	<!---->
+	<string name="tv_link_close_toast">"Wi-Fi дисплеят е затворен"</string>
+	<!---->
+	<string name="no_folder">"Тази папка е празна"</string>
+	<!---->
+	<string name="no_category">"Тази категория е празна."</string>
+	<!---->
+	<string name="pasted">"Файлът е поставен"</string>
+	<!---->
+	<string name="deleted">"Файлът е изтрит"</string>
+	<!---->
+	<string name="path_not_exists">"%1$s не съществува"</string>
+	<!---->
+	<string name="not_available">"Не се предлага"</string>
+	<!---->
+	<string name="shortcut_no_exist">"Търсената папка не съществува"</string>
+	<!---->
+	<string name="no_search_result_m">"Не са намерени резултати за \"%1$s\""</string>
+	<!---->
+	<string name="exceeded_max_task">"Надхвърли текущия максимален брой задачи"</string>
+	<!---->
+	<string name="add_waiting_task">"Беше добавено в опашката със задачи за изпълнение"</string>
+	<!---->
+	<string name="category_pictures">"Снимки"</string>
+	<!---->
+	<string name="category_vedios">"Видеоклипове"</string>
+	<!---->
+	<string name="category_music">"Музика"</string>
+	<!---->
+	<string name="category_download">"Изтеглени"</string>
+	<!---->
+	<string name="category_bluetooth">"Bluetooth"</string>
+	<!---->
+	<string name="main_recents">"Последни"</string>
+	<!---->
+	<string name="main_document">"Документи"</string>
+	<!---->
+	<string name="category_archives">"Архиви"</string>
+	<!---->
+	<string name="category_audio">"Аудио"</string>
+	<!---->
+	<string name="main_installers">"Инсталиращи програми"</string>
+	<!---->
+	<string name="unit_B">"B"</string>
+	<!---->
+	<string name="unit_KB">"KB"</string>
+	<!---->
+	<string name="unit_MB">"MB"</string>
+	<!---->
+	<string name="unit_GB">"GB"</string>
+	<!---->
+	<string name="unit_TB">"ТБ"</string>
+	<!---->
+	<string name="phone_storage">"Памет на телефона"</string>
+	<!---->
+	<string name="sd_card">"SD карта"</string>
+	<!---->
+	<string name="usbotg">"Външна USB памет"</string>
+	<!---->
+	<string name="choice_file">"Избор на крайна точка"</string>
+	<!---->
+	<string name="permission_welcome_title">"Необходимо е разрешение"</string>
+	<!---->
+	<string name="permission_setting_title">"Предоставяне на достъп"</string>
+	<!---->
+	<string name="permission_setting_content">"Промяна на разрешенията в настройките за приложенията в устройството. Дайте на файловия диспечер достъп до паметта."</string>
+	<!---->
+	<string name="permission_exit_btn">"Изход"</string>
+	<!---->
+	<string name="selected">"избрано"</string>
+	<!---->
+	<string name="draw_left_phone_storage_m">"Телефон"</string>
+	<!---->
+	<string name="draw_left_phone_storage_n">"Вътрешно хранилище"</string>
+	<!---->
+	<string name="usbotg_m">"Външен"</string>
+	<!---->
+	<string name="usbotg_n">"Външна памет"</string>
+	<!---->
+	<string name="sd_m">"SD"</string>
+	<!---->
+	<string name="permission_settings">"Настройки"</string>
+	<!---->
+	<string name="total_progress">"Общ прогрес:"</string>
+	<!---->
+	<string name="total_task">"Брой задачи:"</string>
+	<!---->
+	<string name="items">"елементи"</string>
+	<!---->
+	<string name="folder_items">"%1$s елементи"</string>
+	<!---->
+	<string name="freeof_m">"Свободно"</string>
+	<!---->
+	<string name="choose_files">"Избран(и) файл(ове)"</string>
+	<!---->
+	<string name="used_of">"използвани от"</string>
+	<!---->
+	<string name="invalid_empty_name">"Името на файла или папката не може да бъде празно"</string>
+	<!---->
+	<string name="just_now">"току-що"</string>
+	<!---->
+	<string name="minutes_ago">"изминали минути"</string>
+	<!---->
+	<string name="hours_ago">"изминали часа"</string>
+	<!---->
+	<string name="minute_ago">"изминала минута"</string>
+	<!---->
+	<string name="hour_ago">"изминал час"</string>
+	<!---->
+	<string name="day_ago">"изминал ден"</string>
+	<!---->
+	<string name="searching">"Търсене..."</string>
+	<!---->
+	<string name="safe_no_file_title">"Все още няма лични файлове"</string>
+	<!---->
+	<string name="safe_no_file_content">"Натиснете менюто в горния десен ъгъл, за да добавите файлове"</string>
+	<!---->
+	<string name="safe_activity_title">"Лични файлове"</string>
+	<!---->
+	<string name="move_safe">"Задаване като лично"</string>
+	<!---->
+	<string name="set_public">"Задаване като публично"</string>
+	<!---->
+	<string name="add_files">"Добавяне на файлове"</string>
+	<!---->
+	<string name="compress_susscces">"Файлът е компресиран"</string>
+	<!---->
+	<string name="extract_susscces">"Файлът е извлечен"</string>
+	<!---->
+	<string name="compress_file_name_too_long">"Името на компресирания файл е прекалено дълго"</string>
+	<!---->
+	<string name="category_safe">"Лично"</string>
+	<!---->
+	<string name="remove_private_tip">"Премахване от поверителен режим?"</string>
+	<!---->
+	<string name="remove_private_title">"Премахване"</string>
+	<!---->
+	<string name="remove_safe_single">"Искате ли да направите %1$s видим за всички потребители?"</string>
+	<!---->
+	<string name="remove_safe_multi">"Искате ли да направите избраните файлове видими за всички потребители?"</string>
+	<!---->
+	<string name="folder_already_exists">"Папката вече съществува"</string>
+	<!---->
+	<string name="file_already_exists">"%1$s вече съществува"</string>
+	<!---->
+	<string name="keep_both">"Запазване и на двата"</string>
+	<!---->
+	<string name="set_private_failed">"Външният файл не може да зададе личния файл."</string>
+	<!---->
+	<string name="app_name_new">"Моите файлове"</string>
+</resources>

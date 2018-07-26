@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/normal_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/edit_back"
+            style="@style/FileManagerActionBarbutton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="0dp"
+            android:src="@drawable/ic_close"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/path_text"
+            style="@style/ContactsActionBarTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/edit_back"
+            android:layout_toStartOf="@+id/menus_container"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:singleLine="true"
+            android:textSize="@dimen/home_text_size" />
+
+        <LinearLayout
+            android:id="@+id/menus_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/global_search_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="2dp"
+                style="@style/FileManagerActionBarbutton"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:src="@drawable/ic_search"
+                android:contentDescription="@string/search"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/share_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="2dp"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:src="@drawable/ic_menu_share"
+                android:contentDescription="@string/share"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/delete_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="2dp"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:contentDescription="@string/delete"
+                android:src="@drawable/ic_menu_delete"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/sort_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="2dp"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:src="@drawable/as_37"
+                android:contentDescription="@string/sort"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/search_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="2dp"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:src="@drawable/ic_search"
+                android:contentDescription="@string/search"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/more_btn"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:paddingEnd="6dp"
+                android:paddingStart="6dp"
+                android:src="@drawable/ic_menu"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/privacy_info"
+                style="@style/FileManagerActionBarbutton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/privacy_info"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/search_back"
+            style="@style/FileManagerActionBarbutton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="12dp"
+            android:paddingStart="0dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/ic_back" />
+
+        <android.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:inputType="textFilter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/global_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/global_search_back"
+            style="@style/FileManagerActionBarbutton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/ic_back" />
+
+        <SearchView
+            android:id="@+id/global_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/global_search_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:hint="@string/default_search_text"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:inputType="textFilter"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/actionbar_search_text_color"
+            android:textSize="@dimen/search_view_text_size"
+            android:theme="@style/GlobalSearchEditTextTheme" />
+
+        <ImageView
+            android:id="@+id/global_search_cancel"
+            style="@style/FileManagerActionBarbutton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:src="@drawable/ic_close" />
+    </LinearLayout>
+</FrameLayout>
